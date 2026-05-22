@@ -49,8 +49,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .ob-back{font-size:12px;color:var(--muted);cursor:pointer;margin-bottom:24px;display:flex;align-items:center;gap:4px}
 
 /* ── TOP BAR ── */
-#topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:rgba(15,15,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;padding:0 18px;z-index:100}
-#hamburger{display:none;background:none;border:none;color:var(--text);cursor:pointer;padding:6px;font-size:18px}
+#topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:rgba(15,15,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;padding:0 14px;z-index:100}
+#hamburger{display:none;background:#1e1e1e;border:1px solid var(--border);border-radius:7px;color:var(--text);cursor:pointer;padding:0;font-size:20px;width:40px;height:40px;flex-shrink:0;align-items:center;justify-content:center;line-height:1}
 #topbar-title{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;flex-shrink:0}
 #topbar-title span{color:var(--accent)}
 .progress-container{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
@@ -176,30 +176,32 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:89}
 
 @media(max-width:768px){
-  #hamburger{display:block}
+  #hamburger{display:flex}
   #sidebar{transform:translateX(-100%)}
   #sidebar.open{transform:translateX(0)}
   #sidebar-overlay.open{display:block}
   #main{margin-left:0}
   #content{padding:24px 16px}
 
-  /* Onboarding — fix justify-content:center clipping on tall content */
+  /* Onboarding */
   #onboarding{padding:32px 16px;justify-content:flex-start}
   .ob-title{word-break:break-word;overflow-wrap:break-word;padding:0 8px;font-size:clamp(20px,5vw,28px)}
   .ob-sub{padding:0 4px;margin-bottom:32px}
   .ob-cards{grid-template-columns:1fr}
   .ob-stages{grid-template-columns:1fr}
 
-  /* Tables — horizontal scroll instead of overflow */
+  /* Tables — horizontal scroll */
   .section-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
   .section-content td,.section-content th{white-space:normal;min-width:100px}
 
-  /* Code/pre blocks */
-  .section-content pre,.section-content code{max-width:100%;overflow-x:auto;display:block;white-space:pre;-webkit-overflow-scrolling:touch}
-
-  /* Nav footer stacks on very small screens */
+  /* Nav footer stacks */
   .nav-footer{flex-direction:column;gap:8px}
   .nav-btn{max-width:100%}
+}
+
+@media(max-width:480px){
+  /* On very small phones hide the title text — logo is redundant with the page content */
+  #topbar-title{display:none}
 }
 
 .fade-in{animation:fadeIn .25s ease}
@@ -233,13 +235,10 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   #search-wrap{flex:1;min-width:0}
   .progress-container{display:none}
   #change-type-btn{display:none}
-  /* Larger tap targets on mobile */
   .check-row{padding:12px 0}
-  .nav-item{padding:10px 16px 10px 24px}
-  .check-expand{padding:4px 6px}
-  /* Section title smaller on mobile */
+  .nav-item{padding:10px 16px 10px 24px;font-size:13px}
+  .check-expand{padding:4px 8px}
   .section-title{font-size:clamp(18px,5vw,26px)}
-  /* Related chips stack */
   .related-chips{gap:6px}
   .related-chip{font-size:11px;padding:6px 10px}
 }
