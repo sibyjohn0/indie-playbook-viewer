@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indie Music India — The Artist's Playbook</title>
+<style>
+:root {
+  --bg: #0f0f0f; --sidebar-bg: #141414; --card-bg: #1a1a1a;
+  --border: #2a2a2a; --accent: #e94560; --amber: #f7b731;
+  --success: #4caf50; --text: #e8e8e8; --muted: #777;
+  --sidebar-w: 280px; --topbar-h: 52px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.65;overflow-x:hidden}
+
+/* ── ONBOARDING ── */
+#onboarding{position:fixed;inset:0;background:var(--bg);z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;overflow-y:auto}
+#onboarding.hidden{display:none}
+.ob-logo{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:32px}
+.ob-title{font-size:clamp(22px,4vw,36px);font-weight:800;text-align:center;line-height:1.2;max-width:600px;margin-bottom:12px}
+.ob-sub{font-size:14px;color:var(--muted);text-align:center;margin-bottom:48px;max-width:480px}
+.ob-step{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:20px;text-align:center}
+
+/* Type cards */
+.ob-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;width:100%;max-width:720px;margin-bottom:24px}
+.ob-card{background:var(--card-bg);border:2px solid var(--border);border-radius:12px;padding:24px;cursor:pointer;transition:border-color .2s,transform .15s;text-align:left}
+.ob-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.ob-card.selected{border-color:var(--amber);background:#1c1a12}
+.ob-card-icon{font-size:28px;margin-bottom:12px}
+.ob-card-title{font-size:15px;font-weight:700;margin-bottom:8px}
+.ob-card-desc{font-size:12px;color:var(--muted);line-height:1.6}
+.ob-card-advantage{font-size:11px;color:var(--success);margin-top:10px;font-weight:600}
+
+/* Stage selector */
+.ob-stages{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;width:100%;max-width:720px;margin-bottom:24px}
+.ob-stage{background:var(--card-bg);border:2px solid var(--border);border-radius:10px;padding:18px;cursor:pointer;transition:border-color .2s}
+.ob-stage:hover{border-color:var(--accent)}
+.ob-stage.selected{border-color:var(--amber);background:#1c1a12}
+.ob-stage-title{font-size:13px;font-weight:700;margin-bottom:4px}
+.ob-stage-desc{font-size:11px;color:var(--muted);line-height:1.5}
+.ob-stage-income{font-size:11px;color:var(--amber);margin-top:6px;font-weight:600}
+
+.ob-cta{background:var(--accent);color:#fff;border:none;padding:14px 36px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:.5px;margin-top:8px;transition:opacity .2s}
+.ob-cta:disabled{opacity:.4;cursor:not-allowed}
+.ob-cta:not(:disabled):hover{opacity:.9}
+.ob-skip{font-size:12px;color:var(--muted);margin-top:16px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.ob-back{font-size:12px;color:var(--muted);cursor:pointer;margin-bottom:24px;display:flex;align-items:center;gap:4px}
+
+/* ── TOP BAR ── */
+#topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:rgba(15,15,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;padding:0 18px;z-index:100}
+#hamburger{display:none;background:none;border:none;color:var(--text);cursor:pointer;padding:6px;font-size:18px}
+#topbar-title{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;flex-shrink:0}
+#topbar-title span{color:var(--accent)}
+.progress-container{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
+.progress-track{flex:1;height:3px;background:var(--border);border-radius:2px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--amber));border-radius:2px;transition:width .4s}
+.progress-label{font-size:11px;color:var(--muted);white-space:nowrap;flex-shrink:0}
+#change-type-btn{font-size:11px;color:var(--muted);background:none;border:1px solid var(--border);padding:4px 10px;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0}
+#change-type-btn:hover{border-color:var(--muted)}
+
+/* ── SIDEBAR ── */
+#sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
+.sidebar-section-label{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);padding:20px 16px 6px;font-weight:700}
+.phase-group{}
+.phase-header{display:flex;align-items:center;justify-content:space-between;padding:8px 16px;cursor:pointer;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);user-select:none}
+.phase-header:hover{color:var(--text)}
+.phase-chevron{font-size:10px;transition:transform .2s}
+.phase-header.collapsed .phase-chevron{transform:rotate(-90deg)}
+.phase-items{}
+.phase-items.hidden{display:none}
+.nav-item{display:flex;align-items:center;gap:9px;padding:8px 16px 8px 24px;cursor:pointer;font-size:12px;color:var(--muted);border-left:2px solid transparent;transition:color .15s,border-color .15s;line-height:1.3}
+.nav-item:hover{color:var(--text);background:rgba(255,255,255,.02)}
+.nav-item.active{color:var(--amber);border-left-color:var(--amber);background:rgba(247,183,49,.04)}
+.nav-item.dimmed{opacity:.45}
+.nav-dot{width:12px;height:12px;border:1.5px solid var(--border);border-radius:50%;flex-shrink:0;transition:background .2s,border-color .2s}
+.nav-item.read .nav-dot{background:var(--success);border-color:var(--success)}
+.nav-item.active .nav-dot{border-color:var(--amber)}
+.nav-type-badge{font-size:9px;color:var(--accent);font-weight:700;letter-spacing:.5px;margin-left:auto;flex-shrink:0}
+
+/* ── MAIN ── */
+#main{margin-left:var(--sidebar-w);padding-top:var(--topbar-h);min-height:100vh}
+#content{padding:40px;max-width:760px}
+
+/* ── SECTION CONTENT ── */
+.section-meta{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px;display:flex;gap:12px;align-items:center}
+.section-tag{background:var(--card-bg);border:1px solid var(--border);border-radius:4px;padding:2px 8px;font-size:10px}
+.section-title{font-size:clamp(22px,3vw,30px);font-weight:800;line-height:1.2;margin-bottom:20px;color:#f0f0f0}
+.section-content h3{font-size:16px;font-weight:700;margin:28px 0 10px;color:#f0f0f0}
+.section-content h4{font-size:13px;font-weight:700;margin:20px 0 8px;color:var(--amber);text-transform:uppercase;letter-spacing:.5px}
+.section-content p{font-size:14px;line-height:1.8;color:#bbb;margin-bottom:14px}
+.section-content ul,.section-content ol{padding-left:20px;margin-bottom:14px}
+.section-content li{font-size:14px;color:#bbb;line-height:1.7;margin-bottom:4px}
+.section-content strong{color:var(--text)}
+.section-content table{width:100%;border-collapse:collapse;margin:16px 0;font-size:12px}
+.section-content th{text-align:left;padding:8px 12px;background:var(--card-bg);color:var(--amber);font-size:10px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+.section-content td{padding:8px 12px;border-bottom:1px solid #1e1e1e;color:#bbb;vertical-align:top}
+.section-content tr:hover td{background:rgba(255,255,255,.01)}
+
+/* Callout boxes */
+.callout{border-radius:8px;padding:16px 18px;margin:18px 0;font-size:13px;line-height:1.7}
+.callout-warning{background:#1a0d0d;border-left:3px solid var(--accent);color:#ccc}
+.callout-tip{background:#0d1a0d;border-left:3px solid var(--success);color:#ccc}
+.callout-data{background:#0d0d1a;border-left:3px solid #8b5cf6;color:#ccc}
+.callout-key{background:#1a1500;border-left:3px solid var(--amber);color:#ccc}
+.callout strong{color:#fff}
+
+/* Income bar */
+.income-bar-wrap{margin:6px 0}
+.income-bar-label{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:4px}
+.income-bar-label span:last-child{color:var(--amber);font-weight:600}
+.income-bar-track{height:6px;background:#1e1e1e;border-radius:3px;overflow:hidden}
+.income-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--amber))}
+
+/* Credibility ladder */
+.ladder{margin:16px 0}
+.rung{display:flex;align-items:flex-start;gap:14px;padding:12px 0;border-bottom:1px solid #1a1a1a;cursor:pointer}
+.rung:last-child{border-bottom:none}
+.rung-num{width:28px;height:28px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;flex-shrink:0;color:var(--muted);transition:all .2s}
+.rung.active .rung-num{background:var(--amber);border-color:var(--amber);color:#000}
+.rung.below .rung-num{background:var(--success);border-color:var(--success);color:#000}
+.rung-body{}
+.rung-title{font-size:13px;font-weight:700;color:var(--text);margin-bottom:3px}
+.rung.active .rung-title{color:var(--amber)}
+.rung-desc{font-size:12px;color:var(--muted);line-height:1.6}
+.rung-diagnostic{font-size:12px;color:var(--accent);margin-top:6px;font-style:italic}
+
+/* Checklist */
+.checklist-wrap{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:20px;margin:20px 0}
+.checklist-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.checklist-header h4{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700}
+.checklist-count{font-size:11px;color:var(--muted)}
+.check-item{border-bottom:1px solid #1e1e1e}
+.check-item:last-child{border-bottom:none}
+.check-row{display:flex;align-items:flex-start;gap:10px;padding:9px 0;cursor:pointer}
+.check-row:hover .check-box{border-color:var(--amber)}
+.check-box{width:16px;height:16px;border:1.5px solid var(--border);border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;transition:all .2s;background:transparent}
+.check-box.checked{background:var(--success);border-color:var(--success)}
+.check-box.checked::after{content:'✓';font-size:10px;color:#000;font-weight:800}
+.check-label{font-size:13px;color:#ccc;line-height:1.5;flex:1}
+.check-label.done{text-decoration:line-through;color:var(--muted)}
+.check-expand{background:none;border:none;color:var(--muted);cursor:pointer;font-size:14px;padding:0 0 0 4px;flex-shrink:0;line-height:1;transition:transform .2s}
+.check-expand.open{transform:rotate(180deg)}
+.check-drawer{display:none;padding:4px 0 10px 26px}
+.check-drawer.open{display:block}
+.check-drawer-why{font-size:12px;color:var(--muted);font-style:italic;line-height:1.6;margin-bottom:8px}
+.resource-chips{display:flex;flex-wrap:wrap;gap:6px}
+.resource-chip{font-size:11px;background:#1e1e1e;border:1px solid var(--border);border-radius:4px;padding:3px 9px;color:var(--amber);text-decoration:none;transition:border-color .15s}
+.resource-chip:hover{border-color:var(--amber)}
+
+/* Resources section */
+.resources-panel{background:#0d0d0d;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:16px 0}
+.resources-panel h5{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.resource-list{display:flex;flex-wrap:wrap;gap:8px}
+
+/* Nav footer */
+.nav-footer{display:flex;justify-content:space-between;gap:12px;padding:32px 0 0;border-top:1px solid var(--border);margin-top:32px}
+.nav-btn{background:var(--card-bg);border:1px solid var(--border);color:var(--muted);padding:10px 18px;border-radius:7px;cursor:pointer;font-size:12px;transition:border-color .2s;flex:1;max-width:220px}
+.nav-btn:hover{border-color:var(--text);color:var(--text)}
+.nav-btn.primary{background:rgba(233,69,96,.1);border-color:var(--accent);color:var(--accent);margin-left:auto}
+.nav-btn.primary:hover{background:rgba(233,69,96,.2)}
+
+/* Journey dimension */
+.dimension-block{margin-bottom:24px}
+.dimension-title{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid #1e1e1e}
+
+/* Stage badge in content */
+.stage-pill{display:inline-block;font-size:11px;padding:3px 10px;border-radius:12px;font-weight:700;margin-bottom:8px}
+.stage-emerging{background:#1a0a0a;color:var(--accent);border:1px solid var(--accent)}
+.stage-growing{background:#1a1500;color:var(--amber);border:1px solid var(--amber)}
+.stage-established{background:#0a1a0a;color:var(--success);border:1px solid var(--success)}
+.stage-professional{background:#0a0a1a;color:#8b5cf6;border:1px solid #8b5cf6}
+
+/* Overlay for mobile */
+#sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:89}
+
+@media(max-width:768px){
+  #hamburger{display:block}
+  #sidebar{transform:translateX(-100%)}
+  #sidebar.open{transform:translateX(0)}
+  #sidebar-overlay.open{display:block}
+  #main{margin-left:0}
+  #content{padding:24px 18px}
+}
+
+.fade-in{animation:fadeIn .25s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+
+<!-- ONBOARDING -->
+<div id="onboarding">
+  <div class="ob-logo">Indie Music India</div>
+
+  <!-- Step 1: Artist Type -->
+  <div id="ob-step1">
+    <div class="ob-title">Built for artists who are building for real.</div>
+    <div class="ob-sub">This playbook adapts to who you are and where you're going. Start by telling us what kind of artist you are.</div>
+    <div class="ob-step">Step 1 of 2 — Your Artist Type</div>
+    <div class="ob-cards">
+      <div class="ob-card" data-type="songwriter" onclick="selectType(this)">
+        <div class="ob-card-icon">🎤</div>
+        <div class="ob-card-title">Singer-Songwriter / Vocalist</div>
+        <div class="ob-card-desc">One voice, one instrument, one song. You own both the composition and the master recording. The most crowded category — and the one with the clearest identity advantage.</div>
+        <div class="ob-card-advantage">↑ Dual rights ownership. Life + 60yr royalty asset.</div>
+      </div>
+      <div class="ob-card" data-type="instrumentalist" onclick="selectType(this)">
+        <div class="ob-card-icon">🎸</div>
+        <div class="ob-card-title">Instrumentalist / Musician</div>
+        <div class="ob-card-desc">Technical mastery, visual performance, unique sonic identity. Your music is disproportionately valuable for sync licensing — OTT platforms need you more than Bollywood does.</div>
+        <div class="ob-card-advantage">↑ Sync-first. YouTube education flywheel. Session income.</div>
+      </div>
+      <div class="ob-card" data-type="producer" onclick="selectType(this)">
+        <div class="ob-card-icon">🎛</div>
+        <div class="ob-card-title">Producer / Beatmaker</div>
+        <div class="ob-card-desc">You are the architectural engine of modern music. You can generate income from beat licensing before you have any public audience. The challenge: invisibility. The solution: build your sound as a brand.</div>
+        <div class="ob-card-advantage">↑ Beat licensing income before audience. Sound-as-brand.</div>
+      </div>
+    </div>
+    <div class="ob-skip" onclick="selectType(null)">I'm not sure yet — show me everything</div>
+  </div>
+
+  <!-- Step 2: Journey Stage -->
+  <div id="ob-step2" style="display:none;width:100%;max-width:720px;align-items:center;flex-direction:column">
+    <div class="ob-back" onclick="showStep(1)">← Back</div>
+    <div class="ob-title">Where are you right now?</div>
+    <div class="ob-sub">Your roadmap, checklists, and what to focus on next all change based on where you're starting from. Be honest — there's no wrong answer.</div>
+    <div class="ob-step">Step 2 of 2 — Your Journey Stage</div>
+    <div class="ob-stages">
+      <div class="ob-stage" data-stage="starting" onclick="selectStage(this)">
+        <div class="ob-stage-title">Just Starting Out</div>
+        <div class="ob-stage-desc">Haven't released anything yet, or have 1-2 tracks with no real audience. Building foundations.</div>
+        <div class="ob-stage-income">Focus: Identity, setup, first release</div>
+      </div>
+      <div class="ob-stage" data-stage="building" onclick="selectStage(this)">
+        <div class="ob-stage-title">Released Music, Building Audience</div>
+        <div class="ob-stage-desc">Have tracks out there. Getting some plays. Not yet consistent. Under 10K monthly listeners.</div>
+        <div class="ob-stage-income">Focus: Consistency, distribution, local gigs</div>
+      </div>
+      <div class="ob-stage" data-stage="growing" onclick="selectStage(this)">
+        <div class="ob-stage-title">Have an Audience, Building Income</div>
+        <div class="ob-stage-desc">10K-50K monthly listeners. Some traction. Need to convert attention into money.</div>
+        <div class="ob-stage-income">Focus: Revenue diversification, brand deals, sync</div>
+      </div>
+      <div class="ob-stage" data-stage="scaling" onclick="selectStage(this)">
+        <div class="ob-stage-title">Have Income, Looking to Scale</div>
+        <div class="ob-stage-desc">Making some money from music. Want to make it a real business. 50K+ listeners.</div>
+        <div class="ob-stage-income">Focus: Team, catalog, market position</div>
+      </div>
+    </div>
+    <button class="ob-cta" id="ob-enter-btn" disabled onclick="enterApp()">Enter the Playbook</button>
+  </div>
+</div>
+
+<!-- TOP BAR -->
+<div id="topbar" style="display:none">
+  <button id="hamburger" onclick="toggleSidebar()">☰</button>
+  <div id="topbar-title">Indie Music <span>India</span></div>
+  <div class="progress-container">
+    <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    <div class="progress-label" id="progress-label">0 / 0 read</div>
+  </div>
+  <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
+</div>
+
+<!-- SIDEBAR OVERLAY -->
+<div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+<!-- SIDEBAR -->
+<nav id="sidebar" style="display:none">
+  <div id="sidebar-content"></div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main id="main" style="display:none">
+  <div id="content" class="fade-in"></div>
+</main>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────
+const ARTIST_LABELS = { songwriter: 'Singer-Songwriter', instrumentalist: 'Instrumentalist', producer: 'Producer' };
+
+const SECTIONS = [
+
+// ── YOUR JOURNEY ──
+{
+  id: 'identity-problem',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: 'The Identity Problem — Why Most Artists Stall',
+  tags: ['critical', 'foundation'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="callout callout-warning">
+      <strong>The biggest silent career killer in independent music is not bad music. It is inconsistency.</strong> Artists with a consistent identity and visual brand see 28–45% higher save rates on Spotify compared to artists with scattered, inconsistent profiles.
+    </div>
+
+    <p>Here is what actually happens when inconsistency strikes a career:</p>
+
+    <h3>The Discovery Drop-Off Chain</h3>
+    <p>A listener hears your song on a Reel. They like it. They tap your profile. What they find there does not look or sound like what just caught their attention. Different visual language. A bio that tells them nothing specific. Cover art that feels like someone else. They do not follow. They will never hear from you again.</p>
+    <p>That moment — the click-through from discovery to profile — is where most independent artist careers silently die. The music was good enough to stop the scroll. The identity was not strong enough to convert the moment into a fan.</p>
+
+    <div class="callout callout-data">
+      <strong>The metadata problem you don't know about:</strong> Spelling your artist name differently across releases — even a single character difference — can split your entire catalog across multiple streaming profiles. Spotify, Apple Music, and JioSaavn may treat them as different artists. Fans who find you on one release cannot find the rest of your catalog. Algorithmic momentum resets every time.
+    </div>
+
+    <h3>What Consistency Actually Means</h3>
+    <p>Most artists think consistency means "posting every day." That is the least important form. The forms that matter:</p>
+    <ul>
+      <li><strong>Sonic consistency:</strong> Each release sounds like it came from the same person. Not identical — evolved, but recognisably yours.</li>
+      <li><strong>Visual consistency:</strong> Your cover art, Instagram feed, YouTube thumbnails, and press photos share a visual language. A fan who sees your content anywhere knows it is yours.</li>
+      <li><strong>Narrative consistency:</strong> Your bio says the same true things about you everywhere. Your artist name is spelled exactly the same on every platform and every release.</li>
+      <li><strong>Release consistency:</strong> You release on a schedule. Not when you feel like it. Not when the track is "perfect." On a cadence. The algorithm treats a consistent releaser differently from a sporadic one.</li>
+      <li><strong>Platform consistency:</strong> Your Spotify artist profile, YouTube about, Instagram bio, and JioSaavn page all reflect the same identity. A manager or booking agent who checks three platforms in 90 seconds should get one coherent picture.</li>
+    </ul>
+
+    <h3>Why Identity Must Come First</h3>
+    <p>Identity is not a branding exercise. It is a creative and commercial foundation. Without a clear identity, you cannot target an audience. Without a target audience, your content has no direction. Without direction, inconsistency is inevitable because there is no north star to be consistent toward.</p>
+    <p>The artists who win in India's independent music market are not the most talented. They are the most specific. Prateek Kuhad is not the best singer in India. He is the most specific about what he is. That specificity is what made him Barack Obama's playlist pick — not technical superiority.</p>
+
+    <div class="callout callout-key">
+      <strong>The identity audit:</strong> Google your own name. What does someone who has never heard of you learn in 30 seconds? Can they tell what kind of music you make? Who you make it for? If the answer is no, or "it depends which page they land on" — fix that before you release another track.
+    </div>
+
+    <h3>Consistency and Money Are the Same Thing</h3>
+    <p>Booking agents book artists they can pitch confidently. Brands partner with artists whose identity is clear enough to attach to their product. Sync supervisors license tracks from artists who have a searchable, coherent catalog. Press covers artists who are easy to write about.</p>
+    <p>Every form of monetisation in music — live shows, brand deals, sync, press coverage — is dramatically easier when your identity is clear and consistent. Not slightly easier. Dramatically easier. Identity clarity is not a soft creative concern. It is the infrastructure that all income sits on.</p>
+  `,
+  checklist: [
+    { text: 'Google your artist name — document what appears on the first page', why: 'This is what a booker, journalist, or potential fan sees when they check you out. If you would not send this page to someone important, fix it first.', resources: [] },
+    { text: 'Confirm your artist name is spelled identically on every platform and every release metadata', why: 'Inconsistent spelling fragments your catalog across multiple streaming profiles, destroying algorithmic momentum. One character difference = split audience.', resources: [{ label: 'iMusician metadata guide', url: 'https://imusician.pro/en/resources/blog/why-your-release-ends-up-under-the-wrong-artist-profile' }] },
+    { text: 'Write your identity sentence: "I make [sound] for [specific listener]"', why: 'If you cannot say it in one sentence, your audience cannot find you. This sentence goes in every bio, everywhere, right now.', resources: [] },
+    { text: 'Audit all platform bios — update to identical specific language that names your listener', why: 'A booking agent or brand checking you across three platforms in 90 seconds should get one coherent picture.', resources: [] },
+    { text: 'Pull 5 of your own cover arts side by side — do they look like they came from the same artist?', why: 'Visual inconsistency tells potential fans you do not know who you are. Consistent visual language builds recognition before they ever hear a note.', resources: [] },
+  ]
+},
+
+{
+  id: 'how-to-make-money',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: 'How You Actually Make Money from Music in India',
+  tags: ['revenue', 'critical'],
+  readTime: '8 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="callout callout-warning">
+      <strong>The streaming myth costs Indian artists crores every year.</strong> One million Spotify streams from Indian listeners generates approximately Rs. 66,000 in total royalties — distributed across all rights holders. An independent artist receives Rs. 10,000–16,500 of that. Streaming is a marketing channel. Treat it as one.
+    </div>
+
+    <h3>The Six Income Streams — Ranked by Realistic Priority</h3>
+    <p>Artists who make sustainable incomes in India run four to six of these simultaneously. The ranking below is for an emerging or growing artist. It shifts as your career develops.</p>
+
+    <h4>1. Live Performance — Your Primary Income Engine</h4>
+    <p>India's live sector generated Rs. 13 billion in 2024, growing 15% year-on-year. Tier-2 cities saw 682% growth in show volume since 2022. This is where the money is.</p>
+    <div class="callout callout-tip">
+      <strong>One live show = two income streams.</strong> The performance fee (Rs. 5K–2L+ depending on your stage) AND publishing royalties via IPRS when you perform your own compositions. This is money most artists do not collect because they are not registered with IPRS. Fix this on Day 1.
+    </div>
+
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>Live performance (emerging artist)</span><span>Rs. 5K–25K / show</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:85%"></div></div>
+    </div>
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>Brand partnerships (growing artist)</span><span>Rs. 25K–2L / deal</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:70%"></div></div>
+    </div>
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>Sync licensing</span><span>Rs. 20K–5L / placement</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:60%"></div></div>
+    </div>
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>YouTube AdSense</span><span>Rs. 30K–1.5L / 1M views</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:50%"></div></div>
+    </div>
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>Teaching / workshops</span><span>Rs. 2K–8K / session</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:45%"></div></div>
+    </div>
+    <div class="income-bar-wrap">
+      <div class="income-bar-label"><span>Streaming royalties (India)</span><span>Rs. 10K–16.5K / 1M streams</span></div>
+      <div class="income-bar-track"><div class="income-bar-fill" style="width:20%"></div></div>
+    </div>
+
+    <h4>2. Brand Partnerships — Growing Fastest</h4>
+    <p>India's fastest-growing artist income category. Deals are now structured as artist development partnerships, not one-off posts. Brands that work with independent artists: Boat, Sony, Sennheiser (audio), Spotify, JioSaavn (streaming), lifestyle brands, regional brands in tier-2 markets.</p>
+    <p>What brands want: audience alignment + content creation ability + artistic credibility. If your identity is clear, brands notice. If it is scattered, they cannot use you in their story.</p>
+
+    <h4>3. IPRS and PPL — Money You Are Already Owed</h4>
+    <div class="callout callout-data">
+      <strong>IPRS paid out a record Rs. 700 crore in 2024-25 — a 42% increase year-on-year.</strong> Approximately 90% of eligible Indian artists are not registered with IPRS or PPL India. This money is being collected and distributed to the artists who did register. If you compose original music and have not registered, you are giving your share to someone else.
+    </div>
+
+    <h4>4. The NRI Diaspora Premium</h4>
+    <p>50% of Indian artists' Spotify royalties now come from outside India. The diaspora market in the US, UK, and Canada pays at global rates — 5–8x more per stream than Indian listeners. A song that gets 100,000 plays in India generates roughly the same royalties as 15,000 plays in the UK. Targeting NRI audiences is not a compromise. It is a high-leverage strategy.</p>
+
+    <h4>5. Sync Licensing — One Placement Changes Everything</h4>
+    <p>India's OTT sector (Netflix India, Amazon Prime India, Disney+ Hotstar, SonyLIV) is actively sourcing original music. Unlike Bollywood, which is dominated by established composers, OTT originals use newer voices. One sync placement can beat months of streaming numbers. Requirements: clean stems, IPRS/PPL registered, instrumental versions of all tracks.</p>
+
+    <h4>6. Content ID — Passive Income Most Artists Activate Too Late</h4>
+    <p>If someone uses your track in a YouTube video without permission, Content ID ensures you get paid rather than the creator. This applies to travel vlogs, study-with-me videos, Indian wedding content — all of which are huge YouTube categories. Most distributors handle Content ID, but you must opt in and verify it is active for every release.</p>
+
+    <h3>The Income Rule: Never More Than 40% From One Source</h3>
+    <p>Artists who depend primarily on any single income stream — including live performance — are fragile. COVID eliminated live income overnight for three years. Streaming payouts have declined consistently. Platform algorithms change. The goal is four to six streams, none of which dominates more than 40% of your total income.</p>
+
+    <h3>What Realistic Income Looks Like by Stage</h3>
+    <table>
+      <tr><th>Stage</th><th>Monthly Listeners</th><th>Realistic Monthly Income</th><th>Primary Sources</th></tr>
+      <tr><td>Emerging</td><td>0–10K</td><td>Rs. 0–15,000</td><td>Teaching, occasional gigs</td></tr>
+      <tr><td>Growing</td><td>10K–50K</td><td>Rs. 15,000–75,000</td><td>Gigs, teaching, first brand deal</td></tr>
+      <tr><td>Established</td><td>50K–300K</td><td>Rs. 75,000–3,00,000</td><td>Touring, brand deals, sync</td></tr>
+      <tr><td>Professional</td><td>300K+</td><td>Rs. 3,00,000–10,00,000+</td><td>Diversified stack</td></tr>
+    </table>
+    <p>The median journey from first release to first Rs. 50,000/month is <strong>3–5 years of consistent work</strong>. Artists who expect faster timelines burn out or make bad deals from desperation. Artists who understand the timeline build steadily.</p>
+  `,
+  checklist: [
+    { text: 'Register with IPRS (composition royalties) — before your next release', why: 'IPRS paid Rs. 700 crore in 2024-25. Every live performance and broadcast of your compositions earns royalties — but only if you are registered. Rs. 1,000–5,000 one-time fee.', resources: [{ label: 'iprs.org', url: 'https://www.iprs.org' }] },
+    { text: 'Register with PPL India (master recording royalties)', why: 'PPL India collects royalties when your recordings are played publicly — in venues, on radio, at events. Separate from IPRS. Rs. 500 registration.', resources: [{ label: 'pplindia.org', url: 'https://pplindia.org' }] },
+    { text: 'Verify Content ID is active for all your releases via your distributor', why: 'Without Content ID, people using your music in YouTube videos earn revenue from your work. This is passive income you activate once, then collect forever.', resources: [] },
+    { text: 'Create an instrumental version of every track you release', why: 'Sync supervisors often prefer instrumentals (no lyric conflicts with dialogue). One extra step per release opens a significant revenue door.', resources: [] },
+    { text: 'Open a dedicated bank account for music income', why: 'Separating music income from personal expenses is the first step toward treating this as a business. Required for proper GST/ITR filing once income grows.', resources: [] },
+  ]
+},
+
+// ── ROADMAP ──
+{
+  id: 'roadmap',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: 'Your Career Roadmap — The Credibility Ladder',
+  tags: ['roadmap'],
+  readTime: '4 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Every independent music career climbs the same six rungs. The speed and path differ by artist type, but the ladder is universal. Understanding which rung you are on — and what specifically is required to move to the next — prevents the most common mistake in the Indian indie market: confusing output with progress.</p>
+
+    <h3>Click the rung you are on right now</h3>
+    <div class="ladder" id="credibility-ladder">
+      <div class="rung" data-rung="1" onclick="setRung(1)">
+        <div class="rung-num">1</div>
+        <div class="rung-body">
+          <div class="rung-title">Existence</div>
+          <div class="rung-desc">You are findable. When someone Googles your name, your music appears. Spotify profile, YouTube channel, Instagram with original content.</div>
+          <div class="rung-diagnostic">To move up: Do you have one external proof point, or are all your proof points self-generated?</div>
+        </div>
+      </div>
+      <div class="rung" data-rung="2" onclick="setRung(2)">
+        <div class="rung-num">2</div>
+        <div class="rung-body">
+          <div class="rung-title">Validation</div>
+          <div class="rung-desc">One external proof point: a press mention, a playlist placement, a paid booking. Something outside your own network has recognised your work.</div>
+          <div class="rung-diagnostic">To move up: Are you releasing on a schedule, or when inspiration strikes?</div>
+        </div>
+      </div>
+      <div class="rung" data-rung="3" onclick="setRung(3)">
+        <div class="rung-num">3</div>
+        <div class="rung-body">
+          <div class="rung-title">Consistency</div>
+          <div class="rung-desc">Regular release cadence. Platform profiles complete and active. You show up — for fans, for collaborators, and for the algorithm.</div>
+          <div class="rung-diagnostic">To move up: Are your numbers growing month-over-month, or stable/declining?</div>
+        </div>
+      </div>
+      <div class="rung" data-rung="4" onclick="setRung(4)">
+        <div class="rung-num">4</div>
+        <div class="rung-body">
+          <div class="rung-title">Traction</div>
+          <div class="rung-desc">Monthly listeners trending upward for 4+ consecutive months. Inbound inquiries for bookings and collaborations exceed your outbound pitching.</div>
+          <div class="rung-diagnostic">To move up: Do you have income from at least 3 sources, or are you dependent on one?</div>
+        </div>
+      </div>
+      <div class="rung" data-rung="5" onclick="setRung(5)">
+        <div class="rung-num">5</div>
+        <div class="rung-body">
+          <div class="rung-title">Income Diversification</div>
+          <div class="rung-desc">At least 3 independent revenue streams generating meaningful income. Month-to-month income is stable even without a new release.</div>
+          <div class="rung-diagnostic">To move up: Are your rates set by your position, or are you still accepting whatever is offered?</div>
+        </div>
+      </div>
+      <div class="rung" data-rung="6" onclick="setRung(6)">
+        <div class="rung-num">6</div>
+        <div class="rung-body">
+          <div class="rung-title">Market Position</div>
+          <div class="rung-desc">Booking fees, sync rates, and brand deal pricing set by you, not negotiated down. Labels, management, and investors approach you.</div>
+          <div class="rung-diagnostic">This is the goal. The work is staying here once you arrive.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-warning" style="margin-top:16px">
+      <strong>The most common failure mode</strong> in the Indian indie market is Rung 3 paralysis — artists who are consistent but not growing because they have not solved for distribution, network, or positioning. They are making enough music. They need the music to find its audience.
+    </div>
+  `,
+  checklist: [
+    { text: 'Set your current rung on the ladder above (saves your progress)', why: 'Being honest about where you are is the only way to know what to do next. Most artists overestimate their rung by 1–2 positions.', resources: [] },
+    { text: 'Write down the one thing blocking you from the next rung', why: 'The diagnostic question at each rung tells you exactly what is missing. If you cannot answer it, that is your bottleneck.', resources: [] },
+  ]
+},
+
+// ── 90-DAY PLANS (type-specific) ──
+{
+  id: 'plan-90-songwriter',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: '90-Day Plan — Singer-Songwriter',
+  tags: ['90-day', 'plan'],
+  readTime: '10 min',
+  forTypes: ['songwriter'],
+  content: buildJourneyContent('songwriter', '90'),
+  checklist: getSongwriterChecklist90()
+},
+{
+  id: 'plan-90-instrumentalist',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: '90-Day Plan — Instrumentalist',
+  tags: ['90-day', 'plan'],
+  readTime: '10 min',
+  forTypes: ['instrumentalist'],
+  content: buildJourneyContent('instrumentalist', '90'),
+  checklist: getInstrumentalistChecklist90()
+},
+{
+  id: 'plan-90-producer',
+  phase: 'your-journey',
+  phaseName: 'Your Journey',
+  title: '90-Day Plan — Producer / Beatmaker',
+  tags: ['90-day', 'plan'],
+  readTime: '10 min',
+  forTypes: ['producer'],
+  content: buildJourneyContent('producer', '90'),
+  checklist: getProducerChecklist90()
+},
+
+// ── PHASE 1 ──
+{
+  id: 'sonic-identity',
+  phase: 'phase1',
+  phaseName: 'Phase 1: Identity',
+  title: 'Find Your Sonic and Cultural Identity',
+  tags: ['identity', 'phase 1'],
+  readTime: '7 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="callout callout-key">
+      <strong>The question every independent artist must answer before releasing a single note publicly:</strong> Who are you, who is this for, and why should they care about you specifically — and not the thousands of artists releasing music this week?
+    </div>
+    <p>This is not a branding exercise. It is a creative and commercial foundation. Artists who skip this phase spend years making good music that nobody finds.</p>
+
+    <h3>India's Diversity Is Your Advantage</h3>
+    <p>India's diversity of musical traditions, languages, and urban-rural hybrids is a source of differentiation that global artists cannot replicate. The artists winning in India's independent space are those who are <em>specific</em>, not generic.</p>
+    <ul>
+      <li><strong>Prateek Kuhad</strong> — English-language indie-folk, emotionally direct lyrics, acoustic intimacy. Nothing like Bollywood. That specificity made him Barack Obama's playlist pick.</li>
+      <li><strong>Ritviz</strong> — Electronic production fused with Hindustani musical textures. Specific and genuinely new.</li>
+      <li><strong>Seedhe Maut</strong> — Hindi hip-hop about urban Indian middle-class life. Specific cultural identity married to a global format.</li>
+      <li><strong>AP Dhillon</strong> — Punjabi folk blended with R&B. Distinct from both Bollywood Punjabi and traditional bhangra.</li>
+    </ul>
+
+    <h3>The Identity Exercise</h3>
+    <p>Write down the three artists you would name as influences. Now identify what you bring that none of those three have. That gap is your identity. Not "I sound like X but better." The gap — what is missing in all three — is where you live.</p>
+
+    <h3>Your Identity Sentence</h3>
+    <p>You need to be able to say it in one sentence: <em>"I make [sound] for [specific listener]."</em></p>
+    <p>Not "I make music for everyone." Not "I make a mix of different genres." One specific sound. One specific listener. This sentence goes in every bio, everywhere, today.</p>
+
+    <div class="callout callout-data">
+      <strong>Why specificity earns more money:</strong> Booking agents can pitch a specific identity. Brands can attach to a specific story. Sync supervisors search for specific sounds. Press can write about a specific artist. Vague artists are hard to monetise — not because the music is bad, but because nobody knows how to sell them.
+    </div>
+  `,
+  checklist: [
+    { text: 'List 3 artist influences and identify what you bring that none of them have', why: 'The gap between your influences and what you add is your identity. This is not optional prep work — it is the foundation everything else builds on.', resources: [] },
+    { text: 'Write your identity sentence: "I make [sound] for [specific listener]"', why: 'If you cannot say it in one sentence, your audience cannot find you, bookers cannot pitch you, and brands cannot use you.', resources: [] },
+    { text: 'Define your 3-colour palette, 1 typeface, photography aesthetic with 5 reference images', why: 'Visual identity is what converts a discovered listener into a follower. Inconsistent visuals tell people you do not know who you are.', resources: [] },
+    { text: 'Update every platform bio to the same specific language', why: 'A booking agent or brand checking you across three platforms in 90 seconds should get one coherent picture.', resources: [] },
+  ]
+},
+{
+  id: 'define-audience',
+  phase: 'phase1',
+  phaseName: 'Phase 1: Identity',
+  title: 'Define Your Audience Before You Have One',
+  tags: ['identity', 'audience'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Who is the specific person listening to your music? Build a mental model before you release anything. This is not demographic segmentation — it is empathy work.</p>
+    <ul>
+      <li>Age, city (metro, tier-2, diaspora)</li>
+      <li>What they watch on YouTube and Instagram</li>
+      <li>Which other artists they follow</li>
+      <li>Where they discover music they love (editorial playlist, friend recommendation, Reel)</li>
+      <li>How much they have ever paid for music or a show</li>
+    </ul>
+    <p>The clearer your listener model, the more precisely you can create content, title tracks, select artwork, and choose which platforms to prioritise.</p>
+    <div class="callout callout-tip">
+      <strong>For producers specifically:</strong> Your audience is both the listener of the final product AND the artists who will buy or lease your beats. Define both separately. The beat buyer market in India is growing fastest in hip-hop, Punjabi, and pop R&B.
+    </div>
+    <h3>The NRI Opportunity</h3>
+    <p>50% of Indian artists' Spotify royalties now come from outside India. The diaspora market in the US, UK, and Canada pays 5–8x more per stream. Include the NRI listener in your audience model if your sound has any crossover potential — Punjabi, English, or Hindi contemporary.</p>
+  `,
+  checklist: [
+    { text: 'Write a 1-paragraph description of your specific listener — name them', why: 'Vague audience = vague content = low conversion. The more specific your listener model, the sharper every creative decision becomes.', resources: [] },
+    { text: 'Identify the 5 most common ways your listener discovers new music', why: 'This tells you where to spend your promotion energy. If your listener discovers through Reels, make Reels. If through playlists, focus on editorial pitching.', resources: [] },
+  ]
+},
+{
+  id: 'career-stage',
+  phase: 'phase1',
+  phaseName: 'Phase 1: Identity',
+  title: 'Career Stage and Timeline — Be Honest',
+  tags: ['identity', 'stage'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Most independent music careers stall not from lack of talent but from a mismatch between career stage and expectations.</p>
+    <table>
+      <tr><th>Stage</th><th>Monthly Listeners</th><th>Realistic Monthly Income</th><th>Primary Focus</th></tr>
+      <tr><td>Emerging</td><td>0–10,000</td><td>Rs. 0–15,000</td><td>Sound development, content habit, local community</td></tr>
+      <tr><td>Growing</td><td>10,000–50,000</td><td>Rs. 15,000–75,000</td><td>Playlist traction, live gigs, first brand deal</td></tr>
+      <tr><td>Established</td><td>50,000–300,000</td><td>Rs. 75,000–3,00,000</td><td>Touring, sync, brand partnerships, direct fan monetisation</td></tr>
+      <tr><td>Professional</td><td>300,000+</td><td>Rs. 3,00,000–10,00,000+</td><td>Diversified income stack, label negotiation from leverage</td></tr>
+    </table>
+    <div class="callout callout-warning">
+      Most artists overestimate where they are and underestimate how long the growing stage takes. <strong>The median journey from first release to first Rs. 50,000/month is 3–5 years of consistent work.</strong> This is not discouraging — it is the actual runway, and building on it honestly prevents the bad decisions that come from desperation.
+    </div>
+  `,
+  checklist: [
+    { text: 'Honestly identify your current stage (Emerging / Growing / Established / Professional)', why: 'Operating at the wrong stage leads to misallocated effort. An emerging artist running a PR campaign is wasting money. An established artist still doing free shows is leaving money on the table.', resources: [] },
+    { text: 'Write the specific metric you need to reach to move to the next stage', why: 'A specific number (e.g. "10K monthly listeners") is a target. A vague aspiration is not.', resources: [] },
+  ]
+},
+
+// ── PHASE 2 ──
+{
+  id: 'home-studio',
+  phase: 'phase2',
+  phaseName: 'Phase 2: Production',
+  title: 'Home Studio Setup',
+  tags: ['production', 'gear'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The single most important infrastructure investment an independent Indian artist can make is a home studio — not to replace professional quality, but to enable the release cadence and content production rate that modern careers require.</p>
+    <table>
+      <tr><th>Tier</th><th>Budget</th><th>For</th></tr>
+      <tr><td><strong>Tier 1 — The Start</strong></td><td>Rs. 30,000–60,000</td><td>Beat production, demo recording, content creation</td></tr>
+      <tr><td><strong>Tier 2 — Working Studio</strong></td><td>Rs. 1,00,000–2,50,000</td><td>Professional release-quality singles and EPs</td></tr>
+      <tr><td><strong>Tier 3 — Professional</strong></td><td>Rs. 3,00,000–10,00,000+</td><td>Broadcast-grade sync licensing, full albums</td></tr>
+    </table>
+    <h3>The Hybrid Workflow (Recommended)</h3>
+    <p>Record and produce at home → send to professional mixer (Rs. 3,000–15,000/track) → AI mastering via LANDR or eMastered (Rs. 1,200–4,100/month unlimited) → release quality. This produces tracks indistinguishable from major-label releases for most streaming contexts at a fraction of studio cost.</p>
+    <h3>Tier 1 Gear (Rs. 30–60K)</h3>
+    <table>
+      <tr><th>Item</th><th>Recommended</th><th>Cost</th></tr>
+      <tr><td>DAW</td><td>GarageBand (Mac, free), FL Studio</td><td>Rs. 0–15,000</td></tr>
+      <tr><td>Audio Interface</td><td>Focusrite Scarlett Solo</td><td>Rs. 8,000–14,000</td></tr>
+      <tr><td>Microphone</td><td>Audio-Technica AT2020</td><td>Rs. 8,000–10,000</td></tr>
+      <tr><td>Headphones</td><td>Sony MDR-7506</td><td>Rs. 7,000–9,000</td></tr>
+      <tr><td>Acoustic Treatment</td><td>DIY foam panels</td><td>Rs. 3,000–8,000</td></tr>
+    </table>
+  `,
+  checklist: [
+    { text: 'Identify your target tier and list the gear you still need', why: 'Most artists over-invest in gear and under-invest in skills. Define your tier first, then buy only what gets you there.', resources: [{ label: 'Bajaao.com', url: 'https://www.bajaao.com' }] },
+    { text: 'Set up LANDR or eMastered account for AI mastering', why: 'Professional-sounding masters for Rs. 1,200/month unlimited. No reason to release unmastered tracks at any stage.', resources: [{ label: 'landr.com', url: 'https://www.landr.com' }] },
+    { text: 'Research 3 professional mixing engineers via SoundBetter', why: 'The hybrid model (home recording + professional mix) is the most cost-efficient path to release quality. Build a relationship with one engineer now.', resources: [{ label: 'soundbetter.com', url: 'https://soundbetter.com' }] },
+  ]
+},
+
+// ── SCIENCE OF A SONG ──
+{
+  id: 'science-of-a-song',
+  phase: 'phase2',
+  phaseName: 'Phase 2: Production',
+  title: 'The Science of a Song — Why the MP3 Is the Asset',
+  tags: ['craft', 'songwriting', 'production'],
+  readTime: '10 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>In a world where anyone can download a free DAW, buy a beat for Rs. 500, and pitch-correct a vocal in two clicks, the barrier to making a record has collapsed. What has not collapsed is the barrier to making a record that people actually feel. That gap is the science of a song — and it is the only thing that separates the MP3 that matters from the millions that do not.</p>
+
+    <div class="callout callout-warning">
+      <strong>The MP3 file is the primary asset of your entire career.</strong> Not your Instagram presence, not your live performance, not your playlist strategy. All of those things are distribution channels for the song. If the song does not work, nothing else compensates.
+    </div>
+
+    <h3>Music Is Cerebral — Here Is Why That Matters</h3>
+    <p>Neuroscience research on music processing shows that the brain responds to music in two parallel tracks: the auditory cortex processes sound, and the limbic system processes emotion. When a song works, it triggers both simultaneously. When it only works on one track — technically proficient but emotionally flat, or emotionally earnest but sonically weak — the brain does not form the retention response that turns a listener into a follower.</p>
+    <p>The artists who build durable careers understand this intuitively: the song has to hit both tracks. Production craft serves the emotional truth of the song, not the other way around. The moment production becomes more interesting than the emotion it is supposed to carry, the listener disconnects.</p>
+
+    <h3>The Architecture of a Working Song</h3>
+    <p><strong>The first 30 seconds are the song.</strong> Spotify counts a stream at 30 seconds. More importantly, a listener makes their decision about whether to stay within the first 15 seconds. The opening has to establish a sonic world and an emotional premise that the rest of the song delivers on. Not an intro. Not a wind-up. A reason to stay.</p>
+    <p><strong>Tension and release is the mechanism.</strong> Every element of a song — dynamics, harmony, rhythm, lyric — works by creating expectation and then either satisfying or subverting it. The verse creates tension. The pre-chorus escalates it. The chorus releases it. When this architecture is missing or muddled, the song feels flat regardless of how good the individual parts are. This is why a technically perfect song can feel like nothing.</p>
+    <p><strong>The hook is the unit of retention.</strong> A hook is not a chorus — it is the smallest melodic or lyrical fragment that the brain will replay involuntarily. "Baby ek baar aaja" (Ritviz). The melody that opens "Brown Munde." The phrase "kudiye ni tere" that loops after the song ends. Hooks are not accidents. They are engineered — often through repetition of a simple interval pattern, often placed at the metric peak of the phrase. If you cannot hum the hook of your own song after not hearing it for a week, it is not a hook yet.</p>
+    <p><strong>Specificity unlocks universality.</strong> The songs that feel universal are almost always specific. A lyric about "loneliness in a Mumbai apartment in the summer with the ceiling fan making noise" is more universal than "loneliness" because it gives the listener an actual scene to enter. Generic emotion gets observed. Specific emotion gets felt.</p>
+
+    <h3>The Familiarity-Surprise Balance</h3>
+    <p>The brain rewards music that is both familiar and surprising — not as a paradox, but as a ratio. Too familiar: the song feels generic, predictable, nothing to hold. Too surprising: the brain cannot track it, disengages. The zone where songs land and stick is where the structure is familiar enough to follow but the details (a chord that should not work, a syllable that lands one beat off, a production texture nobody has heard in this context) are interesting enough to reward repeat listening.</p>
+    <p>In the Indian indie context, this often means drawing on a sonic tradition the listener carries (a raga interval, a dhol pattern, a Bollywood melodic convention) and placing it in a production context that feels contemporary. The familiarity is cultural. The surprise is contextual. DIVINE does this in hip-hop. Ritviz does it in electronic. Prateek Kuhad does it by stripping rather than adding — the surprise is absence. Aditi Ramesh does it by bringing jazz phrasing to Hindi and Tamil lyrics — the harmonic language is unfamiliar but the lyric is immediate. Monica Dogra did it with Shaa'ir + Func by layering English and Hindi in electronic pop at a time when that combination had no Indian template.</p>
+
+    <h3>Women Artists Who Demonstrate the Principle</h3>
+    <p>Aditi Ramesh's catalog holds up on piano alone — the jazz-soul structures work independently of the production choices layered over them. That is why her live stripped-down sets convert casual listeners to fans in a way a playlist play cannot. Tipriti Kharbangar (Soulmate) has a blues vocal that survives any production context because the control and emotional specificity are built into the performance, not post-production. These are not exceptions — they demonstrate what the principle looks like in practice.</p>
+
+    <h3>Melody Survives Production — Does Yours?</h3>
+    <p>Test: play your song on a single instrument, or hum it a cappella. If it holds up — if the melody and lyric alone create some feeling — the song works and production will amplify it. If it falls apart without the production, production is compensating for a weak song. You can release a well-produced weak song and get some traction. You cannot build a career on it.</p>
+    <p>This is the test that separates artists with catalogs from artists with singles. A catalog of songs that hold up alone is a body of work. A catalog of productions that only work as productions is a portfolio.</p>
+
+    <h3>The Quality Bar and Knowing When You Are There</h3>
+    <p>Most independent artists release too early — before the song is finished, before the mix serves the song, before the master is competitive with what is already on the platform. The benchmark is not your favorite indie artist. It is whatever is playing on the playlists you want your music to be on. Open Spotify's New Music Friday India or a JioSaavn editorial playlist in your genre. Listen to the first 30 seconds of three tracks. That is the quality bar you are competing against — not technically, but emotionally. Does your track create the same quality of feeling?</p>
+    <p>If the answer is not a clear yes, the song is not done. Releasing it early does not "get it out there." It establishes a lower benchmark in the listener's mind for everything you do next.</p>
+  `,
+  checklist: [
+    { text: 'Test every song you are about to release by humming it a cappella or playing it on one instrument', why: 'If the melody and lyric do not hold up stripped of production, the production is compensating for a weak song. That is a song you can release but cannot build a career on.', resources: [{ label: 'Rick Rubin on the stripped-down test (Broken Record)', url: 'https://www.brokenpodcast.com' }] },
+    { text: 'Identify the hook of your track — the smallest fragment the brain replays after the song ends — and confirm it appears within the first 60 seconds', why: 'Hooks are the retention mechanism. If you cannot identify yours, or if it appears too late, the song has a structural problem that production cannot fix.', resources: [{ label: 'Pat Pattison on hooks (Berklee Online)', url: 'https://online.berklee.edu/takenote/writing-a-hit-song-hook' }] },
+    { text: 'Before releasing, listen to your track alongside three tracks from your target playlist at the same volume', why: 'This is the only reliable quality check. Not whether your track sounds good in isolation, but whether it creates equivalent feeling to the tracks you are competing for attention with.', resources: [{ label: 'New Music Friday India (Spotify)', url: 'https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd' }] },
+    { text: 'Write the specific scene or emotion your song is about in one sentence. If you cannot, rewrite the lyric until you can.', why: 'Specificity in lyrics is what makes listeners feel seen rather than observed. A song about a specific place and moment will reach more people than a song about a vague feeling.', resources: [{ label: 'American Songwriter — Lyric writing craft', url: 'https://americansongwriter.com/category/craft' }] },
+  ]
+},
+
+// ── MIXING & MASTERING ──
+{
+  id: 'mixing-mastering',
+  phase: 'phase2',
+  phaseName: 'Phase 2: Production',
+  title: 'Mixing, Mastering, and the Release-Ready Bar',
+  tags: ['production', 'mixing', 'mastering', 'quality'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Mixing and mastering are not the same thing, and understanding the difference will save you both money and bad decisions about when to involve other people.</p>
+
+    <h3>What Each Stage Does</h3>
+    <p><strong>Recording:</strong> Capturing the performance. If the performance is wrong — the vocal is out of tune, the timing is off, the energy is wrong — no subsequent stage fixes it. Fix it here.</p>
+    <p><strong>Mixing:</strong> Balancing all the recorded elements so each one is audible, each serves the song, and the whole thing translates across speakers, headphones, earbuds, and phone speakers. Mixing is not about making things loud. It is about making things clear.</p>
+    <p><strong>Mastering:</strong> Finalizing the mix to a consistent loudness level and sonic quality for distribution. Mastering does not fix a bad mix — it polishes a good one. A mastered bad mix is still a bad mix, slightly louder.</p>
+
+    <h3>When to Mix Yourself vs. Hire Out</h3>
+    <p>Mix yourself when: you are making demos, testing song ideas, working within a tight budget, and the track will not be the lead release you are building a campaign around. Get it mixed externally when: this is the track you are pitching to press and editorial playlists, the track involves live instruments that you recorded (harder to mix than electronic elements), or you cannot objectively hear it anymore because you have listened to it 400 times.</p>
+    <p>The budget range for a professional mix in India: Rs. 3,000–15,000 per track, depending on the engineer's experience and the track's complexity. For international engineers on SoundBetter: USD 150–500 for an indie-level mix, significantly more for established engineers. You do not need the expensive one for your first release. You need someone who will communicate clearly about what the song needs.</p>
+
+    <h3>What to Send a Mix Engineer</h3>
+    <p>Export each track separately (stems), label them clearly (Kick, Snare, Lead Vox, BG Vox 1, BG Vox 2, Synth Lead, etc.), and include a reference track — a commercially released song in your genre whose mix sound you want to approach. The reference is not an instruction to copy. It is a shared language about the sonic direction.</p>
+
+    <h3>Mastering Options by Budget</h3>
+    <table>
+      <tr><th>Option</th><th>Cost</th><th>Use When</th></tr>
+      <tr><td>LANDR / eMastered (AI)</td><td>Rs. 800–1,500/month unlimited</td><td>All non-lead releases, demos, early catalog</td></tr>
+      <tr><td>Mid-tier mastering engineer</td><td>Rs. 2,000–6,000/track</td><td>Lead singles, EP release tracks</td></tr>
+      <tr><td>Top mastering engineer</td><td>Rs. 10,000–30,000/track</td><td>Album releases, major singles with press campaigns</td></tr>
+    </table>
+    <p>The loudness target for streaming platforms is approximately -14 LUFS integrated (Spotify normalizes to -14 LUFS). Ask your mastering engineer to target this. A track mastered louder than -9 LUFS will be turned down by the platform and may sound worse than a properly mastered quieter track.</p>
+
+    <div class="callout callout-tip">
+      <strong>The phone speaker test:</strong> Before releasing, play your master through the built-in speaker of a phone held at arm's length. This is how many people will hear your music. If it sounds muddy, if the vocal disappears, if the low end is overwhelming everything — these are mix issues that need addressing before the track goes out.
+    </div>
+  `,
+  checklist: [
+    { text: 'Establish your stem export template in your DAW and save it — use it for every project going forward', why: 'Being able to quickly export stems to send to a mixing engineer means you can involve outside help on short timelines without scrambling.', resources: [] },
+    { text: 'Set up a LANDR or eMastered account for AI mastering of demos and early releases', why: 'Unmastered tracks on streaming platforms are quieter and sonically weaker than everything around them. AI mastering solves this for under Rs. 1,500/month unlimited.', resources: [{ label: 'LANDR', url: 'https://www.landr.com' }, { label: 'eMastered', url: 'https://emastered.com' }] },
+    { text: 'Apply the phone speaker test to your next release before it goes to your distributor', why: 'Phone speakers are the worst-case playback scenario and where mix problems become most obvious. If it survives the phone speaker test, it will survive everything.', resources: [] },
+    { text: 'Find one mixing engineer via SoundBetter or Fiverr, send them a brief, and get a quote for your next lead single', why: 'Building a relationship with one mix engineer who understands your sound is more valuable than using a different engineer every time. Start the relationship before you urgently need it.', resources: [{ label: 'SoundBetter', url: 'https://soundbetter.com' }, { label: 'Fiverr', url: 'https://www.fiverr.com' }] },
+  ]
+},
+
+// ── PHASE 3 ──
+{
+  id: 'distributor',
+  phase: 'phase3',
+  phaseName: 'Phase 3: Distribution',
+  title: 'Choosing a Distributor',
+  tags: ['distribution'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>You need a distributor to get your music onto Spotify, JioSaavn, Apple Music, YouTube Music, and 150+ platforms. No platform allows direct indie upload without one.</p>
+    <table>
+      <tr><th>Distributor</th><th>Pricing</th><th>Commission</th><th>Best For</th></tr>
+      <tr><td><strong>DistroKid</strong></td><td>USD 24.99/yr unlimited</td><td>0%</td><td>Fastest delivery (1–5 days); most globally popular</td></tr>
+      <tr><td><strong>TuneCore India</strong></td><td>USD 14.99–49.99/yr</td><td>0%</td><td>India's 2nd-largest market; Accelerator program; 70% stream boost option</td></tr>
+      <tr><td><strong>CD Baby</strong></td><td>USD 9.99/single (one-time)</td><td>9%</td><td>Catalog lives permanently; no subscription risk</td></tr>
+      <tr><td><strong>Madverse</strong></td><td>India-based pricing</td><td>Varies</td><td>India-specific support; Hindi and regional content</td></tr>
+    </table>
+    <div class="callout callout-key">
+      <strong>Recommendation:</strong> TuneCore India for most Indian artists — local support, India-specific programs, and the Accelerator program gives emerging artists meaningful platform advantages.
+    </div>
+    <h3>After You Distribute</h3>
+    <p>Claim every artist profile immediately: Spotify for Artists, Apple Music for Artists, JioSaavn ArtistOne, YouTube Studio. These give you analytics, editorial submission access, and profile control. Without them, you are flying blind.</p>
+  `,
+  checklist: [
+    { text: 'Sign up for a distributor and upload all existing catalog', why: 'Every day your music is not on streaming platforms, it is not earning discovery or royalties.', resources: [{ label: 'TuneCore India', url: 'https://www.tunecoreindia.com' }, { label: 'DistroKid', url: 'https://distrokid.com' }, { label: 'Madverse', url: 'https://madverse.co.in' }] },
+    { text: 'Claim Spotify for Artists profile', why: 'Gives you analytics, editorial pitch access, and profile customisation. Required for any serious distribution strategy.', resources: [{ label: 'artists.spotify.com', url: 'https://artists.spotify.com' }] },
+    { text: 'Claim Apple Music for Artists', why: 'Apple Music pays significantly higher per-stream than Spotify. Understanding your Apple audience is valuable even if it is smaller.', resources: [{ label: 'artists.apple.com', url: 'https://artists.apple.com' }] },
+    { text: 'Claim JioSaavn ArtistOne', why: 'JioSaavn has 110M+ registered users in India. ArtistOne gives editorial pitch access and regional playlist opportunities.', resources: [{ label: 'artistone.jiosaavn.com', url: 'https://artistone.jiosaavn.com' }] },
+    { text: 'Verify Content ID is active for all releases', why: 'Without Content ID, people using your music on YouTube generate revenue that you should be receiving. Check with your distributor.', resources: [] },
+  ]
+},
+
+// ── RELEASE STRATEGY ──
+{
+  id: 'release-strategy',
+  phase: 'phase3',
+  phaseName: 'Phase 3: Distribution',
+  title: 'The Release — What Happens Before, During, and After',
+  tags: ['release', 'strategy', 'distribution'],
+  readTime: '8 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>A release is not an upload. It is a campaign — and most of the work happens before the song is available to anyone. The artists who see meaningful traction from releases treat the four weeks before drop date as the production period for the campaign, not the song.</p>
+
+    <h3>Six Weeks Out: Submission and Pre-Work</h3>
+    <p><strong>Submit to Spotify editorial playlists</strong> at least 7 days before release, but no later than this — Spotify's submission window closes at release. Use Spotify for Artists pitch tool. Write the pitch in 500 characters or fewer: genre, mood, instruments, the specific emotion or story of the track, and one sentence about why this song is interesting right now. No hype. No adjectives. Describe it the way a journalist would.</p>
+    <p><strong>Deliver your track to your distributor</strong> at least 4 weeks before release for proper indexing across all platforms. DistroKid is faster (1–5 days), but the major platforms — JioSaavn, Apple Music editorial — need more lead time to include new tracks in their editorial consideration cycle.</p>
+    <p><strong>Send the press pitch</strong> to Wild City, Homegrown, and Rolling Stone India 3–4 weeks out with an embargo — "not for publication before [release date]." Include a streaming link (unlisted or private), a one-paragraph bio, and one paragraph on what makes this track specifically interesting.</p>
+
+    <h3>Two Weeks Out: Build Anticipation</h3>
+    <p>Enable pre-save on Spotify. Pre-saves do two things: they give you a listener count before release, and when the song drops, those listeners are automatically notified. A strong pre-save number also signals to Spotify's algorithmic systems that release-day traffic is coming, which can positively affect how the track surfaces in Discover Weekly and Radio.</p>
+    <p>Post behind-the-scenes content — not "new music coming soon" graphics, but actual production moments, lyric fragments, or the specific story behind the song. Let the audience feel like they are discovering something rather than being marketed at.</p>
+
+    <h3>Release Week</h3>
+    <table>
+      <tr><th>Day</th><th>Action</th></tr>
+      <tr><td>Release day (Friday — global DSP refresh)</td><td>Post Reel with Instagram Music Sticker, Stories, update bio link, email list announcement, WhatsApp broadcast to close contacts</td></tr>
+      <tr><td>Day 2–3</td><td>Share any press coverage, playlist adds, or listener reactions. Do not post the same promotional content twice.</td></tr>
+      <tr><td>Day 5–7</td><td>Share streaming stats conversationally ("this track has been added to 47 personal playlists in its first week — thank you for listening"). Real numbers, not performance claims.</td></tr>
+    </table>
+
+    <div class="callout callout-key">
+      <strong>Friday is the global new music day</strong> — all major platforms refresh their New Releases sections. Most algorithmic playlist updates also happen Friday through Sunday. Release on Fridays, no exceptions, unless there is a specific cultural reason to do otherwise.
+    </div>
+
+    <h3>Weeks 2–6: The Long Tail</h3>
+    <p>Most independent artists stop promoting a release after week one. This is a mistake. Algorithmic platforms surface tracks based on engagement, and engagement that arrives in weeks 2–4 is evidence to the platform that the track has genuine staying power. Keep feeding the track: live performance videos, a cover or rework, a playlist featuring your song alongside influences, a YouTube extended mix in week four.</p>
+    <p>The artists who build streaming catalogs treat every track as a living asset, not a launch event.</p>
+  `,
+  checklist: [
+    { text: 'Submit to Spotify for Artists editorial playlists at least 7 days before release — this window cannot be reopened', why: 'Editorial playlist placement is the highest-value outcome of a single release. The only way to be considered is to submit through Spotify for Artists before release. Missing this window means waiting for the next track.', resources: [{ label: 'artists.spotify.com', url: 'https://artists.spotify.com' }] },
+    { text: 'Deliver your track to your distributor 4 weeks before the release date', why: 'DSPs need lead time for indexing, Content ID registration, and editorial consideration cycles. Last-minute uploads miss every calendar-based opportunity.', resources: [] },
+    { text: 'Send a press pitch with an embargo to Wild City and Homegrown 3 weeks before release', why: 'Press coverage that lands on release day multiplies the impact of every other promotion channel simultaneously. Embargoed coverage is how this is coordinated.', resources: [{ label: 'Wild City', url: 'https://www.thewildcity.com' }, { label: 'Homegrown', url: 'https://homegrown.co.in' }] },
+    { text: 'Enable Spotify pre-save and promote it 10–14 days before release', why: 'Pre-saves become automatic streams and notifications on release day. They also signal expected release-day traffic to Spotify\'s systems, improving algorithmic surfacing.', resources: [] },
+    { text: 'Plan one piece of content per week for weeks 2–5 after release', why: 'Algorithmic systems reward tracks that continue accumulating engagement after launch. A planned post-release schedule means you do not have to improvise while managing everything else.', resources: [] },
+  ]
+},
+
+// ── STREAMING & PLAYLISTS ──
+{
+  id: 'streaming-playlist',
+  phase: 'phase3',
+  phaseName: 'Phase 3: Distribution',
+  title: 'Streaming and Playlist Strategy',
+  tags: ['streaming', 'playlists', 'spotify', 'discovery'],
+  readTime: '7 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Streaming platforms are not passive shelves where you place your music and wait for listeners to find it. They are active systems that surface music based on behavior signals — what listeners do with the song. Understanding those signals is the difference between a track that reaches 500 plays and one that reaches 50,000.</p>
+
+    <h3>The Two Types of Playlists</h3>
+    <p><strong>Editorial playlists</strong> are curated by humans at Spotify, JioSaavn, Apple Music. They have the highest reach and most prestige. Getting on one requires a pitch (Spotify for Artists, JioSaavn ArtistOne, Apple Music for Artists) submitted before release. Editorial placement is not guaranteed, is highly competitive, but a single editorial feature can deliver 10,000–200,000 streams on one track.</p>
+    <p><strong>Algorithmic playlists</strong> (Discover Weekly, Release Radar, Radio) are generated by systems based on listener behavior. They cannot be pitched to. They respond to: save rate (what percentage of listeners who hear your track save it to their library), skip rate (percentage who skip before 30 seconds — low is better), playlist adds (how many personal playlists include your track), and completion rate (how many listeners hear the whole song).</p>
+    <div class="callout callout-data">
+      <strong>The save rate is the most important signal.</strong> A track with a 20%+ save rate will be served to more listeners by Spotify's algorithmic systems than a track with 1 million streams and a 5% save rate. This is why quality of listener matters more than quantity of promotion.
+    </div>
+
+    <h3>What Improves Your Algorithmic Signals</h3>
+    <p>Ask your closest listeners to save the track — not just stream it. One save from a genuine fan outweighs ten passive streams from a shared link. Save it yourself from a listener account, not your artist account. Add your own tracks to personal playlists you actually maintain.</p>
+    <p>Context playlists — "music to work to," "late night drives," "study session" — are the entry point for algorithmic discovery. Build one and maintain it with your track alongside genuine influences. Spotify's systems learn from what tracks are grouped together. Being in the same playlist as artists whose listeners overlap with yours tells the algorithm something about where to surface you.</p>
+
+    <h3>Platform Strategy by Size of Audience</h3>
+    <table>
+      <tr><th>Audience Stage</th><th>Primary Focus</th><th>Secondary</th></tr>
+      <tr><td>0–1,000 monthly listeners</td><td>SubmitHub playlist pitches (indie curators), Instagram Reels driving saves</td><td>JioSaavn ArtistOne pitch</td></tr>
+      <tr><td>1,000–10,000 monthly listeners</td><td>Spotify editorial pitch every release, TuneCore Accelerator</td><td>Apple Music for Artists editorial</td></tr>
+      <tr><td>10,000–100,000 monthly listeners</td><td>Spotify editorial, JioSaavn featured, YouTube Music</td><td>International playlist pitching (India-specific curators on global platforms)</td></tr>
+      <tr><td>100,000+ monthly listeners</td><td>Label partnerships, sync licensing, international editorial</td><td>NRI diaspora market (UK, US, Canada — 5–8x per stream)</td></tr>
+    </table>
+
+    <h3>The NRI Diaspora Multiplier</h3>
+    <p>Streaming rates vary significantly by country. India pays among the lowest per-stream rates globally — approximately Rs. 0.05–0.15 per stream. The UK, US, and Canada pay approximately Rs. 0.35–0.60 per stream. An Indian artist with 60% of their listeners in the diaspora earns more than an artist with the same number of streams concentrated in India. Serving diaspora listeners — Indians in major international cities who actively seek Indian independent music — is both a streaming revenue strategy and a live performance market strategy.</p>
+  `,
+  checklist: [
+    { text: 'Create and maintain one personal Spotify/JioSaavn playlist featuring your music alongside genuine influences', why: 'Algorithmic systems learn context from what tracks are grouped together. A curated playlist where your track lives alongside your influences teaches the platform who your listeners are.', resources: [] },
+    { text: 'Check your save rate for each track in Spotify for Artists — target 20%+ as a benchmark', why: 'Save rate is the signal that drives Discover Weekly and Radio placement. Low save rate means algorithmic systems interpret the track as low-value to listeners, regardless of stream count.', resources: [{ label: 'artists.spotify.com', url: 'https://artists.spotify.com' }] },
+    { text: 'Submit to 5 indie playlist curators on SubmitHub with your next release', why: 'Independent playlist curators have genuine engaged audiences and regularly discover artists at early stages. One SubmitHub placement in the right playlist can generate hundreds of saves.', resources: [{ label: 'SubmitHub', url: 'https://www.submithub.com' }] },
+    { text: 'Check your Spotify for Artists listener location breakdown — identify your diaspora percentage', why: 'Diaspora listeners pay 5–8x more per stream than Indian listeners and represent a live performance market. If you have diaspora traction, it changes your release and touring strategy.', resources: [] },
+  ]
+},
+
+// ── EPK ──
+{
+  id: 'epk',
+  phase: 'phase3',
+  phaseName: 'Phase 3: Distribution',
+  title: 'Your Electronic Press Kit — How to Present Like a Professional',
+  tags: ['press', 'EPK', 'branding'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The Electronic Press Kit (EPK) is the document that travels without you. When a booker considers you for a festival, when a press editor decides whether to cover you, when a brand is evaluating you for a partnership, they will ask for or look up your EPK. If it does not exist, or is outdated, or is cluttered with unnecessary information, you lose the opportunity before the conversation starts.</p>
+
+    <h3>What Goes In It — Nothing Else</h3>
+    <ul>
+      <li><strong>Artist name and a one-line description:</strong> Not "experimental indie-folk-electronic artist with Carnatic influences." That is a genre list, not a description. Try: "Bangalore-based producer whose beats sit between DJ Shadow and classical ragas." One sentence. Specific nouns.</li>
+      <li><strong>Bio (150 words max):</strong> Written in third person. Covers: where you are from, what you make, what makes your music distinctive, what you have done that is worth noting (releases, festival credits, press coverage). No superlatives. No "groundbreaking" or "unique." Let the facts carry the claim.</li>
+      <li><strong>3 high-resolution press photos:</strong> Shot by a photographer, not a smartphone selfie. One performance shot, one studio shot, one portrait. These are what publications use — if they are not usable, you will not be covered.</li>
+      <li><strong>Top 3 tracks:</strong> Streaming links. Not download links. Not file attachments. Not a YouTube playlist with 30 songs.</li>
+      <li><strong>Key credits:</strong> Festivals played, press mentions, notable supports or collaborations. Bullet points only. Dates included.</li>
+      <li><strong>Technical rider:</strong> For bookers — stage dimensions required, backline needs, sound system requirements, setup time.</li>
+      <li><strong>Contact:</strong> Your email and your manager or booking contact if you have one. Not a contact form. A direct email address.</li>
+    </ul>
+
+    <div class="callout callout-tip">
+      <strong>Build it as a hosted link, not a PDF attachment.</strong> A link (Google Drive folder, a simple webpage, a Linktree-style page) can be updated. A PDF sent in October is outdated by January. Bookers and press editors bookmark links. They do not re-download PDFs.
+    </div>
+
+    <h3>The Bio Rewrite Test</h3>
+    <p>Read your bio aloud. If any sentence makes you slightly uncomfortable because it sounds like you are overselling — delete it. If a journalist cannot reuse a sentence from your bio directly in a review without changing it, it is not well-written. The test: could this be the first paragraph of a Wild City profile? If yes, it is a bio. If not, keep rewriting.</p>
+  `,
+  checklist: [
+    { text: 'Write a 150-word bio in third person and test it against the Wild City profile standard', why: 'A bio that reads like a press clip is a bio that gets used by press. Anything that reads like a promotional document gets rewritten or ignored.', resources: [] },
+    { text: 'Book one professional photographer session — one performance shot, one studio shot, one portrait', why: 'Press will not use low-resolution or smartphone images. One good photo shoot lasts 2–3 years of press and promotion use.', resources: [] },
+    { text: 'Build a shareable EPK link (Google Drive folder or simple webpage) and keep it updated', why: 'A link can be updated when your credits change. A PDF cannot. Make sure this link is in your Instagram bio and email signature.', resources: [{ label: 'Canva EPK templates', url: 'https://www.canva.com/media-kits/' }] },
+  ]
+},
+
+// ── PHASE 4 ──
+{
+  id: 'live-performance',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'Live Performance — Your Primary Income Engine',
+  tags: ['revenue', 'live'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>India's live sector generated Rs. 13 billion in 2024, growing 15% year-on-year. Tier-2 cities grew 682% in show volume since 2022. This is where the money is — and most independent artists systematically undercharge and under-negotiate.</p>
+    <h3>The Gig Ladder</h3>
+    <table>
+      <tr><th>Type</th><th>Fee Range</th><th>What You're Building</th></tr>
+      <tr><td>Open mic</td><td>Rs. 0–500</td><td>Stage comfort, local visibility</td></tr>
+      <tr><td>Café / restaurant</td><td>Rs. 1,000–8,000</td><td>Consistent income, residency relationships</td></tr>
+      <tr><td>College events</td><td>Rs. 5,000–30,000</td><td>Young audience, student networks</td></tr>
+      <tr><td>Private events</td><td>Rs. 15,000–1,00,000+</td><td>High margin, no ticket sales required</td></tr>
+      <tr><td>Small festivals</td><td>Rs. 25,000–75,000</td><td>Press, credibility, new audiences</td></tr>
+      <tr><td>Major festivals</td><td>Rs. 1,00,000–10,00,000+</td><td>Scale, brand deal leverage</td></tr>
+    </table>
+    <div class="callout callout-tip">
+      <strong>One live show generates two income streams:</strong> the performance fee AND IPRS publishing royalties when you perform your own compositions. If you are not registered with IPRS, you are leaving half the income from every show on the table.
+    </div>
+    <h3>Negotiate Beyond the Fee</h3>
+    <p>When booking a show, negotiate: sound check time, green room access, recording rights (you own footage of your performance), venue social media tags, and the headline billing position if you can get it. These non-monetary terms build the assets you need for the next level of booking.</p>
+  `,
+  checklist: [
+    { text: 'Book your first paid show within 30 days', why: 'One live performance generates more career momentum than 10 unreleased tracks. The stage builds your confidence, your material, and your network simultaneously.', resources: [] },
+    { text: 'Record every show on your phone (with venue permission)', why: 'Live video is your most persuasive pitch tool for the next booking. Even a phone recording from a good position is enough.', resources: [] },
+    { text: 'Build a one-page rider: technical requirements, setup time, fee, what you will promote', why: 'A professional rider signals that you are serious. Venues and bookers treat you according to how professionally you present.', resources: [] },
+  ]
+},
+
+// ── SOCIAL & CONTENT ──
+{
+  id: 'social-content-strategy',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'Content Strategy — How People Find You',
+  tags: ['social', 'content', 'discovery'],
+  readTime: '9 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Discovery does not happen because you release music. It happens because you give people something to grab onto — a reference, a cover, a moment, a hook that makes them send it to someone else. Content is not separate from your music career. It is the machine that makes your music findable.</p>
+
+    <h3>Cover Songs Are Your Entry Point</h3>
+    <p>Covers are the fastest path to being heard by people who do not know you exist. When someone searches for a cover of a song they love, you appear. If your version is interesting, they stay. If it is interesting enough, they look for your originals. This is how AP Dhillon built early traction — covers gave him an audience before his own material had the weight to carry it alone.</p>
+    <p>The rule: pick a cover that sits in your sonic lane. A producer covering a Bollywood classic with your own production style tells your story. A singer-songwriter stripping a hip-hop track to acoustic guitar tells a different one. Both work. Generic faithful reproductions do not — there is nothing to discover.</p>
+
+    <div class="callout callout-tip">
+      <strong>Pop culture hooks work the same way.</strong> A short piece tied to a show, a film, a news moment, or a meme that is passing through everyone's feed gets forwarded. It does not need to be your original music — it just needs to be yours in style. The goal is entry points, not archives.
+    </div>
+
+    <h3>The YouTube Content Stack</h3>
+    <p>YouTube is the world's largest music search engine. Use it like one.</p>
+    <ul>
+      <li><strong>Visualizer video:</strong> A minimal animated or image-based video for every track. Costs almost nothing to make (Canva, Adobe Express, or a motion designer for Rs. 2,000–5,000). This is what earns passive streams when someone looks up your song title.</li>
+      <li><strong>Extended mix or long-form version:</strong> A 6–10 minute version of a track, or a medley. Long-form YouTube videos earn significantly more ad revenue per view and are more likely to appear as recommendations during late-night listening sessions. A 3-minute song gets skipped. A 7-minute version gets listened to.</li>
+      <li><strong>Song Picker (YouTube Cards &amp; End Screens):</strong> When your video ends, an end screen pointing to your next video or a playlist keeps the viewer in your world. Use YouTube Studio to add cards mid-video linking to related tracks. This is not optional — without it, you are handing your audience to someone else's recommendations.</li>
+    </ul>
+
+    <h3>Instagram: The Discovery Layer</h3>
+    <p>Instagram does not replace YouTube — it feeds it. The Music Sticker on Stories and Reels is the most important tool on the platform. When someone uses your song in their own Reel, every view of that Reel is free promotion. Pitch your catalog to distributors who enable Instagram/Facebook music licensing, and make sure all your releases are searchable in the sticker library.</p>
+    <p>Reels with your own music playing (not just credited) also train the platform to associate your face and name with your sound. Short clips from live shows, studio sessions, and behind-the-scenes production work better than polished promotional content. Authenticity is not a tone — it is a distribution advantage.</p>
+
+    <h3>How to Get Reviewers to Notice You</h3>
+    <p>Music press in India is small and reachable. The editors and writers at Wild City, Homegrown, and Rolling Stone India are not remote figures — they are accessible via email and social, and they respond to pitches that are specific, well-written, and on time.</p>
+    <p>The pitch framework: one sentence on who you are, one sentence on the release (what makes it specifically interesting — not "a fusion of genres"), and a streaming link. No attachments. No follow-up within the first 10 days. If your sound is genuinely interesting, a brief personalized pitch will land. For international submission channels, SubmitHub lets you pay small fees to get guaranteed listens from curators and playlist managers.</p>
+
+    <h3>The Content Production Workflow</h3>
+    <p>One release = six pieces of content. For every track you put out:</p>
+    <ol>
+      <li>Visualizer video on YouTube (permanent search asset)</li>
+      <li>60-second Reel teaser with the Music Sticker enabled on Instagram</li>
+      <li>Behind-the-scenes clip from the recording process (15–30 seconds)</li>
+      <li>Cover or pop culture remix (if timing is right)</li>
+      <li>Press pitch sent to Wild City, Homegrown, and one playlist curator on SubmitHub</li>
+      <li>Extended or live version for YouTube in weeks 4–6 after release</li>
+    </ol>
+    <p>This is not about volume. A single track given this treatment will outperform five tracks released quietly every time.</p>
+  `,
+  checklist: [
+    { text: 'Create a visualizer for every released track and upload to YouTube', why: 'A visualizer makes your track searchable on the world\'s largest music search engine. Without it, your song exists only on streaming platforms where people have to already know to look.', resources: [{ label: 'Adobe Express (free)', url: 'https://express.adobe.com' }, { label: 'Canva', url: 'https://canva.com' }] },
+    { text: 'Add YouTube end screens and cards to all existing videos', why: 'End screens keep viewers in your catalog instead of leaving for someone else\'s recommendations. Set them up once in YouTube Studio — they work passively forever.', resources: [{ label: 'YouTube Studio', url: 'https://studio.youtube.com' }] },
+    { text: 'Record and release one cover song that fits your sonic identity', why: 'Covers bring in listeners searching for songs they already love. If your version is interesting, they follow you back to your originals. This is a discovery shortcut that original releases cannot replicate.', resources: [] },
+    { text: 'Verify your music appears in the Instagram Music Sticker library', why: 'Every Reel someone else makes using your song is free promotion. If you are not in the library, this entire channel is closed. Check with your distributor.', resources: [] },
+    { text: 'Send a press pitch to Wild City and Homegrown on your next release', why: 'Indian music press is small and accessible. One feature reaches engaged audiences who specifically seek out independent artists. A specific, one-paragraph pitch sent on release day is enough.', resources: [{ label: 'Wild City', url: 'https://www.thewildcity.com/contact' }, { label: 'Homegrown', url: 'https://homegrown.co.in' }, { label: 'SubmitHub', url: 'https://www.submithub.com' }] },
+    { text: 'Upload an extended mix or live version of your strongest track on YouTube', why: 'Long-form YouTube videos earn more ad revenue per view and surface in late-night recommendation sessions. A 7-minute version of a 3-minute song reaches a different, more engaged listener.', resources: [] },
+  ]
+},
+
+// ── COMMUNITY ──
+{
+  id: 'community-building',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'Community — Other Musicians Are Your Most Valuable Asset',
+  tags: ['network', 'community', 'collaboration'],
+  readTime: '7 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The independent music industry in India is small. Not hundreds of thousands of people small — maybe two thousand active, serious artists across all genres in the country who are building real careers. That number means that the person at the open mic next to you is not your competition. They are your network, your collaborator, your booking connection, your emergency replacement when a session player drops out, and eventually the person who recommends you for the gig you cannot pitch yourself for.</p>
+
+    <div class="callout callout-key">
+      <strong>Other musicians' phonebooks are your most valuable professional asset.</strong> A warm introduction from a trusted artist will get you a booking, a feature, or a press placement that no cold pitch ever will. The way you build that is by showing up for other people first.
+    </div>
+
+    <h3>How to Actually Show Up</h3>
+    <p>Showing up means specific, visible support — not passive following. Share someone's release with a genuine sentence about what makes it interesting. Show up to their gigs when you are in the city. Tag them in your production credits, even when it is not required. Comment on their work with something that proves you actually listened. These are small things. Their cumulative effect is that you become someone people think of when an opportunity appears that is not right for them but is right for you.</p>
+    <p>Going beyond your own music is the frame. The artist who is only interested in their own trajectory is easy to spot, and nobody builds them into their network. The artist who is genuinely interested in the scene builds a scene that is genuinely interested in them.</p>
+
+    <h3>Open Mics as Infrastructure</h3>
+    <p>Open mics are not for your debut. They are for testing new material, staying sharp, building relationships with venue staff and regular performers, and being seen as an active participant in the local scene. An artist who shows up to open mics regularly — even when they do not perform — becomes a known entity. Known entities get booked.</p>
+    <p>The practical version: pick one or two open mics in your city and attend consistently for three months. Talk to the people running them. Learn who the regulars are. Offer to help with anything they need. After three months, you will have relationships that are worth more than 100 Instagram followers.</p>
+
+    <h3>Collaboration as Discovery</h3>
+    <p>A feature or collaboration is not a project — it is a discovery mechanism. When you appear on another artist's track, you appear in their listeners' feeds. When they appear on yours, the same happens. Done well, both catalogs grow. The formula that works: collaborate with artists who make different music than you but share a similar listener. A producer collaborating with a singer-songwriter who has a small but loyal following both expands the reach and makes both artists more interesting to bookers and press.</p>
+    <p>Covers and collaborations with other artists also signal to platforms that you are active, engaged, and likely to generate new content — which improves how your back catalog is served to new listeners.</p>
+
+    <h3>Building Online Community</h3>
+    <p>Online community is not your follower count. It is the number of people who will share, comment, and show up when you ask them to. A hundred people who actively engage are worth more than ten thousand who passively follow. The way to build the first group: be consistently present, be genuinely helpful, and make your community feel like they discovered you — because that is what they did.</p>
+    <p>In practice: reply to every comment on your first 100 posts. Share other artists' work in your stories with a personal note. Build a mailing list — even a small one. Email is the only platform where you own the relationship. Every other platform can change its feed ranking overnight and you lose your reach. An email list is yours.</p>
+  `,
+  checklist: [
+    { text: 'Attend an open mic in your city this week — even if you are not performing', why: 'Open mics are where working relationships are built. Showing up as an audience member, consistently, makes you a known face before you ever need a favor.', resources: [] },
+    { text: 'Identify 5 artists in your city at a similar career stage and reach out to one this week', why: 'Your peer network is your most valuable professional asset over a 5-year horizon. These are the people who will recommend you, collaborate with you, and loop you into opportunities you could not find alone.', resources: [] },
+    { text: 'Share another artist\'s release this week with a specific, personal note', why: 'Specific public support costs you nothing and builds genuine goodwill. Vague engagement ("great track!") does nothing. "The production on the second chorus is unlike anything I\'ve heard from an Indian indie artist" does something.', resources: [] },
+    { text: 'Start a mailing list — even with 10 subscribers', why: 'Email is the only channel where you own the relationship. Social platforms can deprioritize your posts without notice. A mailing list is yours permanently.', resources: [{ label: 'Mailchimp (free)', url: 'https://mailchimp.com' }, { label: 'Substack (free)', url: 'https://substack.com' }] },
+    { text: 'Propose one collaboration to an artist whose listeners overlap with yours but whose sound is different', why: 'Collaborations are discovery mechanisms. You both gain access to each other\'s listeners. The best collaborations happen when both artists bring something the other cannot produce alone.', resources: [] },
+  ]
+},
+
+// ── NETWORKING ──
+{
+  id: 'networking-conversations',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'How to Start Conversations That Actually Go Somewhere',
+  tags: ['network', 'relationships', 'negotiation'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The mistake most artists make in networking conversations: they wait until they need something before starting the relationship. By that point, every conversation feels transactional to the other person, because it is. The give-and-get model works in the opposite direction — you give first, and you give specifically, without framing it as an exchange.</p>
+
+    <h3>How to Initiate</h3>
+    <p>The best way to start a conversation with another artist, a venue booker, or a press contact is a specific reference to their work. Not "I love your music" — something particular: a production detail, a booking decision they made that was interesting, a review they wrote that was accurate in a way most reviews are not. Specificity signals that you paid attention, which is rare, and rare things get remembered.</p>
+    <p>In person at open mics and events: talk about the event, the sound, the lineup, something in the room — not yourself. Most conversations at music events are two people waiting to talk about themselves. Be the one who is genuinely curious about the other person's situation. That is the conversation they will remember the next day.</p>
+    <p>Online: reply to someone's post with a specific thought rather than a reaction. DM with a reference to something they said publicly, not a pitch. Ask one open question and wait for the response before sending anything else.</p>
+
+    <h3>The Give-and-Get</h3>
+    <p>The give-and-get is not a transaction — it is a posture. You are in a position to give other people things they need, probably more often than you realize. You have: your skills (production, mixing, songwriting), your network (the bookers and artists you already know), your platform (small as it is, any audience is a platform), your time, and your attention. Give these without keeping score.</p>
+    <p>The get comes from the relationship, not the exchange. The artist you helped produce a demo for will not owe you a gig. But they will think of you when someone asks them who is good to work with. That is more valuable than a favor.</p>
+
+    <div class="callout callout-key">
+      <strong>Time is also an asset.</strong> Every hour you spend in a recording session for free, every open mic you attend, every release party you show up to — these are investments in relationships that have a return horizon of months to years, not days. The artists who treat their time like money — rationing it only for activities with immediate measurable return — consistently underinvest in the relationships that would have had the highest return. The opposite mistake is also real: saying yes to everything and spreading thin. The frame: a small number of genuine relationships are worth infinitely more than a large number of surface ones.
+    </div>
+
+    <h3>How to Get Into a Lineup</h3>
+    <p>Festival and multi-act lineups are filled one of three ways: through a booking agent who has a relationship with the promoter, through the promoter discovering the artist themselves (streaming numbers, press, social), or through a recommendation from another artist on the bill. The third path is the most accessible when you are building. It requires that someone who is already booked trusts you enough to stake their recommendation on you.</p>
+    <p>The practical sequence: identify the festivals and events in your region that match your genre and stage. Look at who is typically booked. Find one or two of those artists and build a real relationship before the booking season starts. When they are asked "who should we book next year?" your name comes up because they know your live set, trust your professionalism, and genuinely want to see you on a stage.</p>
+    <p>For direct applications: most smaller festivals accept submissions. Send a one-paragraph bio, a live video (phone recording is fine if the audio is decent), and your best single streaming link. No longer. No attachments. Include the date range you are available and the cities you can travel to.</p>
+  `,
+  checklist: [
+    { text: 'Before your next event, identify one person you want to start a conversation with and find one specific thing to reference', why: 'Specific references are the entry point for real conversations. "I saw you perform last month and the way you handled the second set when the sound cut out was impressive" beats any introduction.', resources: [] },
+    { text: 'Offer something concrete to one artist or booker in your network this month — studio time, a session, a share, a connection', why: 'Give before you need. Relationships built on mutual generosity survive career changes and scene shifts. Transactional ones do not.', resources: [] },
+    { text: 'Map the next 3 festivals in your region and find one artist on last year\'s lineup to build a real connection with', why: 'The fastest path into a festival lineup is a recommendation from someone already on the bill. That requires a real relationship, built before the booking season.', resources: [] },
+  ]
+},
+
+// ── BOOKINGS ──
+{
+  id: 'booking-venues',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'How Bookings and Payments Actually Work',
+  tags: ['revenue', 'venues', 'studio', 'business'],
+  readTime: '8 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Most independent artists undercharge, underprepare, and leave money on the table — not because they do not know music, but because nobody told them how the business side of live performance actually runs. This section is the briefing you should have received before your first paid show.</p>
+
+    <h3>How Venues Pay</h3>
+    <p>There are three payment structures in the Indian live music market:</p>
+    <ul>
+      <li><strong>Flat fee:</strong> Fixed amount regardless of attendance. Better for the artist. Negotiate this first.</li>
+      <li><strong>Percentage of the door / ticket revenue:</strong> Usually 40–60% of ticket sales after venue costs. Better for the venue. Acceptable if you are confident in your draw and the venue will actively promote.</li>
+      <li><strong>Door + guarantee:</strong> A guaranteed minimum (the floor) plus a percentage of ticket revenue above the break-even threshold. The best deal when you can get it. Protects you if attendance is low, rewards both parties if it sells out.</li>
+    </ul>
+    <p>For café and restaurant residencies, expect flat fees with a drinks/meal rider. For corporate and private events, flat fee only — do not accept door deals where there is no door. Festival payments are always flat fees, typically paid 50% on contract signing and 50% on the day of performance. Never perform at a festival without a signed contract.</p>
+
+    <div class="callout callout-tip">
+      <strong>Getting paid on the night:</strong> Confirm the payment method in advance — cash, bank transfer, or UPI. If it is a new venue, ask for 50% upfront. If they refuse, ask why. A legitimate venue with a healthy cash flow will not struggle to pay a deposit.
+    </div>
+
+    <h3>Event Companies and Promoters</h3>
+    <p>Event companies are middlemen between brands and venues on one side, and artists on the other. They earn their margin by securing artists at lower fees and charging brands higher. This is fine — it is their business. Know that when an event company books you, they have already marked up your fee. This means there is room to negotiate. The rate they first offer is almost never the ceiling.</p>
+    <p>Promoters work differently — they take on the financial risk of the event and earn from ticket revenue. When dealing with a promoter, your leverage is your draw. Know your numbers: how many people you can reliably bring to a show, your streaming numbers in that city, your social engagement in the region.</p>
+
+    <h3>Studio Sessions — What You Should Expect to Pay</h3>
+    <table>
+      <tr><th>Studio Type</th><th>Rate Range (per hour)</th><th>Best For</th></tr>
+      <tr><td>Home studio (freelance engineer)</td><td>Rs. 500–2,000</td><td>Demos, initial recording, budgets</td></tr>
+      <tr><td>Mid-tier studio (dedicated space, good gear)</td><td>Rs. 2,000–6,000</td><td>EPs, singles, professional output</td></tr>
+      <tr><td>Top-tier studio (premium rooms, name engineers)</td><td>Rs. 8,000–25,000+</td><td>Albums, high-production singles, film music</td></tr>
+    </table>
+    <p>Studio day rates are negotiable when you block time (full day vs. single hours). Many studios offer artist packages — 10 hours of recording + 5 hours of mixing at a reduced combined rate. Ask for this. If you are working with an engineer who is building their portfolio, offer them a credit and a reference in exchange for a reduced rate — many engineers accept this.</p>
+    <p>The most important thing to establish before entering any studio: who owns the masters. You should. If a studio or producer claims ownership of the masters as part of their payment, you are signing away something that will pay you royalties for the rest of your life. The fee should be the fee. The masters are yours.</p>
+
+    <h3>Negotiating the Non-Cash Terms</h3>
+    <p>Every booking negotiation has two tracks: the fee, and the terms. Terms are often where the real value lives. When negotiating, always ask for: recording rights for the performance (you own your footage), social media tags and posts from the venue on the day, sound check time (minimum 45 minutes), and headline billing position if you have any leverage. These do not cost the venue money. They cost you nothing to ask for. And they build the assets — footage, audience, press materials — that you need for the next negotiation.</p>
+  `,
+  checklist: [
+    { text: 'Set a minimum fee for your time and commit to not performing below it', why: 'Below-minimum gigs set a market rate for your work that is hard to raise. One well-paid show is worth more professionally than three underpriced ones.', resources: [] },
+    { text: 'Request a signed agreement or email confirmation for every paid booking', why: 'Verbal agreements do not exist when payment is disputed. A one-line email confirming fee, date, and time is enough. Make it a habit from your first paid gig.', resources: [] },
+    { text: 'For your next studio session, confirm master ownership in writing before recording', why: 'Masters are the asset that pays royalties for your lifetime plus 60 years. Losing them to a studio or producer in exchange for a recording session is one of the most common and most costly mistakes independent artists make.', resources: [] },
+    { text: 'Research one event company or promoter that books artists in your genre and send a brief one-page intro kit', why: 'Event companies maintain rosters of artists they book repeatedly. Getting on their radar early means you are in the pool for opportunities without having to pitch every time.', resources: [] },
+  ]
+},
+
+// ── APPENDIX ──
+{
+  id: 'venue-appendix',
+  phase: 'appendix',
+  phaseName: 'Reference',
+  title: 'Venues and Recording Studios by City',
+  tags: ['reference', 'venues', 'studios'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>This is a reference list, not an exhaustive directory. The live music scene in India moves fast — venues open and close, ownership changes, programming shifts. Use this as a starting point. Verify current status and booking contacts directly before pitching.</p>
+
+    <h3>Mumbai</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>AntiSocial (Khar):</strong> The primary independent music venue in Mumbai. Books original artists across genres. Has an in-house production team. Key contact: the programming team via their website.</li>
+      <li><strong>NCPA (Nariman Point):</strong> Classical, fusion, and curated indie. More formal booking process. Important for credibility in genre-crossing work.</li>
+      <li><strong>Hard Rock Cafe (Worli):</strong> Corporate-friendly, established artist lists, consistent sound production. Pays flat fees.</li>
+      <li><strong>The Habitat (Khar):</strong> Comedy-focused but books live music for special events. Good for crossover audiences.</li>
+      <li><strong>Social (multiple locations):</strong> Casual gig bookings, lower fees, high foot traffic. Good for building a local audience early.</li>
+    </ul>
+    <h4>Recording Studios</h4>
+    <ul>
+      <li><strong>Famous Studios (Mahalaxmi):</strong> Legacy studio. Bollywood-grade facilities. Premium rates. Worth one session for the acoustics and engineer relationships.</li>
+      <li><strong>YRF Studios (Andheri West):</strong> Access typically through label relationships, not direct bookings.</li>
+      <li><strong>Bombay Recording Company (Bandra):</strong> Independent-friendly, strong engineers, mid-tier rates. Used by many indie artists.</li>
+      <li><strong>True School of Music (Andheri):</strong> Has studio facilities available for independent bookings. Producer-oriented.</li>
+    </ul>
+
+    <h3>Delhi / NCR</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>Hauz Khas Social:</strong> High-volume indie bookings. Competitive but accessible for original artists.</li>
+      <li><strong>Hard Rock Cafe (Connaught Place):</strong> Established artist list. Reliable payment terms.</li>
+      <li><strong>Siri Fort Auditorium:</strong> Government-managed. Large capacity. Important for major events and classical/fusion acts.</li>
+      <li><strong>Eatopia (Entertainment District):</strong> Event-driven bookings, corporate and college adjacents.</li>
+    </ul>
+    <h4>Recording Studios</h4>
+    <ul>
+      <li><strong>Prime Recording Studio (Noida):</strong> One of the best-equipped mid-tier studios in North India. Used by many independent hip-hop and pop artists.</li>
+      <li><strong>Firehouse Studios (Delhi):</strong> Strong for rock and indie recordings. Engineer relationships are the main draw.</li>
+    </ul>
+
+    <h3>Bengaluru</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>Windmill Craftworks (Whitefield):</strong> Known for booking original independent artists. Outdoor stage, weekend-focused.</li>
+      <li><strong>Hard Rock Cafe (St. Mark\'s Road):</strong> Established bookings list, consistent fees.</li>
+      <li><strong>The Humming Tree (Indiranagar):</strong> Bengaluru\'s most consistent independent music venue. Multiple formats: acoustic sets, full bands, DJ nights. Strong press relationships.</li>
+      <li><strong>Bhukum:</strong> Weekend farmer-market format. Books acoustic and indie acts, smaller fees but good audience quality.</li>
+    </ul>
+    <h4>Recording Studios</h4>
+    <ul>
+      <li><strong>Bluebird Studio (Indiranagar):</strong> Mid-tier, independent-friendly. Strong for pop and indie production.</li>
+      <li><strong>SJ Studios:</strong> Mixing and mastering-focused. Strong technical reputation in South India.</li>
+    </ul>
+
+    <h3>Hyderabad</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>Hard Rock Cafe (Banjara Hills):</strong> Primary corporate-friendly venue. Reliable payments.</li>
+      <li><strong>Fuga (Jubilee Hills):</strong> Music bar with live programming. Good for original artists in pop and indie.</li>
+      <li><strong>Shilpakala Vedika:</strong> Large outdoor amphitheatre. Government-managed. Key for festival-scale events.</li>
+    </ul>
+    <h4>Recording Studios</h4>
+    <ul>
+      <li><strong>Annapurna Studios:</strong> Legacy Hyderabad studio with film industry roots. Accessible for independent bookings at premium rates.</li>
+    </ul>
+
+    <h3>Chennai</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>The Velvet Club:</strong> Live music bar with regular bookings for indie artists.</li>
+      <li><strong>Music Academy (TTK Road):</strong> Classical and Carnatic-adjacent, curated programming. High credibility for South Indian traditional and fusion genres.</li>
+    </ul>
+    <h4>Recording Studios</h4>
+    <ul>
+      <li><strong>Sync Cinema Studios:</strong> Film-grade studio with strong Tamil music industry connections. Independent bookings available.</li>
+    </ul>
+
+    <h3>Kolkata</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>Someplace Else (Park Hotel):</strong> Kolkata\'s longest-running live music venue. Books rock, blues, and indie acts regularly.</li>
+      <li><strong>Roxy:</strong> Newer venue, growing indie music programming.</li>
+    </ul>
+
+    <h3>Pune</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>High Spirits (Koregaon Park):</strong> Pune\'s primary indie and electronic music venue. Strong booking relationships with Mumbai promoters.</li>
+      <li><strong>Hard Rock Cafe (Koregaon Park):</strong> Corporate-friendly, consistent payment terms.</li>
+      <li><strong>Pagdandi Books Chai Café:</strong> Small, intimate. Good for acoustic sets and building a loyal early audience.</li>
+    </ul>
+
+    <h3>Goa</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>Leopard Valley:</strong> Outdoor electronic/live music venue. Seasonal bookings (October–March).</li>
+      <li><strong>Curlies (Anjuna):</strong> Iconic beach venue. Primarily DJ/electronic but books live acts for special events.</li>
+      <li><strong>Sunburn and NH7 Weekender festival sites:</strong> Require booking through promoters (Percept, OML) well in advance. Submission windows open 6–9 months before event dates.</li>
+    </ul>
+
+    <h3>Ahmedabad</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>The Underdogs:</strong> Growing live music and event space. Books original artists. One of the more accessible mid-tier venues in western India for independent acts.</li>
+    </ul>
+
+    <h3>Chandigarh</h3>
+    <h4>Venues</h4>
+    <ul>
+      <li><strong>F Bar and Lounge (Elante Mall):</strong> Live music venue with regular bookings. Good gateway into North India corporate-event circuit.</li>
+    </ul>
+
+    <div class="callout callout-tip">
+      <strong>How to use this list:</strong> Before pitching any venue, attend at least one show there. Understand the audience, the sound quality, and how the venue treats the artists performing. A venue that cuts the artist sound to save electricity costs or does not honor the agreed fee is not worth your first booking, no matter how prestigious the name.
+    </div>
+  `,
+  checklist: [
+    { text: 'Attend one show at the primary independent venue in your city this month', why: 'Understanding a venue\'s audience, sound, and atmosphere from the other side of the stage is essential research before pitching to perform there. You will pitch better and set your expectations correctly.', resources: [] },
+    { text: 'Research the booking contact for your top 3 target venues and save it somewhere you will actually check', why: 'Booking contacts change frequently. The website email is often not monitored. Instagram DMs and direct referrals from artists who already play there are more reliable.', resources: [] },
+    { text: 'For your next recording session, compare at least two studios in your city on rate, engineer reputation, and master ownership policy', why: 'Studio choice is not just about equipment — it is about the engineer relationship and the legal terms. Both decisions affect your sound and your career for years.', resources: [] },
+  ]
+},
+
+// ── BRAND DEALS & SYNC ──
+{
+  id: 'brand-sync',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'Brand Deals and Sync Licensing',
+  tags: ['revenue', 'brand', 'sync', 'licensing'],
+  readTime: '7 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Brand partnerships and sync licensing are the two income streams most independent artists either ignore completely or approach incorrectly. Done right, they fund the music career without compromising it. Done wrong, they create associations that take years to undo.</p>
+
+    <h3>Brand Partnerships — The Right Frame</h3>
+    <p>A brand partnership is not sponsorship. Sponsorship is a logo on your artwork in exchange for money. A brand partnership is a genuine alignment between what the brand stands for and what you stand for, expressed through content or events that are interesting to your audience independently of the commercial arrangement.</p>
+    <p>Ritviz's Bacardi House Party Sessions is the benchmark in Indian indie. The brand funded the production of music that the artist owned and controlled. The association was natural — Bacardi hosts music events, Ritviz makes music for events. Neither party compromised. Both benefitted. The question to ask before any brand conversation: "Would my audience be surprised or disappointed that I'm associated with this brand?" If the answer is anything other than a clear no, the partnership is wrong regardless of the fee.</p>
+    <p>How to approach brands: Build a one-page brand kit. Separate from your EPK. It contains: your audience demographics (age range, cities, monthly listeners, social following), your content output (what you make, how often, where), and a rate card or fee range. Approach brands whose products your audience already uses. Your Instagram Stories analytics tell you where your audience is and what they respond to — that is the data a brand needs to say yes.</p>
+
+    <h3>What Sync Licensing Is</h3>
+    <p>Sync licensing is the right to use your music in visual media: films, web series, ads, video games, YouTube videos, corporate presentations. Every time you hear a song under a scene in a Netflix show, that placement was a sync deal. The music owner received a sync fee (one-time, for the right to use the music) and continues to receive performance royalties every time the show airs or streams.</p>
+    <p>In India, the sync market is growing as OTT platforms (Netflix India, Amazon Prime India, Disney+ Hotstar, SonyLIV, ZEE5) commission original Indian content. These platforms actively seek music that fits the tone of their productions — and they frequently cannot afford or cannot license the Bollywood tracks that would be their first choice. Independent artists are the alternative market.</p>
+
+    <h3>How to Get Sync Placements</h3>
+    <p>The primary channels in India:</p>
+    <ul>
+      <li><strong>Music supervisors at production houses:</strong> The people who select music for Indian web series and films. Research production companies for shows in your genre. Most music supervisors are reachable via LinkedIn. A brief email with a streaming link and a description of the sonic mood of your catalog is sufficient first contact.</li>
+      <li><strong>Sync licensing libraries:</strong> Musicbed, Artlist, Epidemic Sound (international). Marmoset, Musicbed, and similar libraries take catalogs from independent artists and license them to video producers. Non-exclusive agreements mean your music can be in a library and still be released on streaming platforms simultaneously.</li>
+      <li><strong>Ad agency music departments:</strong> Large Indian ad agencies (Ogilvy, McCann, Leo Burnett) have in-house music teams that source music for campaigns. Smaller digital agencies source directly from artists. A good cold email with a rate card and three tracks in the relevant mood can open this channel.</li>
+    </ul>
+    <p><strong>What you need in place before pitching sync:</strong> Clear master and composition ownership documented, IPRS and PPL registration, and a one-sentence description of the mood and tempo of each track in your catalog. Music supervisors do not listen to full albums — they search by mood, tempo, and instrumentation.</p>
+  `,
+  checklist: [
+    { text: 'Build a brand kit: audience demographics from Spotify for Artists and Instagram Insights, content output summary, and fee range', why: 'A brand cannot say yes to a partnership without understanding your audience. Build the data summary before the conversation starts.', resources: [] },
+    { text: 'Register with one sync licensing library (Musicbed or Artlist) with your existing catalog', why: 'Sync libraries work passively — your catalog is searchable by video producers and agencies around the world without any further effort from you.', resources: [{ label: 'Musicbed', url: 'https://www.musicbed.com' }, { label: 'Artlist', url: 'https://artlist.io' }] },
+    { text: 'Write a mood and tempo description for your top 5 tracks — this is the metadata sync libraries and music supervisors use to find music', why: 'A track tagged "uptempo, uplifting, acoustic guitar, 120 BPM, suitable for travel and adventure content" is findable. One tagged only with its title is invisible.', resources: [] },
+    { text: 'Identify one OTT production house or ad agency working in your genre space and research their music supervisor', why: 'Direct relationships with music supervisors are worth more than any library placement. One established contact can result in repeat placements across multiple productions.', resources: [] },
+  ]
+},
+
+// ── MERCH & ALTERNATIVE REVENUE ──
+{
+  id: 'merch-revenue',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'Merchandise, Teaching, and Alternative Revenue',
+  tags: ['revenue', 'merch', 'teaching', 'crowdfunding'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Streaming pays a fraction of a paisa per play. Live performance pays well but requires you to be in a room. Merchandise and alternative revenue streams are the income that works while you sleep or travel — and for independent artists at every stage, they can be the difference between a sustainable career and a career that requires a day job to fund.</p>
+
+    <h3>Merchandise — Start Small and Real</h3>
+    <p>The mistake: printing 200 t-shirts with your logo before you know if people will buy them. The correct approach: test with digital or print-on-demand first. Print-on-demand services (Printrove and Qikink in India, Printful for international) produce items only when ordered — no upfront inventory, no unsold stock risk. Start with one item that is genuinely interesting: not a logo t-shirt, but something with your lyric, your artwork, or a visual element that is recognizable to your audience without requiring them to already know who you are.</p>
+    <p>Physical merch sold at shows generates 20–50% margins and builds a direct connection. A fan who buys a t-shirt at your show becomes a walking advertisement in a way that a Spotify listener does not. Price merch at a level that covers print and platform costs plus 50–60% margin. An Rs. 800 cost of production should retail at Rs. 1,400–1,600.</p>
+
+    <h3>Bandcamp — The Fan-Direct Platform</h3>
+    <p>Bandcamp pays artists approximately 80–85% of each sale — significantly higher than any streaming platform. It allows fans to pay more than the listed price (many do, for artists they support). For niche or genre-specific Indian artists, Bandcamp has an established international audience of paying music fans who specifically seek out independent artists. Releasing on Bandcamp alongside Spotify is not in conflict. They serve different listener relationships: Bandcamp buyers are patrons, Spotify listeners are audiences.</p>
+
+    <h3>Teaching and Workshops</h3>
+    <p>If you have production, songwriting, or instrumental skills, teaching is the highest per-hour income available to most independent musicians in India. Online lessons via Zoom charge Rs. 1,500–5,000/hour depending on the artist's profile. A songwriter with a track record can run weekend workshops (4–6 hours) for Rs. 3,000–8,000 per student. This income is immediate, requires no audience size, and builds community — students become fans and often become the most loyal part of your audience over time.</p>
+    <p>Platforms: Unschool, SuperTeacher, and direct Instagram promotion convert fastest for independent artists building a teaching practice.</p>
+
+    <h3>Patreon and Fan Subscriptions</h3>
+    <p>Patreon and similar platforms (Ko-fi, BuyMeACoffee) allow fans to pay a monthly amount for exclusive access — unreleased demos, behind-the-scenes content, early ticket access, direct messaging. The model requires a genuine community, not just an audience. If people follow you passively, Patreon will not convert. If people actively want more access, Patreon converts well even at small scale: 100 patrons at Rs. 300/month is Rs. 30,000/month in recurring income.</p>
+
+    <h3>Bringing Other Skills to the Table</h3>
+    <p>The most stable independent music careers in India are built on a portfolio of skills that overlap with music but extend beyond it. This is not selling out or abandoning the music — it is treating your skills as assets with multiple applications. Your production skills, your ear, your understanding of sound, your ability to perform and communicate — these are valuable in contexts that pay better and more reliably than streaming royalties.</p>
+
+    <h4>Skills That Convert Directly to Income</h4>
+    <table>
+      <tr><th>Skill</th><th>Application</th><th>Rate Range</th></tr>
+      <tr><td>Music production</td><td>Producing other artists' tracks, beats for hire, session production</td><td>Rs. 5,000–50,000/track</td></tr>
+      <tr><td>Mixing and mastering</td><td>Mixing other artists' recordings, mastering for indie releases</td><td>Rs. 2,000–15,000/track</td></tr>
+      <tr><td>Songwriting</td><td>Co-writing for other artists, writing for Bollywood/OTT on commission</td><td>Rs. 10,000–1,00,000/song</td></tr>
+      <tr><td>Session playing / singing</td><td>Studio sessions, live band work, jingle recording</td><td>Rs. 2,000–15,000/session</td></tr>
+      <tr><td>Sound design</td><td>Game audio, app sounds, podcast intros, corporate media</td><td>Rs. 5,000–30,000/project</td></tr>
+      <tr><td>Music for content creators</td><td>YouTube channel background music, podcast themes, custom tracks</td><td>Rs. 3,000–20,000/track</td></tr>
+      <tr><td>Teaching and mentoring</td><td>Online lessons, workshops, masterclasses</td><td>Rs. 1,500–8,000/hour</td></tr>
+    </table>
+
+    <h4>The Jingle and Corporate Music Market</h4>
+    <p>India's corporate video, explainer video, and advertising market is large and systematically underserved by independent musicians who do not know it exists. Companies producing product videos, investor pitch videos, app launch campaigns, and internal training content all need music — and they typically cannot afford the sync fees for existing commercial music. This is your market. A production background and a willingness to produce to brief makes you immediately competitive. Rate: Rs. 8,000–50,000 per commissioned corporate track, with rights varying by arrangement.</p>
+
+    <h4>Content Creator Economy</h4>
+    <p>India now has over 500,000 active YouTube creators and a rapidly growing podcast ecosystem. Most of them use royalty-free or subscription library music. The creators who build loyal audiences often want custom, exclusive music for their channels — an intro, a theme, a recurring motif that no other channel has. This is a direct-to-creator market with no middleman and quick payment cycles. Connect through creator communities (YouTube India Creator groups, podcast network forums) and offer custom work at a rate that reflects your time and skill.</p>
+
+    <h4>Side Income That Builds the Main Career</h4>
+    <p>The framing matters. "Side income" that is completely disconnected from music (bar work, data entry, freelance anything) funds the career but does not build it. Side income that uses your music skills — production, sound design, teaching, session work — funds the career AND builds skills, relationships, and credits that serve the main career. Every session you play builds your ear. Every artist you produce introduces you to their network. Every student you teach potentially becomes a collaborator or audience member. Choose side income that compounds, not just income that subsidizes.</p>
+  `,
+  checklist: [
+    { text: 'Set up a Bandcamp page and upload your catalog — price albums at Rs. 150–300 and singles at Rs. 50–80', why: 'Bandcamp pays 80–85% of each sale to artists and serves an international audience of paying music fans. It requires no minimum listener count and works at any career stage.', resources: [{ label: 'Bandcamp', url: 'https://bandcamp.com' }] },
+    { text: 'Test one print-on-demand merch item via Printrove or Qikink — lyric or artwork-based, not a logo shirt', why: 'Print-on-demand requires zero upfront investment. One item that resonates with your existing audience validates the merch channel before you invest in inventory.', resources: [{ label: 'Printrove', url: 'https://printrove.com' }, { label: 'Qikink', url: 'https://qikink.com' }] },
+    { text: 'List your production or songwriting skills on SoundBetter or Fiverr and set a rate for one service this week', why: 'The freelance music services market is active and pays faster than streaming. One produced track for another artist generates more immediate income than a thousand streams — and builds your credit and network simultaneously.', resources: [{ label: 'SoundBetter', url: 'https://soundbetter.com' }, { label: 'Fiverr Music', url: 'https://www.fiverr.com/categories/music-audio' }] },
+    { text: 'Identify 3 Indian YouTube creators or podcasters in a genre adjacent to your music and pitch them a custom intro or theme track', why: 'Creators with growing channels want exclusive music. The rate is negotiable, the relationship is direct, and if their channel grows your credit grows with it.', resources: [{ label: 'YouTube Creator Community India', url: 'https://www.youtube.com/intl/en_in/creators' }] },
+    { text: 'If you have production or songwriting skills, price one online teaching session and offer it to your audience this month', why: 'Teaching is the highest per-hour income available to most independent musicians at any stage. One student relationship often creates a fan relationship that outlasts the teaching engagement.', resources: [{ label: 'Teachable (build a course)', url: 'https://teachable.com' }, { label: 'Ko-fi (simple fan support)', url: 'https://ko-fi.com' }] },
+  ]
+},
+
+// ── PROPAGATING AN IDEA ──
+{
+  id: 'propagating-idea',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'How Ideas Propagate — The Fundamentals of Turning Music Into a Movement',
+  tags: ['strategy', 'marketing', 'culture', 'ideas'],
+  readTime: '8 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The history of every artist who built something that lasted is the history of an idea that spread. Not a marketing plan — an idea that was genuinely interesting enough, or genuinely useful enough, or genuinely true enough that other people wanted to carry it. Understanding how ideas move is the underlying skill that most music business education does not teach.</p>
+
+    <h3>Ideas Move Through People, Not Channels</h3>
+    <p>Malcolm Gladwell's framing in The Tipping Point still holds: ideas reach critical mass through connectors (people with large networks who bridge communities), mavens (people who are deeply embedded in a scene and whose opinion carries weight), and salespeople (people who can persuade the unconvinced). In music, these are: the DJ or playlist curator who reaches a large audience, the critic or blogger who the scene trusts, and the artist who can explain why something matters to someone not already listening.</p>
+    <p>The implication: who you need to reach is not your general audience. It is the connectors, mavens, and early persuaders within your scene. Fifteen people of the right kind talking about your music will generate more traction than fifteen thousand people seeing an ad.</p>
+
+    <h3>What Other Arts Can Teach Music</h3>
+    <p><strong>Publishing:</strong> Books spread through what Malcolm Gladwell calls "social proof" — not just that a book exists, but that a person you respect has read it. Authors who build an audience do it through sustained engagement with a specific idea over multiple works, not a single breakthrough. The music equivalent is a consistent body of work with a recognizable point of view, not a series of genre experiments.</p>
+    <p><strong>Film:</strong> The films that propagate — that people tell each other to watch — do so because they generate something to talk about after the credits. The director's craft is invisible. What is visible is the emotional experience, the idea, the question the film leaves you with. The most-shared music works the same way: it leaves you with something — a phrase that keeps replaying, a feeling that does not resolve, a reference that makes you want to find the original.</p>
+    <p><strong>Visual art:</strong> Street art and the post-internet art world demonstrate that geography is no longer a gatekeeper. An artist with a distinctive visual language can build an international following before a gallery ever offers representation. The music equivalent is: a distinctive sonic identity is platform-agnostic. It travels.</p>
+    <p><strong>Fashion and subculture:</strong> Every major music movement emerged from a subculture first — a specific community, a specific geography, a specific grievance or aspiration. Hip-hop from the Bronx, grime from East London, Sufi qawwali from the dargahs. These scenes were coherent communities before they were mass movements. DIVINE did not emerge from a marketing campaign — he emerged from Mumbai's underground hip-hop scene as its most articulate voice. The scene came first. The reach followed.</p>
+
+    <h3>The Monetization of an Idea</h3>
+    <p>Monetization follows proof of concept. The sequence is: the idea gains traction among a small number of people who care deeply, that core audience tells others, the idea becomes visible enough to attract commercial interest (labels, brands, press, events), at which point monetization options multiply.</p>
+    <p>Trying to monetize before proof of concept — selling merchandise to a non-existent audience, pitching brands with no engagement data, approaching labels with no evidence of demand — almost always fails and often damages the relationships needed for when the proof of concept arrives.</p>
+    <p>The artists who monetize well understand that money follows value, not the other way around. The question to ask at every stage: what value does this create for a specific person? Not "what can I sell?" but "what does this listener need that I am the right person to provide?"</p>
+
+    <div class="callout callout-key">
+      <strong>Ryan Holiday's concept of "The Canvas Strategy"</strong> (from Ego Is the Enemy) applies directly: at the beginning of a career, your job is to make other people's boats rise. Promote other artists. Make connections for people. Create opportunities that reflect well on someone else. Build the canvas on which your own story will eventually be painted. This is how the most important relationships in Indian indie music were built — DIVINE and Naezy, Ritviz and the NH7 Weekender programming team, AP Dhillon and his production circle. Collaboration and generosity of attention before it was commercially rational.
+    </div>
+
+    <h3>The Specific vs. The Universal</h3>
+    <p>The most propagatable ideas are specific. "Mumbai indie hip-hop" spread because it was specific — a city, a culture, a language, a set of reference points that people inside it recognized immediately. "Indian independent music" is too broad to be an identity that spreads. Your sonic identity works the same way. The more precisely you can describe what you make — the geography, the emotion, the specific instruments, the cultural intersection — the easier it is for listeners to place you, remember you, and tell someone else about you.</p>
+    <p>The paradox: the more specific you are, the more universal your reach. The most specific songs — about a specific heartbreak, a specific street, a specific moment — reach the most people. The most generic songs — about love, about life, about hope — reach the fewest, because there is nothing specific to hold onto.</p>
+  `,
+  checklist: [
+    { text: 'Identify the 10 people in your city whose opinion about music you most respect — these are your mavens. Build a real relationship with at least 3 of them.', why: 'Ideas spread through people who carry credibility within a community. The opinion of 3 trusted mavens is worth more for your early traction than 3,000 algorithmic impressions.', resources: [{ label: 'The Tipping Point — Malcolm Gladwell', url: 'https://www.goodreads.com/book/show/2612.The_Tipping_Point' }] },
+    { text: 'Write one paragraph describing your music in specific terms: city, cultural reference points, instruments, the emotion the music creates. Use it everywhere.', why: 'Specific descriptions travel. Generic ones do not. "Bengaluru-based producer whose beats sit between Carnatic music and UK bass" is something a journalist can quote and a listener can search for.', resources: [{ label: 'Wild City — see how Indian artists describe themselves', url: 'https://www.thewildcity.com' }] },
+    { text: 'Read The Tipping Point (Gladwell) or Contagious (Berger) — understand how ideas spread before you try to make yours spread', why: 'The mechanics of idea propagation are documented and learnable. Most artists operate on instinct and hope. Understanding the science gives you a material advantage.', resources: [{ label: 'Contagious — Jonah Berger', url: 'https://www.goodreads.com/book/show/15801967-contagious' }, { label: 'Ego Is the Enemy — Ryan Holiday', url: 'https://www.goodreads.com/book/show/27036528-ego-is-the-enemy' }] },
+    { text: 'Apply the canvas strategy for one month: promote other artists\' work before your own, make introductions, offer help without immediate return', why: 'The most valuable professional relationships in Indian indie music were built through exactly this approach. Generosity of attention before commercial interest is the foundation that makes everything else possible.', resources: [{ label: 'Ryan Holiday — The Canvas Strategy explained', url: 'https://ryanholiday.net/the-canvas-strategy' }] },
+  ]
+},
+
+// ── MENTAL GAME ──
+{
+  id: 'mental-game',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'The Mental Game — How to Stay Consistent When Nothing Is Happening',
+  tags: ['mindset', 'consistency', 'sustainability'],
+  readTime: '6 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>Inconsistency is the most common reason independent music careers stall or die. Not lack of talent, not lack of money, not bad luck with timing. The pattern is almost always the same: an artist releases something, the response is smaller than they hoped, the gap between the expectation and the reality creates a period of silence, and during that silence the audience forgets, the momentum disappears, and restarting requires twice the effort of continuing.</p>
+
+    <h3>Why the Gap Happens</h3>
+    <p>The gap is not about giving up. Most artists who go quiet are not quitting — they are waiting. Waiting for the right song, the right moment, the right collaborator, the right equipment, the right feeling of readiness. This waiting is rationalized and feels responsible. It is not. The artist waiting for readiness and the artist working through unreadiness are in different positions three years later — not because one is more talented, but because one has a body of work and the other has a perfect unreleased album in their head.</p>
+
+    <div class="callout callout-warning">
+      <strong>The creative process rewards showing up, not waiting to feel inspired.</strong> Prateek Kuhad wrote "cold/mess" — one of the most-streamed Indian indie tracks of the 2010s — in a period he describes as creatively dry. The songs that matter rarely announce themselves as important when you are making them. Show up to the process and let the output sort itself out.
+    </div>
+
+    <h3>Building a Sustainable Creative Routine</h3>
+    <p>Sustainable means: you can do it at your lowest energy level, on your worst day, during a week where nothing else is going well. If your creative routine only works when inspiration is present, it is not a routine — it is a streak waiting to end.</p>
+    <p>Practical anchors:</p>
+    <ul>
+      <li><strong>A non-negotiable time block:</strong> Not "I'll write when I feel like it." A specific time slot (30 minutes, three mornings a week) that is protected from everything else. Small and consistent beats large and intermittent.</li>
+      <li><strong>A process output, not a quality output:</strong> The commitment is to show up and make something, not to make something good. Bad demos, discarded ideas, and failed experiments are not wasted time — they are the substrate for the work that eventually works.</li>
+      <li><strong>A public commitment with a low bar:</strong> Telling your audience "I'm going to share one piece of work-in-progress every month" creates social accountability without requiring a full release. Behind-the-scenes content, voice memos, rough mixes — these satisfy the commitment and keep the audience engaged between releases.</li>
+    </ul>
+
+    <h3>Managing Rejection and Slow Periods</h3>
+    <p>Every artist has slow periods. The metrics that feel important — streams, followers, playlist adds — move slowly and inconsistently. The mistake is measuring the work by the metrics during the period when the metrics have not caught up with the work. This creates a feedback loop where the slow period produces less work, which produces slower metrics, which produces a longer slow period.</p>
+    <p>The reframe: slow periods are when the work compounds without visible reward. Every track released in a slow period is in the catalog when the non-slow period arrives. The artists who break through are almost always the ones who continued building the body of work through the years when nothing seemed to be happening. Hanumankind was not a sudden discovery — he was an artist who had been building for years before "Big Dawgs" reached a global audience in 2024. The catalog and the consistency were what made it possible for the moment to matter when it arrived.</p>
+
+    <h3>When to Take a Break vs. When to Push Through</h3>
+    <p>A break is strategically valuable when: you have just completed a significant body of work (an album, an EP, a tour) and need to refill the creative reservoir. It is not valuable when: you are in the middle of a project that just got hard, or you are avoiding the discomfort of a song that is not working. Know the difference. The discomfort of creative difficulty is not the same as burnout. Burnout has a timeline (3–6 months to recover from genuine creative depletion). Creative difficulty is solved by sitting with the problem, not by stepping away from it.</p>
+  `,
+  checklist: [
+    { text: 'Set a minimum creative output commitment for the next 90 days — specific, low, and non-negotiable', why: 'Consistent small output beats intermittent large output every time for building a career and maintaining creative muscle. The commitment should be achievable on your worst week.', resources: [{ label: 'The War of Art — Steven Pressfield', url: 'https://www.goodreads.com/book/show/1319.The_War_of_Art' }, { label: 'Austin Kleon — Steal Like an Artist', url: 'https://austinkleon.com/steal' }] },
+    { text: 'Separate your creative process metrics (hours in, material generated) from your platform metrics (streams, followers) for 30 days', why: 'Platform metrics lag the work by weeks to months. Measuring your creative health by platform numbers in real time creates false negative feedback during periods when the work is good but the numbers have not caught up.', resources: [{ label: 'Spotify for Artists (track your real numbers)', url: 'https://artists.spotify.com' }] },
+    { text: 'Read about one artist who built their career during a long slow period before a breakthrough — understand the timeline', why: 'Most Indian indie success stories have multi-year quiet periods before the inflection point. Understanding that the slow period is structural, not a sign of failure, changes how you navigate it.', resources: [{ label: 'Wild City Interviews archive', url: 'https://www.thewildcity.com/interviews' }, { label: 'Homegrown Artist Features', url: 'https://homegrown.co.in/music' }] },
+  ]
+},
+
+// ── WHEN TO GET A MANAGER ──
+{
+  id: 'manager-team',
+  phase: 'phase4',
+  phaseName: 'Phase 4: Revenue',
+  title: 'When to Get a Manager — and What They Actually Do',
+  tags: ['management', 'team', 'business', 'scaling'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <p>The most common mistake artists make with management: getting a manager too early, usually because they want someone else to handle the business side of a career that is not yet generating enough business to justify it. A manager is a business partner, not an assistant. They should accelerate a career that is already moving, not substitute for the infrastructure work the artist has not done.</p>
+
+    <h3>What a Manager Actually Does</h3>
+    <ul>
+      <li>Negotiates booking fees, brand deals, sync placements, and label conversations on your behalf</li>
+      <li>Manages your calendar and filters opportunities so you focus on creative work</li>
+      <li>Builds and maintains relationships with bookers, press, labels, and brands — the relationships that require sustained human attention</li>
+      <li>Structures your career strategy across a 12–36 month horizon</li>
+      <li>Handles the administrative side of your business: contracts, invoices, royalty tracking, rights management</li>
+    </ul>
+    <p>A manager does not: create the music, grow your social media following, write your press pitches, generate the initial demand that makes you bookable, or replace a good distributor and booking agent.</p>
+
+    <h3>When You Are Ready for a Manager</h3>
+    <p>The pragmatic signals: you are earning enough from music that 15–20% of it (the standard management commission in India) represents meaningful compensation, AND you are turning down opportunities because you do not have time to manage them, AND you have a clear sense of where your career is going and need someone to execute on that direction rather than someone to define it for you.</p>
+    <p>If any of those three conditions is not met, you do not need a manager — you need to build the foundations until they are. An artist who approaches a manager before these conditions are met is asking the manager to work for equity in a speculative venture. Good managers do not take those arrangements, or they take them and do not prioritize the relationship.</p>
+
+    <h3>How to Find and Approach a Manager in India</h3>
+    <p>The management landscape in India for independent artists is small and relationship-driven. Most managers who work with independent artists come from within the scene: they are former artists, booking agents, or event promoters who transitioned into management. Finding them happens through the network, not through applications.</p>
+    <p>The approach: be the artist any manager would want to manage. Have your rights in order (IPRS, PPL, trademarks), have a clean catalog on streaming platforms with a consistent release history, have your EPK updated and professional, have a clear sense of your audience and your next 12 months. Then the conversation with a manager is about alignment and acceleration, not about whether you are ready.</p>
+
+    <div class="callout callout-tip">
+      <strong>Standard management terms in India:</strong> 15–20% of gross income from music activities. Contract duration: 12–24 months with a 30–60 day notice clause. Key person clause (if the specific manager leaves the company, the contract terminates). Never sign a management deal without having a music industry lawyer review it first.
+    </div>
+
+    <h3>The Team You Need Before a Manager</h3>
+    <p>In order of priority: a music industry accountant (for GST, income tax, and royalty tracking), a music lawyer (for contract review, rights documentation), a booking agent (separate from management — handles show bookings on 10–15% commission), and then a manager when the above are in place and the career justifies the overhead.</p>
+  `,
+  checklist: [
+    { text: 'Assess honestly: are you turning down opportunities due to time constraints, or is there still work to do on the foundations?', why: 'Management is an accelerator, not a foundation-builder. The honest assessment of which problem you have determines whether management is the right next step or a distraction from the real work.', resources: [] },
+    { text: 'Research music industry lawyers in India and build a relationship with one before you need them urgently', why: 'Contracts, management agreements, and label deals all require legal review. Finding a lawyer when you urgently need one means accepting whoever is available. Build the relationship before the urgency.', resources: [] },
+    { text: 'When you approach a potential manager, bring: clean rights documentation, a release history, an EPK, and a clear 12-month career direction', why: 'A manager evaluates whether you are manageable and whether the career is worth their time. These four things demonstrate both. Showing up without them signals that the foundations are not yet in place.', resources: [] },
+  ]
+},
+
+// ── RIGHTS ──
+{
+  id: 'rights-registration',
+  phase: 'rights',
+  phaseName: 'Rights & Infrastructure',
+  title: 'Registrations, Rights, and Licenses',
+  tags: ['rights', 'IPRS', 'legal'],
+  readTime: '8 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="callout callout-warning">
+      <strong>Approximately 90% of eligible Indian artists are not registered with IPRS or PPL India.</strong> IPRS paid out Rs. 700 crore in FY 2024-25 — a 42% increase. This money is being distributed to the artists who registered. If you are not registered, your share goes to those who are.
+    </div>
+    <h3>The Registration Stack — In Priority Order</h3>
+    <table>
+      <tr><th>Registration</th><th>What It Covers</th><th>Cost</th><th>When</th></tr>
+      <tr><td><strong>IPRS</strong></td><td>Composition royalties (performance, broadcast, streaming)</td><td>Rs. 1,000–5,000 one-time</td><td>Before your first release</td></tr>
+      <tr><td><strong>PPL India</strong></td><td>Master recording royalties (public performance, radio)</td><td>Rs. 500</td><td>Before your first release</td></tr>
+      <tr><td><strong>Copyright</strong></td><td>Legal documentation of ownership</td><td>Rs. 500 per work</td><td>For major releases</td></tr>
+      <tr><td><strong>Trademark (artist name)</strong></td><td>Protects your name from use by others</td><td>Rs. 4,500–9,000</td><td>After first income</td></tr>
+      <tr><td><strong>MSME/Udyam</strong></td><td>Business registration; GST eligibility</td><td>Free</td><td>When music income is consistent</td></tr>
+    </table>
+    <h3>Understanding Your Rights</h3>
+    <p><strong>Composition right:</strong> The melody and lyrics. Registered with IPRS. Lasts for your lifetime + 60 years under Indian copyright law. Every live performance, radio play, and streaming of your composition earns royalties — but only if you are registered.</p>
+    <p><strong>Master recording right:</strong> The specific recording of your composition. Registered with PPL India. Earns royalties when your recording is played publicly — in venues, on radio, at events.</p>
+    <p>If you write and record your own music, you own both rights. This dual ownership is the most financially powerful position in music.</p>
+  `,
+  checklist: [
+    { text: 'Register with IPRS — complete before your next release', why: 'Every song you write earns performance royalties when played live or broadcast. Life + 60 years under Indian copyright. Rs. 700 crore paid out in FY25.', resources: [{ label: 'iprs.org', url: 'https://www.iprs.org' }] },
+    { text: 'Register with PPL India', why: 'Public performance royalties from venues, radio, and events that play your recordings. Separate from IPRS and often overlooked.', resources: [{ label: 'pplindia.org', url: 'https://pplindia.org' }] },
+    { text: 'Submit trademark application for your artist name at IP India', why: 'Protects your name from being registered by someone else. Becomes valuable as soon as your name has any market recognition.', resources: [{ label: 'ipindia.gov.in', url: 'https://ipindia.gov.in' }] },
+    { text: 'Register MSME / Udyam once music income is consistent', why: 'Enables GST registration, business banking, and formalises your music practice as a business entity.', resources: [{ label: 'udyamregistration.gov.in', url: 'https://udyamregistration.gov.in' }] },
+  ]
+},
+
+// ── CASE STUDIES ──
+{
+  id: 'case-divine',
+  phase: 'casestudies',
+  phaseName: 'Case Studies',
+  title: 'DIVINE — Specificity as Strategy',
+  tags: ['case study'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="stage-pill stage-emerging">Starting point: Dharavi. No studio. No connections.</div>
+    <p>Vivian Fernandes (DIVINE) began releasing tracks recorded in basic setups that were specific about his life — Dharavi, the streets, the particular texture of growing up where he grew up. "Yeh Mera Bombay" was not a universal track. It was hyper-specific. That specificity was the strategy.</p>
+    <p>He was not trying to sound like Bollywood rap. He was trying to sound like himself.</p>
+    <h3>The Move That Changed Everything</h3>
+    <p>Collaborating with Naezy on "Mere Gully Mein" (2015) — a track that went viral not because of production quality (it was made in basic conditions) but because of cultural specificity and authenticity that no studio production could manufacture. The track reached Zoya Akhtar and became the documentary, then the feature film Gully Boy.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> Being extremely specific about your origin, community, and perspective is not a limitation. In a market full of generic ambition, specificity is the rarest and most valuable differentiator. DIVINE did not change who he was to fit the market. He built an audience for who he was.
+    </div>
+    <h3>What He Built Without Gatekeepers</h3>
+    <p>A live show following, a strong digital presence, and enough cultural credibility to be the authentic foundation for one of India's most successful music films — without ever having been signed to a major label before the film.</p>
+  `,
+  checklist: []
+},
+{
+  id: 'case-hanumankind',
+  phase: 'casestudies',
+  phaseName: 'Case Studies',
+  title: 'Hanumankind — A Decade Before the Moment',
+  tags: ['case study'],
+  readTime: '4 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="stage-pill stage-growing">Starting point: Kerala. Regional hip-hop. No mainstream presence for years.</div>
+    <p>Sooraj Cherukat built deeply within the Kerala and South Indian hip-hop community for the better part of a decade. Consistent releases, consistent live performance, consistent community presence. No mainstream crossover. No Hindi language compromise.</p>
+    <h3>The Move</h3>
+    <p>"Big Dawgs" with Kalmi (2024) — produced with minimal budget, released independently, went globally viral. The song reached #1 on Spotify global charts in several markets, was streamed by international celebrities, and generated tens of millions of streams. None of this was engineered. It was earned.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> A decade of building community before the moment of global visibility. The viral success was not separate from the years of quiet work — it was the harvest of them. The song did not sound like a crossover attempt. It sounded like itself, which is why it crossed over.
+    </div>
+    <p>Algorithms can only amplify what already exists. There was no shortcut to "Big Dawgs." There was ten years of "Big Dawgs."</p>
+  `,
+  checklist: []
+},
+{
+  id: 'case-ap-dhillon',
+  phase: 'casestudies',
+  phaseName: 'Case Studies',
+  title: 'AP Dhillon — Sequence of Platform Building',
+  tags: ['case study'],
+  readTime: '4 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="stage-pill stage-growing">Starting point: Canadian-Indian. No Bollywood connections. No major label.</div>
+    <p>AP Dhillon created a new sound — Punjabi R&B — that did not exist in the mainstream. Built by a team (him, Gurinder Gill, Shinda Kahlon — Run-Up Records) that understood both cultures from the inside.</p>
+    <h3>The Distribution Strategy</h3>
+    <p>Systematic release cadence. Targeted Punjabi diaspora platforms. Built a streaming profile before touring. When he performed live, it was to audiences that already knew every word. This inverted the conventional model — build live audience, then streaming — and worked precisely because his music was discovered primarily through digital platforms.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> The sequence of platform building matters. Different genres have different discovery sequences. Punjabi music has a diaspora streaming-first discovery pattern. AP Dhillon built for that pattern deliberately. Know your genre's discovery sequence and build accordingly.
+    </div>
+  `,
+  checklist: []
+},
+{
+  id: 'case-ritviz',
+  phase: 'casestudies',
+  phaseName: 'Case Studies',
+  title: 'Ritviz — Brand Partnership as Production Funding',
+  tags: ['case study'],
+  readTime: '4 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="stage-pill stage-growing">Starting point: Classical music training. Electronic music from a laptop. No label.</div>
+    <p>"Udd Gaye" was produced for Bacardi's NH7 Weekender House Party Sessions — a brand-funded creation context that gave him professional production resources without requiring label sign-on. The brand deal funded the music that built the career.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> Brand partnerships, when structured correctly, are not compromise — they are production funding that preserves ownership. Ritviz retained his artistic identity completely. The Bacardi association amplified reach without directing content. Seek brand funding that gives resources without giving editorial control.
+    </div>
+  `,
+  checklist: []
+},
+
+{
+  id: 'case-aditi-soulmate',
+  phase: 'casestudies',
+  phaseName: 'Case Studies',
+  title: 'Aditi Ramesh and Soulmate — Building Without the Bollywood Door',
+  tags: ['case study'],
+  readTime: '5 min',
+  forTypes: ['songwriter','instrumentalist','producer','all'],
+  content: `
+    <div class="stage-pill stage-emerging">Two artists. Two cities. One consistent pattern.</div>
+    <p>The independent music industry in India has long been framed as a male space. The data and the history say otherwise — but the paths women have taken to build lasting careers have often been structurally different, and understanding those paths is useful for every artist, regardless of gender.</p>
+
+    <h3>Aditi Ramesh — Genre as Identity</h3>
+    <div class="stage-pill stage-growing">Starting point: Berklee College of Music graduate. Moved to Bengaluru. No label backing.</div>
+    <p>Aditi Ramesh built her career in a genre — jazz, soul, funk — that has almost no commercial infrastructure in India. No radio play, no festival circuits designed for it, no Bollywood adjacency. She did it by treating the absence of infrastructure as creative freedom: self-produced releases, consistent live gigging in Bengaluru's small venues, and a willingness to collaborate across genre lines (she appeared on Coke Studio's third season alongside classical and folk artists, expanding her reach without changing her sound).</p>
+    <p>Her consistency was quiet — she did not have a breakout moment, she had a body of work that accumulated credibility over years. Press coverage in Wild City and Homegrown came because the work was specific and sustained, not because of a single viral moment.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> Genre obscurity is not a barrier when the identity is specific enough. Aditi Ramesh's audience found her because she was the only person making that exact sound in that exact space. Specificity creates findability even in the absence of commercial infrastructure.
+    </div>
+
+    <h3>Soulmate (Tipriti Kharbangar) — Scene as Origin, Not Destination</h3>
+    <div class="stage-pill stage-growing">Starting point: Shillong's live music scene. Northeast India. Blues and rock. No Mumbai or Delhi infrastructure.</div>
+    <p>Soulmate — Tipriti Kharbangar (lead vocals) and Rudy Wallang (guitar) — built one of India's most respected live music reputations from Shillong, a city that has no commercial music industry presence. They were regulars on the NH7 Weekender circuit, won NH7 Weekender awards multiple times, and built a following that is geographically distributed but deeply loyal — the kind of following that follows an artist across cities because they trust the show will be worth traveling for.</p>
+    <p>The key: Shillong's existing live music culture (it has one of the highest concentrations of working musicians per capita of any Indian city) gave them a scene to perform in and an audience that understood their references. They did not move to Mumbai to access the music industry. They made the music industry come to them by becoming undeniably good at something specific.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> Geography is not destiny. The music industry will travel to where the quality is. Building deeply in a smaller city — rather than competing in a saturated major market before you are ready — can create a more durable foundation.
+    </div>
+
+    <h3>Monica Dogra — Identity as the Product</h3>
+    <div class="stage-pill stage-established">Starting point: Half-Indian, American-educated. Returned to Mumbai. Founded Shaa'ir + Func.</div>
+    <p>Monica Dogra's career demonstrates a principle the Indian indie industry needed someone to prove: that an artist can have a distinct visual and sonic identity that is commercially valuable without Bollywood endorsement. Shaa'ir + Func built a following through live performance and a visual aesthetic that was coherent — you could identify their show from across a festival field before you heard a note. That visual identity became the foundation for brand partnerships, acting roles, and press coverage that compounded over years.</p>
+    <div class="callout callout-key">
+      <strong>The lesson:</strong> The visual identity is as important as the sonic identity. An artist who looks like a specific thing and sounds like a specific thing is double as findable. The clarity of Monica Dogra's public persona — the aesthetic, the values, the stage presence — made her commercially legible in ways that pure sonic quality alone would not have achieved as quickly.
+    </div>
+  `,
+  checklist: []
+},
+
+]; // end SECTIONS
+
+// ─── JOURNEY CONTENT BUILDERS ───
+function buildJourneyContent(type, horizon) {
+  const data = {
+    songwriter: {
+      '90': {
+        creation: [
+          'Write and demo a minimum of 3 original songs — 2 in your core sound, 1 experiment',
+          'Record and release 1 of these 3 at release quality — not necessarily expensive, but intentionally produced',
+          'Record 1 cover of a widely-recognised song in your sonic style — this is the algorithm entry point, not a creative statement',
+          'Establish your home recording setup: at minimum a condenser mic, audio interface, and a DAW',
+          'Document all writing sessions: voice memos, rough demos — volume of ideas is non-negotiable at this stage',
+        ],
+        distribution: [
+          'Register with one distributor (DistroKid or TuneCore India) and distribute first release to Spotify, Apple Music, YouTube Music, JioSaavn, and Gaana',
+          'Set up Spotify for Artists and Apple Music for Artists — customise bio, photos, and artist pick',
+          'Submit first release for Spotify editorial consideration at least 7 days before release date',
+          'Create a YouTube channel with consistent visual branding: one lyric video or visualiser + the cover video',
+          'Post to Instagram twice a week minimum: one content post, one promotional post',
+          'Submit to 2–3 independent blogs or playlists via SubmitHub (budget USD 20 for credits)',
+        ],
+        network: [
+          'Identify 5–8 people in your city: one venue owner, two fellow artists at similar stage, one journalist, one photographer, one producer',
+          'Attend 2–3 local shows and introduce yourself — not to promote, to build context',
+          'Join 2 online music communities (Reddit r/indieindia, Facebook indie groups): contribute before you extract',
+          'Cold-email or DM one playlist curator per week with a personalised, specific pitch',
+        ],
+        credibility: [
+          'Register with IPRS: Rs. 1,000–5,000 one-time fee. Every composition earns when played live or broadcast.',
+          'Have 3 recorded tracks online — the threshold below which you are not taken seriously for bookings or press',
+          'Play your first live show: even an open mic or house concert counts',
+          'Get one press mention — a local blog, student newspaper, or online indie publication',
+        ],
+      }
+    },
+    instrumentalist: {
+      '90': {
+        creation: [
+          'Record 2 original instrumentals at release quality: one atmospheric/emotional, one technically demonstrative',
+          'Produce 3 tutorial or process videos for YouTube: "How I made [track]", technique breakdowns, or theory in your genre context',
+          'Create 1 ambient/background music track specifically for YouTube Background Music playlists (5–10 minutes, high-quality mix)',
+          'Document your instrument\'s role in everyday life: practice sessions, street performances, studio visits — this is free Instagram content',
+        ],
+        distribution: [
+          'Distribute originals to all streaming platforms via DistroKid or TuneCore',
+          'YouTube is primary: upload tutorial videos with proper SEO — titles like "Indian Classical Guitar Meets Electronic — How I Made This"',
+          'Submit to YouTube Background Music playlists and Epidemic Sound-style platforms for passive licensing revenue',
+          'Set up JioSaavn and Gaana profiles — instrumentals are heavily used in meditation, study, and background playlists',
+        ],
+        network: [
+          'Reach out to 2–3 music teachers in your city: they know students and parents who need recitalists, accompanists, and teachers',
+          'Contact 2 yoga studios, wellness centres, or meditation spaces for live performance opportunities',
+          'Message 3 filmmakers on YouTube who use licensed music: introduce yourself and your catalog',
+        ],
+        credibility: [
+          'Register with PPL India (Rs. 500): enables public performance royalties from venues, radio, and events',
+          'Register with IPRS if you compose your own material',
+          'One live performance documented and posted: even a 90-second Instagram clip of a street performance or café session',
+        ],
+      }
+    },
+    producer: {
+      '90': {
+        creation: [
+          'Upload 10–15 beats to BeatStars: minimum viable catalog. Variation in tempo, key, and mood matters more than volume.',
+          'Produce 3 signature instrumentals that showcase your sound — portfolio pieces, not necessarily for immediate sale',
+          'Make 5 "beat tape" tracks: full productions that stand alone as listening experiences without vocals',
+          'Create a signature sample pack or drum kit (20–30 sounds): even free distribution builds brand recognition',
+        ],
+        distribution: [
+          'Set up BeatStars account (free tier; standard plan USD 9.99/month for unlimited beats): upload with proper tagging (genre, mood, BPM, key)',
+          'Upload beat tape to Spotify and YouTube Music via DistroKid: instrumentals earn money 24/7 with zero marginal cost',
+          'YouTube beat videos: titles like "Hard Trap Beat (Free) | Type Beat Prod. [Your Name] | 140 BPM" — searchable by vocalists globally',
+          'Share free beat pack on Reddit r/WeAreTheMusicMakers, Splice Discord, IndieHeads — community karma before commercial extraction',
+        ],
+        network: [
+          'DM 3–5 vocalists with a free beat and a specific note: "I made this thinking about your sound. No obligation."',
+          'Connect with 2 other producers at a similar level: best source of referrals, collab requests, and feedback',
+          'Attend one open mic specifically to listen for vocalists whose sound fits your production style',
+        ],
+        credibility: [
+          'BeatStars profile with at least 10 beats live: minimum for being discoverable on the platform',
+          'Free pack distributed to at least 100 downloads: early social proof',
+          'First beat sold or licensed — even Rs. 500 or a non-exclusive deal for a small project',
+        ],
+      }
+    }
+  };
+
+  const d = data[type]?.[horizon];
+  if (!d) return '<p>Content not available for this type.</p>';
+
+  let html = '';
+  const dims = [
+    ['Creation', d.creation, '🎨'],
+    ['Distribution', d.distribution, '📡'],
+    ['Network', d.network, '🤝'],
+    ['Credibility', d.credibility, '⭐'],
+  ];
+  for (const [name, items, icon] of dims) {
+    html += `<div class="dimension-block"><div class="dimension-title">${icon} ${name}</div><ul>`;
+    for (const item of items) html += `<li>${item}</li>`;
+    html += `</ul></div>`;
+  }
+  return html;
+}
+
+function getSongwriterChecklist90() {
+  return [
+    { text: 'Register with IPRS before your next release', why: 'Compositions earn royalties when performed live or broadcast. The registration takes 2-4 weeks to process — start now.', resources: [{ label: 'iprs.org', url: 'https://www.iprs.org' }] },
+    { text: 'Set up distributor and distribute all existing catalog', why: 'Every day your music is not on platforms, it is not earning discovery or royalties.', resources: [{ label: 'TuneCore India', url: 'https://www.tunecoreindia.com' }, { label: 'DistroKid', url: 'https://distrokid.com' }] },
+    { text: 'Claim Spotify for Artists, Apple Music for Artists, JioSaavn ArtistOne', why: 'Without claiming these, you cannot submit to editorial playlists or see meaningful analytics.', resources: [{ label: 'Spotify for Artists', url: 'https://artists.spotify.com' }, { label: 'JioSaavn ArtistOne', url: 'https://artistone.jiosaavn.com' }] },
+    { text: 'Submit Spotify editorial pitch at least 7 days before release date', why: 'Editorial playlist placement is the highest-value promotional action an artist can take. 7 days is the minimum — 14 is better.', resources: [] },
+    { text: 'Record 1 cover of a popular song in your style and upload to YouTube', why: 'Cover videos are the most algorithmic-friendly entry point. They drive search traffic from listeners already interested in that song\'s sound.', resources: [] },
+    { text: 'Attend 2–3 local shows and introduce yourself to one person you did not know before', why: 'Local network is where your first bookings, collaborations, and press contacts come from. Shows are the most efficient place to build it.', resources: [] },
+    { text: 'Identify and pitch 3 playlist curators on SubmitHub', why: 'Playlist placement drives streaming growth more efficiently than social media at the emerging stage.', resources: [{ label: 'submithub.com', url: 'https://www.submithub.com' }] },
+    { text: 'Play your first live show — open mic counts', why: 'The gig ladder starts at the bottom. Every rung requires proof you have been on the previous one.', resources: [] },
+  ];
+}
+
+function getInstrumentalistChecklist90() {
+  return [
+    { text: 'Register with PPL India and IPRS', why: 'Public performance and composition royalties. Rs. 500 + Rs. 1,000–5,000 one-time. The registration that most instrumentalists skip and then regret.', resources: [{ label: 'pplindia.org', url: 'https://pplindia.org' }, { label: 'iprs.org', url: 'https://www.iprs.org' }] },
+    { text: 'Create YouTube channel and upload 3 tutorial or process videos', why: 'YouTube rewards music education content algorithmically. A good tutorial from today will generate revenue and followers for 5 years.', resources: [{ label: 'YouTube Studio', url: 'https://studio.youtube.com' }] },
+    { text: 'Distribute originals to all platforms via DistroKid or TuneCore', why: 'Instrumentals earn on meditation, study, and background playlists on JioSaavn and Spotify — passive income that scales without active promotion.', resources: [{ label: 'DistroKid', url: 'https://distrokid.com' }] },
+    { text: 'Create 1 background music track (5–10 min) for YouTube playlists', why: 'Longer background music tracks earn more watch hours on YouTube and qualify for background/ambient playlist placement.', resources: [] },
+    { text: 'Contact 2 yoga studios or wellness spaces about performing', why: 'These venues pay consistently, are underserved, and build a client base that is very different from the festival circuit.', resources: [] },
+    { text: 'Message 3 filmmakers on YouTube who use licensed music', why: 'Short-film and content creator relationships are the most accessible entry point into sync licensing for instrumentalists.', resources: [] },
+    { text: 'Submit instrumental tracks to 2 sync libraries', why: 'One good sync placement can beat months of streaming. Instrumental tracks are often preferred.', resources: [{ label: 'Musicbed', url: 'https://www.musicbed.com' }, { label: 'Artlist', url: 'https://artlist.io' }] },
+  ];
+}
+
+function getProducerChecklist90() {
+  return [
+    { text: 'Upload 10–15 beats to BeatStars with proper tagging', why: 'Below 10 beats, your profile is not taken seriously on the platform. Tagging (genre, BPM, key, mood, similar artists) drives search discovery.', resources: [{ label: 'beatstars.com', url: 'https://www.beatstars.com' }] },
+    { text: 'Create a free beat pack (20–30 sounds) and distribute widely', why: 'Free packs build community recognition and download numbers before you ask for money. Downloads are social proof.', resources: [] },
+    { text: 'Upload beat tape to Spotify and YouTube via distributor', why: 'Instrumental beats on streaming platforms earn royalties 24/7. This is passive income that costs nothing once uploaded.', resources: [{ label: 'DistroKid', url: 'https://distrokid.com' }] },
+    { text: 'Upload 5 YouTube beat videos with searchable titles', why: 'Vocalists globally search for "type beats" on YouTube. These videos are how most beat sales happen — discovery before purchase.', resources: [] },
+    { text: 'DM 3–5 vocalists with a free beat and a specific personalised message', why: 'The beat licensing business is built on relationships. A free beat with a specific note is the most effective first contact.', resources: [] },
+    { text: 'Register with IPRS for any compositions you own', why: 'If you co-write melodies or lyrics with the beats you produce, you own part of the composition right and can register it.', resources: [{ label: 'iprs.org', url: 'https://www.iprs.org' }] },
+    { text: 'Share beat pack in 2 online producer communities', why: 'Reddit r/WeAreTheMusicMakers and Splice Discord are communities where producers support each other. Contribute before you extract.', resources: [] },
+  ];
+}
+
+// ─── STATE ───────────────────────────────────────────────
+let artistType = localStorage.getItem('playbook_artist_type') || null;
+let journeyStage = localStorage.getItem('playbook_journey_stage') || null;
+let currentSectionId = null;
+let selectedTypeCard = null;
+let selectedStageCard = null;
+
+// ─── ONBOARDING ──────────────────────────────────────────
+function showOnboarding() {
+  document.getElementById('onboarding').classList.remove('hidden');
+  document.getElementById('topbar').style.display = 'none';
+  document.getElementById('sidebar').style.display = 'none';
+  document.getElementById('main').style.display = 'none';
+  showStep(1);
+}
+
+function showStep(n) {
+  document.getElementById('ob-step1').style.display = n === 1 ? 'flex' : 'none';
+  document.getElementById('ob-step1').style.flexDirection = 'column';
+  document.getElementById('ob-step1').style.alignItems = 'center';
+  document.getElementById('ob-step2').style.display = n === 2 ? 'flex' : 'none';
+}
+
+function selectType(el) {
+  if (!el) { artistType = 'all'; journeyStage = 'starting'; enterApp(); return; }
+  document.querySelectorAll('.ob-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  artistType = el.dataset.type;
+  setTimeout(() => showStep(2), 200);
+}
+
+function selectStage(el) {
+  document.querySelectorAll('.ob-stage').forEach(s => s.classList.remove('selected'));
+  el.classList.add('selected');
+  journeyStage = el.dataset.stage;
+  document.getElementById('ob-enter-btn').disabled = false;
+}
+
+function enterApp() {
+  if (!artistType) return;
+  localStorage.setItem('playbook_artist_type', artistType);
+  if (journeyStage) localStorage.setItem('playbook_journey_stage', journeyStage);
+  document.getElementById('onboarding').classList.add('hidden');
+  document.getElementById('topbar').style.display = 'flex';
+  document.getElementById('sidebar').style.display = 'block';
+  document.getElementById('main').style.display = 'block';
+  buildSidebar();
+  updateProgress();
+  navigateTo(getDefaultSection());
+}
+
+function getDefaultSection() {
+  return 'identity-problem';
+}
+
+// ─── SIDEBAR ─────────────────────────────────────────────
+const PHASE_ORDER = [
+  { id: 'your-journey', label: 'Your Journey' },
+  { id: 'phase1', label: 'Phase 1: Identity' },
+  { id: 'phase2', label: 'Phase 2: Production' },
+  { id: 'phase3', label: 'Phase 3: Distribution' },
+  { id: 'phase4', label: 'Phase 4: Revenue' },
+  { id: 'phase5', label: 'Phase 5: Scaling' },
+  { id: 'rights', label: 'Rights & Infrastructure' },
+  { id: 'casestudies', label: 'Case Studies' },
+  { id: 'appendix', label: 'Reference' },
+];
+
+function visibleSections() {
+  return SECTIONS.filter(s => {
+    if (s.forTypes.includes('all')) return true;
+    if (artistType === 'all') return true;
+    return s.forTypes.includes(artistType);
+  });
+}
+
+function buildSidebar() {
+  const container = document.getElementById('sidebar-content');
+  const sections = visibleSections();
+  const byPhase = {};
+  for (const s of sections) {
+    if (!byPhase[s.phase]) byPhase[s.phase] = [];
+    byPhase[s.phase].push(s);
+  }
+
+  let html = '';
+  for (const phase of PHASE_ORDER) {
+    const items = byPhase[phase.id];
+    if (!items || items.length === 0) continue;
+    html += `<div class="phase-group">
+      <div class="phase-header" onclick="togglePhase('${phase.id}')">
+        <span>${phase.label}</span>
+        <span class="phase-chevron">▾</span>
+      </div>
+      <div class="phase-items" id="phase-${phase.id}">`;
+    for (const s of items) {
+      const isRead = localStorage.getItem('playbook_read_' + s.id) === '1';
+      const isDimmed = artistType !== 'all' && !s.forTypes.includes(artistType) && !s.forTypes.includes('all');
+      html += `<div class="nav-item${isRead ? ' read' : ''}${isDimmed ? ' dimmed' : ''}" id="nav-${s.id}" onclick="navigateTo('${s.id}')">
+        <div class="nav-dot"></div>
+        <span>${s.title}</span>
+      </div>`;
+    }
+    html += `</div></div>`;
+  }
+  container.innerHTML = html;
+}
+
+function togglePhase(id) {
+  const items = document.getElementById('phase-' + id);
+  const header = items?.previousElementSibling;
+  if (!items) return;
+  const hidden = items.classList.toggle('hidden');
+  header?.classList.toggle('collapsed', hidden);
+}
+
+// ─── NAVIGATION ──────────────────────────────────────────
+function navigateTo(id) {
+  const section = SECTIONS.find(s => s.id === id);
+  if (!section) return;
+  currentSectionId = id;
+
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+  const navEl = document.getElementById('nav-' + id);
+  if (navEl) { navEl.classList.add('active'); navEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+
+  const content = document.getElementById('content');
+  content.classList.remove('fade-in');
+  void content.offsetWidth;
+  content.classList.add('fade-in');
+
+  // Build checklist HTML
+  let checklistHTML = '';
+  if (section.checklist && section.checklist.length > 0) {
+    const completed = section.checklist.filter((_, i) => localStorage.getItem(`playbook_check_${id}_${i}`) === '1').length;
+    checklistHTML = `<div class="checklist-wrap">
+      <div class="checklist-header">
+        <h4>Action Checklist</h4>
+        <span class="checklist-count">${completed} / ${section.checklist.length} done</span>
+      </div>`;
+    section.checklist.forEach((item, i) => {
+      const checked = localStorage.getItem(`playbook_check_${id}_${i}`) === '1';
+      const expanded = localStorage.getItem(`playbook_expanded_${id}_${i}`) === '1';
+      let resourcesHTML = '';
+      if (item.resources && item.resources.length > 0) {
+        resourcesHTML = '<div class="resource-chips">' +
+          item.resources.map(r => `<a href="${r.url}" target="_blank" class="resource-chip">${r.label} ↗</a>`).join('') +
+          '</div>';
+      }
+      checklistHTML += `<div class="check-item">
+        <div class="check-row" onclick="toggleCheck('${id}',${i})">
+          <div class="check-box${checked ? ' checked' : ''}" id="cb-${id}-${i}"></div>
+          <span class="check-label${checked ? ' done' : ''}" id="cl-${id}-${i}">${item.text}</span>
+          ${(item.why || (item.resources && item.resources.length > 0)) ? `<button class="check-expand${expanded ? ' open' : ''}" id="ce-${id}-${i}" onclick="event.stopPropagation();toggleExpand('${id}',${i})">▾</button>` : ''}
+        </div>
+        ${(item.why || (item.resources && item.resources.length > 0)) ? `<div class="check-drawer${expanded ? ' open' : ''}" id="cd-${id}-${i}">
+          ${item.why ? `<div class="check-drawer-why">${item.why}</div>` : ''}
+          ${resourcesHTML}
+        </div>` : ''}
+      </div>`;
+    });
+    checklistHTML += '</div>';
+  }
+
+  // Navigation buttons
+  const allVisible = visibleSections();
+  const idx = allVisible.findIndex(s => s.id === id);
+  const prev = idx > 0 ? allVisible[idx - 1] : null;
+  const next = idx < allVisible.length - 1 ? allVisible[idx + 1] : null;
+  const navFooter = `<div class="nav-footer">
+    ${prev ? `<button class="nav-btn" onclick="navigateTo('${prev.id}')">← ${prev.title}</button>` : '<span></span>'}
+    ${next ? `<button class="nav-btn primary" onclick="navigateTo('${next.id}')">${next.title} →</button>` : ''}
+  </div>`;
+
+  content.innerHTML = `
+    <div class="section-meta">
+      <span>${section.phaseName}</span>
+      <span class="section-tag">${section.readTime}</span>
+      ${section.tags.map(t => `<span class="section-tag">${t}</span>`).join('')}
+    </div>
+    <h1 class="section-title">${section.title}</h1>
+    <div class="section-content">${section.content}</div>
+    ${checklistHTML}
+    ${navFooter}
+  `;
+
+  // Attach credibility ladder interaction if needed
+  if (id === 'roadmap') initLadder();
+
+  // Mark as read after 30s
+  markReadTimer(id);
+  window.location.hash = id;
+}
+
+let readTimer = null;
+function markReadTimer(id) {
+  if (readTimer) clearTimeout(readTimer);
+  readTimer = setTimeout(() => markRead(id), 30000);
+}
+
+function markRead(id) {
+  if (localStorage.getItem('playbook_read_' + id) === '1') return;
+  localStorage.setItem('playbook_read_' + id, '1');
+  const el = document.getElementById('nav-' + id);
+  if (el) el.classList.add('read');
+  updateProgress();
+}
+
+function updateProgress() {
+  const all = visibleSections();
+  const read = all.filter(s => localStorage.getItem('playbook_read_' + s.id) === '1').length;
+  const pct = all.length > 0 ? (read / all.length) * 100 : 0;
+  const fill = document.getElementById('progress-fill');
+  const label = document.getElementById('progress-label');
+  if (fill) fill.style.width = pct + '%';
+  if (label) label.textContent = `${read} / ${all.length} read`;
+}
+
+// ─── CHECKLIST INTERACTIONS ─────────────────────────────
+function toggleCheck(sectionId, idx) {
+  const key = `playbook_check_${sectionId}_${idx}`;
+  const checked = localStorage.getItem(key) === '1';
+  localStorage.setItem(key, checked ? '0' : '1');
+  const box = document.getElementById(`cb-${sectionId}-${idx}`);
+  const label = document.getElementById(`cl-${sectionId}-${idx}`);
+  if (box) box.classList.toggle('checked', !checked);
+  if (label) label.classList.toggle('done', !checked);
+  // Update count
+  const section = SECTIONS.find(s => s.id === sectionId);
+  if (section) {
+    const completed = section.checklist.filter((_, i) => localStorage.getItem(`playbook_check_${sectionId}_${i}`) === '1').length;
+    const countEl = document.querySelector('.checklist-count');
+    if (countEl) countEl.textContent = `${completed} / ${section.checklist.length} done`;
+  }
+  // First check interaction = mark section read
+  markRead(sectionId);
+}
+
+function toggleExpand(sectionId, idx) {
+  const key = `playbook_expanded_${sectionId}_${idx}`;
+  const open = localStorage.getItem(key) === '1';
+  localStorage.setItem(key, open ? '0' : '1');
+  const drawer = document.getElementById(`cd-${sectionId}-${idx}`);
+  const btn = document.getElementById(`ce-${sectionId}-${idx}`);
+  if (drawer) drawer.classList.toggle('open', !open);
+  if (btn) btn.classList.toggle('open', !open);
+}
+
+// ─── CREDIBILITY LADDER ──────────────────────────────────
+function initLadder() {
+  const savedRung = parseInt(localStorage.getItem('playbook_rung') || '0');
+  updateLadderDisplay(savedRung);
+}
+
+function setRung(n) {
+  localStorage.setItem('playbook_rung', n);
+  updateLadderDisplay(n);
+}
+
+function updateLadderDisplay(n) {
+  document.querySelectorAll('.rung').forEach(el => {
+    const r = parseInt(el.dataset.rung);
+    el.classList.remove('active', 'below');
+    if (r === n) el.classList.add('active');
+    else if (r < n) el.classList.add('below');
+  });
+}
+
+// ─── SIDEBAR TOGGLE ──────────────────────────────────────
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-overlay').classList.toggle('open');
+}
+
+// ─── BOOT ────────────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', () => {
+  if (!artistType) {
+    showOnboarding();
+  } else {
+    document.getElementById('onboarding').classList.add('hidden');
+    document.getElementById('topbar').style.display = 'flex';
+    document.getElementById('sidebar').style.display = 'block';
+    document.getElementById('main').style.display = 'block';
+    buildSidebar();
+    updateProgress();
+    const hash = window.location.hash.replace('#', '');
+    navigateTo(hash && SECTIONS.find(s => s.id === hash) ? hash : getDefaultSection());
+  }
+});
+</script>
+</body>
+</html>
