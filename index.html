@@ -20,33 +20,46 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #onboarding.hidden{display:none}
 .ob-logo{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:32px}
 .ob-title{font-size:clamp(22px,4vw,36px);font-weight:800;text-align:center;line-height:1.2;max-width:600px;margin-bottom:12px}
-.ob-sub{font-size:14px;color:var(--muted);text-align:center;margin-bottom:48px;max-width:480px}
+.ob-sub{font-size:14px;color:var(--muted);text-align:center;margin-bottom:36px;max-width:480px}
 .ob-step{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:20px;text-align:center}
-
-/* Type cards */
-.ob-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;width:100%;max-width:720px;margin-bottom:24px}
-.ob-card{background:var(--card-bg);border:2px solid var(--border);border-radius:12px;padding:24px;cursor:pointer;transition:border-color .2s,transform .15s;text-align:left}
-.ob-card:hover{border-color:var(--accent);transform:translateY(-2px)}
-.ob-card.selected{border-color:var(--amber);background:#1c1a12}
-.ob-card-icon{font-size:28px;margin-bottom:12px}
-.ob-card-title{font-size:15px;font-weight:700;margin-bottom:8px}
-.ob-card-desc{font-size:12px;color:var(--muted);line-height:1.6}
-.ob-card-advantage{font-size:11px;color:var(--success);margin-top:10px;font-weight:600}
-
-/* Stage selector */
-.ob-stages{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;width:100%;max-width:720px;margin-bottom:24px}
-.ob-stage{background:var(--card-bg);border:2px solid var(--border);border-radius:10px;padding:18px;cursor:pointer;transition:border-color .2s}
-.ob-stage:hover{border-color:var(--accent)}
-.ob-stage.selected{border-color:var(--amber);background:#1c1a12}
-.ob-stage-title{font-size:13px;font-weight:700;margin-bottom:4px}
-.ob-stage-desc{font-size:11px;color:var(--muted);line-height:1.5}
-.ob-stage-income{font-size:11px;color:var(--amber);margin-top:6px;font-weight:600}
-
 .ob-cta{background:var(--accent);color:#fff;border:none;padding:14px 36px;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer;letter-spacing:.5px;margin-top:8px;transition:opacity .2s}
 .ob-cta:disabled{opacity:.4;cursor:not-allowed}
 .ob-cta:not(:disabled):hover{opacity:.9}
 .ob-skip{font-size:12px;color:var(--muted);margin-top:16px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .ob-back{font-size:12px;color:var(--muted);cursor:pointer;margin-bottom:24px;display:flex;align-items:center;gap:4px}
+
+/* Problem cards (step 0) */
+.ob-prob-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;width:100%;max-width:600px;margin-bottom:16px}
+.ob-prob-card{background:var(--card-bg);border:2px solid var(--border);border-radius:10px;padding:18px;cursor:pointer;transition:border-color .2s,transform .15s;text-align:left}
+.ob-prob-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.ob-prob-card.selected{border-color:var(--amber);background:#1c1a12}
+.ob-prob-icon{font-size:24px;margin-bottom:10px}
+.ob-prob-title{font-size:13px;font-weight:700;color:var(--text);margin-bottom:3px}
+.ob-prob-hint{font-size:11px;color:var(--muted);line-height:1.4}
+
+/* Type cards (step 1) */
+.ob-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;width:100%;max-width:700px;margin-bottom:20px}
+.ob-card{background:var(--card-bg);border:2px solid var(--border);border-radius:12px;padding:20px;cursor:pointer;transition:border-color .2s,transform .15s;text-align:left}
+.ob-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.ob-card.selected{border-color:var(--amber);background:#1c1a12}
+.ob-card-icon{font-size:26px;margin-bottom:10px}
+.ob-card-title{font-size:14px;font-weight:700;margin-bottom:6px}
+.ob-card-desc{font-size:11px;color:var(--muted);line-height:1.5}
+.ob-card-advantage{font-size:10px;color:var(--success);margin-top:8px;font-weight:600}
+
+/* Journey map (step 2) */
+.map-visual{width:100%;max-width:560px;background:var(--sidebar-bg);border:1px solid var(--border);border-radius:12px;padding:28px;margin:20px 0}
+.map-stops{display:flex;align-items:flex-start;position:relative;margin-bottom:20px}
+.map-stops::before{content:'';position:absolute;top:22px;left:22px;right:22px;height:2px;background:linear-gradient(90deg,var(--accent),var(--amber),var(--success),#3498db)}
+.map-stop{display:flex;flex-direction:column;align-items:center;gap:8px;flex:1;position:relative;z-index:1}
+.map-stop-dot{width:44px;height:44px;border-radius:50%;background:var(--card-bg);border:2px solid var(--border);font-size:18px;display:flex;align-items:center;justify-content:center;transition:all .4s}
+.map-stop.lit .map-stop-dot{background:var(--accent);border-color:var(--accent);box-shadow:0 0 18px #e9456066;transform:scale(1.15)}
+.map-stop-lbl{font-size:10px;color:var(--muted);text-align:center;line-height:1.3;max-width:64px}
+.map-stop.lit .map-stop-lbl{color:var(--text);font-weight:700}
+.map-callout{background:var(--card-bg);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:14px 16px}
+.map-callout-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:4px}
+.map-callout-title{font-size:15px;font-weight:700;color:var(--text);margin-bottom:3px}
+.map-callout-sub{font-size:12px;color:var(--muted)}
 
 /* ── TOP BAR ── */
 #topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:rgba(15,15,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;padding:0 14px;z-index:100}
@@ -267,63 +280,108 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 <div id="onboarding">
   <div class="ob-logo">Indie Music India</div>
 
-  <!-- Step 1: Artist Type -->
-  <div id="ob-step1">
-    <div class="ob-title">Built for artists who are building for real.</div>
-    <div class="ob-sub">This playbook adapts to who you are and where you're going. Start by telling us what kind of artist you are.</div>
-    <div class="ob-step">Step 1 of 2 — Your Artist Type</div>
+  <!-- Step 0: Problem first -->
+  <div id="ob-step0" style="display:flex;flex-direction:column;align-items:center;width:100%">
+    <div class="ob-title">What do you most need right now?</div>
+    <div class="ob-sub">Pick the one that's most on your mind. We'll take you straight there.</div>
+    <div class="ob-prob-grid">
+      <div class="ob-prob-card" data-problem="start" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">🧭</div>
+        <div class="ob-prob-title">I don't know where to start</div>
+        <div class="ob-prob-hint">Identity, foundations, first steps</div>
+      </div>
+      <div class="ob-prob-card" data-problem="release" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">🎛️</div>
+        <div class="ob-prob-title">I want to release my first song</div>
+        <div class="ob-prob-hint">Studio, recording, putting it out</div>
+      </div>
+      <div class="ob-prob-card" data-problem="discovery" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">📻</div>
+        <div class="ob-prob-title">Nobody's finding my music</div>
+        <div class="ob-prob-hint">Playlists, social, discovery, covers</div>
+      </div>
+      <div class="ob-prob-card" data-problem="money" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">💸</div>
+        <div class="ob-prob-title">How do I actually make money?</div>
+        <div class="ob-prob-hint">Revenue streams, royalties, IPRS, live</div>
+      </div>
+      <div class="ob-prob-card" data-problem="live" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">🎤</div>
+        <div class="ob-prob-title">I want to play live</div>
+        <div class="ob-prob-hint">Venues, booking, EPK, setlist</div>
+      </div>
+      <div class="ob-prob-card" data-problem="community" onclick="selectProblem(this)">
+        <div class="ob-prob-icon">🤝</div>
+        <div class="ob-prob-title">I need to build my network</div>
+        <div class="ob-prob-hint">Community, collabs, other artists</div>
+      </div>
+    </div>
+    <div class="ob-skip" onclick="skipProblem()">Show me the full playbook</div>
+  </div>
+
+  <!-- Step 1: Artist type -->
+  <div id="ob-step1" style="display:none;flex-direction:column;align-items:center;width:100%">
+    <div class="ob-back" onclick="showStep(0)">← Back</div>
+    <div class="ob-title">What kind of artist are you?</div>
+    <div class="ob-sub">Your content, checklists, and income paths are different depending on where you sit. One quick choice.</div>
     <div class="ob-cards">
       <div class="ob-card" data-type="songwriter" onclick="selectType(this)">
         <div class="ob-card-icon">🎤</div>
-        <div class="ob-card-title">Singer-Songwriter / Vocalist</div>
-        <div class="ob-card-desc">One voice, one instrument, one song. You own both the composition and the master recording. The most crowded category — and the one with the clearest identity advantage.</div>
-        <div class="ob-card-advantage">↑ Dual rights ownership. Life + 60yr royalty asset.</div>
+        <div class="ob-card-title">Singer-Songwriter</div>
+        <div class="ob-card-desc">You write and perform your own music. Own both the composition and the master.</div>
+        <div class="ob-card-advantage">↑ Dual rights. Strongest identity play.</div>
       </div>
       <div class="ob-card" data-type="instrumentalist" onclick="selectType(this)">
         <div class="ob-card-icon">🎸</div>
-        <div class="ob-card-title">Instrumentalist / Musician</div>
-        <div class="ob-card-desc">Technical mastery, visual performance, unique sonic identity. Your music is disproportionately valuable for sync licensing — OTT platforms need you more than Bollywood does.</div>
-        <div class="ob-card-advantage">↑ Sync-first. YouTube education flywheel. Session income.</div>
+        <div class="ob-card-title">Instrumentalist</div>
+        <div class="ob-card-desc">Technical performance is your identity. Sync licensing and education are your fastest income paths.</div>
+        <div class="ob-card-advantage">↑ Sync-first. YouTube flywheel.</div>
       </div>
       <div class="ob-card" data-type="producer" onclick="selectType(this)">
         <div class="ob-card-icon">🎛</div>
         <div class="ob-card-title">Producer / Beatmaker</div>
-        <div class="ob-card-desc">You are the architectural engine of modern music. You can generate income from beat licensing before you have any public audience. The challenge: invisibility. The solution: build your sound as a brand.</div>
-        <div class="ob-card-advantage">↑ Beat licensing income before audience. Sound-as-brand.</div>
+        <div class="ob-card-desc">You build the architecture of music. Beat licensing can generate income before you have a public audience.</div>
+        <div class="ob-card-advantage">↑ Income before audience.</div>
       </div>
     </div>
-    <div class="ob-skip" onclick="selectType(null)">I'm not sure yet — show me everything</div>
+    <div class="ob-skip" onclick="selectType(null)">Not sure — show me everything</div>
   </div>
 
-  <!-- Step 2: Journey Stage -->
-  <div id="ob-step2" style="display:none;width:100%;max-width:720px;align-items:center;flex-direction:column">
+  <!-- Step 2: Journey map -->
+  <div id="ob-step2" style="display:none;flex-direction:column;align-items:center;width:100%">
     <div class="ob-back" onclick="showStep(1)">← Back</div>
-    <div class="ob-title">Where are you right now?</div>
-    <div class="ob-sub">Your roadmap, checklists, and what to focus on next all change based on where you're starting from. Be honest — there's no wrong answer.</div>
-    <div class="ob-step">Step 2 of 2 — Your Journey Stage</div>
-    <div class="ob-stages">
-      <div class="ob-stage" data-stage="starting" onclick="selectStage(this)">
-        <div class="ob-stage-title">Just Starting Out</div>
-        <div class="ob-stage-desc">Haven't released anything yet, or have 1-2 tracks with no real audience. Building foundations.</div>
-        <div class="ob-stage-income">Focus: Identity, setup, first release</div>
+    <div class="ob-title" style="margin-bottom:8px">Here's where your journey starts.</div>
+    <div class="ob-sub" style="margin-bottom:0">Based on what you told us, this is the section that answers your most pressing question first.</div>
+    <div class="map-visual">
+      <div class="map-stops" id="map-stops">
+        <div class="map-stop" id="map-stop-journey">
+          <div class="map-stop-dot">🧭</div>
+          <div class="map-stop-lbl">Your<br>Journey</div>
+        </div>
+        <div class="map-stop" id="map-stop-identity">
+          <div class="map-stop-dot">🎯</div>
+          <div class="map-stop-lbl">Identity</div>
+        </div>
+        <div class="map-stop" id="map-stop-production">
+          <div class="map-stop-dot">🎛️</div>
+          <div class="map-stop-lbl">Production</div>
+        </div>
+        <div class="map-stop" id="map-stop-distribution">
+          <div class="map-stop-dot">📡</div>
+          <div class="map-stop-lbl">Distribution</div>
+        </div>
+        <div class="map-stop" id="map-stop-revenue">
+          <div class="map-stop-dot">💰</div>
+          <div class="map-stop-lbl">Revenue<br>&amp; Live</div>
+        </div>
       </div>
-      <div class="ob-stage" data-stage="building" onclick="selectStage(this)">
-        <div class="ob-stage-title">Released Music, Building Audience</div>
-        <div class="ob-stage-desc">Have tracks out there. Getting some plays. Not yet consistent. Under 10K monthly listeners.</div>
-        <div class="ob-stage-income">Focus: Consistency, distribution, local gigs</div>
-      </div>
-      <div class="ob-stage" data-stage="growing" onclick="selectStage(this)">
-        <div class="ob-stage-title">Have an Audience, Building Income</div>
-        <div class="ob-stage-desc">10K-50K monthly listeners. Some traction. Need to convert attention into money.</div>
-        <div class="ob-stage-income">Focus: Revenue diversification, brand deals, sync</div>
-      </div>
-      <div class="ob-stage" data-stage="scaling" onclick="selectStage(this)">
-        <div class="ob-stage-title">Have Income, Looking to Scale</div>
-        <div class="ob-stage-desc">Making some money from music. Want to make it a real business. 50K+ listeners.</div>
-        <div class="ob-stage-income">Focus: Team, catalog, market position</div>
+      <div class="map-callout" id="map-callout">
+        <div class="map-callout-label">Starting point</div>
+        <div class="map-callout-title" id="map-entry-title">The Identity Problem</div>
+        <div class="map-callout-sub" id="map-entry-sub">Why most artists stall — and the fix that changes everything.</div>
       </div>
     </div>
-    <button class="ob-cta" id="ob-enter-btn" disabled onclick="enterApp()">Enter the Playbook</button>
+    <button class="ob-cta" onclick="enterApp()">Let's go →</button>
   </div>
 </div>
 
@@ -2188,8 +2246,17 @@ function getProducerChecklist90() {
 let artistType = localStorage.getItem('playbook_artist_type') || null;
 let journeyStage = localStorage.getItem('playbook_journey_stage') || null;
 let currentSectionId = null;
-let selectedTypeCard = null;
-let selectedStageCard = null;
+let selectedProblem = null;
+
+// Problem → entry section + map highlight
+const PROBLEM_MAP = {
+  start:      { sectionId: 'identity-problem',        mapStop: 'journey',      label: 'The Identity Problem', sub: 'Why most artists stall — and the fix that changes everything.' },
+  release:    { sectionId: 'home-studio',             mapStop: 'production',   label: 'Home Studio Setup',    sub: 'What you actually need to record a release-quality track in India.' },
+  discovery:  { sectionId: 'social-content-strategy', mapStop: 'distribution', label: 'Social Media Strategy', sub: 'Platform-by-platform: how people find you and keep coming back.' },
+  money:      { sectionId: 'how-to-make-money',       mapStop: 'journey',      label: 'How to Make Money from Music', sub: 'The six income streams, ranked by realistic priority for Indian artists.' },
+  live:       { sectionId: 'live-performance',        mapStop: 'revenue',      label: 'Live Performance',     sub: 'How to get booked, what venues pay, and how to make every show count.' },
+  community:  { sectionId: 'community-building',      mapStop: 'revenue',      label: 'Building Your Community', sub: "Other artists' phonebooks are your most valuable asset. Here's how to use them." },
+};
 
 // ─── ONBOARDING ──────────────────────────────────────────
 function showOnboarding() {
@@ -2197,35 +2264,52 @@ function showOnboarding() {
   document.getElementById('topbar').style.display = 'none';
   document.getElementById('sidebar').style.display = 'none';
   document.getElementById('main').style.display = 'none';
-  showStep(1);
+  showStep(0);
 }
 
 function showStep(n) {
-  document.getElementById('ob-step1').style.display = n === 1 ? 'flex' : 'none';
-  document.getElementById('ob-step1').style.flexDirection = 'column';
-  document.getElementById('ob-step1').style.alignItems = 'center';
-  document.getElementById('ob-step2').style.display = n === 2 ? 'flex' : 'none';
+  ['ob-step0','ob-step1','ob-step2'].forEach((id, i) => {
+    const el = document.getElementById(id);
+    el.style.display = i === n ? 'flex' : 'none';
+  });
+}
+
+function selectProblem(el) {
+  document.querySelectorAll('.ob-prob-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedProblem = el.dataset.problem;
+  setTimeout(() => showStep(1), 180);
+}
+
+function skipProblem() {
+  selectedProblem = 'start';
+  artistType = 'all';
+  showStep(1);
 }
 
 function selectType(el) {
-  if (!el) { artistType = 'all'; journeyStage = 'starting'; enterApp(); return; }
+  if (!el) { artistType = 'all'; showMapStep(); return; }
   document.querySelectorAll('.ob-card').forEach(c => c.classList.remove('selected'));
   el.classList.add('selected');
   artistType = el.dataset.type;
-  setTimeout(() => showStep(2), 200);
+  setTimeout(() => showMapStep(), 180);
 }
 
-function selectStage(el) {
-  document.querySelectorAll('.ob-stage').forEach(s => s.classList.remove('selected'));
-  el.classList.add('selected');
-  journeyStage = el.dataset.stage;
-  document.getElementById('ob-enter-btn').disabled = false;
+function showMapStep() {
+  const prob = PROBLEM_MAP[selectedProblem] || PROBLEM_MAP.start;
+  // Light up the right map stop
+  ['journey','identity','production','distribution','revenue'].forEach(s => {
+    document.getElementById('map-stop-' + s)?.classList.remove('lit');
+  });
+  document.getElementById('map-stop-' + prob.mapStop)?.classList.add('lit');
+  document.getElementById('map-entry-title').textContent = prob.label;
+  document.getElementById('map-entry-sub').textContent = prob.sub;
+  showStep(2);
 }
 
 function enterApp() {
-  if (!artistType) return;
-  const isFirstVisit = !localStorage.getItem('playbook_artist_type');
-  localStorage.setItem('playbook_artist_type', artistType);
+  const prob = PROBLEM_MAP[selectedProblem] || PROBLEM_MAP.start;
+  localStorage.setItem('playbook_artist_type', artistType || 'all');
   if (journeyStage) localStorage.setItem('playbook_journey_stage', journeyStage);
   document.getElementById('onboarding').classList.add('hidden');
   document.getElementById('topbar').style.display = 'flex';
@@ -2233,8 +2317,7 @@ function enterApp() {
   document.getElementById('main').style.display = 'block';
   buildSidebar();
   updateProgress();
-  navigateTo(getDefaultSection());
-  if (isFirstVisit) showFirstMoveCard();
+  navigateTo(prob.sectionId);
 }
 
 function showFirstMoveCard() {
@@ -2260,10 +2343,6 @@ function showFirstMoveCard() {
 function dismissFirstMove() {
   const card = document.getElementById('first-move-card');
   if (card) { card.style.opacity = '0'; card.style.transition = 'opacity .3s'; setTimeout(() => card.style.display = 'none', 300); }
-}
-
-function getDefaultSection() {
-  return 'identity-problem';
 }
 
 // ─── SIDEBAR ─────────────────────────────────────────────
@@ -2527,7 +2606,7 @@ window.addEventListener('DOMContentLoaded', () => {
     buildSidebar();
     updateProgress();
     const hash = window.location.hash.replace('#', '');
-    navigateTo(hash && SECTIONS.find(s => s.id === hash) ? hash : getDefaultSection());
+    navigateTo(hash && SECTIONS.find(s => s.id === hash) ? hash : 'identity-problem');
   }
 });
 
