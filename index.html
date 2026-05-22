@@ -204,6 +204,45 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 .fade-in{animation:fadeIn .25s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── SEARCH ── */
+#search-wrap{position:relative;flex:0 1 240px;min-width:0}
+#search-input{width:100%;background:#1a1a1a;border:1px solid var(--border);color:var(--text);padding:6px 30px 6px 10px;border-radius:6px;font-size:12px;outline:none;transition:border-color .2s}
+#search-input::placeholder{color:var(--muted)}
+#search-input:focus{border-color:#555}
+#search-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--muted);cursor:pointer;font-size:14px;line-height:1;display:none}
+#search-dropdown{position:absolute;top:calc(100% + 6px);left:0;right:0;background:#1c1c1c;border:1px solid var(--border);border-radius:8px;max-height:320px;overflow-y:auto;z-index:200;display:none;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+#search-dropdown.open{display:block}
+.search-result{padding:10px 14px;cursor:pointer;border-bottom:1px solid #222;display:flex;flex-direction:column;gap:3px}
+.search-result:last-child{border-bottom:none}
+.search-result:hover,.search-result.focused{background:#242424}
+.sr-title{font-size:13px;color:var(--text);font-weight:600}
+.sr-meta{font-size:11px;color:var(--muted)}
+.sr-match{font-size:11px;color:var(--amber);font-style:italic;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.search-no-results{padding:16px 14px;font-size:13px;color:var(--muted);text-align:center}
+
+/* ── RELATED ── */
+.related-wrap{margin-top:32px;padding-top:24px;border-top:1px solid var(--border)}
+.related-wrap h5{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:700}
+.related-chips{display:flex;flex-wrap:wrap;gap:8px}
+.related-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:7px 12px;cursor:pointer;font-size:12px;color:var(--muted);transition:border-color .15s,color .15s;line-height:1.3}
+.related-chip:hover{border-color:var(--amber);color:var(--amber)}
+.related-chip small{display:block;font-size:10px;color:#555;margin-top:2px}
+
+@media(max-width:768px){
+  #search-wrap{flex:1;min-width:0}
+  .progress-container{display:none}
+  #change-type-btn{display:none}
+  /* Larger tap targets on mobile */
+  .check-row{padding:12px 0}
+  .nav-item{padding:10px 16px 10px 24px}
+  .check-expand{padding:4px 6px}
+  /* Section title smaller on mobile */
+  .section-title{font-size:clamp(18px,5vw,26px)}
+  /* Related chips stack */
+  .related-chips{gap:6px}
+  .related-chip{font-size:11px;padding:6px 10px}
+}
 </style>
 </head>
 <body>
@@ -276,6 +315,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 <div id="topbar" style="display:none">
   <button id="hamburger" onclick="toggleSidebar()">☰</button>
   <div id="topbar-title">Indie Music <span>India</span></div>
+  <div id="search-wrap">
+    <input id="search-input" type="text" placeholder="Search sections…" autocomplete="off" oninput="onSearch(this.value)" onkeydown="searchKeydown(event)">
+    <button id="search-clear" onclick="clearSearch()">✕</button>
+    <div id="search-dropdown"></div>
+  </div>
   <div class="progress-container">
     <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
     <div class="progress-label" id="progress-label">0 / 0 read</div>
@@ -2296,6 +2340,19 @@ function navigateTo(id) {
     ${next ? `<button class="nav-btn primary" onclick="navigateTo('${next.id}')">${next.title} →</button>` : ''}
   </div>`;
 
+  const related = getRelated(section);
+  const relatedHTML = related.length ? `
+    <div class="related-wrap">
+      <h5>Related Sections</h5>
+      <div class="related-chips">
+        ${related.map(r => `
+          <div class="related-chip" onclick="navigateTo('${r.section.id}')">
+            ${r.section.title}
+            <small>${r.section.phaseName}</small>
+          </div>`).join('')}
+      </div>
+    </div>` : '';
+
   content.innerHTML = `
     <div class="section-meta">
       <span>${section.phaseName}</span>
@@ -2305,6 +2362,7 @@ function navigateTo(id) {
     <h1 class="section-title">${section.title}</h1>
     <div class="section-content">${section.content}</div>
     ${checklistHTML}
+    ${relatedHTML}
     ${navFooter}
   `;
 
@@ -2411,6 +2469,130 @@ window.addEventListener('DOMContentLoaded', () => {
     navigateTo(hash && SECTIONS.find(s => s.id === hash) ? hash : getDefaultSection());
   }
 });
+
+// ─── SEARCH ───────────────────────────────────────────────────────────────────
+
+let searchFocusIdx = -1;
+
+function stripHTML(html) {
+  return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function searchSections(query) {
+  if (!query || query.length < 2) return [];
+  const q = query.toLowerCase();
+  const artistType = localStorage.getItem('playbook_artist_type') || 'all';
+  return SECTIONS
+    .filter(s => artistType === 'all' || s.forTypes.includes('all') || s.forTypes.includes(artistType))
+    .map(s => {
+      const titleMatch = s.title.toLowerCase().includes(q);
+      const tagMatch = s.tags.some(t => t.toLowerCase().includes(q));
+      const contentText = stripHTML(s.content);
+      const contentIdx = contentText.toLowerCase().indexOf(q);
+      const contentMatch = contentIdx !== -1;
+      if (!titleMatch && !tagMatch && !contentMatch) return null;
+      let matchSnippet = '';
+      if (contentMatch && !titleMatch) {
+        const start = Math.max(0, contentIdx - 40);
+        const end = Math.min(contentText.length, contentIdx + 80);
+        matchSnippet = (start > 0 ? '…' : '') + contentText.slice(start, end) + (end < contentText.length ? '…' : '');
+      }
+      return { section: s, score: titleMatch ? 3 : tagMatch ? 2 : 1, matchSnippet };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8);
+}
+
+function renderSearchResults(results, query) {
+  const dd = document.getElementById('search-dropdown');
+  if (!results.length) {
+    dd.innerHTML = `<div class="search-no-results">No sections match "${query}"</div>`;
+    dd.classList.add('open');
+    return;
+  }
+  dd.innerHTML = results.map((r, i) =>
+    `<div class="search-result" data-id="${r.section.id}" onclick="searchSelect('${r.section.id}')">
+      <span class="sr-title">${r.section.title}</span>
+      <span class="sr-meta">${r.section.phaseName} · ${r.section.readTime}</span>
+      ${r.matchSnippet ? `<span class="sr-match">${r.matchSnippet}</span>` : ''}
+    </div>`
+  ).join('');
+  dd.classList.add('open');
+  searchFocusIdx = -1;
+}
+
+function onSearch(val) {
+  const clear = document.getElementById('search-clear');
+  clear.style.display = val ? 'block' : 'none';
+  if (!val || val.length < 2) {
+    document.getElementById('search-dropdown').classList.remove('open');
+    return;
+  }
+  const results = searchSections(val);
+  renderSearchResults(results, val);
+}
+
+function searchSelect(id) {
+  clearSearch();
+  navigateTo(id);
+  if (window.innerWidth <= 768) closeSidebar();
+}
+
+function clearSearch() {
+  const inp = document.getElementById('search-input');
+  const dd = document.getElementById('search-dropdown');
+  const clear = document.getElementById('search-clear');
+  inp.value = '';
+  dd.classList.remove('open');
+  clear.style.display = 'none';
+  searchFocusIdx = -1;
+}
+
+function searchKeydown(e) {
+  const dd = document.getElementById('search-dropdown');
+  const items = dd.querySelectorAll('.search-result');
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    searchFocusIdx = Math.min(searchFocusIdx + 1, items.length - 1);
+    items.forEach((el, i) => el.classList.toggle('focused', i === searchFocusIdx));
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    searchFocusIdx = Math.max(searchFocusIdx - 1, 0);
+    items.forEach((el, i) => el.classList.toggle('focused', i === searchFocusIdx));
+  } else if (e.key === 'Enter' && searchFocusIdx >= 0 && items[searchFocusIdx]) {
+    items[searchFocusIdx].click();
+  } else if (e.key === 'Escape') {
+    clearSearch();
+  }
+}
+
+// Close search dropdown when clicking outside
+document.addEventListener('click', e => {
+  if (!document.getElementById('search-wrap').contains(e.target)) {
+    document.getElementById('search-dropdown').classList.remove('open');
+  }
+});
+
+// ─── RELATED SECTIONS ─────────────────────────────────────────────────────────
+
+function getRelated(section) {
+  const artistType = localStorage.getItem('playbook_artist_type') || 'all';
+  return SECTIONS
+    .filter(s => {
+      if (s.id === section.id) return false;
+      if (artistType !== 'all' && !s.forTypes.includes('all') && !s.forTypes.includes(artistType)) return false;
+      const sharedTags = s.tags.filter(t => section.tags.includes(t));
+      const samePhase = s.phase === section.phase;
+      return sharedTags.length > 0 || samePhase;
+    })
+    .map(s => {
+      const sharedTags = s.tags.filter(t => section.tags.includes(t));
+      return { section: s, score: sharedTags.length * 2 + (s.phase === section.phase ? 1 : 0) };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 4);
+}
 </script>
 </body>
 </html>
