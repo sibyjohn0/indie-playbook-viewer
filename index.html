@@ -209,6 +209,20 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .fade-in{animation:fadeIn .25s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 
+/* ── FIRST MOVE CARD ── */
+#first-move-card{background:var(--card-bg);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;margin:32px 40px 0;padding:20px 24px;animation:fadeIn .3s ease}
+.fmc-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:8px}
+.fmc-title{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
+.fmc-sub{font-size:12px;color:var(--muted);margin-bottom:16px}
+.fmc-tasks{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.fmc-task{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#ccc;line-height:1.5}
+.fmc-task-num{width:20px;height:20px;border-radius:50%;background:var(--accent);color:white;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.fmc-actions{display:flex;gap:10px;align-items:center}
+.fmc-btn{background:var(--amber);color:#000;border:none;border-radius:6px;padding:8px 18px;font-size:12px;font-weight:700;cursor:pointer}
+.fmc-btn:hover{opacity:.9}
+.fmc-dismiss{font-size:11px;color:var(--muted);background:none;border:none;cursor:pointer;text-decoration:underline}
+@media(max-width:768px){#first-move-card{margin:16px 16px 0}}
+
 /* ── SEARCH ── */
 #search-wrap{position:relative;flex:0 1 240px;min-width:0}
 #search-input{width:100%;background:#1a1a1a;border:1px solid var(--border);color:var(--text);padding:6px 30px 6px 10px;border-radius:6px;font-size:12px;outline:none;transition:border-color .2s}
@@ -326,7 +340,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
     <div class="progress-label" id="progress-label">0 / 0 read</div>
   </div>
-  <a id="download-workbook-btn" href="Indie_Music_India_Artist_Workbook.xlsx" download title="Download workbook with all 111 tasks">↓ Workbook</a>
+  <a id="download-workbook-btn" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener" title="Open task workbook in Google Sheets">↗ Workbook</a>
   <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
 </div>
 
@@ -340,6 +354,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 <!-- MAIN CONTENT -->
 <main id="main" style="display:none">
+  <div id="first-move-card" style="display:none"></div>
   <div id="content" class="fade-in"></div>
 </main>
 
@@ -2209,6 +2224,7 @@ function selectStage(el) {
 
 function enterApp() {
   if (!artistType) return;
+  const isFirstVisit = !localStorage.getItem('playbook_artist_type');
   localStorage.setItem('playbook_artist_type', artistType);
   if (journeyStage) localStorage.setItem('playbook_journey_stage', journeyStage);
   document.getElementById('onboarding').classList.add('hidden');
@@ -2218,6 +2234,32 @@ function enterApp() {
   buildSidebar();
   updateProgress();
   navigateTo(getDefaultSection());
+  if (isFirstVisit) showFirstMoveCard();
+}
+
+function showFirstMoveCard() {
+  const card = document.getElementById('first-move-card');
+  if (!card) return;
+  const firstSection = SECTIONS.find(s => s.id === 'identity-problem');
+  if (!firstSection || !firstSection.checklist || firstSection.checklist.length < 3) return;
+  const tasks = firstSection.checklist.slice(0, 3);
+  card.innerHTML = `
+    <div class="fmc-label">Your first move</div>
+    <div class="fmc-title">Three things to do before anything else</div>
+    <div class="fmc-sub">The most common reason artists stall is skipping these. Takes under an hour.</div>
+    <div class="fmc-tasks">
+      ${tasks.map((t, i) => `<div class="fmc-task"><div class="fmc-task-num">${i+1}</div><span>${t.text}</span></div>`).join('')}
+    </div>
+    <div class="fmc-actions">
+      <button class="fmc-btn" onclick="dismissFirstMove()">Got it, let me in</button>
+      <button class="fmc-dismiss" onclick="dismissFirstMove()">Skip for now</button>
+    </div>`;
+  card.style.display = 'block';
+}
+
+function dismissFirstMove() {
+  const card = document.getElementById('first-move-card');
+  if (card) { card.style.opacity = '0'; card.style.transition = 'opacity .3s'; setTimeout(() => card.style.display = 'none', 300); }
 }
 
 function getDefaultSection() {
@@ -2245,7 +2287,7 @@ function visibleSections() {
   });
 }
 
-function buildSidebar() {
+function buildSidebar(activePhase) {
   const container = document.getElementById('sidebar-content');
   const sections = visibleSections();
   const byPhase = {};
@@ -2254,16 +2296,22 @@ function buildSidebar() {
     byPhase[s.phase].push(s);
   }
 
+  // Default active phase: your-journey (first phase), or whatever is currently open
+  const openPhase = activePhase || currentSectionId && (SECTIONS.find(s => s.id === currentSectionId) || {}).phase || 'your-journey';
+
   let html = '';
   for (const phase of PHASE_ORDER) {
     const items = byPhase[phase.id];
     if (!items || items.length === 0) continue;
+    const isOpen = phase.id === openPhase;
+    const doneCount = items.filter(s => localStorage.getItem('playbook_read_' + s.id) === '1').length;
+    const phaseLabel = doneCount > 0 ? `${phase.label} <small style="color:var(--success);font-size:9px">${doneCount}/${items.length}</small>` : phase.label;
     html += `<div class="phase-group">
-      <div class="phase-header" onclick="togglePhase('${phase.id}')">
-        <span>${phase.label}</span>
+      <div class="phase-header${isOpen ? '' : ' collapsed'}" onclick="togglePhase('${phase.id}')">
+        <span>${phaseLabel}</span>
         <span class="phase-chevron">▾</span>
       </div>
-      <div class="phase-items" id="phase-${phase.id}">`;
+      <div class="phase-items${isOpen ? '' : ' hidden'}" id="phase-${phase.id}">`;
     for (const s of items) {
       const isRead = localStorage.getItem('playbook_read_' + s.id) === '1';
       const isDimmed = artistType !== 'all' && !s.forTypes.includes(artistType) && !s.forTypes.includes('all');
@@ -2290,6 +2338,16 @@ function navigateTo(id) {
   const section = SECTIONS.find(s => s.id === id);
   if (!section) return;
   currentSectionId = id;
+
+  // Expand sidebar phase for this section, collapse others
+  PHASE_ORDER.forEach(p => {
+    const items = document.getElementById('phase-' + p.id);
+    const header = items?.previousElementSibling;
+    if (!items) return;
+    const shouldOpen = p.id === section.phase;
+    items.classList.toggle('hidden', !shouldOpen);
+    header?.classList.toggle('collapsed', !shouldOpen);
+  });
 
   document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
   const navEl = document.getElementById('nav-' + id);
@@ -2398,7 +2456,7 @@ function updateProgress() {
   const fill = document.getElementById('progress-fill');
   const label = document.getElementById('progress-label');
   if (fill) fill.style.width = pct + '%';
-  if (label) label.textContent = `${read} / ${all.length} read`;
+  if (label) label.textContent = read === 0 ? 'Start your journey' : read === all.length ? 'Playbook complete 🎯' : `${read} of ${all.length} done`;
 }
 
 // ─── CHECKLIST INTERACTIONS ─────────────────────────────
