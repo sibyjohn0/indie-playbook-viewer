@@ -181,7 +181,25 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   #sidebar.open{transform:translateX(0)}
   #sidebar-overlay.open{display:block}
   #main{margin-left:0}
-  #content{padding:24px 18px}
+  #content{padding:24px 16px}
+
+  /* Onboarding — fix justify-content:center clipping on tall content */
+  #onboarding{padding:32px 16px;justify-content:flex-start}
+  .ob-title{word-break:break-word;overflow-wrap:break-word;padding:0 8px;font-size:clamp(20px,5vw,28px)}
+  .ob-sub{padding:0 4px;margin-bottom:32px}
+  .ob-cards{grid-template-columns:1fr}
+  .ob-stages{grid-template-columns:1fr}
+
+  /* Tables — horizontal scroll instead of overflow */
+  .section-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
+  .section-content td,.section-content th{white-space:normal;min-width:100px}
+
+  /* Code/pre blocks */
+  .section-content pre,.section-content code{max-width:100%;overflow-x:auto;display:block;white-space:pre;-webkit-overflow-scrolling:touch}
+
+  /* Nav footer stacks on very small screens */
+  .nav-footer{flex-direction:column;gap:8px}
+  .nav-btn{max-width:100%}
 }
 
 .fade-in{animation:fadeIn .25s ease}
