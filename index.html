@@ -59,6 +59,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .progress-label{font-size:11px;color:var(--muted);white-space:nowrap;flex-shrink:0}
 #change-type-btn{font-size:11px;color:var(--muted);background:none;border:1px solid var(--border);padding:4px 10px;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0}
 #change-type-btn:hover{border-color:var(--muted)}
+#download-workbook-btn{font-size:11px;color:var(--amber);background:none;border:1px solid var(--amber);padding:4px 10px;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
+#download-workbook-btn:hover{background:#1c1a12}
 
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
@@ -235,6 +237,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   #search-wrap{flex:1;min-width:0}
   .progress-container{display:none}
   #change-type-btn{display:none}
+  #download-workbook-btn{display:none}
   .check-row{padding:12px 0}
   .nav-item{padding:10px 16px 10px 24px;font-size:13px}
   .check-expand{padding:4px 8px}
@@ -323,6 +326,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
     <div class="progress-label" id="progress-label">0 / 0 read</div>
   </div>
+  <a id="download-workbook-btn" href="Indie_Music_India_Artist_Workbook.xlsx" download title="Download workbook with all 111 tasks">↓ Workbook</a>
   <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
 </div>
 
