@@ -203,8 +203,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   .ob-title{word-break:break-word;overflow-wrap:break-word;padding:0 8px;font-size:clamp(20px,5vw,28px)}
   .ob-sub{padding:0 4px;margin-bottom:32px}
   .ob-cards{grid-template-columns:1fr}
-  .ob-stages{grid-template-columns:1fr}
-
   /* Tables — horizontal scroll */
   .section-content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
   .section-content td,.section-content th{white-space:normal;min-width:100px}
@@ -222,19 +220,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .fade-in{animation:fadeIn .25s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 
-/* ── FIRST MOVE CARD ── */
-#first-move-card{background:var(--card-bg);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;margin:32px 40px 0;padding:20px 24px;animation:fadeIn .3s ease}
-.fmc-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:8px}
-.fmc-title{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px}
-.fmc-sub{font-size:12px;color:var(--muted);margin-bottom:16px}
-.fmc-tasks{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
-.fmc-task{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#ccc;line-height:1.5}
-.fmc-task-num{width:20px;height:20px;border-radius:50%;background:var(--accent);color:white;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
-.fmc-actions{display:flex;gap:10px;align-items:center}
-.fmc-btn{background:var(--amber);color:#000;border:none;border-radius:6px;padding:8px 18px;font-size:12px;font-weight:700;cursor:pointer}
-.fmc-btn:hover{opacity:.9}
-.fmc-dismiss{font-size:11px;color:var(--muted);background:none;border:none;cursor:pointer;text-decoration:underline}
-@media(max-width:768px){#first-move-card{margin:16px 16px 0}}
 
 /* ── SEARCH ── */
 #search-wrap{position:relative;flex:0 1 240px;min-width:0}
@@ -412,7 +397,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 <!-- MAIN CONTENT -->
 <main id="main" style="display:none">
-  <div id="first-move-card" style="display:none"></div>
   <div id="content" class="fade-in"></div>
 </main>
 
@@ -2318,31 +2302,6 @@ function enterApp() {
   buildSidebar();
   updateProgress();
   navigateTo(prob.sectionId);
-}
-
-function showFirstMoveCard() {
-  const card = document.getElementById('first-move-card');
-  if (!card) return;
-  const firstSection = SECTIONS.find(s => s.id === 'identity-problem');
-  if (!firstSection || !firstSection.checklist || firstSection.checklist.length < 3) return;
-  const tasks = firstSection.checklist.slice(0, 3);
-  card.innerHTML = `
-    <div class="fmc-label">Your first move</div>
-    <div class="fmc-title">Three things to do before anything else</div>
-    <div class="fmc-sub">The most common reason artists stall is skipping these. Takes under an hour.</div>
-    <div class="fmc-tasks">
-      ${tasks.map((t, i) => `<div class="fmc-task"><div class="fmc-task-num">${i+1}</div><span>${t.text}</span></div>`).join('')}
-    </div>
-    <div class="fmc-actions">
-      <button class="fmc-btn" onclick="dismissFirstMove()">Got it, let me in</button>
-      <button class="fmc-dismiss" onclick="dismissFirstMove()">Skip for now</button>
-    </div>`;
-  card.style.display = 'block';
-}
-
-function dismissFirstMove() {
-  const card = document.getElementById('first-move-card');
-  if (card) { card.style.opacity = '0'; card.style.transition = 'opacity .3s'; setTimeout(() => card.style.display = 'none', 300); }
 }
 
 // ─── SIDEBAR ─────────────────────────────────────────────
