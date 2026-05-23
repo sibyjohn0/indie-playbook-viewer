@@ -115,6 +115,16 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 /* Callout boxes */
 .callout{border-radius:8px;padding:16px 18px;margin:18px 0;font-size:13px;line-height:1.7}
+
+/* ── CONTENT TOGGLE ── */
+.section-tldr{margin-bottom:24px}
+.full-content{display:none}
+.full-content.open{display:block}
+.content-toggle-btn{display:flex;align-items:center;gap:8px;background:none;border:1px solid var(--border);color:var(--muted);font-size:12px;padding:9px 16px;border-radius:6px;cursor:pointer;width:100%;margin:20px 0 4px;transition:border-color .2s,color .2s}
+.content-toggle-btn:hover{border-color:var(--amber);color:var(--amber)}
+.content-toggle-btn .toggle-arrow{font-size:10px;transition:transform .2s;margin-left:auto}
+.content-toggle-btn.open{border-color:var(--border)}
+.content-toggle-btn.open .toggle-arrow{transform:rotate(180deg)}
 .callout-warning{background:#1a0d0d;border-left:3px solid var(--accent);color:#ccc}
 .callout-tip{background:#0d1a0d;border-left:3px solid var(--success);color:#ccc}
 .callout-data{background:#0d0d1a;border-left:3px solid #8b5cf6;color:#ccc}
@@ -2452,6 +2462,13 @@ function navigateTo(id) {
       </div>
     </div>` : '';
 
+  // Extract first callout as TL;DR — shown above checklist without reading the full article
+  const tldrMatch = section.content.match(/<div class="callout[^"]*">([\s\S]*?)<\/div>/);
+  const tldrHTML = tldrMatch
+    ? `<div class="callout callout-key section-tldr">${tldrMatch[1]}</div>`
+    : '';
+
+  const sectionId = id;
   content.innerHTML = `
     <div class="section-meta">
       <span>${section.phaseName}</span>
@@ -2459,8 +2476,14 @@ function navigateTo(id) {
       ${section.tags.map(t => `<span class="section-tag">${t}</span>`).join('')}
     </div>
     <h1 class="section-title">${section.title}</h1>
-    <div class="section-content">${section.content}</div>
+    ${tldrHTML}
     ${checklistHTML}
+    <button class="content-toggle-btn" id="toggle-btn-${sectionId}" onclick="toggleFullContent('${sectionId}')">
+      Read the full breakdown <span class="toggle-arrow">▾</span>
+    </button>
+    <div class="full-content" id="full-content-${sectionId}">
+      <div class="section-content">${section.content}</div>
+    </div>
     ${relatedHTML}
     ${navFooter}
   `;
@@ -2471,6 +2494,16 @@ function navigateTo(id) {
   // Mark as read after 30s
   markReadTimer(id);
   window.location.hash = id;
+}
+
+function toggleFullContent(sectionId) {
+  const body = document.getElementById('full-content-' + sectionId);
+  const btn  = document.getElementById('toggle-btn-' + sectionId);
+  if (!body) return;
+  const isOpen = body.classList.toggle('open');
+  btn?.classList.toggle('open', isOpen);
+  if (isOpen) btn.innerHTML = 'Hide breakdown <span class="toggle-arrow">▾</span>';
+  else btn.innerHTML = 'Read the full breakdown <span class="toggle-arrow">▾</span>';
 }
 
 let readTimer = null;
