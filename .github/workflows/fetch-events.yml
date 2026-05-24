@@ -1,0 +1,45 @@
+name: Fetch Live Music Events
+
+on:
+  schedule:
+    # 6:30 AM IST daily (1:00 AM UTC)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+
+      - name: Fetch live events
+        run: python scripts/fetch_events.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/live-events.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TOTAL=$(python3 -c "import json; d=json.load(open('data/live-events.json')); print(d.get('total_events', '?'))")
+            git commit -m "chore: update live events data — ${TOTAL} events [skip ci]"
+            git push
+          fi
