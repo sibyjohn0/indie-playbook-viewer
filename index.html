@@ -88,7 +88,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 /* ── TOP BAR ── */
 #topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);background:rgba(15,15,15,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;padding:0 14px;z-index:100}
 #hamburger{display:none;background:#1e1e1e;border:1px solid var(--border);border-radius:7px;color:var(--text);cursor:pointer;padding:0;font-size:20px;width:40px;height:40px;flex-shrink:0;align-items:center;justify-content:center;line-height:1}
-#topbar-title{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;flex-shrink:0}
+#topbar-title{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;flex-shrink:0;transition:opacity .15s}
+#topbar-title:hover{opacity:.7}
 #topbar-title span{color:var(--accent)}
 .progress-container{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
 .progress-track{flex:1;height:3px;background:var(--border);border-radius:2px;overflow:hidden}
@@ -475,7 +476,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 <!-- TOP BAR -->
 <div id="topbar" style="display:none">
   <button id="hamburger" onclick="toggleSidebar()">☰</button>
-  <div id="topbar-title">Indie Music <span>India</span></div>
+  <div id="topbar-title" onclick="showLanding()" title="Back to home" style="cursor:pointer">Indie Music <span>India</span></div>
   <div id="search-wrap">
     <input id="search-input" type="text" placeholder="Search sections…" autocomplete="off" oninput="onSearch(this.value)" onkeydown="searchKeydown(event)">
     <button id="search-clear" onclick="clearSearch()">✕</button>
@@ -2434,14 +2435,14 @@ const PROBLEM_MAP = {
 
 // ─── ONBOARDING ──────────────────────────────────────────
 function showOnboarding() {
-  document.getElementById('onboarding').classList.remove('hidden');
-  document.getElementById('topbar').style.display = 'none';
-  document.getElementById('sidebar').style.display = 'none';
-  document.getElementById('main').style.display = 'none';
   showLanding();
 }
 
 function showLanding() {
+  document.getElementById('onboarding').classList.remove('hidden');
+  document.getElementById('topbar').style.display = 'none';
+  document.getElementById('sidebar').style.display = 'none';
+  document.getElementById('main').style.display = 'none';
   const intro = document.getElementById('ob-intro');
   if (intro) intro.style.display = 'flex';
   ['ob-step0','ob-step1','ob-step2'].forEach(id => {
