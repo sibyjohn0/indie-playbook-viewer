@@ -144,10 +144,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .section-tldr{margin-bottom:24px}
 .full-content{display:none}
 .full-content.open{display:block}
-.content-toggle-btn{display:flex;align-items:center;gap:8px;background:none;border:1px solid var(--border);color:var(--muted);font-size:12px;padding:9px 16px;border-radius:6px;cursor:pointer;width:100%;margin:20px 0 4px;transition:border-color .2s,color .2s}
-.content-toggle-btn:hover{border-color:var(--amber);color:var(--amber)}
-.content-toggle-btn .toggle-arrow{font-size:10px;transition:transform .2s;margin-left:auto}
-.content-toggle-btn.open{border-color:var(--border)}
+.content-toggle-btn{display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,rgba(247,183,49,.08),rgba(233,69,96,.06));border:1px solid rgba(247,183,49,.35);color:var(--amber);font-size:13px;font-weight:600;padding:13px 20px;border-radius:8px;cursor:pointer;width:100%;margin:24px 0 4px;transition:all .2s;letter-spacing:.01em}
+.content-toggle-btn:hover{background:linear-gradient(135deg,rgba(247,183,49,.16),rgba(233,69,96,.1));border-color:var(--amber);box-shadow:0 0 18px rgba(247,183,49,.12)}
+.content-toggle-btn .toggle-icon{font-size:15px;flex-shrink:0}
+.content-toggle-btn .toggle-arrow{font-size:11px;transition:transform .25s;margin-left:auto;opacity:.7}
+.content-toggle-btn.open{background:rgba(255,255,255,.03);border-color:var(--border);color:var(--muted)}
 .content-toggle-btn.open .toggle-arrow{transform:rotate(180deg)}
 .callout-warning{background:#1a0d0d;border-left:3px solid var(--accent);color:#ccc}
 .callout-tip{background:#0d1a0d;border-left:3px solid var(--success);color:#ccc}
@@ -2672,7 +2673,7 @@ function navigateTo(id) {
     ${tldrHTML}
     ${checklistHTML}
     <button class="content-toggle-btn" id="toggle-btn-${sectionId}" onclick="toggleFullContent('${sectionId}')">
-      Read the full breakdown <span class="toggle-arrow">▾</span>
+      <span class="toggle-icon">📖</span> Read the full breakdown <span class="toggle-arrow">▾</span>
     </button>
     <div class="full-content" id="full-content-${sectionId}">
       <div class="section-content">${section.content}</div>
@@ -2695,8 +2696,8 @@ function toggleFullContent(sectionId) {
   if (!body) return;
   const isOpen = body.classList.toggle('open');
   btn?.classList.toggle('open', isOpen);
-  if (isOpen) btn.innerHTML = 'Hide breakdown <span class="toggle-arrow">▾</span>';
-  else btn.innerHTML = 'Read the full breakdown <span class="toggle-arrow">▾</span>';
+  if (isOpen) btn.innerHTML = '<span class="toggle-icon">📖</span> Hide breakdown <span class="toggle-arrow">▾</span>';
+  else btn.innerHTML = '<span class="toggle-icon">📖</span> Read the full breakdown <span class="toggle-arrow">▾</span>';
 }
 
 let readTimer = null;
