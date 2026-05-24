@@ -2449,6 +2449,8 @@ function showLanding() {
     const el = document.getElementById(id);
     if (el) el.style.display = 'none';
   });
+  const logo = document.querySelector('.ob-logo');
+  if (logo) logo.style.display = 'none';
   const ob = document.getElementById('onboarding');
   if (ob) { ob.style.justifyContent = 'flex-start'; ob.scrollTop = 0; }
 }
@@ -2466,6 +2468,8 @@ function showStep(n) {
   });
   const intro = document.getElementById('ob-intro');
   if (intro) intro.style.display = 'none';
+  const logo = document.querySelector('.ob-logo');
+  if (logo) logo.style.display = '';
   const ob = document.getElementById('onboarding');
   if (ob) { ob.style.justifyContent = 'center'; ob.scrollTop = 0; }
 }
