@@ -302,6 +302,24 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   .related-chips{gap:6px}
   .related-chip{font-size:11px;padding:6px 10px}
 }
+
+/* ── VENUE CITY FILTER ── */
+.venue-filter-wrap{padding:0 0 20px}
+.venue-filter-label{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:10px}
+.venue-city-pills{display:flex;flex-wrap:wrap;gap:8px}
+.vcity-pill{background:var(--card-bg);border:1px solid var(--border);color:var(--muted);font-size:12px;padding:6px 14px;border-radius:20px;cursor:pointer;transition:all .15s;font-weight:600;white-space:nowrap}
+.vcity-pill:hover{border-color:var(--muted);color:var(--text)}
+.vcity-pill.active{background:rgba(247,183,49,.12);border-color:var(--amber);color:var(--amber)}
+.vcity{transition:opacity .2s}
+.vcity.hidden{display:none}
+/* Live events */
+.live-event-card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:6px;cursor:pointer;transition:border-color .15s}
+.live-event-card:hover{border-color:var(--amber)}
+.le-title{font-size:13px;font-weight:700;color:var(--text);line-height:1.3}
+.le-venue{font-size:11px;color:var(--muted)}
+.le-meta{display:flex;gap:8px;flex-wrap:wrap}
+.le-date{font-size:11px;color:var(--amber)}
+.le-price{font-size:11px;color:var(--success)}
 </style>
 </head>
 <body>
@@ -1773,8 +1791,42 @@ const SECTIONS = [
   readTime: '5 min',
   forTypes: ['songwriter','instrumentalist','producer','all'],
   content: `
+    <div class="venue-filter-wrap" id="venue-filter-wrap">
+      <div class="venue-filter-label">Filter by city</div>
+      <div class="venue-city-pills" id="venue-city-pills">
+        <button class="vcity-pill active" onclick="filterVenueCity('all', this)">All cities</button>
+        <button class="vcity-pill" onclick="filterVenueCity('mumbai', this)">Mumbai</button>
+        <button class="vcity-pill" onclick="filterVenueCity('delhi', this)">Delhi / NCR</button>
+        <button class="vcity-pill" onclick="filterVenueCity('bengaluru', this)">Bengaluru</button>
+        <button class="vcity-pill" onclick="filterVenueCity('hyderabad', this)">Hyderabad</button>
+        <button class="vcity-pill" onclick="filterVenueCity('chennai', this)">Chennai</button>
+        <button class="vcity-pill" onclick="filterVenueCity('kolkata', this)">Kolkata</button>
+        <button class="vcity-pill" onclick="filterVenueCity('pune', this)">Pune</button>
+        <button class="vcity-pill" onclick="filterVenueCity('goa', this)">Goa</button>
+        <button class="vcity-pill" onclick="filterVenueCity('jaipur', this)">Jaipur</button>
+        <button class="vcity-pill" onclick="filterVenueCity('kochi', this)">Kochi</button>
+        <button class="vcity-pill" onclick="filterVenueCity('ahmedabad', this)">Ahmedabad</button>
+        <button class="vcity-pill" onclick="filterVenueCity('chandigarh', this)">Chandigarh</button>
+      </div>
+    </div>
+
+    <div id="live-events-panel" style="margin-bottom:24px;display:none">
+      <div class="callout callout-amber" style="padding:0">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid rgba(247,183,49,.2)">
+          <div>
+            <strong style="color:var(--amber)">🎟 Live Ticketed Events</strong>
+            <span style="font-size:11px;color:var(--muted);margin-left:10px" id="live-events-updated"></span>
+          </div>
+          <a href="https://www.district.in" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">via District ↗</a>
+        </div>
+        <div id="live-events-grid" style="padding:14px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px"></div>
+        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check district.in directly.</div>
+      </div>
+    </div>
+
     <p>This is a reference list, not an exhaustive directory. The live music scene in India moves fast — venues open and close, ownership changes, programming shifts. Use this as a starting point. Verify current status and booking contacts directly before pitching.</p>
 
+    <div class="vcity" data-city="mumbai">
     <h3>Mumbai</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1806,6 +1858,9 @@ const SECTIONS = [
       <li><strong>Beatnation Studios (Jogeshwari):</strong> Mid-tier, independent-friendly. Popular with indie pop and R&amp;B producers.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="delhi">
     <h3>Delhi / NCR</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1835,6 +1890,9 @@ const SECTIONS = [
       <li><strong>Studio EQ (South Delhi):</strong> Mid-tier, independent-friendly. Strong for mixing and mastering independent pop and urban tracks.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="bengaluru">
     <h3>Bengaluru</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1865,6 +1923,9 @@ const SECTIONS = [
       <li><strong>Maajja Studios:</strong> Growing independent studio with producer community. Known for accessible rates and strong Kannada indie output.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="hyderabad">
     <h3>Hyderabad</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1886,6 +1947,9 @@ const SECTIONS = [
       <li><strong>Sound Garden Studios (Banjara Hills):</strong> Mid-tier, independent-friendly. Strong for Telugu and Hindi indie music.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="chennai">
     <h3>Chennai</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1909,6 +1973,9 @@ const SECTIONS = [
       <li><strong>Sai Shraddha Recording Studio (T. Nagar):</strong> Long-established. Known for Carnatic and fusion recordings. Mid-tier rates.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="kolkata">
     <h3>Kolkata</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1930,6 +1997,9 @@ const SECTIONS = [
       <li><strong>Recording Room (Park Street area):</strong> Mid-tier, accessible for independent artists. Strong for Bengali indie and folk recordings.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="pune">
     <h3>Pune</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1951,6 +2021,9 @@ const SECTIONS = [
       <li><strong>Taaq Studios:</strong> Named after the legendary Bengaluru band. Used by indie and rock acts. Mid-tier rates.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="goa">
     <h3>Goa</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1974,6 +2047,9 @@ const SECTIONS = [
       <li><strong>Remote recording note:</strong> Most artists recording in Goa bring a portable interface and work with Bombay or Bengaluru engineers remotely. Budget for a quality portable setup if you're spending a season here.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="jaipur">
     <h3>Jaipur</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1983,6 +2059,9 @@ const SECTIONS = [
       <li><strong>Jaipur Literary Festival music stages (Diggi Palace) — January:</strong> JLF occasionally books live music between literary sessions. Contact the JLF team directly for music programming enquiries.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="kochi">
     <h3>Kochi</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1991,6 +2070,9 @@ const SECTIONS = [
       <li><strong>Cochin Cultural Centre:</strong> Formal performance space. Books classical and fusion acts. Good for credibility in Kerala traditional and world music genres.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="ahmedabad">
     <h3>Ahmedabad</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -1999,6 +2081,9 @@ const SECTIONS = [
       <li><strong>Sky High (Thaltej):</strong> Rooftop bar with live music programming. Good for acoustic and indie acts.</li>
     </ul>
 
+        </div><!-- end vcity -->
+
+    <div class="vcity" data-city="chandigarh">
     <h3>Chandigarh</h3>
     <h4>Live Music Venues</h4>
     <ul>
@@ -2006,6 +2091,8 @@ const SECTIONS = [
       <li><strong>Peddlers (Sector 26):</strong> Rock and indie bar. One of the more consistent live music venues in Chandigarh for original acts.</li>
       <li><strong>Sector 17 open-air stages:</strong> Government-managed. Used for city-level cultural events and music festivals.</li>
     </ul>
+
+    </div><!-- end vcity -->
 
     <div class="callout callout-amber" style="margin-top:32px">
       <strong>For DJs specifically:</strong> The club circuit in India runs almost entirely through promoters and resident DJs. Cold-emailing a venue rarely works. The path: play smaller open-format nights for free, build a relationship with a resident promoter, get a support slot, build your own local following, then approach bigger venues. Boxout.fm (Delhi), Qilla Records (Bengaluru), and Wild City's events arm (Mumbai) are the three most important promoter networks for independent DJs in India.
@@ -2989,6 +3076,86 @@ function updateLadderDisplay(n) {
 function toggleSidebar() {
   document.getElementById('sidebar').classList.toggle('open');
   document.getElementById('sidebar-overlay').classList.toggle('open');
+}
+
+
+// ─── VENUE CITY FILTER ──────────────────────────────────────────────────────
+
+let _liveEventsData = null;
+let _currentVenueCity = 'all';
+
+function filterVenueCity(city, btn) {
+  _currentVenueCity = city;
+  document.querySelectorAll('.vcity-pill').forEach(p => p.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  document.querySelectorAll('.vcity').forEach(el => {
+    if (city === 'all' || el.dataset.city === city) {
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  });
+
+  renderLiveEvents(city);
+}
+
+function renderLiveEvents(city) {
+  const panel = document.getElementById('live-events-panel');
+  const grid = document.getElementById('live-events-grid');
+  const empty = document.getElementById('live-events-empty');
+  if (!panel || !grid) return;
+
+  if (!_liveEventsData) {
+    panel.style.display = 'none';
+    return;
+  }
+
+  let events = [];
+  if (city === 'all') {
+    Object.values(_liveEventsData.cities || {}).forEach(arr => events.push(...arr));
+  } else {
+    events = _liveEventsData.cities?.[city] || [];
+  }
+
+  events = events.filter(e => e.title && e.title.length > 2).slice(0, 24);
+  panel.style.display = 'block';
+
+  if (events.length === 0) {
+    grid.style.display = 'none';
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+    grid.style.display = 'grid';
+    grid.innerHTML = events.map(e => `
+      <a class="live-event-card" href="${e.url || '#'}" target="_blank" rel="noopener">
+        <div class="le-title">${e.title}</div>
+        ${e.venue ? `<div class="le-venue">📍 ${e.venue}</div>` : ''}
+        <div class="le-meta">
+          ${e.date ? `<span class="le-date">🗓 ${e.date}</span>` : ''}
+          ${e.price ? `<span class="le-price">${e.price}</span>` : ''}
+          ${e.city && city === 'all' ? `<span style="font-size:10px;color:var(--muted)">${e.city}</span>` : ''}
+        </div>
+      </a>`).join('');
+  }
+
+  const upd = document.getElementById('live-events-updated');
+  if (upd && _liveEventsData.updated_at) {
+    const d = new Date(_liveEventsData.updated_at);
+    upd.textContent = 'Updated ' + d.toLocaleDateString('en-IN', {day:'numeric',month:'short',year:'numeric'});
+  }
+}
+
+function loadLiveEvents() {
+  fetch('./data/live-events.json')
+    .then(r => r.ok ? r.json() : null)
+    .then(data => {
+      if (data && data.cities) {
+        _liveEventsData = data;
+        renderLiveEvents(_currentVenueCity);
+      }
+    })
+    .catch(() => {});
 }
 
 // ─── BOOT ────────────────────────────────────────────────
