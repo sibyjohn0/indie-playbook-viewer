@@ -102,6 +102,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
+.sidebar-home-btn{display:flex;align-items:center;gap:8px;padding:10px 14px;margin:8px 6px 4px 0;font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--muted);cursor:pointer;border-radius:0 6px 6px 0;border-left:3px solid transparent;transition:background .15s,color .15s}
+.sidebar-home-btn:hover{background:rgba(255,255,255,.05);color:var(--text)}
 .sidebar-section-label{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);padding:20px 16px 6px;font-weight:700}
 .phase-group{margin-bottom:2px}
 .phase-header{display:flex;align-items:center;gap:10px;padding:10px 14px 10px 12px;cursor:pointer;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#c8c8c8;user-select:none;border-left:3px solid transparent;border-radius:0 6px 6px 0;margin:1px 6px 1px 0;transition:background .15s,color .15s,border-color .15s}
@@ -2557,7 +2559,7 @@ function buildSidebar(activePhase) {
   // Default active phase: your-journey (first phase), or whatever is currently open
   const openPhase = activePhase || currentSectionId && (SECTIONS.find(s => s.id === currentSectionId) || {}).phase || 'your-journey';
 
-  let html = '';
+  let html = `<div class="sidebar-home-btn" onclick="showLanding()">🏠 <span>About this Playbook</span></div>`;
   for (const phase of PHASE_ORDER) {
     const items = byPhase[phase.id];
     if (!items || items.length === 0) continue;
