@@ -2529,9 +2529,13 @@ const PHASE_ORDER = [
 ];
 
 function visibleSections() {
+  const PLAN_IDS = ['plan-90-songwriter', 'plan-90-instrumentalist', 'plan-90-producer'];
   return SECTIONS.filter(s => {
     if (s.forTypes.includes('all')) return true;
-    if (artistType === 'all') return true;
+    if (artistType === 'all') {
+      if (PLAN_IDS.includes(s.id)) return s.id === 'plan-90-songwriter';
+      return true;
+    }
     return s.forTypes.includes(artistType);
   });
 }
@@ -2572,7 +2576,7 @@ function buildSidebar(activePhase) {
       const isDimmed = artistType !== 'all' && !s.forTypes.includes(artistType) && !s.forTypes.includes('all');
       html += `<div class="nav-item${isRead ? ' read' : ''}${isDimmed ? ' dimmed' : ''}" id="nav-${s.id}" onclick="navigateTo('${s.id}')">
         <div class="nav-dot"></div>
-        <span>${s.title}</span>
+        <span>${s.id === 'plan-90-songwriter' && artistType === 'all' ? 'Your 90-Day Plan' : s.title}</span>
       </div>`;
     }
     html += `</div></div>`;
@@ -2685,7 +2689,7 @@ function navigateTo(id) {
       <span class="section-tag">${section.readTime}</span>
       ${section.tags.map(t => `<span class="section-tag">${t}</span>`).join('')}
     </div>
-    <h1 class="section-title">${section.title}</h1>
+    <h1 class="section-title">${section.id === 'plan-90-songwriter' && artistType === 'all' ? 'Your 90-Day Plan' : section.title}</h1>
     ${tldrHTML}
     ${checklistHTML}
     <button class="content-toggle-btn" id="toggle-btn-${sectionId}" onclick="toggleFullContent('${sectionId}')">
