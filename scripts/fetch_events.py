@@ -93,12 +93,20 @@ EXTRACT_JS = """
         if (!title || title.length < 3 || seen.has(title)) return;
         seen.add(title);
 
-        // Extract other fields
-        const venue = a.querySelector('[class*="venue"],[class*="location"],[class*="place"]')?.innerText?.trim()
-                    || lines.find(l => l.includes('|') || (l.length > 5 && /[A-Z]/.test(l[0]) && !/^[₹\\d]/.test(l) && l !== title));
+        // Extract date (lines starting with day name)
         const dateEl = lines.find(l => /^(Mon|Tue|Wed|Thu|Fri|Sat|Sun|Every)/.test(l));
+        // Extract venue: not the title, not a date line, not a price line
+        const venue = a.querySelector('[class*="venue"],[class*="location"],[class*="place"]')?.innerText?.trim()
+                    || lines.find(l =>
+                        l !== title &&
+                        l !== dateEl &&
+                        l.length > 5 &&
+                        !/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun|Every)/.test(l) &&
+                        !/^[₹₹\d]/.test(l) &&
+                        !/^Book/.test(l)
+                    );
         const priceEl = a.querySelector('[class*="price"],[class*="ticket"]')?.innerText?.trim()
-                      || lines.find(l => /[₹Rs\\d]/.test(l) && l.length < 30);
+                      || lines.find(l => /[₹Rs]/.test(l) && l.length < 30);
 
         events.push({
             title,
