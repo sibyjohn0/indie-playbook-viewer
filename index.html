@@ -102,12 +102,19 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
 .sidebar-section-label{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);padding:20px 16px 6px;font-weight:700}
-.phase-group{}
-.phase-header{display:flex;align-items:center;justify-content:space-between;padding:8px 16px;cursor:pointer;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);user-select:none}
-.phase-header:hover{color:var(--text)}
-.phase-chevron{font-size:10px;transition:transform .2s}
+.phase-group{margin-bottom:2px}
+.phase-header{display:flex;align-items:center;gap:10px;padding:10px 14px 10px 12px;cursor:pointer;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#c8c8c8;user-select:none;border-left:3px solid transparent;border-radius:0 6px 6px 0;margin:1px 6px 1px 0;transition:background .15s,color .15s,border-color .15s}
+.phase-header:hover{background:rgba(255,255,255,.05);color:#fff}
+.phase-header.open{color:#fff}
+.phase-icon{font-size:14px;flex-shrink:0;opacity:.85}
+.phase-label-wrap{flex:1;min-width:0}
+.phase-label-text{display:block;line-height:1.2}
+.phase-label-count{font-size:9px;font-weight:400;color:var(--muted);letter-spacing:0;text-transform:none;margin-top:1px;display:block}
+.phase-header.open .phase-label-count{color:inherit;opacity:.6}
+.phase-chevron{font-size:9px;transition:transform .2s;color:var(--muted);flex-shrink:0}
+.phase-header.open .phase-chevron{transform:rotate(0deg);color:inherit;opacity:.7}
 .phase-header.collapsed .phase-chevron{transform:rotate(-90deg)}
-.phase-items{}
+.phase-items{padding-bottom:4px}
 .phase-items.hidden{display:none}
 .nav-item{display:flex;align-items:center;gap:9px;padding:8px 16px 8px 24px;cursor:pointer;font-size:12px;color:var(--muted);border-left:2px solid transparent;transition:color .15s,border-color .15s;line-height:1.3}
 .nav-item:hover{color:var(--text);background:rgba(255,255,255,.02)}
@@ -2510,15 +2517,15 @@ function enterApp() {
 
 // ─── SIDEBAR ─────────────────────────────────────────────
 const PHASE_ORDER = [
-  { id: 'your-journey', label: 'Your Journey' },
-  { id: 'phase1', label: 'Phase 1: Identity' },
-  { id: 'phase2', label: 'Phase 2: Production' },
-  { id: 'phase3', label: 'Phase 3: Distribution' },
-  { id: 'phase4', label: 'Phase 4: Revenue' },
-  { id: 'phase5', label: 'Phase 5: Scaling' },
-  { id: 'rights', label: 'Rights & Infrastructure' },
-  { id: 'casestudies', label: 'Case Studies' },
-  { id: 'appendix', label: 'Reference' },
+  { id: 'your-journey', label: 'Your Journey',          icon: '🧭', color: '#e94560' },
+  { id: 'phase1',       label: 'Phase 1: Identity',     icon: '🎯', color: '#3b82f6' },
+  { id: 'phase2',       label: 'Phase 2: Production',   icon: '🎛️', color: '#4caf50' },
+  { id: 'phase3',       label: 'Phase 3: Distribution', icon: '📡', color: '#8b5cf6' },
+  { id: 'phase4',       label: 'Phase 4: Revenue',      icon: '💰', color: '#f7b731' },
+  { id: 'phase5',       label: 'Phase 5: Scaling',      icon: '📈', color: '#f97316' },
+  { id: 'rights',       label: 'Rights & Infrastructure',icon: '⚖️', color: '#06b6d4' },
+  { id: 'casestudies',  label: 'Case Studies',          icon: '🎤', color: '#a78bfa' },
+  { id: 'appendix',     label: 'Reference',             icon: '📚', color: '#94a3b8' },
 ];
 
 function visibleSections() {
@@ -2548,9 +2555,15 @@ function buildSidebar(activePhase) {
     const isOpen = phase.id === openPhase;
     const doneCount = items.filter(s => localStorage.getItem('playbook_read_' + s.id) === '1').length;
     const phaseLabel = doneCount > 0 ? `${phase.label} <small style="color:var(--success);font-size:9px">${doneCount}/${items.length}</small>` : phase.label;
+    const totalCount = items.length;
+    const countLabel = doneCount > 0 ? `${doneCount} of ${totalCount} done` : `${totalCount} ${totalCount === 1 ? 'section' : 'sections'}`;
     html += `<div class="phase-group">
-      <div class="phase-header${isOpen ? '' : ' collapsed'}" onclick="togglePhase('${phase.id}')">
-        <span>${phaseLabel}</span>
+      <div class="phase-header${isOpen ? ' open' : ' collapsed'}" onclick="togglePhase('${phase.id}')" style="border-left-color:${isOpen ? phase.color : 'transparent'}">
+        <span class="phase-icon">${phase.icon || ''}</span>
+        <span class="phase-label-wrap">
+          <span class="phase-label-text">${phase.label}</span>
+          <span class="phase-label-count">${countLabel}</span>
+        </span>
         <span class="phase-chevron">▾</span>
       </div>
       <div class="phase-items${isOpen ? '' : ' hidden'}" id="phase-${phase.id}">`;
@@ -2573,6 +2586,9 @@ function togglePhase(id) {
   if (!items) return;
   const hidden = items.classList.toggle('hidden');
   header?.classList.toggle('collapsed', hidden);
+  header?.classList.toggle('open', !hidden);
+  const phase = PHASE_ORDER.find(p => p.id === id);
+  if (header && phase) header.style.borderLeftColor = hidden ? 'transparent' : (phase.color || 'transparent');
 }
 
 // ─── NAVIGATION ──────────────────────────────────────────
