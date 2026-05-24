@@ -320,6 +320,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .le-meta{display:flex;gap:8px;flex-wrap:wrap}
 .le-date{font-size:11px;color:var(--amber)}
 .le-price{font-size:11px;color:var(--success)}
+
+/* ── VENUE CONTACT LINKS ── */
+.vc{display:inline-block;margin-left:8px;font-size:10px;font-weight:600;letter-spacing:.3px;color:var(--muted);background:rgba(255,255,255,.05);border:1px solid var(--border);border-radius:10px;padding:2px 8px;text-decoration:none;white-space:nowrap;vertical-align:middle;transition:border-color .15s,color .15s}
+.vc:hover{color:var(--amber);border-color:var(--amber);text-decoration:none}
+.vc-ig::before{content:"@\00a0"}
 </style>
 </head>
 <body>
@@ -1830,31 +1835,31 @@ const SECTIONS = [
     <h3>Mumbai</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>AntiSocial (Khar):</strong> The primary independent music venue in Mumbai. Books original artists across genres. Has an in-house production team. Apply through their website or DM the programming team.</li>
-      <li><strong>Social (Khar, Lower Parel, Bandra, Andheri):</strong> Multiple locations. Casual gig bookings, lower fees, high foot traffic. Good for building a local audience early.</li>
-      <li><strong>Todi Mill Social (Lower Parel):</strong> Larger-format Social venue with proper stage infrastructure. Books bigger indie and fusion acts than the smaller Social locations.</li>
+      <li><strong>AntiSocial (Khar):</strong> The primary independent music venue in Mumbai. Books original artists across genres. Has an in-house production team. Apply through their website or DM the programming team. <a class="vc vc-ig" href="https://www.instagram.com/antisocial_khar" target="_blank" rel="noopener">antisocial_khar</a> <a class="vc" href="https://antisocial.in" target="_blank" rel="noopener">antisocial.in</a></li>
+      <li><strong>Social (Khar, Lower Parel, Bandra, Andheri):</strong> Multiple locations. Casual gig bookings, lower fees, high foot traffic. Good for building a local audience early. <a class="vc vc-ig" href="https://www.instagram.com/socialoffline" target="_blank" rel="noopener">socialoffline</a> <a class="vc" href="https://socialoffline.in" target="_blank" rel="noopener">socialoffline.in</a></li>
+      <li><strong>Todi Mill Social (Lower Parel):</strong> Larger-format Social venue with proper stage infrastructure. Books bigger indie and fusion acts than the smaller Social locations. <a class="vc vc-ig" href="https://www.instagram.com/socialoffline" target="_blank" rel="noopener">socialoffline</a></li>
       <li><strong>The Habitat (Khar):</strong> Comedy-focused but books live music for special events. Good for crossover audiences.</li>
       <li><strong>NCPA (Nariman Point):</strong> Classical, fusion, and curated indie. More formal booking process. Important for credibility in genre-crossing work.</li>
-      <li><strong>Hard Rock Cafe (Worli):</strong> Corporate-friendly, established artist lists, consistent sound production. Pays flat fees.</li>
-      <li><strong>The Quarter (Opera House):</strong> Regular live music programming — jazz, indie, pop. More intimate than NCPA, more curated than Social.</li>
-      <li><strong>The Cuckoo Club (Bandra):</strong> Long-running indie and alternative music spot. Acoustic and small-band formats. Artist-friendly booking process.</li>
+      <li><strong>Hard Rock Cafe (Worli):</strong> Corporate-friendly, established artist lists, consistent sound production. Pays flat fees. <a class="vc" href="https://www.hardrockcafe.com/location/mumbai/" target="_blank" rel="noopener">hardrockcafe.com</a></li>
+      <li><strong>The Quarter (Opera House):</strong> Regular live music programming — jazz, indie, pop. More intimate than NCPA, more curated than Social. <a class="vc vc-ig" href="https://www.instagram.com/thequartermusic" target="_blank" rel="noopener">thequartermusic</a></li>
+      <li><strong>The Cuckoo Club (Bandra):</strong> Long-running indie and alternative music spot. Acoustic and small-band formats. Artist-friendly booking process. <a class="vc vc-ig" href="https://www.instagram.com/the_cuckoo_club" target="_blank" rel="noopener">the_cuckoo_club</a></li>
       <li><strong>Aer (Four Seasons, Worli):</strong> High-end rooftop with curated ambient DJ and live music programming. Approach via the hotel events team.</li>
       <li><strong>Soho House (Juhu):</strong> Members-only but runs curated music events. Better for industry networking than general bookings.</li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Kitty Su (The LaLiT, Andheri):</strong> One of India's top electronic music clubs. Books international and domestic DJs and live electronic acts. Strong production and sound. Apply through their resident promoters or direct DM.</li>
+      <li><strong>Kitty Su (The LaLiT, Andheri):</strong> One of India's top electronic music clubs. Books international and domestic DJs and live electronic acts. Strong production and sound. Apply through their resident promoters or direct DM. <a class="vc vc-ig" href="https://www.instagram.com/kittysumumbai" target="_blank" rel="noopener">kittysumumbai</a></li>
       <li><strong>Ra Mumbai (BKC):</strong> Large-format nightclub with DJ headliners. Works with promoters — approach via BookMyShow Live or local Bandra/BKC promoter network.</li>
       <li><strong>Trilogy (Sahar, Andheri):</strong> Electronic music venue. Regular DJ nights, occasional live acts. Book through promoters connected to the Andheri nightlife circuit.</li>
       <li><strong>Blue Frog (legacy):</strong> The live venue closed but the brand lives on in events. Watch for Blue Frog pop-ups — they still programme curated DJ and live electronic shows at partner venues.</li>
-      <li><strong>Paisa Vasool (multiple pop-up locations):</strong> Electronic and bass music promoter running events across Mumbai. DM them on Instagram — they actively look for new artists.</li>
+      <li><strong>Paisa Vasool (multiple pop-up locations):</strong> Electronic and bass music promoter running events across Mumbai. DM them on Instagram — they actively look for new artists. <a class="vc vc-ig" href="https://www.instagram.com/paisavasoolmumbai" target="_blank" rel="noopener">paisavasoolmumbai</a></li>
     </ul>
     <h4>Recording Studios</h4>
     <ul>
       <li><strong>Famous Studios (Mahalaxmi):</strong> Legacy studio. Bollywood-grade facilities. Premium rates. Worth one session for the acoustics and engineer relationships.</li>
       <li><strong>YRF Studios (Andheri West):</strong> Access typically through label relationships, not direct bookings.</li>
-      <li><strong>Bombay Recording Company (Bandra):</strong> Independent-friendly, strong engineers, mid-tier rates. Used by many indie artists.</li>
-      <li><strong>True School of Music (Andheri):</strong> Studio facilities available for independent bookings. Producer-oriented. Strong hip-hop and urban production community.</li>
+      <li><strong>Bombay Recording Company (Bandra):</strong> Independent-friendly, strong engineers, mid-tier rates. Used by many indie artists. <a class="vc" href="https://bombayrecordingcompany.com" target="_blank" rel="noopener">bombayrecordingcompany.com</a></li>
+      <li><strong>True School of Music (Andheri):</strong> Studio facilities available for independent bookings. Producer-oriented. Strong hip-hop and urban production community. <a class="vc" href="https://truemusic.in" target="_blank" rel="noopener">truemusic.in</a></li>
       <li><strong>Beatnation Studios (Jogeshwari):</strong> Mid-tier, independent-friendly. Popular with indie pop and R&amp;B producers.</li>
     </ul>
 
@@ -1865,18 +1870,18 @@ const SECTIONS = [
     <h4>Live Music Venues</h4>
     <ul>
       <li><strong>Hauz Khas Social:</strong> High-volume indie bookings. Competitive but accessible for original artists.</li>
-      <li><strong>Auro Kitchen and Bar (Hauz Khas):</strong> Consistent indie music programming. One of Delhi's most reliable independent venues. Has hosted artists before they broke nationally.</li>
-      <li><strong>Piano Man Jazz Club (Safdarjung):</strong> The premier jazz and blues venue in Delhi. Also books singer-songwriters and fusion acts. Has a recording-quality live sound setup.</li>
+      <li><strong>Auro Kitchen and Bar (Hauz Khas):</strong> Consistent indie music programming. One of Delhi's most reliable independent venues. Has hosted artists before they broke nationally. <a class="vc vc-ig" href="https://www.instagram.com/aurokitchenandbar" target="_blank" rel="noopener">aurokitchenandbar</a></li>
+      <li><strong>Piano Man Jazz Club (Safdarjung):</strong> The premier jazz and blues venue in Delhi. Also books singer-songwriters and fusion acts. Has a recording-quality live sound setup. <a class="vc vc-ig" href="https://www.instagram.com/pianomann_jazzclub" target="_blank" rel="noopener">pianomann_jazzclub</a> <a class="vc" href="https://pianomainjazz.com" target="_blank" rel="noopener">pianomainjazz.com</a></li>
       <li><strong>Monkey Bar (Vasant Kunj, Khan Market):</strong> Casual live music, accessible bookings. Good for indie and folk acts.</li>
       <li><strong>Canvas, India Habitat Centre:</strong> More formal, cultural and arts-adjacent bookings. Good for credibility in experimental and fusion work.</li>
-      <li><strong>Hard Rock Cafe (Connaught Place):</strong> Established artist list. Reliable payment terms.</li>
-      <li><strong>Raasta (Hauz Khas):</strong> Reggae and alternative music bar. Consistent live programming. Artist-friendly booking process.</li>
+      <li><strong>Hard Rock Cafe (Connaught Place):</strong> Established artist list. Reliable payment terms. <a class="vc" href="https://www.hardrockcafe.com/location/new-delhi/" target="_blank" rel="noopener">hardrockcafe.com</a></li>
+      <li><strong>Raasta (Hauz Khas):</strong> Reggae and alternative music bar. Consistent live programming. Artist-friendly booking process. <a class="vc vc-ig" href="https://www.instagram.com/raastabar" target="_blank" rel="noopener">raastabar</a></li>
       <li><strong>Siri Fort Auditorium:</strong> Government-managed. Large capacity. Key for festival-scale events and classical/fusion acts.</li>
-      <li><strong>Blue Tokai (multiple locations):</strong> Acoustic sessions — not a full venue, but consistently books small acoustic acts. Good for building a Delhi audience before you have a draw.</li>
+      <li><strong>Blue Tokai (multiple locations):</strong> Acoustic sessions — not a full venue, but consistently books small acoustic acts. Good for building a Delhi audience before you have a draw. <a class="vc vc-ig" href="https://www.instagram.com/bluetokaicoffee" target="_blank" rel="noopener">bluetokaicoffee</a></li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Kitty Su (The LaLiT, Barakhamba):</strong> Delhi's highest-profile electronic music club. Books top domestic and international DJs. Strong sound and lighting production.</li>
+      <li><strong>Kitty Su (The LaLiT, Barakhamba):</strong> Delhi's highest-profile electronic music club. Books top domestic and international DJs. Strong sound and lighting production. <a class="vc vc-ig" href="https://www.instagram.com/kittysunewdelhi" target="_blank" rel="noopener">kittysunewdelhi</a></li>
       <li><strong>Akara (DLF Cybercity, Gurugram):</strong> Electronic music and DJ venue in the Gurugram nightlife corridor. Good for producers and DJs looking to enter the Delhi/NCR circuit.</li>
       <li><strong>Warehouse Cafe (DLF Cybercity, Gurugram):</strong> Hybrid venue — live acts and DJ nights. Strong corporate adjacent crowd. Works with local promoters.</li>
       <li><strong>PCO (Connaught Place):</strong> Speakeasy bar with curated DJ programming. More music-industry crowd than general public. Useful for networking.</li>
@@ -1896,25 +1901,25 @@ const SECTIONS = [
     <h3>Bengaluru</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>The Humming Tree (Indiranagar):</strong> Bengaluru's most consistent independent music venue. Multiple formats: acoustic sets, full bands, DJ nights. Strong press relationships. The best starting point for any serious independent artist in Bengaluru.</li>
+      <li><strong>The Humming Tree (Indiranagar):</strong> Bengaluru's most consistent independent music venue. Multiple formats: acoustic sets, full bands, DJ nights. Strong press relationships. The best starting point for any serious independent artist in Bengaluru. <a class="vc vc-ig" href="https://www.instagram.com/thehummingtree" target="_blank" rel="noopener">thehummingtree</a> <a class="vc" href="https://www.thehummingtree.com" target="_blank" rel="noopener">thehummingtree.com</a></li>
       <li><strong>Church Street Social:</strong> High foot traffic, accessible bookings. Good for early-stage audience building.</li>
       <li><strong>Windmill Craftworks (Whitefield):</strong> Known for booking original independent artists. Outdoor stage, weekend-focused.</li>
       <li><strong>Hard Rock Cafe (St. Mark's Road):</strong> Established bookings list, consistent fees.</li>
-      <li><strong>Toit Brewpub (Indiranagar and Whitefield):</strong> Live music on weekends. Accessible and high-quality audience. Good for acoustic and indie pop acts.</li>
+      <li><strong>Toit Brewpub (Indiranagar and Whitefield):</strong> Live music on weekends. Accessible and high-quality audience. Good for acoustic and indie pop acts. <a class="vc vc-ig" href="https://www.instagram.com/toitbengaluru" target="_blank" rel="noopener">toitbengaluru</a> <a class="vc" href="https://toitbengaluru.com" target="_blank" rel="noopener">toitbengaluru.com</a></li>
       <li><strong>Arbor Brewing Company (Indiranagar):</strong> Regular live music nights. Independent-friendly, good sound setup for the size.</li>
-      <li><strong>Plan B (Koramangala):</strong> Rock and indie music bar. Consistent weekly live programming.</li>
+      <li><strong>Plan B (Koramangala):</strong> Rock and indie music bar. Consistent weekly live programming. <a class="vc vc-ig" href="https://www.instagram.com/planbbangalore" target="_blank" rel="noopener">planbbangalore</a></li>
       <li><strong>Count's Ark (Ulsoor):</strong> Smaller, intimate. Good for experimental and acoustic sets.</li>
       <li><strong>Bhukum (Sarjapur):</strong> Weekend farmer-market format. Books acoustic and indie acts, smaller fees but good audience quality.</li>
       <li><strong>Hammered (Indiranagar):</strong> Rock and metal music bar. Niche but loyal audience. Weekly bookings.</li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Flo (Koramangala):</strong> One of Bengaluru's better DJ-focused spaces. Books both domestic and visiting DJs. Good entry point into the Bengaluru electronic circuit.</li>
+      <li><strong>Flo (Koramangala):</strong> One of Bengaluru's better DJ-focused spaces. Books both domestic and visiting DJs. Good entry point into the Bengaluru electronic circuit. <a class="vc vc-ig" href="https://www.instagram.com/flobangalore" target="_blank" rel="noopener">flobangalore</a></li>
       <li><strong>Club Saathi (Indiranagar):</strong> DJ and electronic music venue. Books local and touring DJs. More accessible than the high-end clubs.</li>
       <li><strong>Parliament (UB City):</strong> High-end rooftop lounge. DJ and live music curation for premium crowd. Approach through promoters or via direct Instagram.</li>
       <li><strong>Skyye (UB City):</strong> Rooftop bar with curated DJ sets. Primarily atmospheric and lounge music.</li>
       <li><strong>Hard Rock Cafe (St. Mark's Road) DJ nights:</strong> The HRC also runs DJ nights — a separate booking from their live acts calendar.</li>
-      <li><strong>Bengaluru Basement parties (various):</strong> Bengaluru has a strong underground electronic scene with basement and warehouse events. Follow promoters like Qilla, SuperMassive, and Boxout on Instagram for event announcements and submission opportunities.</li>
+      <li><strong>Bengaluru Basement parties (various):</strong> Bengaluru has a strong underground electronic scene with basement and warehouse events. Follow promoters like Qilla, SuperMassive, and Boxout on Instagram for event announcements and submission opportunities. <a class="vc vc-ig" href="https://www.instagram.com/qillarecords" target="_blank" rel="noopener">qillarecords</a> <a class="vc vc-ig" href="https://www.instagram.com/supermassiveblr" target="_blank" rel="noopener">supermassiveblr</a> <a class="vc vc-ig" href="https://www.instagram.com/boxout.fm" target="_blank" rel="noopener">boxout.fm</a></li>
     </ul>
     <h4>Recording Studios</h4>
     <ul>
@@ -1929,9 +1934,9 @@ const SECTIONS = [
     <h3>Hyderabad</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>Hard Rock Cafe (Banjara Hills):</strong> Primary corporate-friendly venue. Reliable payments.</li>
-      <li><strong>Fuga (Jubilee Hills):</strong> Music bar with live programming. Good for original artists in pop and indie.</li>
-      <li><strong>Lamakaan (Banjara Hills):</strong> Cultural space that books experimental, folk, and independent music. Ticket-split model, small audiences, high credibility in the Hyderabad arts scene.</li>
+      <li><strong>Hard Rock Cafe (Banjara Hills):</strong> Primary corporate-friendly venue. Reliable payments. <a class="vc" href="https://www.hardrockcafe.com/location/hyderabad/" target="_blank" rel="noopener">hardrockcafe.com</a></li>
+      <li><strong>Fuga (Jubilee Hills):</strong> Music bar with live programming. Good for original artists in pop and indie. <a class="vc vc-ig" href="https://www.instagram.com/fugahyderabad" target="_blank" rel="noopener">fugahyderabad</a></li>
+      <li><strong>Lamakaan (Banjara Hills):</strong> Cultural space that books experimental, folk, and independent music. Ticket-split model, small audiences, high credibility in the Hyderabad arts scene. <a class="vc vc-ig" href="https://www.instagram.com/lamakaanhyd" target="_blank" rel="noopener">lamakaanhyd</a> <a class="vc" href="https://lamakaan.com" target="_blank" rel="noopener">lamakaan.com</a></li>
       <li><strong>Pebble (Jubilee Hills):</strong> Live music bar with regular weekend bookings. Independent-friendly.</li>
       <li><strong>Shilpakala Vedika:</strong> Large outdoor amphitheatre. Government-managed. Key for festival-scale events in Hyderabad.</li>
     </ul>
@@ -1953,17 +1958,17 @@ const SECTIONS = [
     <h3>Chennai</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>Café Mustard (Nungambakkam):</strong> Intimate live music venue. Indie and acoustic bookings. Regular programming, artist-friendly.</li>
+      <li><strong>Café Mustard (Nungambakkam):</strong> Intimate live music venue. Indie and acoustic bookings. Regular programming, artist-friendly. <a class="vc vc-ig" href="https://www.instagram.com/cafemustardchennai" target="_blank" rel="noopener">cafemustardchennai</a></li>
       <li><strong>Unwind Centre (Egmore):</strong> Cultural performance space. Books indie, folk, and experimental acts. Important for the Chennai indie circuit.</li>
       <li><strong>The Velvet Club:</strong> Live music bar with regular bookings for indie artists.</li>
       <li><strong>Music Academy (TTK Road):</strong> Classical and Carnatic-adjacent, curated programming. High credibility for South Indian traditional and fusion genres.</li>
-      <li><strong>Hard Rock Cafe (Express Avenue):</strong> Established list, consistent fees.</li>
+      <li><strong>Hard Rock Cafe (Express Avenue):</strong> Established list, consistent fees. <a class="vc" href="https://www.hardrockcafe.com/location/chennai/" target="_blank" rel="noopener">hardrockcafe.com</a></li>
       <li><strong>10 Downing Street (Anna Salai):</strong> Bar with live music programming. Good for rock and indie acts.</li>
       <li><strong>Dublin (Anna Salai):</strong> Irish pub format with live music. Good for cover-to-original transition gigs — builds a consistent weekly audience.</li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Pasha (Park Hotel):</strong> High-end nightclub. DJ-focused. Electronic and hip-hop programming. Book through promoters or the hotel's events team.</li>
+      <li><strong>Pasha (Park Hotel):</strong> High-end nightclub. DJ-focused. Electronic and hip-hop programming. Book through promoters or the hotel's events team. <a class="vc" href="https://www.parkhotels.com/en/hotel-in-chennai/the-park-chennai" target="_blank" rel="noopener">parkhotels.com</a></li>
       <li><strong>H2O (Radisson Blu):</strong> Pool-side club with DJ nights. Good for ambient and progressive house DJs.</li>
       <li><strong>Phoenix MarketCity event stages:</strong> Corporate mall events. Lower artistic control but higher visibility and consistent payment.</li>
     </ul>
@@ -1979,16 +1984,16 @@ const SECTIONS = [
     <h3>Kolkata</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>Someplace Else (Park Hotel):</strong> Kolkata's longest-running live music venue. Books rock, blues, and indie acts regularly.</li>
+      <li><strong>Someplace Else (Park Hotel):</strong> Kolkata's longest-running live music venue. Books rock, blues, and indie acts regularly. <a class="vc vc-ig" href="https://www.instagram.com/someplaceelsebar" target="_blank" rel="noopener">someplaceelsebar</a></li>
       <li><strong>Roxy:</strong> Newer venue, growing indie music programming.</li>
-      <li><strong>Bhooter Raja:</strong> Rock music bar. Consistent weekly bookings. Loyal audience for metal and alternative acts.</li>
+      <li><strong>Bhooter Raja:</strong> Rock music bar. Consistent weekly bookings. Loyal audience for metal and alternative acts. <a class="vc vc-ig" href="https://www.instagram.com/bhooter_raja_" target="_blank" rel="noopener">bhooter_raja_</a></li>
       <li><strong>Oly Pub (Park Street):</strong> Old-school bar with occasional live music. Good for blues and classic rock adjacent acts.</li>
       <li><strong>Monkey Bar (Park Street):</strong> Casual live music with accessible bookings. Good for indie and folk acts.</li>
       <li><strong>Rabindra Sadan:</strong> Major performance hall. Classical, rabindrasangeet, and indie-credible bookings. Booking through government cultural bodies.</li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Tantra (Park Hotel):</strong> Kolkata's primary DJ and nightclub venue. Electronic music and DJ nights. Book through promoters.</li>
+      <li><strong>Tantra (Park Hotel):</strong> Kolkata's primary DJ and nightclub venue. Electronic music and DJ nights. Book through promoters. <a class="vc vc-ig" href="https://www.instagram.com/tantrakolkata" target="_blank" rel="noopener">tantrakolkata</a></li>
       <li><strong>Ozora (various locations):</strong> Electronic music promoter running Kolkata events. DM on Instagram for booking opportunities.</li>
     </ul>
     <h4>Recording Studios</h4>
@@ -2003,11 +2008,11 @@ const SECTIONS = [
     <h3>Pune</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>High Spirits (Koregaon Park):</strong> Pune's primary indie and electronic music venue. Strong booking relationships with Mumbai promoters.</li>
-      <li><strong>Hard Rock Cafe (Koregaon Park):</strong> Corporate-friendly, consistent payment terms.</li>
+      <li><strong>High Spirits (Koregaon Park):</strong> Pune's primary indie and electronic music venue. Strong booking relationships with Mumbai promoters. <a class="vc vc-ig" href="https://www.instagram.com/highspirits_pune" target="_blank" rel="noopener">highspirits_pune</a> <a class="vc" href="https://highspirits.in" target="_blank" rel="noopener">highspirits.in</a></li>
+      <li><strong>Hard Rock Cafe (Koregaon Park):</strong> Corporate-friendly, consistent payment terms. <a class="vc" href="https://www.hardrockcafe.com/location/pune/" target="_blank" rel="noopener">hardrockcafe.com</a></li>
       <li><strong>Pagdandi Books Chai Café:</strong> Small, intimate. Good for acoustic sets and building a loyal early audience.</li>
       <li><strong>The Corrigendum (Koregaon Park):</strong> Bar with regular live music. Indie-friendly, accessible bookings.</li>
-      <li><strong>Bombay Social (Koregaon Park):</strong> Part of the Social chain. Live music and DJ nights. Good early-stage venue.</li>
+      <li><strong>Bombay Social (Koregaon Park):</strong> Part of the Social chain. Live music and DJ nights. Good early-stage venue. <a class="vc vc-ig" href="https://www.instagram.com/socialoffline" target="_blank" rel="noopener">socialoffline</a></li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
@@ -2028,17 +2033,17 @@ const SECTIONS = [
     <h4>Live Music Venues</h4>
     <ul>
       <li><strong>The Beach House (Candolim):</strong> Upscale lounge and live music venue. Books acoustic and small-band acts. Year-round operation.</li>
-      <li><strong>Thalassa (Vagator):</strong> Greek restaurant with live music evenings. Good for singer-songwriter and acoustic duo formats.</li>
+      <li><strong>Thalassa (Vagator):</strong> Greek restaurant with live music evenings. Good for singer-songwriter and acoustic duo formats. <a class="vc vc-ig" href="https://www.instagram.com/thalassagoa" target="_blank" rel="noopener">thalassagoa</a></li>
       <li><strong>Mambos (Baga):</strong> Long-running beach club. Mix of live acts and DJ nights. Accessible bookings.</li>
       <li><strong>Chronicle (Panaji):</strong> Newer venue. Live music and DJ programming. Growing indie presence.</li>
     </ul>
     <h4>DJ / Electronic Venues</h4>
     <ul>
-      <li><strong>Leopard Valley (Vagator):</strong> Outdoor electronic/live music venue. Seasonal (October–March). One of India's most iconic electronic spaces. Primarily DJ bookings — submit mixes to the management team.</li>
-      <li><strong>Shiva Valley (Anjuna):</strong> Legendary trance and psytrance destination. DJ-only format. Essential to the Goa circuit if you work in trance or psychedelic electronic music.</li>
+      <li><strong>Leopard Valley (Vagator):</strong> Outdoor electronic/live music venue. Seasonal (October–March). One of India's most iconic electronic spaces. Primarily DJ bookings — submit mixes to the management team. <a class="vc vc-ig" href="https://www.instagram.com/leopardvalleygoa" target="_blank" rel="noopener">leopardvalleygoa</a></li>
+      <li><strong>Shiva Valley (Anjuna):</strong> Legendary trance and psytrance destination. DJ-only format. Essential to the Goa circuit if you work in trance or psychedelic electronic music. <a class="vc vc-ig" href="https://www.instagram.com/shiva_valley_goa" target="_blank" rel="noopener">shiva_valley_goa</a></li>
       <li><strong>Hilltop (Vagator):</strong> Outdoor hillside venue. Full moon parties and electronic events. DJ bookings through the Goa promoter network.</li>
       <li><strong>Club Cabana (Arpora):</strong> One of Goa's largest clubs. Saturday Night Bazaar adjacent. DJ-focused. Seasonal — operates October to April.</li>
-      <li><strong>Curlies (Anjuna):</strong> Iconic beach venue. Primarily DJ/electronic but books live acts for special events.</li>
+      <li><strong>Curlies (Anjuna):</strong> Iconic beach venue. Primarily DJ/electronic but books live acts for special events. <a class="vc vc-ig" href="https://www.instagram.com/curliesgoa" target="_blank" rel="noopener">curliesgoa</a></li>
       <li><strong>Sunburn and NH7 Weekender festival sites:</strong> Require booking through promoters (Percept, OML) well in advance. Submission windows open 6–9 months before event dates.</li>
     </ul>
     <h4>Recording Studios</h4>
@@ -2053,7 +2058,7 @@ const SECTIONS = [
     <h3>Jaipur</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>Bar Palladio (Narain Niwas):</strong> Upscale bar with curated live music. Good for singer-songwriters and duo formats.</li>
+      <li><strong>Bar Palladio (Narain Niwas):</strong> Upscale bar with curated live music. Good for singer-songwriters and duo formats. <a class="vc vc-ig" href="https://www.instagram.com/barpalladiojaipur" target="_blank" rel="noopener">barpalladiojaipur</a></li>
       <li><strong>Peacock Rooftop Restaurant (Hotel Pearl Palace):</strong> Live music evenings. Accessible for acoustic and folk acts. Tourist-heavy audience but consistent bookings.</li>
       <li><strong>Steam (Jaipur Marriott):</strong> Hotel bar with live music. Corporate-friendly, consistent fees.</li>
       <li><strong>Jaipur Literary Festival music stages (Diggi Palace) — January:</strong> JLF occasionally books live music between literary sessions. Contact the JLF team directly for music programming enquiries.</li>
@@ -2065,7 +2070,7 @@ const SECTIONS = [
     <h3>Kochi</h3>
     <h4>Live Music Venues</h4>
     <ul>
-      <li><strong>Kashi Art Café (Fort Kochi):</strong> Cultural hub with regular live music. Books acoustic, folk, and experimental acts. Artist-friendly, lower fees but strong credibility in the Kerala arts scene.</li>
+      <li><strong>Kashi Art Café (Fort Kochi):</strong> Cultural hub with regular live music. Books acoustic, folk, and experimental acts. Artist-friendly, lower fees but strong credibility in the Kerala arts scene. <a class="vc vc-ig" href="https://www.instagram.com/kashiartcafe" target="_blank" rel="noopener">kashiartcafe</a> <a class="vc" href="https://kashiartcafe.com" target="_blank" rel="noopener">kashiartcafe.com</a></li>
       <li><strong>Café Crafters:</strong> Live music bar with indie programming. Growing scene for original artists.</li>
       <li><strong>Cochin Cultural Centre:</strong> Formal performance space. Books classical and fusion acts. Good for credibility in Kerala traditional and world music genres.</li>
     </ul>
@@ -2088,7 +2093,7 @@ const SECTIONS = [
     <h4>Live Music Venues</h4>
     <ul>
       <li><strong>F Bar and Lounge (Elante Mall):</strong> Live music venue with regular bookings. Good gateway into North India corporate-event circuit.</li>
-      <li><strong>Peddlers (Sector 26):</strong> Rock and indie bar. One of the more consistent live music venues in Chandigarh for original acts.</li>
+      <li><strong>Peddlers (Sector 26):</strong> Rock and indie bar. One of the more consistent live music venues in Chandigarh for original acts. <a class="vc vc-ig" href="https://www.instagram.com/peddlerschandigarh" target="_blank" rel="noopener">peddlerschandigarh</a></li>
       <li><strong>Sector 17 open-air stages:</strong> Government-managed. Used for city-level cultural events and music festivals.</li>
     </ul>
 
@@ -2107,21 +2112,21 @@ const SECTIONS = [
     <p>Recurring events where you don't need your own audience to get booked. Good for first paid gigs, testing new material, and building local presence.</p>
     <ul>
       <li><strong>Open Mic India (OMI) circuit:</strong> Runs at venues across Mumbai, Delhi, Bengaluru monthly. Free to apply. Small audience but useful for refining your live set before booking paying gigs.</li>
-      <li><strong>AntiSocial IP nights (Mumbai, Delhi, Bengaluru):</strong> AntiSocial regularly programmes themed nights with 3–5 original artists. Apply through their website or DM the programming team on Instagram. Pays a small fee plus door split.</li>
+      <li><strong>AntiSocial IP nights (Mumbai, Delhi, Bengaluru):</strong> AntiSocial regularly programmes themed nights with 3–5 original artists. Apply through their website or DM the programming team on Instagram. Pays a small fee plus door split. <a class="vc vc-ig" href="https://www.instagram.com/antisocial_khar" target="_blank" rel="noopener">antisocial_khar</a> <a class="vc" href="https://antisocial.in" target="_blank" rel="noopener">antisocial.in</a></li>
       <li><strong>Blue Tokai acoustic sessions (Delhi, Mumbai):</strong> Monthly. Informal but draws music-forward audiences. Good for singer-songwriters doing their first non-bar performances.</li>
       <li><strong>Kashi Art Café Friday sessions (Kochi):</strong> Weekly. Consistent acoustic and folk programming.</li>
       <li><strong>Piano Man open stage (Delhi):</strong> Monthly jazz and acoustic open stage. Apply directly to the venue. One of the best-curated open stages in India.</li>
       <li><strong>Humming Tree open call nights (Bengaluru):</strong> Humming Tree periodically programmes newer artists. Watch their Instagram for open submission announcements.</li>
-      <li><strong>Boxout.fm open decks (Delhi):</strong> For DJs: Boxout.fm regularly runs open-format and genre nights where newer DJs can submit mixes for consideration. The most accessible entry point into the Delhi electronic scene.</li>
+      <li><strong>Boxout.fm open decks (Delhi):</strong> For DJs: Boxout.fm regularly runs open-format and genre nights where newer DJs can submit mixes for consideration. The most accessible entry point into the Delhi electronic scene. <a class="vc vc-ig" href="https://www.instagram.com/boxout.fm" target="_blank" rel="noopener">boxout.fm</a> <a class="vc" href="https://boxout.fm" target="_blank" rel="noopener">boxout.fm</a></li>
     </ul>
 
     <h3>City-Level Festivals</h3>
     <ul>
-      <li><strong>SulaFest (Sula Vineyards, Nashik) — February:</strong> Wine and music festival. Books indie artists across genres. Mid-tier festival, good stepping stone between bar gigs and national festivals. Artist applications open September–October via their website.</li>
+      <li><strong>SulaFest (Sula Vineyards, Nashik) — February:</strong> Wine and music festival. Books indie artists across genres. Mid-tier festival, good stepping stone between bar gigs and national festivals. Artist applications open September–October via their website. <a class="vc" href="https://sulafest.com" target="_blank" rel="noopener">sulafest.com</a></li>
       <li><strong>Mahindra Blues Festival (Mumbai) — February:</strong> India's top blues festival. If you work in blues, jazz, or Americana-adjacent music, this is the festival to target. Application window opens mid-year.</li>
       <li><strong>Kolkata Jazz Festival — November:</strong> Annual jazz festival across Kolkata venues. Books Indian and international jazz acts. Curated — not open application. Build relationships with the organiser (Kolkata Jazz Festival Association) directly.</li>
       <li><strong>International Jazz Festival Delhi — February:</strong> Government-supported. Books Indian jazz and fusion acts. Contact: India Habitat Centre programming team.</li>
-      <li><strong>Serendipity Arts Festival (Panaji, Goa) — December:</strong> Multi-arts festival with music programming. Books experimental, classical, and indie acts. Highly curated. Target this year 2–3 of your career once you have press coverage and a strong EPK.</li>
+      <li><strong>Serendipity Arts Festival (Panaji, Goa) — December:</strong> Multi-arts festival with music programming. Books experimental, classical, and indie acts. Highly curated. Target this year 2–3 of your career once you have press coverage and a strong EPK. <a class="vc" href="https://serendipityartsfestival.com" target="_blank" rel="noopener">serendipityartsfestival.com</a></li>
       <li><strong>Mood Indigo (IIT Bombay, Mumbai) — December:</strong> Asia's largest college cultural festival. Books major headliners and indie acts. Application via the official artist registration portal. Extremely competitive but pays well and reaches 50,000+ attendees across the week.</li>
       <li><strong>Saarang (IIT Madras, Chennai) — January:</strong> One of South India's biggest college festivals. Strong audience for live performances across genres.</li>
       <li><strong>Spring Fest (IIT Kharagpur) — January:</strong> Large college fest with music as a centrepiece. Books indie artists and national headliners.</li>
