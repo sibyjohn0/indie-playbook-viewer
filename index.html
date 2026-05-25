@@ -1822,10 +1822,13 @@ const SECTIONS = [
             <strong style="color:var(--amber)">🎟 Live Ticketed Events</strong>
             <span style="font-size:11px;color:var(--muted);margin-left:10px" id="live-events-updated"></span>
           </div>
-          <a href="https://www.district.in" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">via District ↗</a>
+          <div style="display:flex;gap:10px;align-items:center">
+            <a href="https://www.district.in" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">District ↗</a>
+            <a href="https://www.skillboxes.com" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">SkillBox ↗</a>
+          </div>
         </div>
         <div id="live-events-grid" style="padding:14px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px"></div>
-        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check district.in directly.</div>
+        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check District.in or SkillBox directly.</div>
       </div>
     </div>
 
@@ -3086,8 +3089,30 @@ function toggleSidebar() {
 
 // ─── VENUE CITY FILTER ──────────────────────────────────────────────────────
 
+// Merged events store: { cities: { slug: [event, ...] }, updated_at, total_events }
 let _liveEventsData = null;
 let _currentVenueCity = 'all';
+
+function _mergeCities(a, b) {
+  // Merge two city maps, deduplicating by title+city
+  const merged = {};
+  const seen = new Set();
+  for (const [slug, items] of Object.entries(a || {})) {
+    merged[slug] = merged[slug] || [];
+    for (const ev of items) {
+      const key = (ev.title + '|' + slug).toLowerCase();
+      if (!seen.has(key)) { seen.add(key); merged[slug].push(ev); }
+    }
+  }
+  for (const [slug, items] of Object.entries(b || {})) {
+    merged[slug] = merged[slug] || [];
+    for (const ev of items) {
+      const key = (ev.title + '|' + slug).toLowerCase();
+      if (!seen.has(key)) { seen.add(key); merged[slug].push(ev); }
+    }
+  }
+  return merged;
+}
 
 function filterVenueCity(city, btn) {
   _currentVenueCity = city;
@@ -3123,7 +3148,7 @@ function renderLiveEvents(city) {
     events = _liveEventsData.cities?.[city] || [];
   }
 
-  events = events.filter(e => e.title && e.title.length > 2).slice(0, 24);
+  events = events.filter(e => e.title && e.title.length > 2).slice(0, 48);
   panel.style.display = 'block';
 
   if (events.length === 0) {
@@ -3132,16 +3157,19 @@ function renderLiveEvents(city) {
   } else {
     empty.style.display = 'none';
     grid.style.display = 'grid';
-    grid.innerHTML = events.map(e => `
-      <a class="live-event-card" href="${e.url || '#'}" target="_blank" rel="noopener">
-        <div class="le-title">${e.title}</div>
+    grid.innerHTML = events.map(e => {
+      const srcLabel = e.source === 'skillboxes.com' ? '<span style="font-size:9px;background:rgba(78,205,196,.12);color:#4ecdc4;border:1px solid rgba(78,205,196,.3);border-radius:8px;padding:1px 6px;margin-left:4px">SB</span>'
+                     : '<span style="font-size:9px;background:rgba(247,183,49,.1);color:var(--amber);border:1px solid rgba(247,183,49,.25);border-radius:8px;padding:1px 6px;margin-left:4px">DI</span>';
+      return `<a class="live-event-card" href="${e.url || '#'}" target="_blank" rel="noopener">
+        <div class="le-title">${e.title}${srcLabel}</div>
         ${e.venue ? `<div class="le-venue">📍 ${e.venue}</div>` : ''}
         <div class="le-meta">
-          ${e.date ? `<span class="le-date">🗓 ${e.date}</span>` : ''}
+          ${e.date ? `<span class="le-date">🗓 ${e.date}${e.time ? ' ' + e.time : ''}</span>` : ''}
           ${e.price ? `<span class="le-price">${e.price}</span>` : ''}
           ${e.city && city === 'all' ? `<span style="font-size:10px;color:var(--muted)">${e.city}</span>` : ''}
         </div>
-      </a>`).join('');
+      </a>`;
+    }).join('');
   }
 
   const upd = document.getElementById('live-events-updated');
@@ -3152,15 +3180,24 @@ function renderLiveEvents(city) {
 }
 
 function loadLiveEvents() {
-  fetch('./data/live-events.json')
-    .then(r => r.ok ? r.json() : null)
-    .then(data => {
-      if (data && data.cities) {
-        _liveEventsData = data;
-        renderLiveEvents(_currentVenueCity);
-      }
-    })
-    .catch(() => {});
+  if (_liveEventsData) return; // already loaded
+  Promise.allSettled([
+    fetch('./data/live-events.json').then(r => r.ok ? r.json() : null),
+    fetch('./data/skillbox-events.json').then(r => r.ok ? r.json() : null),
+  ]).then(([districtResult, skillboxResult]) => {
+    const district = districtResult.status === 'fulfilled' ? districtResult.value : null;
+    const skillbox = skillboxResult.status === 'fulfilled' ? skillboxResult.value : null;
+    if (!district && !skillbox) return;
+
+    const mergedCities = _mergeCities(district?.cities, skillbox?.cities);
+    const total = Object.values(mergedCities).reduce((s, a) => s + a.length, 0);
+    _liveEventsData = {
+      updated_at: district?.updated_at || skillbox?.updated_at,
+      total_events: total,
+      cities: mergedCities,
+    };
+    renderLiveEvents(_currentVenueCity);
+  });
 }
 
 // ─── BOOT ────────────────────────────────────────────────
