@@ -99,11 +99,18 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #change-type-btn:hover{border-color:var(--muted)}
 #download-workbook-btn{font-size:11px;color:var(--amber);background:none;border:1px solid var(--amber);padding:4px 10px;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
 #download-workbook-btn:hover{background:#1c1a12}
-#radar-btn{font-size:11px;color:var(--accent);background:none;border:1px solid var(--accent);padding:4px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
-#radar-btn:hover{background:#1c0a10}
-.ob-also{font-size:12px;color:var(--muted);margin-top:14px;text-align:center}
-.ob-also a{color:var(--accent);text-decoration:none}
-.ob-also a:hover{text-decoration:underline}
+@keyframes radar-pulse{0%,100%{box-shadow:0 0 0 0 rgba(233,69,96,.5)}60%{box-shadow:0 0 0 7px rgba(233,69,96,0)}}
+@keyframes radar-dot-blink{0%,100%{opacity:1}50%{opacity:.3}}
+#radar-btn{font-size:11px;color:var(--accent);background:#1c0a10;border:1px solid var(--accent);padding:4px 12px;border-radius:6px;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:5px;font-weight:700;animation:radar-pulse 2s ease-out infinite}
+#radar-btn:hover{background:#2a0e16;animation:none;box-shadow:0 0 0 3px rgba(233,69,96,.3)}
+#radar-btn .r-dot{animation:radar-dot-blink 1.2s ease-in-out infinite}
+.ob-radar-card{margin-top:20px;display:flex;justify-content:center}
+.ob-radar-card a{display:inline-flex;align-items:center;gap:10px;background:#1c0a10;border:1px solid var(--accent);border-radius:10px;padding:12px 22px;text-decoration:none;color:var(--accent);font-size:13px;font-weight:700;animation:radar-pulse 2s ease-out infinite}
+.ob-radar-card a:hover{background:#2a0e16;animation:none;box-shadow:0 0 0 3px rgba(233,69,96,.3)}
+.ob-radar-card .r-dot{font-size:16px;animation:radar-dot-blink 1.2s ease-in-out infinite}
+.ob-radar-card .r-label{display:flex;flex-direction:column;gap:1px}
+.ob-radar-card .r-title{font-size:13px;font-weight:700;color:var(--accent)}
+.ob-radar-card .r-sub{font-size:11px;color:var(--muted);font-weight:400}
 
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
@@ -395,7 +402,16 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
       <button class="ob-cta" onclick="showStep(0)" style="width:100%;max-width:360px">Get started →</button>
       <div class="ob-skip" onclick="skipToApp()">I've done this before — take me straight in</div>
-      <div class="ob-also">Also explore: <a href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener">◉ India Indie Music Radar →</a></div>
+      <div class="ob-radar-card">
+        <a href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener">
+          <span class="r-dot">◉</span>
+          <span class="r-label">
+            <span class="r-title">India Indie Music Radar</span>
+            <span class="r-sub">Track artists, trends, and buzz from the Indian indie scene</span>
+          </span>
+          <span>↗</span>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -518,7 +534,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div class="progress-label" id="progress-label">0 / 0 read</div>
   </div>
   <a id="download-workbook-btn" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener" title="Open task workbook in Google Sheets">↗ Workbook</a>
-  <a id="radar-btn" href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener" title="India Indie Music Radar">◉ Radar</a>
+  <a id="radar-btn" href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener" title="India Indie Music Radar"><span class="r-dot">◉</span> Radar</a>
   <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
 </div>
 
