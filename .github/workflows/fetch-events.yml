@@ -34,16 +34,24 @@ jobs:
       - name: Fetch SkillBox events
         run: python scripts/fetch_skillbox_events.py
 
+      - name: Fetch Townscript events
+        run: python scripts/fetch_townscript_events.py
+
+      - name: Fetch BookMyShow events
+        run: python scripts/fetch_bookmyshow_events.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/live-events.json data/skillbox-events.json
+          git add data/live-events.json data/skillbox-events.json data/townscript-events.json data/bookmyshow-events.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             DISTRICT=$(python3 -c "import json; d=json.load(open('data/live-events.json')); print(d.get('total_events', '?'))")
             SKILLBOX=$(python3 -c "import json; d=json.load(open('data/skillbox-events.json')); print(d.get('total_events', '?'))")
-            git commit -m "chore: update live events — District ${DISTRICT}, SkillBox ${SKILLBOX} [skip ci]"
+            TOWNSCRIPT=$(python3 -c "import json; d=json.load(open('data/townscript-events.json')); print(d.get('total_events', '?'))")
+            BMS=$(python3 -c "import json; d=json.load(open('data/bookmyshow-events.json')); print(d.get('total_events', '?'))")
+            git commit -m "chore: update live events — District ${DISTRICT}, SkillBox ${SKILLBOX}, Townscript ${TOWNSCRIPT}, BMS ${BMS} [skip ci]"
             git push
           fi

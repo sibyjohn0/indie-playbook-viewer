@@ -1860,10 +1860,25 @@ const SECTIONS = [
           <div style="display:flex;gap:10px;align-items:center">
             <a href="https://www.district.in" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">District ↗</a>
             <a href="https://www.skillboxes.com" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">SkillBox ↗</a>
+            <a href="https://in.bookmyshow.com" target="_blank" rel="noopener" style="font-size:11px;color:var(--muted)">BMS ↗</a>
           </div>
         </div>
         <div id="live-events-grid" style="padding:14px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px"></div>
-        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check District.in, SkillBox, or Townscript directly.</div>
+        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check District.in, SkillBox, Townscript, or BookMyShow directly.</div>
+      </div>
+    </div>
+
+    <div id="venue-freq-panel" style="margin-bottom:24px;display:none">
+      <div class="callout" style="padding:0;border-color:var(--border)">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border)">
+          <strong style="color:var(--text)">Venue Activity</strong>
+          <div style="display:flex;gap:8px">
+            <button id="vf-btn-ranked" onclick="switchVenueFreqView('ranked')" style="font-size:11px;padding:4px 12px;border-radius:14px;border:1px solid var(--amber);background:rgba(247,183,49,.12);color:var(--amber);cursor:pointer;font-weight:600">Ranked</button>
+            <button id="vf-btn-city" onclick="switchVenueFreqView('city')" style="font-size:11px;padding:4px 12px;border-radius:14px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;font-weight:600">By City</button>
+          </div>
+        </div>
+        <div id="venue-freq-ranked" style="padding:14px 18px"></div>
+        <div id="venue-freq-city" style="padding:14px 18px;display:none"></div>
       </div>
     </div>
 
@@ -3163,6 +3178,7 @@ function filterVenueCity(city, btn) {
   });
 
   renderLiveEvents(city);
+  renderVenueFrequency(city);
 }
 
 function renderLiveEvents(city) {
@@ -3194,7 +3210,8 @@ function renderLiveEvents(city) {
     grid.style.display = 'grid';
     grid.innerHTML = events.map(e => {
       const srcLabel = e.source === 'skillboxes.com' ? '<span style="font-size:9px;background:rgba(78,205,196,.12);color:#4ecdc4;border:1px solid rgba(78,205,196,.3);border-radius:8px;padding:1px 6px;margin-left:4px">SB</span>'
-                     : e.source === 'townscript.com' ? '<span style="font-size:9px;background:rgba(167,139,250,.12);color:#a78bfa;border:1px solid rgba(167,139,250,.3);border-radius:8px;padding:1px 6px;margin-left:4px">TC</span>'
+                     : e.source === 'townscript.com'  ? '<span style="font-size:9px;background:rgba(167,139,250,.12);color:#a78bfa;border:1px solid rgba(167,139,250,.3);border-radius:8px;padding:1px 6px;margin-left:4px">TC</span>'
+                     : e.source === 'bookmyshow.com'  ? '<span style="font-size:9px;background:rgba(255,90,90,.12);color:#ff5a5a;border:1px solid rgba(255,90,90,.3);border-radius:8px;padding:1px 6px;margin-left:4px">BM</span>'
                      : '<span style="font-size:9px;background:rgba(247,183,49,.1);color:var(--amber);border:1px solid rgba(247,183,49,.25);border-radius:8px;padding:1px 6px;margin-left:4px">DI</span>';
       return `<a class="live-event-card" href="${e.url || '#'}" target="_blank" rel="noopener">
         <div class="le-title">${e.title}${srcLabel}</div>
@@ -3215,26 +3232,146 @@ function renderLiveEvents(city) {
   }
 }
 
+// ─── VENUE FREQUENCY ────────────────────────────────────────────────────────
+
+let _venueFreqView = 'ranked';
+
+function switchVenueFreqView(view) {
+  _venueFreqView = view;
+  document.getElementById('venue-freq-ranked').style.display = view === 'ranked' ? 'block' : 'none';
+  document.getElementById('venue-freq-city').style.display   = view === 'city'   ? 'block' : 'none';
+  const btnR = document.getElementById('vf-btn-ranked');
+  const btnC = document.getElementById('vf-btn-city');
+  if (btnR && btnC) {
+    btnR.style.background = view === 'ranked' ? 'rgba(247,183,49,.12)' : 'transparent';
+    btnR.style.borderColor = view === 'ranked' ? 'var(--amber)' : 'var(--border)';
+    btnR.style.color = view === 'ranked' ? 'var(--amber)' : 'var(--muted)';
+    btnC.style.background = view === 'city' ? 'rgba(247,183,49,.12)' : 'transparent';
+    btnC.style.borderColor = view === 'city' ? 'var(--amber)' : 'var(--border)';
+    btnC.style.color = view === 'city' ? 'var(--amber)' : 'var(--muted)';
+  }
+}
+
+function renderVenueFrequency(city) {
+  const panel = document.getElementById('venue-freq-panel');
+  if (!panel || !_liveEventsData) return;
+
+  let allEvents = [];
+  if (city === 'all') {
+    Object.values(_liveEventsData.cities || {}).forEach(arr => allEvents.push(...arr));
+  } else {
+    allEvents = _liveEventsData.cities?.[city] || [];
+  }
+
+  allEvents = allEvents.filter(e => e.venue && e.venue.trim());
+
+  if (allEvents.length === 0) {
+    panel.style.display = 'none';
+    return;
+  }
+
+  panel.style.display = 'block';
+
+  // Build venue map: venue -> { count, events[] }
+  const venueMap = {};
+  for (const ev of allEvents) {
+    const vn = ev.venue.trim();
+    if (!venueMap[vn]) venueMap[vn] = { name: vn, city: ev.city, events: [] };
+    venueMap[vn].events.push(ev);
+  }
+  const venues = Object.values(venueMap).sort((a, b) => b.events.length - a.events.length);
+
+  // Option A: Ranked list
+  const rankedEl = document.getElementById('venue-freq-ranked');
+  if (rankedEl) {
+    rankedEl.innerHTML = venues.slice(0, 20).map((v, i) => {
+      const evHtml = v.events.slice(0, 6).map(e =>
+        `<a href="${e.url || '#'}" target="_blank" rel="noopener" style="display:block;padding:3px 0;color:var(--muted);text-decoration:none;font-size:11px;border-bottom:1px solid rgba(255,255,255,.04);white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="${e.title}">
+          ${e.title}${e.date ? ' <span style="color:rgba(255,255,255,.3)">· ' + e.date + '</span>' : ''}
+        </a>`
+      ).join('');
+      const more = v.events.length > 6 ? `<span style="font-size:10px;color:var(--muted);padding-top:3px;display:block">+${v.events.length - 6} more</span>` : '';
+      return `<div style="margin-bottom:16px">
+        <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:6px">
+          <span style="font-size:11px;font-weight:700;color:rgba(255,255,255,.3);min-width:18px">${i+1}</span>
+          <span style="font-weight:600;font-size:13px;color:var(--text)">${v.name}</span>
+          <span style="font-size:11px;color:var(--muted)">${city === 'all' ? v.city + ' · ' : ''}${v.events.length} event${v.events.length > 1 ? 's' : ''}</span>
+        </div>
+        <div style="padding-left:28px">${evHtml}${more}</div>
+      </div>`;
+    }).join('');
+  }
+
+  // Option C: City heat summary (top 5 per city)
+  const cityEl = document.getElementById('venue-freq-city');
+  if (cityEl) {
+    const cityGroups = {};
+    for (const ev of allEvents) {
+      const cslug = Object.entries(_liveEventsData.cities || {}).find(([, arr]) => arr.includes(ev))?.[0] || 'other';
+      const cityName = ev.city || cslug;
+      if (!cityGroups[cityName]) cityGroups[cityName] = {};
+      const vn = ev.venue.trim();
+      cityGroups[cityName][vn] = (cityGroups[cityName][vn] || 0) + 1;
+    }
+
+    const cityNames = city === 'all'
+      ? Object.keys(cityGroups).sort()
+      : [allEvents[0]?.city || city];
+
+    cityEl.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px">' +
+      cityNames.map(cn => {
+        const venueCounts = cityGroups[cn] || {};
+        const top5 = Object.entries(venueCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+        if (!top5.length) return '';
+        const maxCount = top5[0][1];
+        return `<div style="background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:14px">
+          <div style="font-weight:700;font-size:12px;color:var(--text);margin-bottom:10px">${cn}</div>
+          ${top5.map(([vname, cnt]) => {
+            const pct = Math.round((cnt / maxCount) * 100);
+            return `<div style="margin-bottom:8px">
+              <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:3px">
+                <span style="color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:140px" title="${vname}">${vname}</span>
+                <span style="color:var(--muted);flex-shrink:0;margin-left:6px">${cnt}</span>
+              </div>
+              <div style="height:3px;background:rgba(255,255,255,.06);border-radius:2px">
+                <div style="height:3px;width:${pct}%;background:var(--amber);border-radius:2px"></div>
+              </div>
+            </div>`;
+          }).join('')}
+        </div>`;
+      }).filter(Boolean).join('') +
+    '</div>';
+  }
+
+  switchVenueFreqView(_venueFreqView);
+}
+
 function loadLiveEvents() {
   if (_liveEventsData) return; // already loaded
   Promise.allSettled([
     fetch('./data/live-events.json').then(r => r.ok ? r.json() : null),
     fetch('./data/skillbox-events.json').then(r => r.ok ? r.json() : null),
     fetch('./data/townscript-events.json').then(r => r.ok ? r.json() : null),
-  ]).then(([districtResult, skillboxResult, townscriptResult]) => {
+    fetch('./data/bookmyshow-events.json').then(r => r.ok ? r.json() : null),
+  ]).then(([districtResult, skillboxResult, townscriptResult, bmsResult]) => {
     const district = districtResult.status === 'fulfilled' ? districtResult.value : null;
     const skillbox = skillboxResult.status === 'fulfilled' ? skillboxResult.value : null;
     const townscript = townscriptResult.status === 'fulfilled' ? townscriptResult.value : null;
-    if (!district && !skillbox && !townscript) return;
+    const bms = bmsResult.status === 'fulfilled' ? bmsResult.value : null;
+    if (!district && !skillbox && !townscript && !bms) return;
 
-    const mergedCities = _mergeCities(_mergeCities(district?.cities, skillbox?.cities), townscript?.cities);
+    const mergedCities = _mergeCities(
+      _mergeCities(_mergeCities(district?.cities, skillbox?.cities), townscript?.cities),
+      bms?.cities
+    );
     const total = Object.values(mergedCities).reduce((s, a) => s + a.length, 0);
     _liveEventsData = {
-      updated_at: district?.updated_at || skillbox?.updated_at || townscript?.updated_at,
+      updated_at: district?.updated_at || skillbox?.updated_at || townscript?.updated_at || bms?.updated_at,
       total_events: total,
       cities: mergedCities,
     };
     renderLiveEvents(_currentVenueCity);
+    renderVenueFrequency(_currentVenueCity);
   });
 }
 
