@@ -111,20 +111,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 .ob-radar-card .r-label{display:flex;flex-direction:column;gap:1px}
 .ob-radar-card .r-title{font-size:13px;font-weight:700;color:var(--accent)}
 .ob-radar-card .r-sub{font-size:11px;color:var(--muted);font-weight:400}
-.ob-workbook-card{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:22px 24px;width:100%;margin-bottom:20px;display:flex;gap:32px}
-.ob-wk-left{flex:1;min-width:0}
-.ob-wk-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:6px}
-.ob-wk-title{font-size:15px;font-weight:700;color:#f0f0f0;margin-bottom:8px}
-.ob-wk-desc{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:16px}
-.ob-wk-steps{display:flex;flex-direction:column;gap:8px;margin-bottom:18px}
-.ob-wk-step{display:flex;align-items:flex-start;gap:10px;font-size:12px;color:#bbb;line-height:1.5}
-.ob-wk-num{background:var(--amber);color:#000;font-size:10px;font-weight:800;border-radius:50%;width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
-.ob-wk-btn{display:inline-flex;align-items:center;background:var(--amber);color:#000;font-size:12px;font-weight:700;padding:8px 18px;border-radius:7px;text-decoration:none;transition:opacity .2s}
-.ob-wk-btn:hover{opacity:.85}
-.ob-wk-right{display:flex;flex-direction:column;gap:8px;min-width:180px;justify-content:center}
-.ob-wk-sheet{display:flex;align-items:center;gap:8px;font-size:12px;color:#bbb}
-.ob-wk-sheet-dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
-.ob-wk-count{margin-left:auto;font-size:11px;color:var(--muted)}
+.ob-workbook-strip{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:transparent;width:100%;margin-bottom:20px;box-sizing:border-box}
+.ob-wk-strip-label{font-size:11px;color:var(--muted);white-space:nowrap}
+.ob-wk-strip-link{font-size:12px;font-weight:600;color:#aaa;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.ob-wk-strip-link:hover{color:#ddd}
+.ob-wk-strip-phases{font-size:11px;color:var(--muted);margin-left:auto;white-space:nowrap}
 
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
@@ -404,27 +395,21 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
         </div>
       </div>
 
-      <div class="ob-workbook-card">
-        <div class="ob-wk-left">
-          <div class="ob-wk-label">↗ Workbook</div>
-          <div class="ob-wk-title">Track your progress as you go</div>
-          <div class="ob-wk-desc">The companion Excel/Google Sheets workbook mirrors every section of this playbook. Open it alongside the playbook and check off tasks as you complete them.</div>
-          <div class="ob-wk-steps">
-            <div class="ob-wk-step"><span class="ob-wk-num">1</span>Open the workbook in Google Sheets (or download as .xlsx)</div>
-            <div class="ob-wk-step"><span class="ob-wk-num">2</span>Start on the <strong>START HERE</strong> tab — it has the colour legend and phase overview</div>
-            <div class="ob-wk-step"><span class="ob-wk-num">3</span>Work phase by phase — set each task to In Progress, then Completed when done</div>
-            <div class="ob-wk-step"><span class="ob-wk-num">4</span>Use the <strong>90-Day Quickstart</strong> tab if you want a structured first sprint</div>
-          </div>
-          <a class="ob-wk-btn" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener">Open Workbook ↗</a>
-        </div>
-        <div class="ob-wk-right">
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#C0284A"></span>Phase 1: Identity <span class="ob-wk-count">12 tasks</span></div>
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#1A6BB5"></span>Phase 2: Production <span class="ob-wk-count">19 tasks</span></div>
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#6B21A8"></span>Phase 3: Distribution <span class="ob-wk-count">23 tasks</span></div>
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#1A7A3C"></span>Phase 4: Revenue <span class="ob-wk-count">38 tasks</span></div>
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#B85C00"></span>Rights &amp; Infrastructure <span class="ob-wk-count">4 tasks</span></div>
-          <div class="ob-wk-sheet"><span class="ob-wk-sheet-dot" style="background:#4A5568"></span>90-Day Quickstart <span class="ob-wk-count">30 tasks</span></div>
-        </div>
+      <div class="ob-radar-card">
+        <a href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener">
+          <span class="r-dot">◉</span>
+          <span class="r-label">
+            <span class="r-title">India Indie Music Radar</span>
+            <span class="r-sub">Track artists, trends, and buzz from the Indian indie scene</span>
+          </span>
+          <span>↗</span>
+        </a>
+      </div>
+
+      <div class="ob-workbook-strip">
+        <span class="ob-wk-strip-label">Companion workbook:</span>
+        <a class="ob-wk-strip-link" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener">Track your progress in Google Sheets ↗</a>
+        <span class="ob-wk-strip-phases">Phases 1–4 + Rights + 90-Day Quickstart</span>
       </div>
 
       <div class="ob-assumptions">
@@ -439,16 +424,6 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
       <button class="ob-cta" onclick="showStep(0)" style="width:100%;max-width:360px">Get started →</button>
       <div class="ob-skip" onclick="skipToApp()">I've done this before — take me straight in</div>
-      <div class="ob-radar-card">
-        <a href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener">
-          <span class="r-dot">◉</span>
-          <span class="r-label">
-            <span class="r-title">India Indie Music Radar</span>
-            <span class="r-sub">Track artists, trends, and buzz from the Indian indie scene</span>
-          </span>
-          <span>↗</span>
-        </a>
-      </div>
     </div>
   </div>
 
