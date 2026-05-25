@@ -3041,6 +3041,21 @@ function navigateTo(id) {
   // Attach credibility ladder interaction if needed
   if (id === 'roadmap') initLadder();
 
+  // For venue-appendix: hoist live event panels above the accordion so they're always visible
+  if (id === 'venue-appendix') {
+    const toggleBtn = document.getElementById('toggle-btn-venue-appendix');
+    if (toggleBtn) {
+      ['venue-filter-wrap', 'live-events-panel', 'venue-freq-panel'].forEach(panelId => {
+        const el = document.getElementById(panelId);
+        if (el) toggleBtn.parentNode.insertBefore(el, toggleBtn);
+      });
+    }
+    if (typeof _liveEventsData !== 'undefined' && _liveEventsData) {
+      renderLiveEvents(_currentVenueCity);
+      renderVenueFrequency(_currentVenueCity);
+    }
+  }
+
   // Mark as read after 30s
   markReadTimer(id);
   window.location.hash = id;
@@ -3388,6 +3403,7 @@ window.addEventListener('DOMContentLoaded', () => {
     updateProgress();
     const hash = window.location.hash.replace('#', '');
     navigateTo(hash && SECTIONS.find(s => s.id === hash) ? hash : 'identity-problem');
+    loadLiveEvents();
   }
 });
 
