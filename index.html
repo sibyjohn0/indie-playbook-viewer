@@ -99,6 +99,11 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #change-type-btn:hover{border-color:var(--muted)}
 #download-workbook-btn{font-size:11px;color:var(--amber);background:none;border:1px solid var(--amber);padding:4px 10px;border-radius:6px;cursor:pointer;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
 #download-workbook-btn:hover{background:#1c1a12}
+#radar-btn{font-size:11px;color:var(--accent);background:none;border:1px solid var(--accent);padding:4px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
+#radar-btn:hover{background:#1c0a10}
+.ob-also{font-size:12px;color:var(--muted);margin-top:14px;text-align:center}
+.ob-also a{color:var(--accent);text-decoration:none}
+.ob-also a:hover{text-decoration:underline}
 
 /* ── SIDEBAR ── */
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
@@ -390,6 +395,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 
       <button class="ob-cta" onclick="showStep(0)" style="width:100%;max-width:360px">Get started →</button>
       <div class="ob-skip" onclick="skipToApp()">I've done this before — take me straight in</div>
+      <div class="ob-also">Also explore: <a href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener">◉ India Indie Music Radar →</a></div>
     </div>
   </div>
 
@@ -512,6 +518,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
     <div class="progress-label" id="progress-label">0 / 0 read</div>
   </div>
   <a id="download-workbook-btn" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener" title="Open task workbook in Google Sheets">↗ Workbook</a>
+  <a id="radar-btn" href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener" title="India Indie Music Radar">◉ Radar</a>
   <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
 </div>
 
@@ -1828,7 +1835,7 @@ const SECTIONS = [
           </div>
         </div>
         <div id="live-events-grid" style="padding:14px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px"></div>
-        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check District.in or SkillBox directly.</div>
+        <div id="live-events-empty" style="padding:14px 18px;font-size:12px;color:var(--muted);display:none">No upcoming ticketed events found for this city. Check District.in, SkillBox, or Townscript directly.</div>
       </div>
     </div>
 
@@ -3159,6 +3166,7 @@ function renderLiveEvents(city) {
     grid.style.display = 'grid';
     grid.innerHTML = events.map(e => {
       const srcLabel = e.source === 'skillboxes.com' ? '<span style="font-size:9px;background:rgba(78,205,196,.12);color:#4ecdc4;border:1px solid rgba(78,205,196,.3);border-radius:8px;padding:1px 6px;margin-left:4px">SB</span>'
+                     : e.source === 'townscript.com' ? '<span style="font-size:9px;background:rgba(167,139,250,.12);color:#a78bfa;border:1px solid rgba(167,139,250,.3);border-radius:8px;padding:1px 6px;margin-left:4px">TC</span>'
                      : '<span style="font-size:9px;background:rgba(247,183,49,.1);color:var(--amber);border:1px solid rgba(247,183,49,.25);border-radius:8px;padding:1px 6px;margin-left:4px">DI</span>';
       return `<a class="live-event-card" href="${e.url || '#'}" target="_blank" rel="noopener">
         <div class="le-title">${e.title}${srcLabel}</div>
@@ -3184,15 +3192,17 @@ function loadLiveEvents() {
   Promise.allSettled([
     fetch('./data/live-events.json').then(r => r.ok ? r.json() : null),
     fetch('./data/skillbox-events.json').then(r => r.ok ? r.json() : null),
-  ]).then(([districtResult, skillboxResult]) => {
+    fetch('./data/townscript-events.json').then(r => r.ok ? r.json() : null),
+  ]).then(([districtResult, skillboxResult, townscriptResult]) => {
     const district = districtResult.status === 'fulfilled' ? districtResult.value : null;
     const skillbox = skillboxResult.status === 'fulfilled' ? skillboxResult.value : null;
-    if (!district && !skillbox) return;
+    const townscript = townscriptResult.status === 'fulfilled' ? townscriptResult.value : null;
+    if (!district && !skillbox && !townscript) return;
 
-    const mergedCities = _mergeCities(district?.cities, skillbox?.cities);
+    const mergedCities = _mergeCities(_mergeCities(district?.cities, skillbox?.cities), townscript?.cities);
     const total = Object.values(mergedCities).reduce((s, a) => s + a.length, 0);
     _liveEventsData = {
-      updated_at: district?.updated_at || skillbox?.updated_at,
+      updated_at: district?.updated_at || skillbox?.updated_at || townscript?.updated_at,
       total_events: total,
       cities: mergedCities,
     };
