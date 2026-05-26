@@ -104,6 +104,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #radar-btn{font-size:11px;color:var(--accent);background:#1c0a10;border:1px solid var(--accent);padding:4px 12px;border-radius:6px;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:5px;font-weight:700;animation:radar-pulse 2s ease-out infinite}
 #radar-btn:hover{background:#2a0e16;animation:none;box-shadow:0 0 0 3px rgba(233,69,96,.3)}
 #radar-btn .r-dot{animation:radar-dot-blink 1.2s ease-in-out infinite}
+#reviewers-btn{font-size:11px;color:#94a3b8;background:#1c1c26;border:1px solid #2a2a38;padding:4px 12px;border-radius:6px;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-flex;align-items:center;gap:5px;font-weight:600;transition:border-color .15s,color .15s}
+#reviewers-btn:hover{color:var(--text);border-color:#4a4a5a}
 .ob-radar-card{margin-top:20px;display:flex;justify-content:center}
 .ob-radar-card a{display:inline-flex;align-items:center;gap:10px;background:#1c0a10;border:1px solid var(--accent);border-radius:10px;padding:12px 22px;text-decoration:none;color:var(--accent);font-size:13px;font-weight:700;animation:radar-pulse 2s ease-out infinite}
 .ob-radar-card a:hover{background:#2a0e16;animation:none;box-shadow:0 0 0 3px rgba(233,69,96,.3)}
@@ -121,6 +123,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 #sidebar{position:fixed;top:var(--topbar-h);left:0;bottom:0;width:var(--sidebar-w);background:var(--sidebar-bg);border-right:1px solid var(--border);overflow-y:auto;z-index:90;transition:transform .25s}
 .sidebar-home-btn{display:flex;align-items:center;gap:8px;padding:10px 14px;margin:8px 6px 4px 0;font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--muted);cursor:pointer;border-radius:0 6px 6px 0;border-left:3px solid transparent;transition:background .15s,color .15s}
 .sidebar-home-btn:hover{background:rgba(255,255,255,.05);color:var(--text)}
+.sidebar-ext-link{display:flex;align-items:center;gap:8px;padding:7px 14px;margin:1px 6px 1px 0;font-size:11px;font-weight:600;color:var(--muted);text-decoration:none;border-radius:0 6px 6px 0;border-left:3px solid transparent;transition:background .15s,color .15s}
+.sidebar-ext-link:hover{background:rgba(255,255,255,.05);color:var(--text)}
 .sidebar-section-label{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);padding:20px 16px 6px;font-weight:700}
 .phase-group{margin-bottom:2px}
 .phase-header{display:flex;align-items:center;gap:10px;padding:10px 14px 10px 12px;cursor:pointer;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#c8c8c8;user-select:none;border-left:3px solid transparent;border-radius:0 6px 6px 0;margin:1px 6px 1px 0;transition:background .15s,color .15s,border-color .15s}
@@ -419,7 +423,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
         <div class="ob-assumption"><span class="ob-assumption-dot">◆</span><span><strong>India has its own rules.</strong> IPRS, JioSaavn, the NRI diaspora market, the tier-2 city live boom — the advice here is built for this market, not adapted from Western playbooks.</span></div>
         <div class="ob-assumption"><span class="ob-assumption-dot">◆</span><span><strong>Consistency beats talent.</strong> The artists who make sustainable incomes are specific, consistent, and patient — not necessarily the most gifted. This playbook is written for the consistent ones.</span></div>
         <div class="ob-assumption"><span class="ob-assumption-dot">◆</span><span><strong>The timeline is 3–5 years.</strong> The median journey from first release to first Rs. 50,000/month is 3–5 years of real work. This is not discouraging — it is the actual runway, and building on it honestly prevents the decisions that come from desperation.</span></div>
-        <div class="ob-assumption"><span class="ob-assumption-dot">◆</span><span><strong>Rights registration is non-negotiable.</strong> ~90% of eligible Indian artists are not registered with IPRS or PPL India. IPRS paid Rs. 700 crore in FY25. If you are not registered, your share goes to those who are.</span></div>
+        <div class="ob-assumption"><span class="ob-assumption-dot">◆</span><span><strong>Rights registration is non-negotiable.</strong> ~90% of eligible Indian artists are not registered with IPRS or PPL India. IPRS paid Rs. 608.8 crore in FY24-25. If you are not registered, your share goes to those who are.</span></div>
       </div>
 
       <button class="ob-cta" onclick="showStep(0)" style="width:100%;max-width:360px">Get started →</button>
@@ -547,6 +551,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   </div>
   <a id="download-workbook-btn" href="https://docs.google.com/spreadsheets/d/1gBJ_U6WbWjtdjST7unHAqjy8D8mwzQ2xNoCTVV6Sbcc" target="_blank" rel="noopener" title="Open task workbook in Google Sheets">↗ Workbook</a>
   <a id="radar-btn" href="https://sibyjohn0.github.io/india-music-dashboard/" target="_blank" rel="noopener" title="India Indie Music Radar"><span class="r-dot">◉</span> Radar</a>
+  <a id="reviewers-btn" href="https://sibyjohn0.github.io/india-music-dashboard/reviewers.html" target="_blank" rel="noopener" title="924 reviewer contacts">✉ Reviewers</a>
   <button id="change-type-btn" onclick="showOnboarding()">Change type ↺</button>
 </div>
 
@@ -677,7 +682,7 @@ const SECTIONS = [
 
     <h4>3. IPRS and PPL — Money You Are Already Owed</h4>
     <div class="callout callout-data">
-      <strong>IPRS paid out a record Rs. 700 crore in 2024-25 — a 42% increase year-on-year.</strong> Approximately 90% of eligible Indian artists are not registered with IPRS or PPL India. This money is being collected and distributed to the artists who did register. If you compose original music and have not registered, you are giving your share to someone else.
+      <strong>IPRS paid out a record Rs. 608.8 crore in FY24-25.</strong> Approximately 90% of eligible Indian artists are not registered with IPRS or PPL India. This money is being collected and distributed to the artists who did register. If you compose original music and have not registered, you are giving your share to someone else.
     </div>
 
     <h4>4. The NRI Diaspora Premium</h4>
@@ -2888,7 +2893,9 @@ function buildSidebar(activePhase) {
   // Default active phase: your-journey (first phase), or whatever is currently open
   const openPhase = activePhase || currentSectionId && (SECTIONS.find(s => s.id === currentSectionId) || {}).phase || 'your-journey';
 
-  let html = `<div class="sidebar-home-btn" onclick="showLanding()">🏠 <span>About this Playbook</span></div>`;
+  let html = `<div class="sidebar-home-btn" onclick="showLanding()">🏠 <span>About this Playbook</span></div>
+<a class="sidebar-ext-link" href="https://sibyjohn0.github.io/india-music-dashboard/reviewers.html" target="_blank" rel="noopener">✉ <span>924 Reviewer Contacts</span></a>
+<a class="sidebar-ext-link" href="https://sibyjohn0.github.io/india-music-dashboard/about.html" target="_blank" rel="noopener">◉ <span>About this project</span></a>`;
   for (const phase of PHASE_ORDER) {
     const items = byPhase[phase.id];
     if (!items || items.length === 0) continue;
