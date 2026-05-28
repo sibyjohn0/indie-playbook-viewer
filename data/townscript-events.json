@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-26T08:30:16.953254+00:00",
+  "updated_at": "2026-05-28T05:07:21.892532+00:00",
   "source": "Townscript",
-  "total_events": 15,
+  "total_events": 16,
   "cities": {
     "mumbai": [
       {
@@ -27,13 +27,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Echoes of Sufi",
-        "venue": "Khandala",
-        "date": "7 February 2026",
-        "time": "08:30 PM",
-        "price": "INR 1200",
-        "url": "https://www.townscript.com/in/echoes-of-sufi-021403",
-        "organiser": "Della Resorts and Adventure",
+        "title": "MY JUHU Art & Music",
+        "venue": "Juhu",
+        "date": "14 June 2026",
+        "time": "04:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
+        "organiser": "MY JUHU",
         "city": "Mumbai",
         "source": "townscript.com"
       }
@@ -47,6 +47,17 @@
         "price": "Free",
         "url": "https://www.townscript.com/in/desi-block-party-20-232221",
         "organiser": "MitraMesh",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Baetails Carnival",
+        "venue": "Sector 58",
+        "date": "31 May 2026",
+        "time": "05:00 PM",
+        "price": "INR 999",
+        "url": "https://www.townscript.com/in/baetails-carnival-103241",
+        "organiser": "Baetails india private limited",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -69,17 +80,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/7-stages-of-love-111324",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Baetails Carnival",
-        "venue": "Sector 58",
-        "date": "31 May 2026",
-        "time": "05:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/baetails-carnival-103241",
-        "organiser": "Baetails india private limited",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -165,6 +165,17 @@
         "price": "INR 1200",
         "url": "https://www.townscript.com/in/echoes-of-sufi-021403",
         "organiser": "Della Resorts and Adventure",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "MY JUHU Art & Music",
+        "venue": "Juhu",
+        "date": "14 June 2026",
+        "time": "04:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
+        "organiser": "MY JUHU",
         "city": "Pune",
         "source": "townscript.com"
       }
