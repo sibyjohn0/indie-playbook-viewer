@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-05-28T05:07:21.892532+00:00",
+  "updated_at": "2026-05-29T05:11:48.727804+00:00",
   "source": "Townscript",
   "total_events": 16,
   "cities": {
     "mumbai": [
-      {
-        "title": "SAUNDH - Mitti se Mehfil tak",
-        "venue": "Lower Parel",
-        "date": "27 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 4699",
-        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
-        "organiser": "CineGranth Studio",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "#RaagKeDoRang - Hues Of Hindustani & Carnatic Music | A musical morning with Nithya Rajendran",
         "venue": "Fort",
@@ -27,7 +16,18 @@
         "source": "townscript.com"
       },
       {
-        "title": "MY JUHU Art & Music",
+        "title": "SAUNDH - Mitti se Mehfil tak",
+        "venue": "Lower Parel",
+        "date": "27 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 4699",
+        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
+        "organiser": "CineGranth Studio",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "MY JUHU invites you to a celebration of art, music and community",
         "venue": "Juhu",
         "date": "14 June 2026",
         "time": "04:00 PM",
@@ -136,17 +136,6 @@
     "kolkata": [],
     "pune": [
       {
-        "title": "SAUNDH - Mitti se Mehfil tak",
-        "venue": "Lower Parel",
-        "date": "27 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 4699",
-        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
-        "organiser": "CineGranth Studio",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "#RaagKeDoRang - Hues Of Hindustani & Carnatic Music | A musical morning with Nithya Rajendran",
         "venue": "Fort",
         "date": "31 May 2026",
@@ -154,6 +143,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/raagkedorang-hues-of-hindustani-carnatic-music-a-musical-morning-with-nithya-rajendran-414342",
         "organiser": "Khaki Lab",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SAUNDH - Mitti se Mehfil tak",
+        "venue": "Lower Parel",
+        "date": "27 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 4699",
+        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
+        "organiser": "CineGranth Studio",
         "city": "Pune",
         "source": "townscript.com"
       },
@@ -169,7 +169,7 @@
         "source": "townscript.com"
       },
       {
-        "title": "MY JUHU Art & Music",
+        "title": "MY JUHU invites you to a celebration of art, music and community",
         "venue": "Juhu",
         "date": "14 June 2026",
         "time": "04:00 PM",
