@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T05:11:48.727804+00:00",
+  "updated_at": "2026-05-30T04:47:44.415688+00:00",
   "source": "Townscript",
   "total_events": 16,
   "cities": {
@@ -51,17 +51,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Baetails Carnival",
-        "venue": "Sector 58",
-        "date": "31 May 2026",
-        "time": "05:00 PM",
-        "price": "INR 999",
-        "url": "https://www.townscript.com/in/baetails-carnival-103241",
-        "organiser": "Baetails india private limited",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Anmol Amla Ft. Oniko, Riddle Riff, Kshitij",
         "venue": "Greater Kailash",
         "date": "31 May 2026",
@@ -69,6 +58,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/anmol-amla-ft-oniko-riddle-riff-kshitij-040012",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Baetails Carnival",
+        "venue": "Sector 58",
+        "date": "31 May 2026",
+        "time": "05:00 PM",
+        "price": "INR 999",
+        "url": "https://www.townscript.com/in/baetails-carnival-103241",
+        "organiser": "Baetails india private limited",
         "city": "Delhi",
         "source": "townscript.com"
       },
