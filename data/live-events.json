@@ -1,9 +1,18 @@
 {
-  "updated_at": "2026-05-30T04:46:23.051623+00:00",
+  "updated_at": "2026-05-31T05:15:24.274928+00:00",
   "source": "District.in (Zomato)",
-  "total_events": 65,
+  "total_events": 68,
   "cities": {
     "mumbai": [
+      {
+        "title": "Thingyan Festival : Celebrating Burmese New Year : Bandra Kurla Complex",
+        "venue": "Burma Burma - JioWorld Drive | Bandra Kurla Complex, Mumbai, Mumbai",
+        "date": "Sun, 31 May, 12:00 PM",
+        "price": "₹1000",
+        "url": "https://www.district.in/events/thingyan-festival-celebrating-burmese-new-year-jio-world-drive-bandra-kurla-complex-may11-2026-buy-tickets",
+        "city": "Mumbai",
+        "source": "district.in"
+      },
       {
         "title": "Nuvama Private T20 Mumbai League 2026: Bandra Blasters vs Eagle Thane Strikers & Maratha Royals vs Aakash Tigers MWS",
         "venue": "Wankhede Stadium Mumbai, Mumbai",
@@ -19,24 +28,6 @@
         "date": "Thu, 04 Jun, 2:00 PM",
         "price": "₹99 onwards",
         "url": "https://www.district.in/events/t20-mumbai-league-2026-maratha-royals-vs-sobo-mumbai-falcons--triumph-knights-mne-vs-bandra-blasters-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      },
-      {
-        "title": "Thingyan Festival : Celebrating Burmese New Year : Bandra Kurla Complex",
-        "venue": "Burma Burma - JioWorld Drive | Bandra Kurla Complex, Mumbai, Mumbai",
-        "date": "Sat, 30 May – Sun, 31 May, 12:00 PM",
-        "price": "₹1000",
-        "url": "https://www.district.in/events/thingyan-festival-celebrating-burmese-new-year-jio-world-drive-bandra-kurla-complex-may11-2026-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      },
-      {
-        "title": "Niladri Kumaar EKKA Tour 2026 | Mumbai",
-        "venue": "Venue to be announced, Mumbai",
-        "date": "Sun, 26 Jul, 7:00 PM",
-        "price": "₹799 onwards",
-        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-mumbai-buy-tickets",
         "city": "Mumbai",
         "source": "district.in"
       },
@@ -59,43 +50,34 @@
         "source": "district.in"
       },
       {
-        "title": "Bollywood Bling",
-        "venue": "BAĞLAMI | Bandra Kurla Complex, Mumbai, Mumbai",
-        "date": "Sat, 30 May, 10:45 PM",
-        "price": "₹2000 onwards",
-        "url": "https://www.district.in/events/bollywood-bling-may30-2026-buy-tickets",
+        "title": "Scarletts Weekend Brunch | Pali Hill, Bandra West, Mumbai",
+        "venue": "Scarlett House | Pali Hill, Bandra West, Mumbai, Mumbai",
+        "date": "Sun, 31 May onwards, Multiple Dates",
+        "price": "₹200",
+        "url": "https://www.district.in/events/scarletts-weekend-brunch-apr11-2026-buy-tickets",
         "city": "Mumbai",
         "source": "district.in"
       },
       {
-        "title": "Jamming Night - Mumbai",
-        "venue": "Hitchki BKC, Mumbai",
-        "date": "Sat, 30 May, 8:00 PM",
-        "price": "₹299 onwards",
-        "url": "https://www.district.in/events/jamming-night-mumbai-may23-2026-buy-tickets",
+        "title": "Vichaar (Live) | AntiSocial, Mumbai",
+        "venue": "antiSOCIAL, Lower Parel, Mumbai",
+        "date": "Sun, 07 Jun, 9:00 PM",
+        "price": "₹599",
+        "url": "https://www.district.in/events/vichaar-live-antisocial-mumbai-jun7-2026-buy-tickets",
+        "city": "Mumbai",
+        "source": "district.in"
+      },
+      {
+        "title": "Niladri Kumaar EKKA Tour 2026 | Mumbai",
+        "venue": "Venue to be announced, Mumbai",
+        "date": "Sun, 26 Jul, 7:00 PM",
+        "price": "₹799 onwards",
+        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-mumbai-buy-tickets",
         "city": "Mumbai",
         "source": "district.in"
       }
     ],
     "delhi": [
-      {
-        "title": "Noida Comedy Show | Sec-18",
-        "venue": "Comedy Club Sector 18 Noida, Noida",
-        "date": "Sat, 30 May – Sun, 7 Jun, Multiple slots",
-        "price": "₹299 onwards",
-        "url": "https://www.district.in/events/noida-comedy-show-sec18-sep10-2025-buy-tickets",
-        "city": "Delhi",
-        "source": "district.in"
-      },
-      {
-        "title": "Comedy Circus Gurgaon | A Standup Comedy Lineup Show",
-        "venue": "Nerds of Comedy Studio, Gurugram",
-        "date": "Sat, 30 May – Mon, 1 Jun, Multiple slots",
-        "price": "₹199 onwards",
-        "url": "https://www.district.in/events/comedy-circus-gurgaon-a-standup-comedy-lineup-show-sep9-2025-buy-tickets",
-        "city": "Delhi",
-        "source": "district.in"
-      },
       {
         "title": "Shera India Tour ft. Parmish Verma | Delhi NCR",
         "venue": "X Live, Gurugram",
@@ -107,10 +89,46 @@
       },
       {
         "title": "The Late Night Comedy Show",
-        "venue": "Guftagu Cafe, Gurugram",
-        "date": "Sat, 30 May – Sun, 31 May, Multiple slots",
-        "price": "₹299",
+        "venue": "Daily, Multiple slots",
+        "date": null,
+        "price": "Daily, Multiple slots",
         "url": "https://www.district.in/events/the-late-night-comedy-show-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
+        "title": "Comedy Circus Gurgaon | A Standup Comedy Lineup Show",
+        "venue": "Nerds of Comedy Studio, Gurugram",
+        "date": "Sun, 31 May – Mon, 1 Jun, Multiple slots",
+        "price": "₹199 onwards",
+        "url": "https://www.district.in/events/comedy-circus-gurgaon-a-standup-comedy-lineup-show-sep9-2025-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
+        "title": "Vivek Samtani Live",
+        "venue": "The Comedy Theatre - Hauz Khass Village, Delhi/NCR",
+        "date": "Sun, 31 May, 5:00 PM",
+        "price": "₹499",
+        "url": "https://www.district.in/events/vivek-samtani-live-may15-2026-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
+        "title": "Noida Comedy Show | Sec-18",
+        "venue": "Comedy Club Sector 18 Noida, Noida",
+        "date": "Sun, 31 May – Sun, 7 Jun, Multiple slots",
+        "price": "₹299 onwards",
+        "url": "https://www.district.in/events/noida-comedy-show-sec18-sep10-2025-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
+        "title": "Niladri Kumaar EKKA Tour 2026 | Delhi",
+        "venue": "Yashobhoomi Convention Centre, Delhi/NCR",
+        "date": "Sun, 21 Jun, 7:00 PM",
+        "price": "₹799 onwards",
+        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-delhi-buy-tickets",
         "city": "Delhi",
         "source": "district.in"
       },
@@ -122,24 +140,24 @@
         "url": "https://www.district.in/events/bohcas-bollywood-may27-2026-buy-tickets",
         "city": "Delhi",
         "source": "district.in"
+      },
+      {
+        "title": "Screening of Spanish Grand Prix – Live",
+        "venue": "One8 Commune, Golf Course Road | DLF Phase 5, Gurgaon, Gurgaon",
+        "date": "Sun, 14 Jun, 6:30 PM",
+        "price": "₹999 onwards",
+        "url": "https://www.district.in/events/spanish-grand-prix-live-screening--jun14-2026-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
       }
     ],
     "bengaluru": [
       {
-        "title": "India’s First Full Classical Symphony - “Valiant” by Maestro Ilaiyaraaja",
-        "venue": "Prestige Centre for Performing Arts, Bengaluru",
-        "date": "Tue, 02 Jun, 6:30 PM",
-        "price": "₹3540 onwards",
-        "url": "https://www.district.in/events/valiant-symphony-2026-buy-tickets",
-        "city": "Bengaluru",
-        "source": "district.in"
-      },
-      {
-        "title": "Omiki Live at Sunburn Union",
-        "venue": null,
-        "date": "Sat, 30 May, 7:30 PM",
-        "price": "₹499 onwards",
-        "url": "https://www.district.in/events/omiki-live-at-sunburn-union-may30-2026-buy-tickets",
+        "title": "Dhurandhar Singer Simran Choudhary LIVE!",
+        "venue": "ABV - Artisanal Bier Village | Whitefield, Bangalore, Bengaluru",
+        "date": "Sat, 13 Jun, 9:00 PM",
+        "price": "₹799 onwards",
+        "url": "https://www.district.in/events/dhurandhar-singer-simran-choudhary-live-jun13-2026-buy-tickets",
         "city": "Bengaluru",
         "source": "district.in"
       },
@@ -153,29 +171,38 @@
         "source": "district.in"
       },
       {
-        "title": "Dhurandhar Singer Simran Choudhary LIVE!",
-        "venue": "ABV - Artisanal Bier Village | Whitefield, Bangalore, Bengaluru",
-        "date": "Sat, 13 Jun, 9:00 PM",
-        "price": "₹799 onwards",
-        "url": "https://www.district.in/events/dhurandhar-singer-simran-choudhary-live-jun13-2026-buy-tickets",
+        "title": "India’s First Full Classical Symphony - “Valiant” by Maestro Ilaiyaraaja",
+        "venue": "Prestige Centre for Performing Arts, Bengaluru",
+        "date": "Tue, 02 Jun, 6:30 PM",
+        "price": "₹5900 onwards",
+        "url": "https://www.district.in/events/valiant-symphony-2026-buy-tickets",
         "city": "Bengaluru",
         "source": "district.in"
       },
       {
-        "title": "Underground Showcase | Koramangala",
-        "venue": "The Underground Comedy Club, Bengaluru",
-        "date": "Sat, 30 May, Multiple slots",
-        "price": "Sat, 30 May, Multiple slots",
-        "url": "https://www.district.in/events/late-night-sexy-jokes-koramangala-jul4-2025-buy-tickets",
+        "title": "Pratyush Chaubey Live | Bengaluru",
+        "venue": "The Comedy Theatre - Indiranagar, Bangalore, Bengaluru",
+        "date": "Sun, 31 May, 6:00 PM",
+        "price": "₹499 onwards",
+        "url": "https://www.district.in/events/pratyush-chaubey-live-jul6-2025-buy-tickets",
         "city": "Bengaluru",
         "source": "district.in"
       },
       {
-        "title": "Midnight Comedy Show",
-        "venue": "The Coffee Theatre - Indiranagar, Bangalore, Bengaluru",
-        "date": "Sat, 30 May – Tue, 2 Jun, Multiple slots",
-        "price": "₹299 onwards",
-        "url": "https://www.district.in/events/all-star-lineup-a-curated-stand-up-comedy-show-jun16-2025-buy-tickets",
+        "title": "Gorillaz The Mountain Tour 2027 | Bengaluru",
+        "venue": "District Arena @ Terraform, Bengaluru",
+        "date": "Sat, 23 Jan, 6:00 PM",
+        "price": "₹5000 onwards",
+        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-bengaluru-2027-buy-tickets",
+        "city": "Bengaluru",
+        "source": "district.in"
+      },
+      {
+        "title": "Jamming Night Saturday At Brau Galie",
+        "venue": "BRAU GALIE MICROBREWERY | Koramangala 5th Block, Bangalore, Bengaluru",
+        "date": "Every Sat, 7:30 PM to 9:30 PM",
+        "price": "₹199",
+        "url": "https://www.district.in/events/jamming-night-saturday-at-brau-galie-may23-2026-buy-tickets",
         "city": "Bengaluru",
         "source": "district.in"
       },
@@ -189,31 +216,58 @@
         "source": "district.in"
       },
       {
-        "title": "Tribute to KK by Akash (The High Octave Band)",
-        "venue": "Nusa | Varthur Main Road, Whitefield, Bangalore, Bangalore",
-        "date": "Sat, 30 May, 8:00 PM",
-        "price": "₹200",
-        "url": "https://www.district.in/events/kk-tribute-by-akash-the-high-octave-band-may30-2026-buy-tickets",
+        "title": "Midnight Comedy Show",
+        "venue": "The Coffee Theatre - Indiranagar, Bangalore, Bengaluru",
+        "date": "Sun, 31 May – Tue, 2 Jun, Multiple slots",
+        "price": "₹299 onwards",
+        "url": "https://www.district.in/events/all-star-lineup-a-curated-stand-up-comedy-show-jun16-2025-buy-tickets",
+        "city": "Bengaluru",
+        "source": "district.in"
+      },
+      {
+        "title": "All Star Lineup Comedy Show",
+        "venue": "The Comedy Theatre - Indiranagar, Bangalore, Bengaluru",
+        "date": "Sun, 31 May – Wed, 3 Jun, Multiple slots",
+        "price": "₹299 onwards",
+        "url": "https://www.district.in/events/all-star-lineup-comedy-show-jul16-2025-buy-tickets",
+        "city": "Bengaluru",
+        "source": "district.in"
+      },
+      {
+        "title": "Mohd Suhel Live - North BLR",
+        "venue": "The Stage Cafe, Bengaluru",
+        "date": "Sun, 14 Jun, 6:00 PM",
+        "price": "Mohd Suhel Live - North BLR",
+        "url": "https://www.district.in/events/mohd-suhel-live-north-blr-jun14-2026-buy-tickets",
+        "city": "Bengaluru",
+        "source": "district.in"
+      },
+      {
+        "title": "Niladri Kumaar EKKA Tour 2026 | Bengaluru",
+        "venue": "Venue to be announced, Bengaluru",
+        "date": "Sat, 27 Jun, 7:00 PM",
+        "price": "₹799 onwards",
+        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-bengaluru-jun13-2026-buy-tickets",
         "city": "Bengaluru",
         "source": "district.in"
       }
     ],
     "hyderabad": [
       {
-        "title": "DIVINE Live at Quake Arena",
-        "venue": "Quake | Kondapur, Hyderabad, Hyderabad",
-        "date": "Sat, 20 Jun, 7:00 PM",
-        "price": "₹799 onwards",
-        "url": "https://www.district.in/events/divine-live-at-quake-arena-may23-2026-buy-tickets",
-        "city": "Hyderabad",
-        "source": "district.in"
-      },
-      {
         "title": "Sonny Wern Live at Quake Arena",
         "venue": "Quake | Kondapur, Hyderabad, Hyderabad",
         "date": "Sat, 06 Jun, 7:00 PM",
         "price": "₹999 onwards",
         "url": "https://www.district.in/events/sonny-wern-live-at-quake-arena-jun6-2026-buy-tickets",
+        "city": "Hyderabad",
+        "source": "district.in"
+      },
+      {
+        "title": "DIVINE Live at Quake Arena",
+        "venue": "Quake | Kondapur, Hyderabad, Hyderabad",
+        "date": "Sat, 20 Jun, 7:00 PM",
+        "price": "₹799 onwards",
+        "url": "https://www.district.in/events/divine-live-at-quake-arena-may23-2026-buy-tickets",
         "city": "Hyderabad",
         "source": "district.in"
       },
@@ -227,6 +281,15 @@
         "source": "district.in"
       },
       {
+        "title": "Summer Coffee Festival by Communitie",
+        "venue": "T - Works, Hyderabad",
+        "date": "Sun, 31 May, 4:00 PM",
+        "price": "T - Works, Hyderabad",
+        "url": "https://www.district.in/events/summer-coffee-festival-may29-2026-buy-tickets",
+        "city": "Hyderabad",
+        "source": "district.in"
+      },
+      {
         "title": "Desi Beats Ft. Rudhra",
         "venue": "Hard Rock Cafe | GVK One Mall, Banjara Hills, Hyderabad",
         "date": "Sat, 06 Jun, 9:00 PM",
@@ -236,11 +299,11 @@
         "source": "district.in"
       },
       {
-        "title": "Rock Around The World Ft. Neverend",
-        "venue": "Hard Rock Cafe | GVK One Mall, Banjara Hills, Hyderabad",
-        "date": "Sat, 20 Jun, 9:00 PM",
-        "price": "₹249",
-        "url": "https://www.district.in/events/rock-around-the-world-ft-neverend-jun20-2026-buy-tickets",
+        "title": "Unlimited Brews at Hard Rock Cafe | Banjara Hills",
+        "venue": "Daily, 12:00 PM onwards",
+        "date": null,
+        "price": "Daily, 12:00 PM onwards",
+        "url": "https://www.district.in/events/unlimited-brews-at-hard-rock-cafe-banjara-hills-may9-2026-buy-tickets",
         "city": "Hyderabad",
         "source": "district.in"
       },
@@ -254,16 +317,34 @@
         "source": "district.in"
       },
       {
-        "title": "Unlimited Brews at Hard Rock Cafe | Banjara Hills",
-        "venue": "Daily, 12:00 PM onwards",
-        "date": null,
-        "price": "Daily, 12:00 PM onwards",
-        "url": "https://www.district.in/events/unlimited-brews-at-hard-rock-cafe-banjara-hills-may9-2026-buy-tickets",
+        "title": "Rock Around The World Ft. Neverend",
+        "venue": "Hard Rock Cafe | GVK One Mall, Banjara Hills, Hyderabad",
+        "date": "Sat, 20 Jun, 9:00 PM",
+        "price": "₹249",
+        "url": "https://www.district.in/events/rock-around-the-world-ft-neverend-jun20-2026-buy-tickets",
         "city": "Hyderabad",
         "source": "district.in"
       }
     ],
     "chennai": [
+      {
+        "title": "P.C.SORCAR & Dhaya's International MAGIC SHOW",
+        "venue": "Museum Theatre, Chennai",
+        "date": "Sat, 06 Jun – Sun, 07 Jun, Multiple slots",
+        "price": "Museum Theatre, Chennai",
+        "url": "https://www.district.in/events/pcsorcar-dhayas-international-magic-show-apr18-2026-buy-tickets",
+        "city": "Chennai",
+        "source": "district.in"
+      },
+      {
+        "title": "Thoonga Nagaram- Madurai Food Festival",
+        "venue": "Ayna - Hilton Chennai, Chennai",
+        "date": "Sun, 31 May – Sun, 7 Jun, 6:30 PM",
+        "price": "₹2478 onwards",
+        "url": "https://www.district.in/events/thoonga-nagaram-madurai-food-festival-may21-2026-buy-tickets",
+        "city": "Chennai",
+        "source": "district.in"
+      },
       {
         "title": "Gorillaz The Mountain Tour 2027 | Bengaluru",
         "venue": "District Arena @ Terraform, Bengaluru",
@@ -274,29 +355,20 @@
         "source": "district.in"
       },
       {
-        "title": "Bollywood Masquerade",
-        "venue": "The Vibe | T. Nagar, Chennai, Chennai",
-        "date": "Sat, 30 May, 8:00 PM",
-        "price": "Bollywood Masquerade",
-        "url": "https://www.district.in/events/bollywood-masquerade-may30-2026-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
-      },
-      {
-        "title": "Thoonga Nagaram- Madurai Food Festival",
-        "venue": "Ayna - Hilton Chennai, Chennai",
-        "date": "Sat, 30 May – Sun, 7 Jun, 6:30 PM",
-        "price": "₹2478 onwards",
-        "url": "https://www.district.in/events/thoonga-nagaram-madurai-food-festival-may21-2026-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
-      },
-      {
         "title": "The Great Indian Biryani Festival",
         "venue": "Spice Haat - Hyatt Regency | Hyatt Regency, Teynampet, Chennai",
-        "date": "Sat, 30 May – Sun, 31 May, 7:00 PM",
+        "date": "Sun, 31 May, 7:00 PM",
         "price": "₹3303",
         "url": "https://www.district.in/events/the-great-indian-biryani-festival-may1-2026-buy-tickets",
+        "city": "Chennai",
+        "source": "district.in"
+      },
+      {
+        "title": "Couples Not Allowed - A Standup Comedy Show",
+        "venue": "Trinity Studio, Kodambakkam",
+        "date": "Sun, 31 May, 4:00 PM",
+        "price": "₹250 onwards",
+        "url": "https://www.district.in/events/couples-not-allowed-a-standup-comedy-show-jan4-2026-buy-tickets",
         "city": "Chennai",
         "source": "district.in"
       },
@@ -308,27 +380,9 @@
         "url": "https://www.district.in/events/work-life-imbalance-a-comedy-format-show-may2-2026-buy-tickets",
         "city": "Chennai",
         "source": "district.in"
-      },
-      {
-        "title": "Open Air Jamming Night ft. Darshan Chopra",
-        "venue": "Mantra Gardens, Chennai",
-        "date": "Sun, 14 Jun, 6:30 PM",
-        "price": "Mantra Gardens, Chennai",
-        "url": "https://www.district.in/events/open-air-jamming-night-ft-darshan-chopra-jun14-2026-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
       }
     ],
     "kolkata": [
-      {
-        "title": "Gorillaz The Mountain Tour 2027 | Mumbai",
-        "venue": "Jio World Garden, Mumbai",
-        "date": "Wed, 27 Jan, 6:00 PM",
-        "price": "₹5000 onwards",
-        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-mumbai-2027-buy-tickets",
-        "city": "Kolkata",
-        "source": "district.in"
-      },
       {
         "title": "World Music Day Concert 2026",
         "venue": "Netaji Indoor Stadium, Kolkata",
@@ -339,29 +393,20 @@
         "source": "district.in"
       },
       {
-        "title": "John Paul Live: FT. Arijit Singh's Lead Guitarist at Five Mad Men, Kolkata",
+        "title": "Gorillaz The Mountain Tour 2027 | Bengaluru",
+        "venue": "District Arena @ Terraform, Bengaluru",
+        "date": "Sat, 23 Jan, 6:00 PM",
+        "price": "₹5000 onwards",
+        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-bengaluru-2027-buy-tickets",
+        "city": "Kolkata",
+        "source": "district.in"
+      },
+      {
+        "title": "John Paul Live at Five Mad Men, Kolkata",
         "venue": "Five Mad Men | Street 25, GP Block, Kolkata",
         "date": "Sun, 07 Jun, 7:00 PM",
         "price": "₹450 onwards",
         "url": "https://www.district.in/events/john-paul-live-at-five-mad-men-kolkata-jun7-2026-buy-tickets",
-        "city": "Kolkata",
-        "source": "district.in"
-      },
-      {
-        "title": "Saath Saath India Tour | Kolkata",
-        "venue": "Dhono Dhanyo Auditorium, Kolkata",
-        "date": "Sat, 30 May, 7:00 PM",
-        "price": "₹999 onwards",
-        "url": "https://www.district.in/events/saath-saath-india-tour-kolkata-2026-buy-tickets",
-        "city": "Kolkata",
-        "source": "district.in"
-      },
-      {
-        "title": "Screening of IPL live at Myx",
-        "venue": "Myx | Park Street Area, Kolkata, Kolkata",
-        "date": "Sat, 30 May – Sun, 31 May, 4:00 PM",
-        "price": "₹1000",
-        "url": "https://www.district.in/events/ipl-live-screening-with-special-offers-on-drinks-everyday-at-myx-apr8-2026-buy-tickets",
         "city": "Kolkata",
         "source": "district.in"
       },
@@ -384,33 +429,24 @@
         "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-pune-buy-tickets",
         "city": "Pune",
         "source": "district.in"
-      },
-      {
-        "title": "Marham Poetry & Music In Pune : \"The Journey Within\"",
-        "venue": "Jawaharlal Nehru Memorial Hall, Pune",
-        "date": "Fri, 05 Jun, 8:00 PM",
-        "price": "₹799 onwards",
-        "url": "https://www.district.in/events/marham-in-pune-the-journey-within-jun5-2026-buy-tickets",
-        "city": "Pune",
-        "source": "district.in"
-      },
-      {
-        "title": "Jamming Night - Pune",
-        "venue": "FC Road Social, Pune",
-        "date": "Sat, 30 May, 8:00 PM",
-        "price": "FC Road Social, Pune",
-        "url": "https://www.district.in/events/jamming-night-pune-may2-2026-buy-tickets",
-        "city": "Pune",
-        "source": "district.in"
       }
     ],
     "goa": [
       {
         "title": "Goa's 3 Deck Family Dinner Cruise with Live DJ, Dance & Buffet Dinner",
         "venue": "Vihaan Cruise, Goa",
-        "date": "Sat, 30 May – Sun, 31 May, 8:00 PM",
+        "date": "Sun, 31 May, 8:00 PM",
         "price": "Vihaan Cruise, Goa",
         "url": "https://www.district.in/events/goas-3-deck-family-dinner-cruise-with-live-dj-dance-buffet-dinner-mar18-2026-buy-tickets",
+        "city": "Goa",
+        "source": "district.in"
+      },
+      {
+        "title": "Bollyroar ft. OG DJ Aqeel",
+        "venue": "Sarabi | Vagator, Goa, Goa",
+        "date": "Sat, 27 Jun, 9:00 PM",
+        "price": "₹1180 onwards",
+        "url": "https://www.district.in/events/bollyroar-ft-og-dj-aqeel-jun27-2026-buy-tickets",
         "city": "Goa",
         "source": "district.in"
       },
@@ -422,33 +458,33 @@
         "url": "https://www.district.in/events/retro-jazz-pop-night-may1-2026-buy-tickets",
         "city": "Goa",
         "source": "district.in"
-      },
-      {
-        "title": "Live Music at goSTOPS Baga, Goa",
-        "venue": "goSTOPS Goa Baga, Goa",
-        "date": "Sat, 30 May, 8:00 PM",
-        "price": "₹200",
-        "url": "https://www.district.in/events/live-music-at-gostops-baga-goa-may23-2026-buy-tickets",
-        "city": "Goa",
-        "source": "district.in"
       }
     ],
     "jaipur": [
-      {
-        "title": "BB Castle Jaipur Tour 2.0",
-        "venue": "VT ROAD GROUND, Jaipur",
-        "date": "Sat, 30 May – Sun, 31 May, Multiple slots",
-        "price": "BB Castle Jaipur Tour 2.0",
-        "url": "https://www.district.in/events/bb-castle-jaipur-tour-20-may15-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      },
       {
         "title": "Shera India Tour ft. Parmish Verma | Jaipur",
         "venue": "One8 Commune Jaipur, Jaipur",
         "date": "Sat, 06 Jun, 9:00 PM",
         "price": "₹999 onwards",
         "url": "https://www.district.in/events/parmish-verma-live-jaipur-2026-buy-tickets",
+        "city": "Jaipur",
+        "source": "district.in"
+      },
+      {
+        "title": "Baithak - The Musical Evening | Jaipur",
+        "venue": "Chai Kaapi | Chitrakoot, Jaipur, Jaipur",
+        "date": "Sun, 31 May, 6:00 PM",
+        "price": "₹249",
+        "url": "https://www.district.in/events/baithak-the-musical-evening-jaipur-mar29-2026-buy-tickets",
+        "city": "Jaipur",
+        "source": "district.in"
+      },
+      {
+        "title": "Bollywood Friday at The Big Tree",
+        "venue": "The Big Tree | Ajmer Highway, Jaipur, Jaipur",
+        "date": "Fri, 05 Jun onwards, Multiple Dates",
+        "price": "₹200",
+        "url": "https://www.district.in/events/bollywood-friday-at-the-big-tree-apr3-2026-buy-tickets",
         "city": "Jaipur",
         "source": "district.in"
       },
@@ -471,24 +507,6 @@
         "source": "district.in"
       },
       {
-        "title": "Bollywood Friday at The Big Tree",
-        "venue": "The Big Tree | Ajmer Highway, Jaipur, Jaipur",
-        "date": "Fri, 05 Jun onwards, Multiple Dates",
-        "price": "₹200",
-        "url": "https://www.district.in/events/bollywood-friday-at-the-big-tree-apr3-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      },
-      {
-        "title": "Baithak - The Musical Evening | Jaipur",
-        "venue": "Chai Kaapi | Chitrakoot, Jaipur, Jaipur",
-        "date": "Sun, 31 May, 6:00 PM",
-        "price": "₹249 onwards",
-        "url": "https://www.district.in/events/baithak-the-musical-evening-jaipur-mar29-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      },
-      {
         "title": "Ghar: An Open Mic for Words by Tape A Tale | Jaipur",
         "venue": "Maah 間, Jaipur",
         "date": "Sun, 07 Jun, 4:00 PM",
@@ -496,10 +514,37 @@
         "url": "https://www.district.in/events/ghar-an-open-mic-for-words-by-tape-a-tale-jaipur-may17-2026-buy-tickets",
         "city": "Jaipur",
         "source": "district.in"
+      },
+      {
+        "title": "Gorillaz The Mountain Tour 2027 | Mumbai",
+        "venue": "Jio World Garden, Mumbai",
+        "date": "Wed, 27 Jan, 6:00 PM",
+        "price": "₹5000 onwards",
+        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-mumbai-2027-buy-tickets",
+        "city": "Jaipur",
+        "source": "district.in"
+      },
+      {
+        "title": "Acoustic Thursday at The Big Tree",
+        "venue": "The Big Tree | Ajmer Highway, Jaipur, Jaipur",
+        "date": "Thu, 04 Jun onwards, Multiple Dates",
+        "price": "₹200",
+        "url": "https://www.district.in/events/acoustic-thursday-at-the-big-tree-apr2-2026-buy-tickets",
+        "city": "Jaipur",
+        "source": "district.in"
       }
     ],
     "kochi": [],
     "ahmedabad": [
+      {
+        "title": "Maithili Thakur Live - Biggest Bhakti Jamming Concert in Ahmedabad",
+        "venue": "Praveg Adalaj Theme Park, Adalaj",
+        "date": "Sat, 06 Jun, 7:30 PM",
+        "price": "₹1100 onwards",
+        "url": "https://www.district.in/events/music-for-mandir-maithili-thakur-live-in-ahmedabad-jun6-2026-buy-tickets",
+        "city": "Ahmedabad",
+        "source": "district.in"
+      },
       {
         "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Ahmedabad",
         "venue": "AUDA AUDITORIUM Shela, Ahmedabad",
@@ -510,11 +555,20 @@
         "source": "district.in"
       },
       {
-        "title": "Maithili Thakur Live - Biggest Bhakti Jamming Concert in Ahmedabad",
-        "venue": "Praveg Adalaj Theme Park, Adalaj",
-        "date": "Sat, 06 Jun, 7:30 PM",
-        "price": "₹1100 onwards",
-        "url": "https://www.district.in/events/music-for-mandir-maithili-thakur-live-in-ahmedabad-jun6-2026-buy-tickets",
+        "title": "The Midnight Comedy Show",
+        "venue": "Backspace Ahmedabad, Ahmedabad",
+        "date": "Sun, 31 May, 10:00 PM",
+        "price": "₹149 onwards",
+        "url": "https://www.district.in/events/the-midnight-comedy-show-oct4-2025-buy-tickets",
+        "city": "Ahmedabad",
+        "source": "district.in"
+      },
+      {
+        "title": "Akshay Srivastava Live | Standup Comedy",
+        "venue": "Mishty Studio, Cafe & Hall, Ahmedabad",
+        "date": "Sun, 31 May, 7:00 PM",
+        "price": "₹399",
+        "url": "https://www.district.in/events/akshay-srivastava-live-standup-comedy-may31-2026-buy-tickets",
         "city": "Ahmedabad",
         "source": "district.in"
       },
@@ -528,24 +582,6 @@
         "source": "district.in"
       },
       {
-        "title": "Wits and Bits | Curated Comedy Show",
-        "venue": "The Theory of Nine | Cafe in Ahmedabad, Ahmedabad",
-        "date": "Wed, 03 Jun, 10:00 PM",
-        "price": "₹49 onwards",
-        "url": "https://www.district.in/events/wits-and-bits-curated-comedy-show-sep10-2025-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      },
-      {
-        "title": "Udta Bollywood: Diet Coke Edition | NOT SO HOUSE PARTY",
-        "venue": "Risqué, Ahmedabad",
-        "date": "Sat, 13 Jun, 7:30 PM",
-        "price": "Risqué, Ahmedabad",
-        "url": "https://www.district.in/events/udta-bollywood-diet-coke-edition-not-so-house-party-jun6-2026-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      },
-      {
         "title": "Ghar: An Open Mic for Words by Tape A Tale | Ahmedabad",
         "venue": "MADHYANTAR FILMS, Ahmedabad",
         "date": "Sun, 07 Jun, 5:00 PM",
@@ -555,11 +591,11 @@
         "source": "district.in"
       },
       {
-        "title": "Gorillaz The Mountain Tour 2027 | Mumbai",
-        "venue": "Jio World Garden, Mumbai",
-        "date": "Wed, 27 Jan, 6:00 PM",
-        "price": "₹5000 onwards",
-        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-mumbai-2027-buy-tickets",
+        "title": "Ahmedabad's Funniest Lineup Comedy Showcase",
+        "venue": "Backspace Ahmedabad, Ahmedabad",
+        "date": "Sun, 31 May, 8:00 PM",
+        "price": "₹149 onwards",
+        "url": "https://www.district.in/events/ahmedabads-funniest-lineup-comedy-showcase-oct4-2025-buy-tickets",
         "city": "Ahmedabad",
         "source": "district.in"
       },
@@ -573,31 +609,22 @@
         "source": "district.in"
       },
       {
-        "title": "Arz Kiya Hai India Tour By Mukul Sharma | Ahmedabad",
-        "venue": "Mehdi Nawaz Jung Hall, Ahmedabad",
-        "date": "Sun, 05 Jul, 7:00 PM",
-        "price": "₹499",
-        "url": "https://www.district.in/events/arz-kiya-hai-india-tour-by-mukul-sharma-ahmedabad-2026-buy-tickets",
+        "title": "UNCENSORED FRIDAY - Standup Comedy Show",
+        "venue": "La Shanti, Ahmedabad",
+        "date": "Fri, 05 Jun, 10:30 PM",
+        "price": "₹199 onwards",
+        "url": "https://www.district.in/events/feisty-friday-friday-standup-show-may16-2025-buy-tickets",
         "city": "Ahmedabad",
         "source": "district.in"
       }
     ],
     "chandigarh": [
       {
-        "title": "Gorillaz The Mountain Tour 2027 | Mumbai",
-        "venue": "Jio World Garden, Mumbai",
-        "date": "Wed, 27 Jan, 6:00 PM",
-        "price": "₹5000 onwards",
-        "url": "https://www.district.in/events/gorillaz-the-mountain-tour-mumbai-2027-buy-tickets",
-        "city": "Chandigarh",
-        "source": "district.in"
-      },
-      {
-        "title": "Mohd Suhel Live - Chandigarh",
+        "title": "Ghar: An Open Mic for Words by Tape A Tale | Chandigarh",
         "venue": "The Laugh Club, Chandigarh",
-        "date": "Sat, 06 Jun, 6:00 PM",
-        "price": "₹499 onwards",
-        "url": "https://www.district.in/events/mohd-suhel-live-chandigarh-apr25-2026-buy-tickets",
+        "date": "Sun, 07 Jun onwards, Multiple Dates",
+        "price": "₹200",
+        "url": "https://www.district.in/events/ghar-an-open-mic-for-words-by-tape-a-tale-chandigarh-apr12-2026-buy-tickets",
         "city": "Chandigarh",
         "source": "district.in"
       },

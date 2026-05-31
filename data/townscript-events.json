@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T04:47:44.415688+00:00",
+  "updated_at": "2026-05-31T05:16:39.229405+00:00",
   "source": "Townscript",
   "total_events": 16,
   "cities": {
@@ -36,20 +36,20 @@
         "organiser": "MY JUHU",
         "city": "Mumbai",
         "source": "townscript.com"
+      },
+      {
+        "title": "Dil Se Dil Tak A Live Ghazal Concert  By Gauri Kulkarni",
+        "venue": "Lullanagar",
+        "date": "27 June 2026",
+        "time": "06:30 PM",
+        "price": "INR 300",
+        "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
+        "organiser": "Raah-Literacy & Cultural Centre",
+        "city": "Mumbai",
+        "source": "townscript.com"
       }
     ],
     "delhi": [
-      {
-        "title": "Desi Block Party 2.0",
-        "venue": "Sector 43",
-        "date": "30 May 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/desi-block-party-20-232221",
-        "organiser": "MitraMesh",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
       {
         "title": "Anmol Amla Ft. Oniko, Riddle Riff, Kshitij",
         "venue": "Greater Kailash",
@@ -158,6 +158,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "MY JUHU invites you to a celebration of art, music and community",
+        "venue": "Juhu",
+        "date": "14 June 2026",
+        "time": "04:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
+        "organiser": "MY JUHU",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
         "title": "Echoes of Sufi",
         "venue": "Khandala",
         "date": "7 February 2026",
@@ -169,32 +180,20 @@
         "source": "townscript.com"
       },
       {
-        "title": "MY JUHU invites you to a celebration of art, music and community",
-        "venue": "Juhu",
-        "date": "14 June 2026",
-        "time": "04:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
-        "organiser": "MY JUHU",
+        "title": "Dil Se Dil Tak A Live Ghazal Concert  By Gauri Kulkarni",
+        "venue": "Lullanagar",
+        "date": "27 June 2026",
+        "time": "06:30 PM",
+        "price": "INR 300",
+        "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
+        "organiser": "Raah-Literacy & Cultural Centre",
         "city": "Pune",
         "source": "townscript.com"
       }
     ],
     "goa": [],
     "jaipur": [],
-    "kochi": [
-      {
-        "title": "Weekend Party",
-        "venue": null,
-        "date": "30 May 2026",
-        "time": "07:00 PM",
-        "price": "INR 2000",
-        "url": "https://www.townscript.com/in/weekend-party-040312",
-        "organiser": "SR JUNGLE RESORTES PRIVATE LIMITED",
-        "city": "Kochi",
-        "source": "townscript.com"
-      }
-    ],
+    "kochi": [],
     "ahmedabad": [],
     "chandigarh": []
   }
