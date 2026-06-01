@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-05-31T05:16:39.229405+00:00",
+  "updated_at": "2026-06-01T05:57:34.743823+00:00",
   "source": "Townscript",
-  "total_events": 16,
+  "total_events": 11,
   "cities": {
     "mumbai": [
       {
-        "title": "#RaagKeDoRang - Hues Of Hindustani & Carnatic Music | A musical morning with Nithya Rajendran",
-        "venue": "Fort",
-        "date": "31 May 2026",
-        "time": "11:00 AM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/raagkedorang-hues-of-hindustani-carnatic-music-a-musical-morning-with-nithya-rajendran-414342",
-        "organiser": "Khaki Lab",
+        "title": "MY JUHU invites you to a celebration of art, music and community",
+        "venue": "Juhu",
+        "date": "14 June 2026",
+        "time": "04:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
+        "organiser": "MY JUHU",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -23,17 +23,6 @@
         "price": "INR 4699",
         "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
         "organiser": "CineGranth Studio",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
-        "title": "MY JUHU invites you to a celebration of art, music and community",
-        "venue": "Juhu",
-        "date": "14 June 2026",
-        "time": "04:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/my-juhu-art-music-231234",
-        "organiser": "MY JUHU",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -50,28 +39,6 @@
       }
     ],
     "delhi": [
-      {
-        "title": "Anmol Amla Ft. Oniko, Riddle Riff, Kshitij",
-        "venue": "Greater Kailash",
-        "date": "31 May 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/anmol-amla-ft-oniko-riddle-riff-kshitij-040012",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Baetails Carnival",
-        "venue": "Sector 58",
-        "date": "31 May 2026",
-        "time": "05:00 PM",
-        "price": "INR 999",
-        "url": "https://www.townscript.com/in/baetails-carnival-103241",
-        "organiser": "Baetails india private limited",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
       {
         "title": "7 stages of love ",
         "venue": "Greater Kailash",
@@ -136,28 +103,6 @@
     "kolkata": [],
     "pune": [
       {
-        "title": "#RaagKeDoRang - Hues Of Hindustani & Carnatic Music | A musical morning with Nithya Rajendran",
-        "venue": "Fort",
-        "date": "31 May 2026",
-        "time": "11:00 AM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/raagkedorang-hues-of-hindustani-carnatic-music-a-musical-morning-with-nithya-rajendran-414342",
-        "organiser": "Khaki Lab",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "SAUNDH - Mitti se Mehfil tak",
-        "venue": "Lower Parel",
-        "date": "27 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 4699",
-        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
-        "organiser": "CineGranth Studio",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "MY JUHU invites you to a celebration of art, music and community",
         "venue": "Juhu",
         "date": "14 June 2026",
@@ -169,13 +114,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Echoes of Sufi",
-        "venue": "Khandala",
-        "date": "7 February 2026",
-        "time": "08:30 PM",
-        "price": "INR 1200",
-        "url": "https://www.townscript.com/in/echoes-of-sufi-021403",
-        "organiser": "Della Resorts and Adventure",
+        "title": "SAUNDH - Mitti se Mehfil tak",
+        "venue": "Lower Parel",
+        "date": "27 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 4699",
+        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
+        "organiser": "CineGranth Studio",
         "city": "Pune",
         "source": "townscript.com"
       },
