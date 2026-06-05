@@ -1,28 +1,17 @@
 {
-  "updated_at": "2026-06-04T05:53:24.971441+00:00",
+  "updated_at": "2026-06-05T05:12:46.029178+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 279,
+  "total_events": 276,
   "cities": {
     "mumbai": [
       {
-        "title": "Privilege presents KTK India Tour || Mumbai",
+        "title": "Easy Showcase",
         "venue": null,
-        "date": "21 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Think Floydian || Mumbai",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:30 PM",
-        "price": "INR 899 - 2199",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-mumbai",
-        "category": "Club Gigs - Music",
+        "date": "14 June 2026",
+        "time": "07:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/easy-showcase",
+        "category": "Club Gigs Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
       },
@@ -42,7 +31,7 @@
         "venue": null,
         "date": "18 June 2026",
         "time": "08:30 PM",
-        "price": "INR 799",
+        "price": "INR 499",
         "url": "https://www.skillboxes.com/events/kuch-alfaaz-live-in-kandivali",
         "category": "Music Festivals",
         "city": "Mumbai",
@@ -55,39 +44,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/friday-night-live-edition-33",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Lady Shaka b2b Kampai",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 899",
-        "url": "https://www.skillboxes.com/events/lady-shaka-b2b-kompai",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Klangkuenstler Afters",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "10:00 PM",
-        "price": "INR 500 - 20000",
-        "url": "https://www.skillboxes.com/events/klangkuenstler-afters",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common ground | Edition #10 Curated by Maushi (Amaliah, Shayr, Mozez)",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-edition-10-curated-by-maushi-amaliah-shayr-mozez",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -148,6 +104,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Privilege Presents Vido India Tour || Mumbai",
+        "venue": null,
+        "date": "12 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/privilege-presents-vido-india-tour-mumbai-3",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Celebrating the legacy of Michael Jackson",
+        "venue": null,
+        "date": "24 June 2026",
+        "time": "09:30 PM",
+        "price": "INR 499 - 2495",
+        "url": "https://www.skillboxes.com/events/celebrating-the-legacy-of-michael-jackson-and-toto",
+        "category": "Concert",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Live In Mumbai - shauharty & Da’rookhs + Shashwat Bulusu (Live)",
         "venue": null,
         "date": "25 June 2026",
@@ -192,7 +170,18 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Privilege presents Dømina India Tour || Mumbai",
+        "title": "Privilege presents KTK India Tour || Mumbai",
+        "venue": null,
+        "date": "21 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Privilege presents Domina India Tour || Mumbai",
         "venue": null,
         "date": "13 June 2026",
         "time": "08:00 PM",
@@ -245,20 +234,31 @@
         "category": "Music Concerts",
         "city": "Mumbai",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "Mumbai - Endless Pursuits Tour by Time Throttle",
+        "venue": null,
+        "date": "20 June 2026",
+        "time": "09:00 PM",
+        "price": "INR 195",
+        "url": "https://www.skillboxes.com/events/mumbai-endless-pursuits-tour-by-time-throttle",
+        "category": "Music Concerts",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "PLINI Live in Mumbai | New Album Tour 2026",
+        "venue": null,
+        "date": "01 August 2026",
+        "time": "07:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/plini-live-in-mumbai-new-album-tour-2026",
+        "category": "Music Event",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
       }
     ],
     "delhi": [
-      {
-        "title": "Privilege presents Dømina India Tour || Delhi",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "10:00 PM",
-        "price": "INR 799 - 1000",
-        "url": "https://www.skillboxes.com/events/privilege-presents-domina-india-tour-delhi",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
       {
         "title": "South Side Story 2026 – Red FM | Delhi",
         "venue": null,
@@ -267,17 +267,6 @@
         "price": "INR 499 - 3299",
         "url": "https://www.skillboxes.com/events/south-side-story-2026-red-fm",
         "category": "Music Festivals",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Manganiyar Seduction | Delhi",
-        "venue": null,
-        "date": "03 October 2026",
-        "time": "08:00 PM",
-        "price": "INR 1299 - 14999",
-        "url": "https://www.skillboxes.com/events/the-manganiyar-seduction-delhi-1",
-        "category": "Musical Theater",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -326,17 +315,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Flashcraft presents Obsession",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "11:00 PM",
-        "price": "INR 1000 - 2000",
-        "url": "https://www.skillboxes.com/events/flashcraft-presents-obsession",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Taj Palace Present Padma Shri Hariharan Live Concert Episode 4",
         "venue": null,
         "date": "27 June 2026",
@@ -344,28 +322,6 @@
         "price": "INR 6999",
         "url": "https://www.skillboxes.com/events/taj-palace-delhi-presents-padmashri-hariharan-live",
         "category": "Music Concerts",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Ddion presents Only grooves featuring Enchantress & more.",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 999",
-        "url": "https://www.skillboxes.com/events/ddion-presents-only-grooves-featuring-enchantress-more",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "बेस Line feat.  Sugahunny & more",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/line-feat-sugahunny-more",
-        "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -398,28 +354,6 @@
         "time": "08:00 PM",
         "price": "INR 399 - 599",
         "url": "https://www.skillboxes.com/events/drag-excellence",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "FÊTE DE LA MUSIQUE Celebration | saket social",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/social-presents-fete-de-la-musique-celebration-saket-social",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "PCO & Locals A&R present Signal Received feat. JESSE YOU (Vinyl Set) - MISTER.K - MOCID",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "10:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/PCO-Locals-A-R-presents-Signal-Received-1",
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
@@ -524,12 +458,67 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "History Of Rock with String Theory",
+        "title": "Privilege Presents Vido India Tour || Delhi",
         "venue": null,
-        "date": "14 June 2026",
+        "date": "10 July 2026",
         "time": "08:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/privilege-presents-vido-india-tour-delhi-1",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Baarish Art.Music.Monsoon - Season 2 Chapter 1",
+        "venue": null,
+        "date": "21 June 2026",
+        "time": "05:30 PM",
+        "price": "INR 3500 - 12000",
+        "url": "https://www.skillboxes.com/events/baarish-art-music-monsoon-season-2-chapter-1",
+        "category": "Culture and Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Beach Please || Techno Sundowner feat Sheezan",
+        "venue": null,
+        "date": "07 June 2026",
+        "time": "05:00 PM",
         "price": "INR 299",
-        "url": "https://www.skillboxes.com/events/history-of-rock-with-string-theory",
+        "url": "https://www.skillboxes.com/events/beach-please-techno-sundowner-feat-sheezan-june",
+        "category": "Open Air Event",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Jawani 4eva - Delhi",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "09:30 PM",
+        "price": "INR 499 - 799",
+        "url": "https://www.skillboxes.com/events/jawani-4eva-delhi-india-tour",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Sip & Dip 4.0",
+        "venue": null,
+        "date": "07 June 2026",
+        "time": "04:00 PM",
+        "price": "INR 999 - 3999",
+        "url": "https://www.skillboxes.com/events/sip-dip-4-0",
+        "category": "Open Air Pool Party",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "TrapperX at Baardos",
+        "venue": null,
+        "date": "06 June 2026",
+        "time": "10:00 PM",
+        "price": "INR 1000 - 10000",
+        "url": "https://www.skillboxes.com/events/trapperx-at-baardos",
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
@@ -537,12 +526,67 @@
     ],
     "bengaluru": [
       {
-        "title": "Motherjane - Dobāreh Launch Show",
+        "title": "Grassroots Wednesdays with Green Park + Shauharty & Da'rookhs",
         "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/motherjane-dobareh-launch-show",
+        "date": "01 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "No Park-Ing Fridays",
+        "venue": null,
+        "date": "05 June 2026",
+        "time": "08:00 AM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-park-ing-fridays",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST RIDE (SUNDOWNER 3.0)",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 293",
+        "url": "https://www.skillboxes.com/events/the-last-ride-sundowner-3-0",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Unspoken Notes - Raga Roads Live in Concert",
+        "venue": null,
+        "date": "18 July 2026",
+        "time": "05:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/the-unspoken-notes-raga-roads-live-in-concert",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "away from desk with papabear & friends and natauku",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/away-from-desk-with-papabear-friends-and-natauku",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Soul Jams | Bengaluru",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "04:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/soul-jams-bengaluru",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -587,28 +631,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/gala-queens-ft-dj-sarou-at-yeda-republic-koramangala-1",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BOLLY AFRO FT. SUKANT X AVIJIT AT YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-sukant-x-avijit-at-yeda-republic-koramangala",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Bar & Bistro",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-bar-bistro-1",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -741,50 +763,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/the-humming-tree-presents-thermal-and-a-quarter-supported-by-dhuan",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Bass Essence Vol. 9",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/bass-essence-vol-9",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Eviction Notice By Tanuki",
-        "venue": null,
-        "date": "20 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 350",
-        "url": "https://www.skillboxes.com/events/eviction-notice-by-tanuki-2",
-        "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "RIFF STORM BLACKOUT NIGHT WITH THEO-RETICLE",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 299",
-        "url": "https://www.skillboxes.com/events/riff-storm-blackout-night-with-theo-reticle",
-        "category": "Music Event",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Spotify RADAR India: Aksomaniac, Bhumi, Sarah Black",
-        "venue": null,
-        "date": "19 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/spotify-radar-live-sarah-black-aksomaniac-bhumi",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -935,12 +913,67 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Motherjane - Dobāreh Launch Show",
+        "title": "Grassroots Wednesdays with Green Park + Shauharty & Da'rookhs",
         "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/motherjane-dobareh-launch-show",
+        "date": "01 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "No Park-Ing Fridays",
+        "venue": null,
+        "date": "05 June 2026",
+        "time": "08:00 AM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-park-ing-fridays",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST RIDE (SUNDOWNER 3.0)",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 293",
+        "url": "https://www.skillboxes.com/events/the-last-ride-sundowner-3-0",
+        "category": "Music Concerts",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Unspoken Notes - Raga Roads Live in Concert",
+        "venue": null,
+        "date": "18 July 2026",
+        "time": "05:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/the-unspoken-notes-raga-roads-live-in-concert",
+        "category": "Music Concerts",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "away from desk with papabear & friends and natauku",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/away-from-desk-with-papabear-friends-and-natauku",
+        "category": "Music Concerts",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Soul Jams | Bengaluru",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "04:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/soul-jams-bengaluru",
         "category": "Club Gigs - Music",
         "city": "Hyderabad",
         "source": "skillboxes.com"
@@ -990,28 +1023,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "BOLLY AFRO FT. SUKANT X AVIJIT AT YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-sukant-x-avijit-at-yeda-republic-koramangala",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Bar & Bistro",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-bar-bistro-1",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Retro Night",
         "venue": null,
         "date": "28 June 2026",
@@ -1019,50 +1030,6 @@
         "price": "INR 399",
         "url": "https://www.skillboxes.com/events/retro-night",
         "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "DND Ft. DJ Kawal",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "07:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/dnd-ft-dj-kawal",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "DND Ft. DONT TELL MAMAA by Vikash Kaser",
-        "venue": null,
-        "date": "13 June 2026",
-        "time": "07:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/dnd-ft-dont-tell-mamaa-by-vikash-kaser",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "DND Ft. Agam Live in Concert",
-        "venue": null,
-        "date": "14 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 799 - 3099",
-        "url": "https://www.skillboxes.com/events/dnd-ft-agam-live-in-concert",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Break The Silence Tour - Bangalore",
-        "venue": null,
-        "date": "24 July 2026",
-        "time": "06:00 PM",
-        "price": "INR 359 - 659",
-        "url": "https://www.skillboxes.com/events/break-the-silence-tour-bangalore",
-        "category": "Music Event",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       }
@@ -1080,12 +1047,67 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Motherjane - Dobāreh Launch Show",
+        "title": "Grassroots Wednesdays with Green Park + Shauharty & Da'rookhs",
         "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/motherjane-dobareh-launch-show",
+        "date": "01 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "No Park-Ing Fridays",
+        "venue": null,
+        "date": "05 June 2026",
+        "time": "08:00 AM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-park-ing-fridays",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST RIDE (SUNDOWNER 3.0)",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 293",
+        "url": "https://www.skillboxes.com/events/the-last-ride-sundowner-3-0",
+        "category": "Music Concerts",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Unspoken Notes - Raga Roads Live in Concert",
+        "venue": null,
+        "date": "18 July 2026",
+        "time": "05:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/the-unspoken-notes-raga-roads-live-in-concert",
+        "category": "Music Concerts",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "away from desk with papabear & friends and natauku",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/away-from-desk-with-papabear-friends-and-natauku",
+        "category": "Music Concerts",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Soul Jams | Bengaluru",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "04:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/soul-jams-bengaluru",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1130,28 +1152,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/gala-queens-ft-dj-sarou-at-yeda-republic-koramangala-1",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BOLLY AFRO FT. SUKANT X AVIJIT AT YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-sukant-x-avijit-at-yeda-republic-koramangala",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Bar & Bistro",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-bar-bistro-1",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1265,50 +1265,6 @@
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Organic World Fusion by Sarva",
-        "venue": null,
-        "date": "07 June 2026",
-        "time": "06:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/organic-world-fusion-by-sarva",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Humming Tree presents Thermal And A Quarter, supported by dhuãn",
-        "venue": null,
-        "date": "20 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/the-humming-tree-presents-thermal-and-a-quarter-supported-by-dhuan",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Bass Essence Vol. 9",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/bass-essence-vol-9",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Eviction Notice By Tanuki",
-        "venue": null,
-        "date": "20 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 350",
-        "url": "https://www.skillboxes.com/events/eviction-notice-by-tanuki-2",
-        "category": "Music Concerts",
-        "city": "Chennai",
-        "source": "skillboxes.com"
       }
     ],
     "kolkata": [
@@ -1342,6 +1298,17 @@
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/plini-live-in-kolkata-new-album-tour-2026",
         "category": "Music Event",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Skillboxes Seats IO Testing",
+        "venue": null,
+        "date": "08 September - 08 September 2026",
+        "time": "01:14 PM",
+        "price": "INR 1",
+        "url": "https://www.skillboxes.com/events/seats-io-abhi-testing",
+        "category": "Open Air Music Festivals",
         "city": "Kolkata",
         "source": "skillboxes.com"
       },
@@ -1456,6 +1423,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Grassroots Wednesdays with Green Park + Shauharty & Da'rookhs",
+        "venue": null,
+        "date": "01 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "South Side Story 2026 – Red FM | Pune",
         "venue": null,
         "date": "29 August 2026",
@@ -1467,42 +1445,9 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "title": "Privilege presents Domina India Tour || Delhi",
         "venue": null,
-        "date": "05 July 2026",
-        "time": "12:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
-        "category": "Festivals",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Motherjane - Dobāreh Launch Show",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/motherjane-dobareh-launch-show",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents KTK India Tour || Mumbai",
-        "venue": null,
-        "date": "21 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents Dømina India Tour || Delhi",
-        "venue": null,
-        "date": "12 June 2026",
+        "date": "12 June - 13 June 2026",
         "time": "10:00 PM",
         "price": "INR 799 - 1000",
         "url": "https://www.skillboxes.com/events/privilege-presents-domina-india-tour-delhi",
@@ -1522,17 +1467,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Think Floydian || Mumbai",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:30 PM",
-        "price": "INR 899 - 2199",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-mumbai",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "SPACETECH FESTIVAL 5.0",
         "venue": null,
         "date": "19 June - 21 June 2026",
@@ -1540,6 +1474,28 @@
         "price": "INR 3000 - 25000",
         "url": "https://www.skillboxes.com/events/spacetech-festival-5-0",
         "category": "Open Air Event",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Easy Showcase",
+        "venue": null,
+        "date": "14 June 2026",
+        "time": "07:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/easy-showcase",
+        "category": "Club Gigs Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Kommune Gurugram open mic",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "03:15 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/kommune-gurugram-open-mic-4",
+        "category": "Open Mic Event",
         "city": "Kolkata",
         "source": "skillboxes.com"
       }
@@ -1557,24 +1513,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "title": "Jamming evening",
         "venue": null,
-        "date": "05 July 2026",
-        "time": "12:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
-        "category": "Festivals",
+        "date": "21 June 2026",
+        "time": "06:00 PM",
+        "price": "INR 399",
+        "url": "https://www.skillboxes.com/events/jamming-evening",
+        "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
       },
       {
-        "title": "The Think Floydian || Pune",
+        "title": "Live In Pune - shauharty & Da’rookhs + Green Park",
         "venue": null,
-        "date": "05 June 2026",
+        "date": "26 June 2026",
         "time": "08:00 PM",
-        "price": "INR 499 - 999",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-pune-1",
-        "category": "Club Gigs - Music",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/live-in-pune-shauharty-da-rookhs-green-park",
+        "category": "Music Concerts",
         "city": "Pune",
         "source": "skillboxes.com"
       },
@@ -1634,13 +1590,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "HIGH SPIRITS × CAFFEINE RAVE CLUB",
+        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
         "venue": null,
-        "date": "04 June 2026",
-        "time": "05:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/high-spirits-caffeine-rave-club",
-        "category": "Coffee Rave - Music",
+        "date": "05 July 2026",
+        "time": "12:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
+        "category": "Festivals",
         "city": "Pune",
         "source": "skillboxes.com"
       },
@@ -1667,6 +1623,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "The Think Floydian || Pune",
+        "venue": null,
+        "date": "05 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 499 - 999",
+        "url": "https://www.skillboxes.com/events/the-think-floydian-pune-1",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Pune - Endless Pursuits Tour by Time Throttle",
         "venue": null,
         "date": "19 June 2026",
@@ -1678,24 +1645,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Privilege presents KTK India Tour || Mumbai",
+        "title": "Easy Showcase",
         "venue": null,
-        "date": "21 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Think Floydian || Mumbai",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:30 PM",
-        "price": "INR 899 - 2199",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-mumbai",
-        "category": "Club Gigs - Music",
+        "date": "14 June 2026",
+        "time": "07:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/easy-showcase",
+        "category": "Club Gigs Music",
         "city": "Pune",
         "source": "skillboxes.com"
       },
@@ -1715,7 +1671,7 @@
         "venue": null,
         "date": "18 June 2026",
         "time": "08:30 PM",
-        "price": "INR 799",
+        "price": "INR 499",
         "url": "https://www.skillboxes.com/events/kuch-alfaaz-live-in-kandivali",
         "category": "Music Festivals",
         "city": "Pune",
@@ -1733,39 +1689,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Lady Shaka b2b Kampai",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 899",
-        "url": "https://www.skillboxes.com/events/lady-shaka-b2b-kompai",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Klangkuenstler Afters",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "10:00 PM",
-        "price": "INR 500 - 20000",
-        "url": "https://www.skillboxes.com/events/klangkuenstler-afters",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common ground | Edition #10 Curated by Maushi (Amaliah, Shayr, Mozez)",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-edition-10-curated-by-maushi-amaliah-shayr-mozez",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "VIDEO RIOT: BATTLE EDITION — a night of Audio-Visual Mayhem",
         "venue": null,
         "date": "06 June 2026",
@@ -1775,9 +1698,64 @@
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "Mehfil- The Evergreen Music of Bollywood",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 1299 - 1499",
+        "url": "https://www.skillboxes.com/events/mehfil-the-evergreen-music-of-bollywood",
+        "category": "Music Concerts",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "RIOT AT THE OPERA VOL. 2",
+        "venue": null,
+        "date": "21 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 399",
+        "url": "https://www.skillboxes.com/events/riot-at-the-opera-vol-2",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Glocal Rhythms",
+        "venue": null,
+        "date": "20 June 2026",
+        "time": "06:30 PM",
+        "price": "INR 475",
+        "url": "https://www.skillboxes.com/events/glocal-rhythms",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "HRMCOREWRLD PRESENTS: WHISPERS INDIA DEBUT (MUMBAI)",
+        "venue": null,
+        "date": "23 August 2026",
+        "time": "07:00 PM",
+        "price": "INR 499 - 699",
+        "url": "https://www.skillboxes.com/events/whispers-india-debut-mumbai",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
       }
     ],
     "goa": [
+      {
+        "title": "QRAVE",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "10:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/qrave-3",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Tues-Tech 34.0",
         "venue": null,
@@ -2043,17 +2021,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Bonga Bonga Goa Calling | DJ Swan - Masaya Night Party | Frat House Party | 4th June 2026",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 3500 - 6500",
-        "url": "https://www.skillboxes.com/events/bonga-bonga-goa-calling-frat-house-party-at-soho-8",
-        "category": "Open Air Event",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "South Side Story 2026 – Red FM | Pune",
         "venue": null,
         "date": "29 August 2026",
@@ -2065,24 +2032,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "title": "Jamming evening",
         "venue": null,
-        "date": "05 July 2026",
-        "time": "12:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
-        "category": "Festivals",
+        "date": "21 June 2026",
+        "time": "06:00 PM",
+        "price": "INR 399",
+        "url": "https://www.skillboxes.com/events/jamming-evening",
+        "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
       },
       {
-        "title": "The Think Floydian || Pune",
+        "title": "Live In Pune - shauharty & Da’rookhs + Green Park",
         "venue": null,
-        "date": "05 June 2026",
+        "date": "26 June 2026",
         "time": "08:00 PM",
-        "price": "INR 499 - 999",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-pune-1",
-        "category": "Club Gigs - Music",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/live-in-pune-shauharty-da-rookhs-green-park",
+        "category": "Music Concerts",
         "city": "Goa",
         "source": "skillboxes.com"
       }
@@ -2265,6 +2232,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Farookh: Ek Khoj - Live In Delhi",
+        "venue": null,
+        "date": "12 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/farookh-ek-khoj-live-in-delhi",
+        "category": "Music Concerts",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "POOLSCAPE - DELHI EDITION",
         "venue": null,
         "date": "27 June 2026",
@@ -2355,24 +2333,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Privilege presents KTK India Tour || Mumbai",
+        "title": "Easy Showcase",
         "venue": null,
-        "date": "21 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Think Floydian || Mumbai",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:30 PM",
-        "price": "INR 899 - 2199",
-        "url": "https://www.skillboxes.com/events/the-think-floydian-mumbai",
-        "category": "Club Gigs - Music",
+        "date": "14 June 2026",
+        "time": "07:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/easy-showcase",
+        "category": "Club Gigs Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2392,7 +2359,7 @@
         "venue": null,
         "date": "18 June 2026",
         "time": "08:30 PM",
-        "price": "INR 799",
+        "price": "INR 499",
         "url": "https://www.skillboxes.com/events/kuch-alfaaz-live-in-kandivali",
         "category": "Music Festivals",
         "city": "Ahmedabad",
@@ -2405,39 +2372,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/friday-night-live-edition-33",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Lady Shaka b2b Kampai",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 899",
-        "url": "https://www.skillboxes.com/events/lady-shaka-b2b-kompai",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Klangkuenstler Afters",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "10:00 PM",
-        "price": "INR 500 - 20000",
-        "url": "https://www.skillboxes.com/events/klangkuenstler-afters",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common ground | Edition #10 Curated by Maushi (Amaliah, Shayr, Mozez)",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-edition-10-curated-by-maushi-amaliah-shayr-mozez",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2498,6 +2432,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Privilege Presents Vido India Tour || Mumbai",
+        "venue": null,
+        "date": "12 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/privilege-presents-vido-india-tour-mumbai-3",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Celebrating the legacy of Michael Jackson",
+        "venue": null,
+        "date": "24 June 2026",
+        "time": "09:30 PM",
+        "price": "INR 499 - 2495",
+        "url": "https://www.skillboxes.com/events/celebrating-the-legacy-of-michael-jackson-and-toto",
+        "category": "Concert",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Live In Mumbai - shauharty & Da’rookhs + Shashwat Bulusu (Live)",
         "venue": null,
         "date": "25 June 2026",
@@ -2542,7 +2498,18 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Privilege presents Dømina India Tour || Mumbai",
+        "title": "Privilege presents KTK India Tour || Mumbai",
+        "venue": null,
+        "date": "21 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/privilege-presents-ktk-india-tour-mumbai-2",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Privilege presents Domina India Tour || Mumbai",
         "venue": null,
         "date": "13 June 2026",
         "time": "08:00 PM",
@@ -2584,9 +2551,42 @@
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "Dominion Vol 2. A live tribute concert by The VenomBerries and Bickelnack",
+        "venue": null,
+        "date": "12 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 399 - 1907",
+        "url": "https://www.skillboxes.com/events/dominion-vol-2-a-live-tribute-concert-by-the-venomberries-and-bicklenack",
+        "category": "Music Concerts",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mumbai - Endless Pursuits Tour by Time Throttle",
+        "venue": null,
+        "date": "20 June 2026",
+        "time": "09:00 PM",
+        "price": "INR 195",
+        "url": "https://www.skillboxes.com/events/mumbai-endless-pursuits-tour-by-time-throttle",
+        "category": "Music Concerts",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
       }
     ],
     "jaipur": [
+      {
+        "title": "Farookh: Ek Khoj - Live In Jaipur",
+        "venue": null,
+        "date": "03 July 2026",
+        "time": "07:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/farookh-ek-khoj-live-in-jaipur",
+        "category": "Music Concerts",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Liquid Sessions",
         "venue": null,
@@ -2676,6 +2676,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Privilege presents Domina India Tour || Delhi",
+        "venue": null,
+        "date": "12 June - 13 June 2026",
+        "time": "10:00 PM",
+        "price": "INR 799 - 1000",
+        "url": "https://www.skillboxes.com/events/privilege-presents-domina-india-tour-delhi",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Kommune Gurugram open mic",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "03:15 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/kommune-gurugram-open-mic-4",
+        "category": "Open Mic Event",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "LUMEN : MORNING AFTERS FT HOUDINI, VAASU & VEDANT AT DORSIA, GURGAON",
         "venue": null,
         "date": "07 June 2026",
@@ -2742,17 +2764,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Privilege presents Dømina India Tour || Delhi",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "10:00 PM",
-        "price": "INR 799 - 1000",
-        "url": "https://www.skillboxes.com/events/privilege-presents-domina-india-tour-delhi",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "South Side Story 2026 – Red FM | Delhi",
         "venue": null,
         "date": "22 August - 23 August 2026",
@@ -2760,17 +2771,6 @@
         "price": "INR 499 - 3299",
         "url": "https://www.skillboxes.com/events/south-side-story-2026-red-fm",
         "category": "Music Festivals",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Manganiyar Seduction | Delhi",
-        "venue": null,
-        "date": "03 October 2026",
-        "time": "08:00 PM",
-        "price": "INR 1299 - 14999",
-        "url": "https://www.skillboxes.com/events/the-manganiyar-seduction-delhi-1",
-        "category": "Musical Theater",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2817,28 +2817,6 @@
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Flashcraft presents Obsession",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "11:00 PM",
-        "price": "INR 1000 - 2000",
-        "url": "https://www.skillboxes.com/events/flashcraft-presents-obsession",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Taj Palace Present Padma Shri Hariharan Live Concert Episode 4",
-        "venue": null,
-        "date": "27 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 6999",
-        "url": "https://www.skillboxes.com/events/taj-palace-delhi-presents-padmashri-hariharan-live",
-        "category": "Music Concerts",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
       }
     ],
     "kochi": [
@@ -2854,12 +2832,67 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Motherjane - Dobāreh Launch Show",
+        "title": "Grassroots Wednesdays with Green Park + Shauharty & Da'rookhs",
         "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/motherjane-dobareh-launch-show",
+        "date": "01 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "No Park-Ing Fridays",
+        "venue": null,
+        "date": "05 June 2026",
+        "time": "08:00 AM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-park-ing-fridays",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST RIDE (SUNDOWNER 3.0)",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 293",
+        "url": "https://www.skillboxes.com/events/the-last-ride-sundowner-3-0",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Unspoken Notes - Raga Roads Live in Concert",
+        "venue": null,
+        "date": "18 July 2026",
+        "time": "05:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/the-unspoken-notes-raga-roads-live-in-concert",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "away from desk with papabear & friends and natauku",
+        "venue": null,
+        "date": "12 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/away-from-desk-with-papabear-friends-and-natauku",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Soul Jams | Bengaluru",
+        "venue": null,
+        "date": "13 June 2026",
+        "time": "04:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/soul-jams-bengaluru",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -2904,28 +2937,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/gala-queens-ft-dj-sarou-at-yeda-republic-koramangala-1",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BOLLY AFRO FT. SUKANT X AVIJIT AT YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-sukant-x-avijit-at-yeda-republic-koramangala",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Bar & Bistro",
-        "venue": null,
-        "date": "04 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-bar-bistro-1",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -3048,50 +3059,6 @@
         "price": "INR 999",
         "url": "https://www.skillboxes.com/events/organic-world-fusion-by-sarva",
         "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Humming Tree presents Thermal And A Quarter, supported by dhuãn",
-        "venue": null,
-        "date": "20 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/the-humming-tree-presents-thermal-and-a-quarter-supported-by-dhuan",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Bass Essence Vol. 9",
-        "venue": null,
-        "date": "12 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/bass-essence-vol-9",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Eviction Notice By Tanuki",
-        "venue": null,
-        "date": "20 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 350",
-        "url": "https://www.skillboxes.com/events/eviction-notice-by-tanuki-2",
-        "category": "Music Concerts",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "RIFF STORM BLACKOUT NIGHT WITH THEO-RETICLE",
-        "venue": null,
-        "date": "06 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 299",
-        "url": "https://www.skillboxes.com/events/riff-storm-blackout-night-with-theo-reticle",
-        "category": "Music Event",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
