@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-08T05:28:23.998676+00:00",
+  "updated_at": "2026-06-09T05:01:53.131047+00:00",
   "source": "Townscript",
-  "total_events": 18,
+  "total_events": 17,
   "cities": {
     "mumbai": [
       {
@@ -62,23 +62,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Jack of Spade'Z EP launch Supported by Civilized x",
-        "venue": "Greater Kailash",
-        "date": "13 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/jack-of-spadez-ep-launch-supported-by-civilized-x-242311",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Pocket IV",
         "venue": "Greater Kailash",
         "date": "19 June 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/pocket-iv-321203",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Jack of Spade'Z EP launch Supported by Civilized x",
+        "venue": "Greater Kailash",
+        "date": "13 June 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/jack-of-spadez-ep-launch-supported-by-civilized-x-242311",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -95,17 +95,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gurgaon Investment Expo, portfolio strategy, 18 developers, June 13-14.",
-        "venue": "Sector 48",
-        "date": "13 June 2026",
-        "time": "11:00 AM",
-        "price": "INR 1000",
-        "url": "https://www.townscript.com/in/gurgaon-investment-expo-portfolio-strategy-18-developers-june-1314-142113",
-        "organiser": "MS Realtors India",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Ode Project Presents Ode to Pride! Opening Act - Tanvi & Omkar",
         "venue": "Greater Kailash",
         "date": "20 June 2026",
@@ -113,6 +102,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-ode-project-presents-ode-to-pride-opening-act-tanvi-omkar-301242",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Gurgaon Investment Expo, portfolio strategy, 18 developers, June 13-14.",
+        "venue": "Sector 48",
+        "date": "13 June 2026",
+        "time": "11:00 AM",
+        "price": "INR 1000",
+        "url": "https://www.townscript.com/in/gurgaon-investment-expo-portfolio-strategy-18-developers-june-1314-142113",
+        "organiser": "MS Realtors India",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -129,17 +129,6 @@
       }
     ],
     "bengaluru": [
-      {
-        "title": "Copy Of Rugged Rush - Bengaluru",
-        "venue": null,
-        "date": "8 June 2026",
-        "time": "04:00 PM",
-        "price": "INR 1875",
-        "url": "https://www.townscript.com/in/copy-of-rugged-rush-bengaluru-010323",
-        "organiser": "Paper Mache Pvt Ltd",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
       {
         "title": "Echo Room by S&E - Indie Routes",
         "venue": "Indiranagar",
