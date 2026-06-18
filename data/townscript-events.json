@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T06:06:49.947212+00:00",
+  "updated_at": "2026-06-18T05:52:59.746204+00:00",
   "source": "Townscript",
-  "total_events": 21,
+  "total_events": 22,
   "cities": {
     "mumbai": [
       {
@@ -16,11 +16,11 @@
         "source": "townscript.com"
       },
       {
-        "title": "World Of Classical Fusion- Indus Groove Live",
+        "title": "Sufi & Classical Fusion- Indus Groove Live",
         "venue": "Aundh",
         "date": "20 June 2026",
         "time": "08:00 PM",
-        "price": "INR 100",
+        "price": "INR 300",
         "url": "https://www.townscript.com/in/world-of-classical-fusion-indus-groove-live-133010",
         "organiser": "Amar",
         "city": "Mumbai",
@@ -50,17 +50,6 @@
       }
     ],
     "delhi": [
-      {
-        "title": "Vertices Ft. Prasann, Gauraang, Samaira, Parv, Krishiv, Hrehaan",
-        "venue": "Greater Kailash",
-        "date": "17 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 350",
-        "url": "https://www.townscript.com/in/vertices-ft-prasann-gauraang-samaira-parv-krishiv-hrehaan-243403",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
       {
         "title": "Pocket IV",
         "venue": "Greater Kailash",
@@ -95,6 +84,28 @@
         "source": "townscript.com"
       },
       {
+        "title": "Dear Dad ",
+        "venue": "Civil Lines",
+        "date": "19 June 2026",
+        "time": "07:30 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/dear-dad-020334",
+        "organiser": "swarnima gupta",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Thumri Re-Imagined by Dr Amrita Dutta",
+        "venue": "Greater Kailash",
+        "date": "12 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "BESHAQ",
         "venue": "Greater Kailash",
         "date": "15 July 2026",
@@ -117,13 +128,24 @@
         "source": "townscript.com"
       },
       {
-        "title": "Dear Dad ",
-        "venue": "Civil Lines",
-        "date": "19 June 2026",
-        "time": "07:30 PM",
-        "price": "INR 250",
-        "url": "https://www.townscript.com/in/dear-dad-020334",
-        "organiser": "swarnima gupta",
+        "title": "Bhajan Jamming & Chill  | The Sacred Room",
+        "venue": "Hauz Khas",
+        "date": "27 June 2026",
+        "time": "04:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/bhajan-jamming-chill-2026-the-sacred-room-010343",
+        "organiser": "sacred room",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Beyond Labels",
+        "venue": "Sector 24",
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/beyond-labels-210400",
+        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -134,17 +156,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-blues-in-june-with-the-john-blue-ensemble-400112",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Thumri Re-Imagined by Dr Amrita Dutta",
-        "venue": "Greater Kailash",
-        "date": "12 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -161,17 +172,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Bhajan Jamming & Chill  | The Sacred Room",
-        "venue": "Hauz Khas",
-        "date": "27 June 2026",
-        "time": "04:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/bhajan-jamming-chill-2026-the-sacred-room-010343",
-        "organiser": "sacred room",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Thehraav",
         "venue": "Greater Kailash",
         "date": "1 July 2026",
@@ -183,7 +183,19 @@
         "source": "townscript.com"
       }
     ],
-    "bengaluru": [],
+    "bengaluru": [
+      {
+        "title": "Jo Reh Gaya.. Songs, memories, people who never left!",
+        "venue": null,
+        "date": "19 July 2026",
+        "time": "06:00 PM",
+        "price": "INR 449",
+        "url": "https://www.townscript.com/in/jo-reh-gaya-songs-memories-people-who-never-left-143004",
+        "organiser": "Strings and Echoes",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      }
+    ],
     "hyderabad": [
       {
         "title": "NANDA GOKULAM BHAJAN JAMMING",
@@ -212,11 +224,11 @@
         "source": "townscript.com"
       },
       {
-        "title": "World Of Classical Fusion- Indus Groove Live",
+        "title": "Sufi & Classical Fusion- Indus Groove Live",
         "venue": "Aundh",
         "date": "20 June 2026",
         "time": "08:00 PM",
-        "price": "INR 100",
+        "price": "INR 300",
         "url": "https://www.townscript.com/in/world-of-classical-fusion-indus-groove-live-133010",
         "organiser": "Amar",
         "city": "Pune",
