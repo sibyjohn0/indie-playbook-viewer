@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T05:52:59.746204+00:00",
+  "updated_at": "2026-06-19T06:15:53.869424+00:00",
   "source": "Townscript",
   "total_events": 22,
   "cities": {
@@ -139,17 +139,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Beyond Labels",
-        "venue": "Sector 24",
-        "date": "27 June 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/beyond-labels-210400",
-        "organiser": "MitraMesh",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Blues in June with the John Blue Ensemble",
         "venue": "Greater Kailash",
         "date": "28 June 2026",
@@ -157,6 +146,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-blues-in-june-with-the-john-blue-ensemble-400112",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Beyond Labels",
+        "venue": "Sector 24",
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/beyond-labels-210400",
+        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
