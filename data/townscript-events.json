@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T06:15:53.869424+00:00",
+  "updated_at": "2026-06-20T05:08:38.503603+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 20,
   "cities": {
     "mumbai": [
       {
@@ -51,17 +51,6 @@
     ],
     "delhi": [
       {
-        "title": "Pocket IV",
-        "venue": "Greater Kailash",
-        "date": "19 June 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/pocket-iv-321203",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Ode Project Presents Ode to Pride! Opening Act - Tanvi & Omkar",
         "venue": "Greater Kailash",
         "date": "20 June 2026",
@@ -84,13 +73,24 @@
         "source": "townscript.com"
       },
       {
-        "title": "Dear Dad ",
-        "venue": "Civil Lines",
-        "date": "19 June 2026",
-        "time": "07:30 PM",
-        "price": "INR 250",
-        "url": "https://www.townscript.com/in/dear-dad-020334",
-        "organiser": "swarnima gupta",
+        "title": "BESHAQ",
+        "venue": "Greater Kailash",
+        "date": "15 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/beshaq-441412",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Beyond Labels",
+        "venue": "Sector 24",
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/beyond-labels-210400",
+        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -101,17 +101,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "BESHAQ",
-        "venue": "Greater Kailash",
-        "date": "15 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/beshaq-441412",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -146,17 +135,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-blues-in-june-with-the-john-blue-ensemble-400112",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Beyond Labels",
-        "venue": "Sector 24",
-        "date": "27 June 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/beyond-labels-210400",
-        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
