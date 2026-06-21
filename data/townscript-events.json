@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T05:08:38.503603+00:00",
+  "updated_at": "2026-06-21T05:58:53.175268+00:00",
   "source": "Townscript",
-  "total_events": 20,
+  "total_events": 17,
   "cities": {
     "mumbai": [
       {
@@ -12,17 +12,6 @@
         "price": "INR 4699",
         "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
         "organiser": "CineGranth Studio",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sufi & Classical Fusion- Indus Groove Live",
-        "venue": "Aundh",
-        "date": "20 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/world-of-classical-fusion-indus-groove-live-133010",
-        "organiser": "Amar",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -51,13 +40,13 @@
     ],
     "delhi": [
       {
-        "title": "The Ode Project Presents Ode to Pride! Opening Act - Tanvi & Omkar",
-        "venue": "Greater Kailash",
-        "date": "20 June 2026",
+        "title": "Beyond Labels",
+        "venue": "Sector 24",
+        "date": "27 June 2026",
         "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/the-ode-project-presents-ode-to-pride-opening-act-tanvi-omkar-301242",
-        "organiser": "Depot48",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/beyond-labels-210400",
+        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -80,17 +69,6 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/beshaq-441412",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Beyond Labels",
-        "venue": "Sector 24",
-        "date": "27 June 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/beyond-labels-210400",
-        "organiser": "MitraMesh",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -198,17 +176,6 @@
         "price": "INR 4699",
         "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
         "organiser": "CineGranth Studio",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sufi & Classical Fusion- Indus Groove Live",
-        "venue": "Aundh",
-        "date": "20 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/world-of-classical-fusion-indus-groove-live-133010",
-        "organiser": "Amar",
         "city": "Pune",
         "source": "townscript.com"
       },
