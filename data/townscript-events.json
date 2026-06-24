@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T04:58:00.644855+00:00",
+  "updated_at": "2026-06-24T05:01:07.298703+00:00",
   "source": "Townscript",
-  "total_events": 16,
+  "total_events": 18,
   "cities": {
     "mumbai": [
       {
@@ -12,6 +12,17 @@
         "price": "INR 4699",
         "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
         "organiser": "CineGranth Studio",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Khazana King Singing Auditions 2026",
+        "venue": null,
+        "date": "24 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 199",
+        "url": "https://www.townscript.com/in/khazana-king-singing-auditions-2026-113203",
+        "organiser": "Khazana King Network",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -165,6 +176,17 @@
         "price": "INR 4699",
         "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
         "organiser": "CineGranth Studio",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Khazana King Singing Auditions 2026",
+        "venue": null,
+        "date": "24 June 2026",
+        "time": "05:00 PM",
+        "price": "INR 199",
+        "url": "https://www.townscript.com/in/khazana-king-singing-auditions-2026-113203",
+        "organiser": "Khazana King Network",
         "city": "Pune",
         "source": "townscript.com"
       },
