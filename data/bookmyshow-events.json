@@ -1,111 +1,162 @@
 {
-  "updated_at": "2026-06-24T05:02:41.910057+00:00",
+  "updated_at": "2026-06-25T05:02:41.724045+00:00",
   "source": "BookMyShow",
-  "total_events": 40,
+  "total_events": 80,
   "cities": {
     "mumbai": [],
     "delhi": [],
     "bengaluru": [],
     "hyderabad": [],
-    "chennai": [
+    "chennai": [],
+    "kolkata": [
       {
-        "title": "Foo Fighters India Tour 2027 - Bengaluru",
-        "venue": "Bengaluru LIVE, Bengaluru",
+        "title": "Sur Space - Jamming Diaries",
+        "venue": "Scrapyard - Brewing Co: Kolkata",
         "date": null,
         "time": null,
-        "price": "₹ 4000 onwards",
-        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-bengaluru/ET00502948",
-        "city": "Chennai",
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/sur-space-jamming-diaries/ET00503208",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
-        "title": "The One - Santhosh Narayanan Live In Concert",
-        "venue": "YMCA Nandanam: Chennai",
+        "title": "Park Street To Bombay",
+        "venue": "Nazrul Mancha: Southern Avenue, Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 499 onwards",
+        "url": "https://in.bookmyshow.com/events/park-street-to-bombay/ET00500818",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Mahesh Kale's Abhangwari - Kolkata",
+        "venue": "GD Birla Sabhaghar: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/mahesh-kale-s-abhangwari-kolkata/ET00441306",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Dil Se : Bollywood Unplugged",
+        "venue": "Dramads Studio: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 199",
+        "url": "https://in.bookmyshow.com/events/dil-se-bollywood-unplugged/ET00504104",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "The Warehouse",
+        "venue": "JW Marriott Hotel: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 699 onwards",
+        "url": "https://in.bookmyshow.com/events/the-warehouse/ET00502898",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "KCC Offstage S03E5 ft. Anjan Dutt",
+        "venue": "Kolkata Centre for Creativity: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 499",
+        "url": "https://in.bookmyshow.com/events/kcc-offstage-s03e5-ft-anjan-dutt/ET00503934",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Fred again.. India Tour 2026",
+        "venue": "Multiple Cities",
+        "date": null,
+        "time": null,
+        "price": "FREE",
+        "url": "https://in.bookmyshow.com/events/fred-again-india-tour-2026/ET00503973",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Anime Multiverse : Cosplay Edition Season 2",
+        "venue": "Venue To Be Announced: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/anime-multiverse-anime-cosplay/ET00445738",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Robir Aloy Satyajit - Ray of Life",
+        "venue": "Rabindra Sadan: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 600 onwards",
+        "url": "https://in.bookmyshow.com/events/robir-aloy-satyajit-ray-of-life/ET00500469",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "MERA KUCH SAMAAN, Yaad Hain Pancham",
+        "venue": "Mahajati Sadan: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 300 onwards",
+        "url": "https://in.bookmyshow.com/events/mera-kuch-samaan-yaad-hain-pancham/ET00502924",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Tin Ekke Tin",
+        "venue": "Mahajati Sadan: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/tin-ekke-tin/ET00147016",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Quick Style India Tour - Kolkata",
+        "venue": "Venue To Be Announced: Kolkata",
         "date": null,
         "time": null,
         "price": "₹ 999 onwards",
-        "url": "https://in.bookmyshow.com/events/the-one-santosh-narayanans-live-in-concert-che/ET00146630",
-        "city": "Chennai",
+        "url": "https://in.bookmyshow.com/events/quick-style-india-tour-kolkata/ET00495696",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
-        "title": "OG TOUR INDIA WITH THAMAN - LIVE IN CHENNAI",
-        "venue": "YMCA Grounds: Chennai",
+        "title": "Ke Bole Go Sei Probhate Nei Ami",
+        "venue": "Jai Hind Auditorium: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/ke-bole-go-sei-probhate-nei-ami/ET00503624",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Teen Yaari Gaan",
+        "venue": "GD Birla Sabhaghar: Kolkata",
         "date": null,
         "time": null,
         "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/og-tour-india-with-thaman-live-in-chennai/ET00494774",
-        "city": "Chennai",
+        "url": "https://in.bookmyshow.com/events/teen-yaari-gaan/ET00502674",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Kayilae Aagasam - Saindhavi Live in Concert",
-        "venue": "S. A. College of Arts and Science: Chennai",
+        "title": "Sourendro & Soumyojit with Padharo Maro Desh",
+        "venue": "Kolkata Centre for Creativity: Kolkata",
         "date": null,
         "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/kayilae-aagasam-sandhavi-live-in-concert/ET00501631",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Tamil Retro Nite Ft. MJ Shriram",
-        "venue": "Hard Rock Cafe, Nungabakkam: Chennai",
-        "date": null,
-        "time": null,
-        "price": "₹ 1000",
-        "url": "https://in.bookmyshow.com/events/tamil-retro-nite-ft-mj-shriram/ET00504298",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Suryan FM Rhythm with Yuvan - Puducherry",
-        "venue": "Expo Ground: Puducherry",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/suryan-fm-rhythm-with-yuvan-puducherry/ET00495823",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Melody Masters 3.0",
-        "venue": "Vani Mahal: Chennai",
-        "date": null,
-        "time": null,
-        "price": "₹ 300 onwards",
-        "url": "https://in.bookmyshow.com/events/melody-masters-3-0/ET00502960",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "LOVE vs FRIENDSHIP by LEA I CHENNAI",
-        "venue": "The Music Academy: Chennai",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/love-vs-friendship-by-lea-i-chennai/ET00501800",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Ada Machamulla Machan",
-        "venue": "Raja Annamalai Mandram: Chennai",
-        "date": null,
-        "time": null,
-        "price": "₹ 300 onwards",
-        "url": "https://in.bookmyshow.com/events/ada-machamulla-machan/ET00504315",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Sunburn Festival Ft. The Chainsmokers",
-        "venue": "Mahalaxmi Race Course: Mumbai",
-        "date": null,
-        "time": null,
-        "price": "₹ 3500 onwards",
-        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
-        "city": "Chennai",
+        "price": "₹ 1499",
+        "url": "https://in.bookmyshow.com/events/sourendro-soumyojit-with-padharo-maro-desh/ET00503970",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
@@ -115,7 +166,17 @@
         "time": null,
         "price": "₹ 3500 onwards",
         "url": "https://in.bookmyshow.com/events/anyma-presents-aeden-mumbai/ET00480995",
-        "city": "Chennai",
+        "city": "Kolkata",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Asha ki Yaadein",
+        "venue": "GD Birla Sabhaghar: Kolkata",
+        "date": null,
+        "time": null,
+        "price": "₹ 1500",
+        "url": "https://in.bookmyshow.com/events/asha-ki-yaadein/ET00502935",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
@@ -125,57 +186,189 @@
         "time": null,
         "price": "₹ 4000 onwards",
         "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-mumbai/ET00502947",
-        "city": "Chennai",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
-        "title": "TAYLOR SWIFT TRIBUTE -MISS TO MRS BRIDAL BASH",
-        "venue": "Rhapsody - Courtyard by Marriott: Chennai",
+        "title": "Rabindra Nrityanatya Utsav",
+        "venue": "Uttam Mancha: Kolkata",
         "date": null,
         "time": null,
-        "price": "₹ 100",
-        "url": "https://in.bookmyshow.com/events/taylor-swift-tribute-miss-to-mrs-bridal-bash/ET00500730",
-        "city": "Chennai",
+        "price": "₹ 200 onwards",
+        "url": "https://in.bookmyshow.com/events/rabindra-nrityanatya-utsav/ET00503789",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Gudisai Musical Night",
-        "venue": "Aura Studios: Chennai",
+        "title": "Rafi: Sau Saal, Sau Ehsaas -Candlelight Tribute",
+        "venue": "Mahajati Sadan: Kolkata",
         "date": null,
         "time": null,
-        "price": "₹ 299 onwards",
-        "url": "https://in.bookmyshow.com/events/gudisai-musical-night/ET00503628",
-        "city": "Chennai",
+        "price": "₹ 1199 onwards",
+        "url": "https://in.bookmyshow.com/events/rafi-sau-saal-sau-ehsaas-candlelight-tribute/ET00478621",
+        "city": "Kolkata",
         "source": "bookmyshow.com"
-      },
+      }
+    ],
+    "pune": [
       {
-        "title": "Abhangwari by Mahesh Kale - Chennai",
-        "venue": "Narada Gana Sabha Auditorium: Chennai",
-        "date": null,
-        "time": null,
-        "price": "₹ 349 onwards",
-        "url": "https://in.bookmyshow.com/events/abhangwari-by-mahesh-kale/ET00146915",
-        "city": "Chennai",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Guns N' Roses: India 2026 - Bengaluru",
-        "venue": "NICE Grounds: Bengaluru",
+        "title": "Foo Fighters India Tour 2027 - Mumbai",
+        "venue": "Mahalaxmi Race Course: Mumbai",
         "date": null,
         "time": null,
         "price": "₹ 4000 onwards",
-        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-bengaluru/ET00501962",
-        "city": "Chennai",
+        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-mumbai/ET00502947",
+        "city": "Pune",
         "source": "bookmyshow.com"
       },
       {
-        "title": "THE CAGE 2.0, Chennais Wildest Cage Rave Returns",
-        "venue": "Secret Story: Chennai",
+        "title": "INDIAN OCEAN LIVE AT PHOENIX MARKETCITY - PUNE",
+        "venue": "Phoenix Market City: Pune",
         "date": null,
         "time": null,
-        "price": "₹ 1000 onwards",
-        "url": "https://in.bookmyshow.com/events/the-cage-2-0-chennais-wildest-cage-rave-returns/ET00504115",
-        "city": "Chennai",
+        "price": "₹ 799 onwards",
+        "url": "https://in.bookmyshow.com/events/indian-ocean-live-at-phoenix-marketcity/ET00146444",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "AbhangWari by Mahesh Kale : Pune",
+        "venue": "MahaLaxmi Lawns: Karve Nagar, Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/abhangwari-by-mahesh-kale/ET00496127",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Abhangawari by Rahul Deshpande (Pune)",
+        "venue": "Pandit Farms: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/abhangwari/ET00481967",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Cassettes and CDs Nostalgia By Avinash Gupta",
+        "venue": "Vithal Tupe Sabhagruh: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 999 onwards",
+        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sakal -Bela Shende Live In concert",
+        "venue": "MahaLaxmi Lawns: Karve Nagar, Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/sakal-bela-shende-live-in-concert/ET00146801",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "R.D ki Asha",
+        "venue": "The Auditorium, Elpro City Square: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/r-d-ki-asha/ET00502912",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "25 Years Of The Raghu Dixit Project",
+        "venue": "Phoenix Marketcity: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 499 onwards",
+        "url": "https://in.bookmyshow.com/events/25-years-of-the-raghu-dixit-project/ET00501260",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Hits Songs of Kishore-Mukesh",
+        "venue": "Yashwantrao Chavan Natyagruha: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 200 onwards",
+        "url": "https://in.bookmyshow.com/events/hits-songs-of-kishore-mukesh/ET00503454",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Beyond Mehfil Live",
+        "venue": "The Orange, Art and Book Cafe: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 450",
+        "url": "https://in.bookmyshow.com/events/beyond-mehfil-live/ET00481255",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Altaf Raja Live",
+        "venue": "Liberty Square, Phoenix Marketcity: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 499 onwards",
+        "url": "https://in.bookmyshow.com/events/altaf-raja-live/ET00147019",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Off Beat Evenings",
+        "venue": "The Hype Cafe: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 499",
+        "url": "https://in.bookmyshow.com/events/off-beat-evenings/ET00496058",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Quick Style India Tour - Pune",
+        "venue": "Liberty Square, Phoenix Avenue of Stars: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 999 onwards",
+        "url": "https://in.bookmyshow.com/events/quick-style-india-tour-pune/ET00495695",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Asha Tai and Me",
+        "venue": "Yashwantrao Chavan Natyagruha: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 400 onwards",
+        "url": "https://in.bookmyshow.com/events/asha-tai-and-me/ET00501725",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Jamming Night",
+        "venue": "FC Road Social: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/pookie-jams-the-premium-jamming-experience/ET00461172",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Saigal Se Sukhwinder Tak",
+        "venue": "Deccan Education, Brijlal Jindal College: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 300 onwards",
+        "url": "https://in.bookmyshow.com/events/saigal-se-sukhwinder-tak/ET00502645",
+        "city": "Pune",
         "source": "bookmyshow.com"
       },
       {
@@ -185,36 +378,245 @@
         "time": null,
         "price": "₹ 5000 onwards",
         "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
-        "city": "Chennai",
+        "city": "Pune",
         "source": "bookmyshow.com"
       },
       {
-        "title": "One Direction: 16th Anniversary Special Fan Party",
-        "venue": "The Neighborhood Bar: Chennai",
+        "title": "Classics of Madan Mohan & Pancham",
+        "venue": "Yashwantrao Chavan Natyagruha: Pune",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/classics-of-madan-mohan-pancham/ET00146823",
+        "city": "Pune",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "THE PANCHAM LEGACY",
+        "venue": "Ram Krishna More Auditorium: Pune",
         "date": null,
         "time": null,
         "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/tribute-to-one-direction-fan-event/ET00432673",
-        "city": "Chennai",
+        "url": "https://in.bookmyshow.com/events/the-pancham-legacy/ET00146504",
+        "city": "Pune",
         "source": "bookmyshow.com"
       },
       {
-        "title": "HYBE INDIA AUDITION",
-        "venue": "Multiple Venues",
+        "title": "LITJAM: The Half Year Jam Pune - A Live Music Jam",
+        "venue": "Barakka Bar And Kitchen: Pune",
         "date": null,
         "time": null,
-        "price": "FREE",
-        "url": "https://in.bookmyshow.com/events/hybe-india-audition/ET00496668",
-        "city": "Chennai",
+        "price": "₹ 349",
+        "url": "https://in.bookmyshow.com/events/the-half-year-jam-pune-a-live-music-jam-show/ET00504236",
+        "city": "Pune",
         "source": "bookmyshow.com"
       }
     ],
-    "kolkata": [],
-    "pune": [],
     "goa": [],
     "jaipur": [],
     "kochi": [],
-    "ahmedabad": [],
+    "ahmedabad": [
+      {
+        "title": "Foo Fighters India Tour 2027 - Mumbai",
+        "venue": "Mahalaxmi Race Course: Mumbai",
+        "date": null,
+        "time": null,
+        "price": "₹ 4000 onwards",
+        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-mumbai/ET00502947",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Dj Chetas X Komo by Kaffa X Zala Events",
+        "venue": "Komo By Kaffa: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 4999 onwards",
+        "url": "https://in.bookmyshow.com/events/dj-chetas-x-komo-by-kaffa/ET00502354",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Abhangawari by Rahul Deshpande (Ahmedabad)",
+        "venue": "Tagore Memorial Hall: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/abhangawari-by-rahul-deshpande-ahmedabad/ET00493583",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Cassettes and CDs Nostalgia By Avinash Gupta",
+        "venue": "HK Hall: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 799 onwards",
+        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Fred again.. India Tour 2026",
+        "venue": "Multiple Cities",
+        "date": null,
+        "time": null,
+        "price": "FREE",
+        "url": "https://in.bookmyshow.com/events/fred-again-india-tour-2026/ET00503973",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Jamming Night",
+        "venue": "Titanium City Center-Corporate Offices: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/jamming-night/ET00503588",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Guns N' Roses: India 2026 - Bengaluru",
+        "venue": "NICE Grounds: Bengaluru",
+        "date": null,
+        "time": null,
+        "price": "₹ 4000 onwards",
+        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-bengaluru/ET00501962",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sunburn Festival Ft. The Chainsmokers",
+        "venue": "Mahalaxmi Race Course: Mumbai",
+        "date": null,
+        "time": null,
+        "price": "₹ 3500 onwards",
+        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sukoon Tour",
+        "venue": "Palm and Pine: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 4720",
+        "url": "https://in.bookmyshow.com/events/sukoon-tour/ET00503116",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Guns N' Roses: India 2026 - Guwahati",
+        "venue": "Khanapara Veterinary Ground : Guwahati",
+        "date": null,
+        "time": null,
+        "price": "₹ 5000 onwards",
+        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "RAJ KE RAAZ",
+        "venue": "Pandit Dindayal Upadhyay Auditorium : Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 999 onwards",
+        "url": "https://in.bookmyshow.com/events/raj-ke-raaz/ET00146847",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Foo Fighters India Tour 2027 - Bengaluru",
+        "venue": "Bengaluru LIVE, Bengaluru",
+        "date": null,
+        "time": null,
+        "price": "₹ 4000 onwards",
+        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-bengaluru/ET00502948",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Yasser Desai: Live in Concert",
+        "venue": "Shankus Farm: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 999 onwards",
+        "url": "https://in.bookmyshow.com/events/yasser-desai-live-in-concert/ET00502571",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Anime Multiverse : Cosplay Edition Season 2",
+        "venue": "Venue To Be Announced: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/anime-multiverse-anime-cosplay/ET00445738",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "HIGH VOLTAGE DJ NIGHT (Girls Entry Free)",
+        "venue": "Encore Club: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 499",
+        "url": "https://in.bookmyshow.com/events/high-voltage-dj-night/ET00501286",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Krushnamrut: A Journey of Music, Poetry & Bhakti",
+        "venue": "Thakorbhai Desai Hall: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 300 onwards",
+        "url": "https://in.bookmyshow.com/events/krushnamrut-a-journey-of-music-poetry-bhakti/ET00502273",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Aawaz-e-Ishq",
+        "venue": "Scrapyard - The Theatre: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/aawaz-e-iqsh/ET00498033",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Dharohar",
+        "venue": "Pandit Dindayal Upadhyay Auditorium : Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/dharohar/ET00498794",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Bhajan Clubbing by Bookmybhajan",
+        "venue": "Pandit Dindayal Upadhyay Auditorium : Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 499 onwards",
+        "url": "https://in.bookmyshow.com/events/bhajan-clubbing-the-new-wave-of-devotion/ET00481773",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Thank You Parents",
+        "venue": "Tagore Memorial Hall: Ahmedabad",
+        "date": null,
+        "time": null,
+        "price": "₹ 300 onwards",
+        "url": "https://in.bookmyshow.com/events/thank-you-parents/ET00146987",
+        "city": "Ahmedabad",
+        "source": "bookmyshow.com"
+      }
+    ],
     "chandigarh": [
       {
         "title": "Jasmine Sandlas -India Tour(Chandigarh)",
@@ -227,42 +629,12 @@
         "source": "bookmyshow.com"
       },
       {
-        "title": "Cassettes and CDs Nostalgia By Avinash Gupta",
-        "venue": "Studio XO: Mohali",
+        "title": "ANYMA presents AEDEN - Mumbai",
+        "venue": "Mahalaxmi Race Course: Mumbai",
         "date": null,
         "time": null,
-        "price": "₹ 999",
-        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "SIHIE ACT ONE",
-        "venue": "Studio XO: Mohali",
-        "date": null,
-        "time": null,
-        "price": "₹ 299 onwards",
-        "url": "https://in.bookmyshow.com/events/sihie-act-one/ET00503467",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "One Direction: 16th Anniversary Special Fan Party",
-        "venue": "Venue To Be Announced: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/tribute-to-one-direction-fan-event/ET00432673",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Studio XO Presents Palak Oberoi",
-        "venue": "Studio XO: Mohali",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/studio-xo-presents-palak-oberoi/ET00502819",
+        "price": "₹ 3500 onwards",
+        "url": "https://in.bookmyshow.com/events/anyma-presents-aeden-mumbai/ET00480995",
         "city": "Chandigarh",
         "source": "bookmyshow.com"
       },
@@ -277,92 +649,32 @@
         "source": "bookmyshow.com"
       },
       {
-        "title": "MOBE WALI QAWWALI",
-        "venue": "MOBE Elante: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 500 onwards",
-        "url": "https://in.bookmyshow.com/events/mobe-wali-qawwali/ET00503838",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "THE BHANGRA PROJECT",
-        "venue": "MOBE Elante: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 500 onwards",
-        "url": "https://in.bookmyshow.com/events/the-bhangra-project/ET00504302",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Studio XO Presents Francis Live",
+        "title": "Cassettes and CDs Nostalgia By Avinash Gupta",
         "venue": "Studio XO: Mohali",
+        "date": null,
+        "time": null,
+        "price": "₹ 999",
+        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "One Direction: 16th Anniversary Special Fan Party",
+        "venue": "Venue To Be Announced: Chandigarh",
         "date": null,
         "time": null,
         "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/studio-xo-presents-francis-live/ET00502803",
+        "url": "https://in.bookmyshow.com/events/tribute-to-one-direction-fan-event/ET00432673",
         "city": "Chandigarh",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Marham Poetry and Music - \"7 stages of sufi Love\"",
-        "venue": "Studio XO: Mohali",
+        "title": "Fred again.. India Tour 2026",
+        "venue": "Multiple Cities",
         "date": null,
         "time": null,
-        "price": "₹ 1599",
-        "url": "https://in.bookmyshow.com/events/marham-poetry-and-music-7-stages-of-sufi-love/ET00504306",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Jamming Night",
-        "venue": "Sector 7 Social: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 299 onwards",
-        "url": "https://in.bookmyshow.com/events/pookie-jams-the-premium-jamming-experience/ET00461172",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "CHINANSHA LIVE",
-        "venue": "Studio XO: Mohali",
-        "date": null,
-        "time": null,
-        "price": "₹ 499",
-        "url": "https://in.bookmyshow.com/events/chinansha-live/ET00502328",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Studio XO Presents Sufi Bethak Vandana ki",
-        "venue": "Studio XO: Mohali",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/studio-xo-presents-sufi-bethak-vandana-ki/ET00504117",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "ANYMA presents AEDEN - Mumbai",
-        "venue": "Mahalaxmi Race Course: Mumbai",
-        "date": null,
-        "time": null,
-        "price": "₹ 3500 onwards",
-        "url": "https://in.bookmyshow.com/events/anyma-presents-aeden-mumbai/ET00480995",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Guns N' Roses: India 2026 - Guwahati",
-        "venue": "Khanapara Veterinary Ground : Guwahati",
-        "date": null,
-        "time": null,
-        "price": "₹ 5000 onwards",
-        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
+        "price": "FREE",
+        "url": "https://in.bookmyshow.com/events/fred-again-india-tour-2026/ET00503973",
         "city": "Chandigarh",
         "source": "bookmyshow.com"
       },
@@ -377,6 +689,26 @@
         "source": "bookmyshow.com"
       },
       {
+        "title": "Sunburn Festival Ft. The Chainsmokers",
+        "venue": "Mahalaxmi Race Course: Mumbai",
+        "date": null,
+        "time": null,
+        "price": "₹ 3500 onwards",
+        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Guns N' Roses: India 2026 - Guwahati",
+        "venue": "Khanapara Veterinary Ground : Guwahati",
+        "date": null,
+        "time": null,
+        "price": "₹ 5000 onwards",
+        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
         "title": "Foo Fighters India Tour 2027 - Bengaluru",
         "venue": "Bengaluru LIVE, Bengaluru",
         "date": null,
@@ -387,12 +719,12 @@
         "source": "bookmyshow.com"
       },
       {
-        "title": "Sunburn Festival Ft. The Chainsmokers",
-        "venue": "Mahalaxmi Race Course: Mumbai",
+        "title": "Jamming Night",
+        "venue": "Sector 7 Social: Chandigarh",
         "date": null,
         "time": null,
-        "price": "₹ 3500 onwards",
-        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/pookie-jams-the-premium-jamming-experience/ET00461172",
         "city": "Chandigarh",
         "source": "bookmyshow.com"
       },
@@ -407,12 +739,82 @@
         "source": "bookmyshow.com"
       },
       {
+        "title": "MOBE WALI QAWWALI",
+        "venue": "MOBE Elante: Chandigarh",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/mobe-wali-qawwali/ET00503838",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
         "title": "Foo Fighters India Tour 2027",
         "venue": "Multiple Venues",
         "date": null,
         "time": null,
         "price": "₹ 4000 onwards",
         "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027/ET00502946",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "HYBE INDIA AUDITION",
+        "venue": "Multiple Venues",
+        "date": null,
+        "time": null,
+        "price": "FREE",
+        "url": "https://in.bookmyshow.com/events/hybe-india-audition/ET00496668",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Jasmine Sandlas - The Dream Girl India Tour 2026",
+        "venue": "Multiple Venues",
+        "date": null,
+        "time": null,
+        "price": "₹ 1499 onwards",
+        "url": "https://in.bookmyshow.com/events/jasmine-sandlas-the-dream-girl-india-tour-2026/ET00500466",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Studio XO Bar",
+        "venue": "Multiple Venues",
+        "date": null,
+        "time": null,
+        "price": "₹ 999 onwards",
+        "url": "https://in.bookmyshow.com/events/studio-xo-bar/ET00393063",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Marham Poetry and Music - \"7 stages of sufi Love\"",
+        "venue": "Studio XO: Mohali",
+        "date": null,
+        "time": null,
+        "price": "₹ 1599",
+        "url": "https://in.bookmyshow.com/events/marham-poetry-and-music-7-stages-of-sufi-love/ET00504306",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "CHINANSHA LIVE",
+        "venue": "Studio XO: Mohali",
+        "date": null,
+        "time": null,
+        "price": "₹ 499",
+        "url": "https://in.bookmyshow.com/events/chinansha-live/ET00502328",
+        "city": "Chandigarh",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "THE BHANGRA PROJECT",
+        "venue": "MOBE Elante: Chandigarh",
+        "date": null,
+        "time": null,
+        "price": "₹ 500 onwards",
+        "url": "https://in.bookmyshow.com/events/the-bhangra-project/ET00504302",
         "city": "Chandigarh",
         "source": "bookmyshow.com"
       }
