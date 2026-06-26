@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-25T05:00:26.359440+00:00",
+  "updated_at": "2026-06-26T05:06:04.190438+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 272,
+  "total_events": 265,
   "cities": {
     "mumbai": [
       {
@@ -31,7 +31,7 @@
         "venue": null,
         "date": "03 July 2026",
         "time": "07:30 PM",
-        "price": "INR 799 - 999",
+        "price": "INR 799",
         "url": "https://www.skillboxes.com/events/rock-diva-night-featuring-nisha-shetty",
         "category": "Music Concerts",
         "city": "Mumbai",
@@ -44,17 +44,6 @@
         "time": "08:00 PM",
         "price": "INR 1999 - 7200",
         "url": "https://www.skillboxes.com/events/siangyoo-debut-india-tour-mumbai-friday-10th-july-8-pm-onw",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Live In Mumbai - shauharty & Da’rookhs + Shashwat Bulusu (Live)",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 1599",
-        "url": "https://www.skillboxes.com/events/live-in-mumbai-shauharty-da-rookhs-shashwat-bulusu-live",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -170,17 +159,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Common Ground  Ft. sillyboii + Babygirl",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-ft-sillyboii-babygirl",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "The Michael Jackson Experience With Arjun Dhanraj",
         "venue": null,
         "date": "24 July 2026",
@@ -232,6 +210,17 @@
         "price": "INR 499 - 2000",
         "url": "https://www.skillboxes.com/events/love-you-zindagi-2-0",
         "category": "Charity & Causes",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "College Chronicles by Veer",
+        "venue": null,
+        "date": "19 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 449 - 3450",
+        "url": "https://www.skillboxes.com/events/college-chronicles-by-veer-1",
+        "category": "Live Concert",
         "city": "Mumbai",
         "source": "skillboxes.com"
       }
@@ -348,17 +337,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Flashcraft Entertainment Presents Obsession at RedRoom, Hotel Samrat",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "11:00 PM",
-        "price": "INR 1000 - 2000",
-        "url": "https://www.skillboxes.com/events/flashcraft-entertainment-presents-obsession-at-redroom-hotel-samrat-sbubmmqt",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "OFF CENTER ft. Monophonik (live), Sleepy Insomniac and Tapan Raj",
         "venue": null,
         "date": "27 June - 28 June 2026",
@@ -425,17 +403,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "PCO & LOCALS A&R presents Signal Received feat. Tribal Soul - Prog Rescue - Devika Wahal",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "10:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pco-locals-a-r-presents-signal-recieved-feat-tribal-soul-prog-rescue-devika-wahal-sbjywzih",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "MUSAFIR : Ek Shaam,Kai Safar - A live band showcase by Restrospect The Band",
         "venue": null,
         "date": "09 July 2026",
@@ -477,6 +444,50 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Jackfruit Dance Party",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/jackfruit-dance-party-sbaqejpt",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "COHOP LIVE JAMS - SARJAPUR SOCIAL",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "04:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/cohop-live-jams-sarjapur-social-sbahkuld",
+        "category": "Culture and Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Special Request ft. Pavnii by Tomo Kei - Sheraton Grand Hotel Whitefield Bengaluru",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/special-request-ft-pavnii-by-tomo-kei-sheraton-grand-hotel-whitefield-bengaluru-sbzyrfgn",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Pure Love Thursday",
+        "venue": null,
+        "date": "28 June - 29 June 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/pure-love-thursday-sbyeskbu",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -658,17 +669,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "BOLLY AFRO FT. DJ AYUSH X DJ SUKANT AT. YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-dj-ayush-x-dj-sukant-at-yeda-republic-koramangala-sbmtcoaw",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "OG LUCIFER POORE DIL SE INDIA TOUR! || BANGALORE",
         "venue": null,
         "date": "25 July 2026",
@@ -684,53 +684,9 @@
         "venue": null,
         "date": "25 July 2026",
         "time": "07:00 PM",
-        "price": "INR 399",
+        "price": "INR 399 - 499",
         "url": "https://www.skillboxes.com/events/mangas-igotthewrongtattoo-and-spade-pirates-live-in-bangalore-sblkcfik",
         "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 30",
-        "venue": null,
-        "date": "30 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-30-sbjnymwa",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 23",
-        "venue": null,
-        "date": "23 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-23-sbjjosgs",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 16",
-        "venue": null,
-        "date": "16 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-16-sbjhjuzb",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 9",
-        "venue": null,
-        "date": "09 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-9-sbipwqpv",
-        "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -902,6 +858,50 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Jackfruit Dance Party",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/jackfruit-dance-party-sbaqejpt",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "COHOP LIVE JAMS - SARJAPUR SOCIAL",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "04:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/cohop-live-jams-sarjapur-social-sbahkuld",
+        "category": "Culture and Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Special Request ft. Pavnii by Tomo Kei - Sheraton Grand Hotel Whitefield Bengaluru",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/special-request-ft-pavnii-by-tomo-kei-sheraton-grand-hotel-whitefield-bengaluru-sbzyrfgn",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Pure Love Thursday",
+        "venue": null,
+        "date": "28 June - 29 June 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/pure-love-thursday-sbyeskbu",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "THE SCAM SHAADI FT. TALON X DJ VAHI AT. YEDA REPUBLIC KORAMANGALA",
         "venue": null,
         "date": "28 June 2026",
@@ -944,61 +944,6 @@
         "category": "Music Festivals",
         "city": "Hyderabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "THT presents Havana Nights",
-        "venue": null,
-        "date": "15 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tht-presents-havana-nights-sbtzhpjc",
-        "category": "Dance & Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "No Parking fridays",
-        "venue": null,
-        "date": "26 June - 27 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbtqoaem",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "db fridays w/ Chaz & Cygni",
-        "venue": null,
-        "date": "26 June - 27 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/db-fridays-w-chaz-cygni-sbtjzihn",
-        "category": "Club Gigs Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BLAKE LIGHT live at Magique | Sunday",
-        "venue": null,
-        "date": "28 Jun 2026 - 28 Jun 2026",
-        "time": "08:00 PM",
-        "price": "INR 699",
-        "url": "https://www.skillboxes.com/events/blake-light-live-at-magique-sunday-sbthukzw",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Back Home with Aasmi & Friends",
-        "venue": null,
-        "date": "03 July 2026",
-        "time": "08:30 PM",
-        "price": "INR 400",
-        "url": "https://www.skillboxes.com/events/back-home-with-aasmi-friends-sbtfpnsf",
-        "category": "Music Concerts",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
       }
     ],
     "chennai": [
@@ -1031,6 +976,50 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Jackfruit Dance Party",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/jackfruit-dance-party-sbaqejpt",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "COHOP LIVE JAMS - SARJAPUR SOCIAL",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "04:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/cohop-live-jams-sarjapur-social-sbahkuld",
+        "category": "Culture and Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Special Request ft. Pavnii by Tomo Kei - Sheraton Grand Hotel Whitefield Bengaluru",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/special-request-ft-pavnii-by-tomo-kei-sheraton-grand-hotel-whitefield-bengaluru-sbzyrfgn",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Pure Love Thursday",
+        "venue": null,
+        "date": "28 June - 29 June 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/pure-love-thursday-sbyeskbu",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1210,50 +1199,6 @@
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "BOLLY AFRO FT. DJ AYUSH X DJ SUKANT AT. YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-dj-ayush-x-dj-sukant-at-yeda-republic-koramangala-sbmtcoaw",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "OG LUCIFER POORE DIL SE INDIA TOUR! || BANGALORE",
-        "venue": null,
-        "date": "25 July 2026",
-        "time": "08:00 PM",
-        "price": "INR 91 - 1399",
-        "url": "https://www.skillboxes.com/events/og-lucifer-poore-dil-se-india-tour-bangalore-sblsvuna",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "MANGAS, i got the wrong tattoo and Spade Pirates - Live in Bangalore",
-        "venue": null,
-        "date": "25 July 2026",
-        "time": "07:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/mangas-igotthewrongtattoo-and-spade-pirates-live-in-bangalore-sblkcfik",
-        "category": "Music Concerts",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 30",
-        "venue": null,
-        "date": "30 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-30-sbjnymwa",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
       }
     ],
     "kolkata": [
@@ -1412,17 +1357,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "U4GM COD MW4 Insights Why Vaulting Feels Faster",
-        "venue": null,
-        "date": "27 June - 29 June 2026",
-        "time": "03:37 AM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/u4gm-cod-mw4-insights-why-vaulting-feels-faster",
-        "category": "Music Concerts",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "WAVE CULTURE",
         "venue": null,
         "date": "04 July 2026",
@@ -1535,6 +1469,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "venue": null,
+        "date": "05 July 2026",
+        "time": "12 PM Onwards",
+        "price": "INR 799 - 3499",
+        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
+        "category": "Festivals",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Blues by Gravity",
         "venue": null,
         "date": "26 Jun 2026 - 26 Jun 2026",
@@ -1623,17 +1568,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
-        "venue": null,
-        "date": "05 July 2026",
-        "time": "12 PM Onwards",
-        "price": "INR 799 - 3499",
-        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
-        "category": "Festivals",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "TBM Archive 001 - One Year of The Movement | Mumbai",
         "venue": null,
         "date": "26 July 2026",
@@ -1660,7 +1594,7 @@
         "venue": null,
         "date": "03 July 2026",
         "time": "07:30 PM",
-        "price": "INR 799 - 999",
+        "price": "INR 799",
         "url": "https://www.skillboxes.com/events/rock-diva-night-featuring-nisha-shetty",
         "category": "Music Concerts",
         "city": "Pune",
@@ -1673,17 +1607,6 @@
         "time": "08:00 PM",
         "price": "INR 1999 - 7200",
         "url": "https://www.skillboxes.com/events/siangyoo-debut-india-tour-mumbai-friday-10th-july-8-pm-onw",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Live In Mumbai - shauharty & Da’rookhs + Shashwat Bulusu (Live)",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 1599",
-        "url": "https://www.skillboxes.com/events/live-in-mumbai-shauharty-da-rookhs-shashwat-bulusu-live",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1823,17 +1746,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Concert Thursdays || Classical Fusion Concert",
-        "venue": null,
-        "date": "25 Jun 2026 - 25 Jun 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.skillboxes.com/events/concert-thursdays-classical-fusion-concert-sbonbjfp",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "GOA MONSOON ESCAPADES",
         "venue": null,
         "date": "03 Jul 2026 - 04 Jul 2026",
@@ -1896,6 +1808,17 @@
         "price": "INR 499 - 2999",
         "url": "https://www.skillboxes.com/events/red-fm-south-side-story-pune-chapter",
         "category": "Music Festivals",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "venue": null,
+        "date": "05 July 2026",
+        "time": "12 PM Onwards",
+        "price": "INR 799 - 3499",
+        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
+        "category": "Festivals",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1988,13 +1911,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SNKRHOOD | Sneaker Led Cultural Fest",
+        "title": "TBM Archive 001 - One Year of The Movement | Mumbai",
         "venue": null,
-        "date": "05 July 2026",
-        "time": "12 PM Onwards",
-        "price": "INR 799 - 3499",
-        "url": "https://www.skillboxes.com/events/snkrhood-sneaker-led-cultural-fest",
-        "category": "Festivals",
+        "date": "26 July 2026",
+        "time": "05:00 PM",
+        "price": "INR 1399 - 1799",
+        "url": "https://www.skillboxes.com/events/tbm-archive-001-one-year-of-the-movement-Mumbai",
+        "category": "Select Underground Experience",
         "city": "Goa",
         "source": "skillboxes.com"
       }
@@ -2029,7 +1952,7 @@
         "time": "10:00 PM",
         "price": "INR 799",
         "url": "https://www.skillboxes.com/events/blackout-chandigarh-edition-sbldnnll",
-        "category": "Club Gigs Music",
+        "category": "Open Air Music Festivals",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2052,6 +1975,28 @@
         "price": "INR 1000 - 4000",
         "url": "https://www.skillboxes.com/events/summer-slay",
         "category": "Open Air Pool Party",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Dollar Night ft. Bhraatas",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/dollar-night-ft-bhraatas-sbyyklsr",
+        "category": "Club Gigs Music",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Madari Live",
+        "venue": null,
+        "date": "26 June 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/madari-live-sbywfola",
+        "category": "Club Gigs Music",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2188,6 +2133,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Genres are a Scam - a Mixed Feelings experience",
+        "venue": null,
+        "date": "03 July - 04 July 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/genres-are-a-scam-a-mixed-feelings-experience-sbypqwob",
+        "category": "Club Gigs - Music",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Beer&Blend",
         "venue": null,
         "date": "04 July 2026",
@@ -2228,39 +2184,6 @@
         "price": "INR 399",
         "url": "https://www.skillboxes.com/events/fiddlecraft-live",
         "category": "Music Concerts",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Those Who Know They Know | Delhi | Halloween Edition 2026",
-        "venue": null,
-        "date": "30 October 2026",
-        "time": "04:00 PM",
-        "price": "INR 1999 - 50000",
-        "url": "https://www.skillboxes.com/events/those-who-know-they-know-delhi-halloween-edition-2026",
-        "category": "Music Concerts",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "POOLSCAPE - DELHI EDITION",
-        "venue": null,
-        "date": "27 June 2026",
-        "time": "05:00 PM",
-        "price": "INR 1499 - 85499",
-        "url": "https://www.skillboxes.com/events/poolscape-delhi-edition",
-        "category": "Open Air Pool Party",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "PLINI Live in Delhi NCR | New Album Tour 2026",
-        "venue": null,
-        "date": "29 July 2026",
-        "time": "07:00 PM",
-        "price": "INR 2499",
-        "url": "https://www.skillboxes.com/events/plini-live-in-delhi-ncr-new-album-tour-2026",
-        "category": "Music Event",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       }
@@ -2315,7 +2238,7 @@
         "venue": null,
         "date": "03 July 2026",
         "time": "07:30 PM",
-        "price": "INR 799 - 999",
+        "price": "INR 799",
         "url": "https://www.skillboxes.com/events/rock-diva-night-featuring-nisha-shetty",
         "category": "Music Concerts",
         "city": "Ahmedabad",
@@ -2328,17 +2251,6 @@
         "time": "08:00 PM",
         "price": "INR 1999 - 7200",
         "url": "https://www.skillboxes.com/events/siangyoo-debut-india-tour-mumbai-friday-10th-july-8-pm-onw",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Live In Mumbai - shauharty & Da’rookhs + Shashwat Bulusu (Live)",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 1599",
-        "url": "https://www.skillboxes.com/events/live-in-mumbai-shauharty-da-rookhs-shashwat-bulusu-live",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2454,17 +2366,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Common Ground  Ft. sillyboii + Babygirl",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-ft-sillyboii-babygirl",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "The Michael Jackson Experience With Arjun Dhanraj",
         "venue": null,
         "date": "24 July 2026",
@@ -2494,6 +2395,28 @@
         "price": "INR 1999 - 150000",
         "url": "https://www.skillboxes.com/events/those-who-know-they-know-mumbai-2026",
         "category": "Music Concerts",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Universe In A Crayon Live at Rule34",
+        "venue": null,
+        "date": "16 July 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/universe-in-a-crayon-live-at-rule34",
+        "category": "Music Festivals",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Love You Zindagi 2.0",
+        "venue": null,
+        "date": "26 June 2026",
+        "time": "07:00 PM",
+        "price": "INR 499 - 2000",
+        "url": "https://www.skillboxes.com/events/love-you-zindagi-2-0",
+        "category": "Charity & Causes",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       }
@@ -2746,7 +2669,7 @@
         "venue": null,
         "date": "26 June - 27 June 2026",
         "time": "11:30 PM",
-        "price": "INR 499 - 1999",
+        "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/hardground-ft-dj-angel-danilo-filipe-live-in-delhi",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
@@ -2794,6 +2717,50 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/grassroots-wednesdays-with-green-park-shauharty-da-rookhs",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Jackfruit Dance Party",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/jackfruit-dance-party-sbaqejpt",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "COHOP LIVE JAMS - SARJAPUR SOCIAL",
+        "venue": null,
+        "date": "04 July 2026",
+        "time": "04:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/cohop-live-jams-sarjapur-social-sbahkuld",
+        "category": "Culture and Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Special Request ft. Pavnii by Tomo Kei - Sheraton Grand Hotel Whitefield Bengaluru",
+        "venue": null,
+        "date": "27 June 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/special-request-ft-pavnii-by-tomo-kei-sheraton-grand-hotel-whitefield-bengaluru-sbzyrfgn",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Pure Love Thursday",
+        "venue": null,
+        "date": "28 June - 29 June 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/pure-love-thursday-sbyeskbu",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -2970,50 +2937,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/gala-qunees-ft-dj-neha-at-yeda-republic-koramangala-sbmvhlin",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BOLLY AFRO FT. DJ AYUSH X DJ SUKANT AT. YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "25 June 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/bolly-afro-ft-dj-ayush-x-dj-sukant-at-yeda-republic-koramangala-sbmtcoaw",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "OG LUCIFER POORE DIL SE INDIA TOUR! || BANGALORE",
-        "venue": null,
-        "date": "25 July 2026",
-        "time": "08:00 PM",
-        "price": "INR 91 - 1399",
-        "url": "https://www.skillboxes.com/events/og-lucifer-poore-dil-se-india-tour-bangalore-sblsvuna",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "MANGAS, i got the wrong tattoo and Spade Pirates - Live in Bangalore",
-        "venue": null,
-        "date": "25 July 2026",
-        "time": "07:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/mangas-igotthewrongtattoo-and-spade-pirates-live-in-bangalore-sblkcfik",
-        "category": "Music Concerts",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pitch Please - Karaoke with Aashish Paul at THT Ground Floor Bar 30",
-        "venue": null,
-        "date": "30 July 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/pitch-please-karaoke-with-aashish-paul-at-tht-ground-floor-bar-30-sbjnymwa",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
