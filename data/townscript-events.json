@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T05:06:48.344823+00:00",
+  "updated_at": "2026-06-27T04:48:26.575764+00:00",
   "source": "Townscript",
-  "total_events": 18,
+  "total_events": 17,
   "cities": {
     "mumbai": [
       {
@@ -34,17 +34,6 @@
         "price": "INR 300",
         "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
         "organiser": "Raah-Literacy & Cultural Centre",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Revolution - The Beginning",
-        "venue": "Bandra West",
-        "date": "26 June 2026",
-        "time": "06:00 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/revolution-the-beginning-412030",
-        "organiser": "Kirit Surati",
         "city": "Mumbai",
         "source": "townscript.com"
       }
@@ -106,6 +95,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "LEVEL SIX - Season 4",
+        "venue": "Greater Kailash",
+        "date": "4 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 449",
+        "url": "https://www.townscript.com/in/level-six-season-4-420410",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Thumri Re-Imagined by Dr Amrita Dutta",
         "venue": "Greater Kailash",
         "date": "12 July 2026",
@@ -117,13 +117,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "LEVEL SIX - Season 4",
-        "venue": "Greater Kailash",
+        "title": "Indian Classical Sitar Recital",
+        "venue": null,
         "date": "4 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 449",
-        "url": "https://www.townscript.com/in/level-six-season-4-420410",
-        "organiser": "Depot48",
+        "time": "07:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.townscript.com/in/indian-classical-sitar-recital-211433",
+        "organiser": "Nivriti",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -197,17 +197,6 @@
         "price": "INR 300",
         "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
         "organiser": "Raah-Literacy & Cultural Centre",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Revolution - The Beginning",
-        "venue": "Bandra West",
-        "date": "26 June 2026",
-        "time": "06:00 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/revolution-the-beginning-412030",
-        "organiser": "Kirit Surati",
         "city": "Pune",
         "source": "townscript.com"
       }
