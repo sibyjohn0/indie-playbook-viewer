@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-06-27T04:48:26.575764+00:00",
+  "updated_at": "2026-06-28T05:15:16.202285+00:00",
   "source": "Townscript",
-  "total_events": 17,
+  "total_events": 11,
   "cities": {
     "mumbai": [
-      {
-        "title": "SAUNDH - Mitti se Mehfil tak",
-        "venue": "Lower Parel",
-        "date": "27 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 4699",
-        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
-        "organiser": "CineGranth Studio",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "Human Circle",
         "venue": "Koregaon Park",
@@ -25,38 +14,16 @@
         "organiser": "Garima Gulati",
         "city": "Mumbai",
         "source": "townscript.com"
-      },
-      {
-        "title": "Dil Se Dil Tak A Live Ghazal Concert  By Gauri Kulkarni",
-        "venue": "Lullanagar",
-        "date": "27 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
-        "organiser": "Raah-Literacy & Cultural Centre",
-        "city": "Mumbai",
-        "source": "townscript.com"
       }
     ],
     "delhi": [
       {
-        "title": "Beyond Labels",
-        "venue": "Sector 24",
-        "date": "27 June 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/beyond-labels-210400",
-        "organiser": "MitraMesh",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Out and Proud with Lucia",
+        "title": "LEVEL SIX - Season 4",
         "venue": "Greater Kailash",
-        "date": "27 June 2026",
+        "date": "4 July 2026",
         "time": "09:00 PM",
-        "price": "INR 944",
-        "url": "https://www.townscript.com/in/out-and-proud-with-lucia-201314",
+        "price": "INR 449",
+        "url": "https://www.townscript.com/in/level-six-season-4-420410",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -79,28 +46,6 @@
         "time": "09:00 PM",
         "price": "INR 299",
         "url": "https://www.townscript.com/in/beshaq-441412",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Bhajan Jamming & Chill  | The Sacred Room",
-        "venue": "Hauz Khas",
-        "date": "27 June 2026",
-        "time": "04:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/bhajan-jamming-chill-2026-the-sacred-room-010343",
-        "organiser": "sacred room",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "LEVEL SIX - Season 4",
-        "venue": "Greater Kailash",
-        "date": "4 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 449",
-        "url": "https://www.townscript.com/in/level-six-season-4-420410",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -164,20 +109,21 @@
       }
     ],
     "hyderabad": [],
-    "chennai": [],
+    "chennai": [
+      {
+        "title": "Sliver Jubliee 72/18/15T",
+        "venue": "Meenambakkam",
+        "date": "11 September 2026",
+        "time": "01:30 PM",
+        "price": "INR 700",
+        "url": "https://www.townscript.com/in/sliver-jubliee-7218-140234",
+        "organiser": "Nishant Gupta",
+        "city": "Chennai",
+        "source": "townscript.com"
+      }
+    ],
     "kolkata": [],
     "pune": [
-      {
-        "title": "SAUNDH - Mitti se Mehfil tak",
-        "venue": "Lower Parel",
-        "date": "27 June 2026",
-        "time": "07:00 PM",
-        "price": "INR 4699",
-        "url": "https://www.townscript.com/in/saundh-mitti-se-mehfil-tak-042422",
-        "organiser": "CineGranth Studio",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
       {
         "title": "Human Circle",
         "venue": "Koregaon Park",
@@ -186,17 +132,6 @@
         "price": "INR 1600",
         "url": "https://www.townscript.com/in/human-circle-001414",
         "organiser": "Garima Gulati",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Dil Se Dil Tak A Live Ghazal Concert  By Gauri Kulkarni",
-        "venue": "Lullanagar",
-        "date": "27 June 2026",
-        "time": "06:30 PM",
-        "price": "INR 300",
-        "url": "https://www.townscript.com/in/dil-se-dil-tak-a-live-ghazal-concert-by-gauri-kulkarni-032214",
-        "organiser": "Raah-Literacy & Cultural Centre",
         "city": "Pune",
         "source": "townscript.com"
       }
