@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T05:27:35.268596+00:00",
+  "updated_at": "2026-06-30T05:01:25.991036+00:00",
   "source": "Townscript",
-  "total_events": 10,
+  "total_events": 11,
   "cities": {
     "mumbai": [
       {
@@ -29,6 +29,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Indian Classical Sitar Recital",
+        "venue": null,
+        "date": "4 July 2026",
+        "time": "07:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.townscript.com/in/indian-classical-sitar-recital-211433",
+        "organiser": "Nivriti",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "BESHAQ",
         "venue": "Greater Kailash",
         "date": "15 July 2026",
@@ -51,13 +62,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Indian Classical Sitar Recital",
-        "venue": null,
-        "date": "4 July 2026",
-        "time": "07:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.townscript.com/in/indian-classical-sitar-recital-211433",
-        "organiser": "Nivriti",
+        "title": "Geography of the Moon",
+        "venue": "Greater Kailash",
+        "date": "26 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/geography-of-the-moon-034304",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -104,7 +115,7 @@
         "venue": "Meenambakkam",
         "date": "11 September 2026",
         "time": "01:30 PM",
-        "price": "INR 700",
+        "price": "INR 20",
         "url": "https://www.townscript.com/in/sliver-jubliee-7218-140234",
         "organiser": "Nishant Gupta",
         "city": "Chennai",
