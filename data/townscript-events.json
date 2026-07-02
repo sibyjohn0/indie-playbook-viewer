@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-07-01T05:19:26.005917+00:00",
+  "updated_at": "2026-07-02T04:57:06.196775+00:00",
   "source": "Townscript",
-  "total_events": 11,
+  "total_events": 12,
   "cities": {
     "mumbai": [
+      {
+        "title": "SWARABHISHEKH 2026",
+        "venue": "Prabhadevi",
+        "date": "12 December 2026",
+        "time": "05:30 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/swarabhishekh-100421",
+        "organiser": "Aces Hospitality",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
       {
         "title": "Human Circle",
         "venue": "Koregaon Park",
@@ -82,22 +93,11 @@
         "organiser": "Soulmale Spa",
         "city": "Delhi",
         "source": "townscript.com"
-      },
-      {
-        "title": "Thehraav",
-        "venue": "Greater Kailash",
-        "date": "1 July 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/thehraav-033424",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
       }
     ],
     "bengaluru": [
       {
-        "title": "Jo Reh Gaya.. Songs, memories, people who never left!",
+        "title": "Jo Reh Gaya.. A musical ode to memories",
         "venue": null,
         "date": "19 July 2026",
         "time": "06:00 PM",
@@ -124,6 +124,17 @@
     ],
     "kolkata": [],
     "pune": [
+      {
+        "title": "SWARABHISHEKH 2026",
+        "venue": "Prabhadevi",
+        "date": "12 December 2026",
+        "time": "05:30 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/swarabhishekh-100421",
+        "organiser": "Aces Hospitality",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
       {
         "title": "Human Circle",
         "venue": "Koregaon Park",
