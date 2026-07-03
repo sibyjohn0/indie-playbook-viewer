@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T04:57:06.196775+00:00",
+  "updated_at": "2026-07-03T04:39:11.914774+00:00",
   "source": "Townscript",
-  "total_events": 12,
+  "total_events": 14,
   "cities": {
     "mumbai": [
       {
@@ -51,6 +51,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Thumri Re-Imagined by Dr Amrita Dutta",
+        "venue": "Greater Kailash",
+        "date": "12 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "BESHAQ",
         "venue": "Greater Kailash",
         "date": "15 July 2026",
@@ -62,13 +73,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Thumri Re-Imagined by Dr Amrita Dutta",
-        "venue": "Greater Kailash",
-        "date": "12 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
-        "organiser": "Depot48",
+        "title": "Jamming session ",
+        "venue": "Tilak Nagar",
+        "date": "6 July 2026",
+        "time": "03:00 PM",
+        "price": "INR 200",
+        "url": "https://www.townscript.com/in/jamming-session-120214",
+        "organiser": "Ananya",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -122,7 +133,19 @@
         "source": "townscript.com"
       }
     ],
-    "kolkata": [],
+    "kolkata": [
+      {
+        "title": "Janmashtami kirtan & Bhajan Jamming",
+        "venue": "Rajarhat",
+        "date": "4 September 2026",
+        "time": "08:30 PM",
+        "price": "INR 799",
+        "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
+        "organiser": "KIRTAN KOLKATA",
+        "city": "Kolkata",
+        "source": "townscript.com"
+      }
+    ],
     "pune": [
       {
         "title": "SWARABHISHEKH 2026",
