@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T04:39:11.914774+00:00",
+  "updated_at": "2026-07-04T04:31:36.657400+00:00",
   "source": "Townscript",
   "total_events": 14,
   "cities": {
@@ -12,17 +12,6 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/swarabhishekh-100421",
         "organiser": "Aces Hospitality",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Human Circle",
-        "venue": "Koregaon Park",
-        "date": "3 July 2026",
-        "time": "07:30 PM",
-        "price": "INR 1600",
-        "url": "https://www.townscript.com/in/human-circle-001414",
-        "organiser": "Garima Gulati",
         "city": "Mumbai",
         "source": "townscript.com"
       }
@@ -108,6 +97,28 @@
     ],
     "bengaluru": [
       {
+        "title": "KODAI INNISAI MALAI",
+        "venue": null,
+        "date": "12 July 2026",
+        "time": "04:30 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/kodai-innisai-malai-443024",
+        "organiser": "Abishek",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Bengaluru Blues Habba 5th Edition",
+        "venue": "Koramangala",
+        "date": "1 August 2026",
+        "time": "05:30 PM",
+        "price": "INR 899",
+        "url": "https://www.townscript.com/in/bengaluru-blues-habba-5th-edition-134140",
+        "organiser": "The Koramangala Club",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
         "title": "Jo Reh Gaya.. A musical ode to memories",
         "venue": null,
         "date": "19 July 2026",
@@ -139,7 +150,7 @@
         "venue": "Rajarhat",
         "date": "4 September 2026",
         "time": "08:30 PM",
-        "price": "INR 799",
+        "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
         "organiser": "KIRTAN KOLKATA",
         "city": "Kolkata",
@@ -155,17 +166,6 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/swarabhishekh-100421",
         "organiser": "Aces Hospitality",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Human Circle",
-        "venue": "Koregaon Park",
-        "date": "3 July 2026",
-        "time": "07:30 PM",
-        "price": "INR 1600",
-        "url": "https://www.townscript.com/in/human-circle-001414",
-        "organiser": "Garima Gulati",
         "city": "Pune",
         "source": "townscript.com"
       }
