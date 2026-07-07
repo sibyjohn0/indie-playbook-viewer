@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T05:06:55.213257+00:00",
+  "updated_at": "2026-07-07T04:47:31.514702+00:00",
   "source": "Townscript",
-  "total_events": 14,
+  "total_events": 15,
   "cities": {
     "mumbai": [
       {
@@ -40,21 +40,10 @@
         "source": "townscript.com"
       },
       {
-        "title": "Jamming session ",
-        "venue": "Tilak Nagar",
-        "date": "6 July 2026",
-        "time": "03:00 PM",
-        "price": "INR 200",
-        "url": "https://www.townscript.com/in/jamming-session-120214",
-        "organiser": "Ananya",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Geography of the Moon",
         "venue": "Greater Kailash",
         "date": "26 July 2026",
-        "time": "09:00 PM",
+        "time": "10:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/geography-of-the-moon-034304",
         "organiser": "Depot48",
@@ -79,6 +68,28 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/ashanis-live-ep-launch-ft-aditya-dutta-aham-saxena-hritik-sanghmitra-443433",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Ghazal-e-ishq by Oshin Bhatia",
+        "venue": "Greater Kailash",
+        "date": "2 August 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/ghazaleishq-by-oshin-bhatia-344412",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Tapi Project",
+        "venue": "Greater Kailash",
+        "date": "26 July 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/the-tapi-project-000033",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
