@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T04:12:13.783858+00:00",
+  "updated_at": "2026-07-09T04:47:11.047828+00:00",
   "source": "Townscript",
-  "total_events": 15,
+  "total_events": 16,
   "cities": {
     "mumbai": [
       {
@@ -47,6 +47,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/state-band-of-india-file-no-001-ft-siya-sight-143011",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Swar Sadhana: A Hindustani Khayal Recital",
+        "venue": "Saket",
+        "date": "17 July 2026",
+        "time": "07:30 PM",
+        "price": "INR 1100",
+        "url": "https://www.townscript.com/in/swar-sadhana-a-hindustani-khayal-recital-231401",
+        "organiser": "Nivriti",
         "city": "Delhi",
         "source": "townscript.com"
       },
