@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T04:47:11.047828+00:00",
+  "updated_at": "2026-07-10T04:46:43.527639+00:00",
   "source": "Townscript",
-  "total_events": 16,
+  "total_events": 17,
   "cities": {
     "mumbai": [
       {
@@ -175,6 +175,17 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
         "organiser": "KIRTAN KOLKATA",
+        "city": "Kolkata",
+        "source": "townscript.com"
+      },
+      {
+        "title": "LET'S SING BY DHWANI - WAREHOUSE EDITION",
+        "venue": "Mominpore",
+        "date": "19 July 2026",
+        "time": "11:30 AM",
+        "price": "INR 1499",
+        "url": "https://www.townscript.com/in/lets-sing-by-dhwani-warehouse-edition-023240",
+        "organiser": "Trioka Entertainment Pvt. Ltd.",
         "city": "Kolkata",
         "source": "townscript.com"
       }
