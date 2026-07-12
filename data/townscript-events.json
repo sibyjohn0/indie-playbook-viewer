@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T04:10:10.161858+00:00",
+  "updated_at": "2026-07-12T04:23:32.591822+00:00",
   "source": "Townscript",
   "total_events": 18,
   "cities": {
@@ -62,6 +62,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "SALT ROCK",
+        "venue": "Greater Kailash",
+        "date": "25 July 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/salt-rock-201331",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Geography of the Moon",
         "venue": "Greater Kailash",
         "date": "26 July 2026",
@@ -106,17 +117,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "SALT ROCK",
-        "venue": "Greater Kailash",
-        "date": "25 July 2026",
-        "time": "08:30 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/salt-rock-201331",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Premier Body to Body Massage in Sector-46, HUDA Market, Gurgaon",
         "venue": "Sector 46",
         "date": "19 May 2024",
@@ -130,17 +130,6 @@
     ],
     "bengaluru": [
       {
-        "title": "Bengaluru Blues Habba 5th Edition",
-        "venue": "Koramangala",
-        "date": "1 August 2026",
-        "time": "05:30 PM",
-        "price": "INR 899",
-        "url": "https://www.townscript.com/in/bengaluru-blues-habba-5th-edition-134140",
-        "organiser": "The Koramangala Club",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "INNISAI MALAI by KRISHNAGURI TODAY",
         "venue": null,
         "date": "12 July 2026",
@@ -148,6 +137,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/kodai-innisai-malai-443024",
         "organiser": "Abishek",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Bengaluru Blues Habba 5th Edition",
+        "venue": "Koramangala",
+        "date": "1 August 2026",
+        "time": "05:30 PM",
+        "price": "INR 899",
+        "url": "https://www.townscript.com/in/bengaluru-blues-habba-5th-edition-134140",
+        "organiser": "The Koramangala Club",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
