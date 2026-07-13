@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T04:23:32.591822+00:00",
+  "updated_at": "2026-07-13T04:28:07.420554+00:00",
   "source": "Townscript",
-  "total_events": 18,
+  "total_events": 17,
   "cities": {
     "mumbai": [
       {
@@ -17,17 +17,6 @@
       }
     ],
     "delhi": [
-      {
-        "title": "Thumri Re-Imagined by Dr Amrita Dutta",
-        "venue": "Greater Kailash",
-        "date": "12 July 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/thumri-reimagined-by-dr-amrita-dutta-100301",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
       {
         "title": "BESHAQ",
         "venue": "Greater Kailash",
@@ -51,17 +40,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Swar Sadhana: A Hindustani Khayal Recital",
-        "venue": "Saket",
-        "date": "17 July 2026",
-        "time": "07:30 PM",
-        "price": "INR 1100",
-        "url": "https://www.townscript.com/in/swar-sadhana-a-hindustani-khayal-recital-231401",
-        "organiser": "Nivriti",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "SALT ROCK",
         "venue": "Greater Kailash",
         "date": "25 July 2026",
@@ -69,6 +47,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/salt-rock-201331",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Swar Sadhana: A Hindustani Khayal Recital",
+        "venue": "Saket",
+        "date": "17 July 2026",
+        "time": "07:30 PM",
+        "price": "INR 1100",
+        "url": "https://www.townscript.com/in/swar-sadhana-a-hindustani-khayal-recital-231401",
+        "organiser": "Nivriti",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -130,17 +119,6 @@
     ],
     "bengaluru": [
       {
-        "title": "INNISAI MALAI by KRISHNAGURI TODAY",
-        "venue": null,
-        "date": "12 July 2026",
-        "time": "04:30 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/kodai-innisai-malai-443024",
-        "organiser": "Abishek",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "Bengaluru Blues Habba 5th Edition",
         "venue": "Koramangala",
         "date": "1 August 2026",
@@ -148,6 +126,17 @@
         "price": "INR 899",
         "url": "https://www.townscript.com/in/bengaluru-blues-habba-5th-edition-134140",
         "organiser": "The Koramangala Club",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Bangalore OPEN MIC at gen G",
+        "venue": "Subramanyapura",
+        "date": "18 July 2026",
+        "time": "05:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/bangalore-open-mic-at-gen-g-002211",
+        "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
