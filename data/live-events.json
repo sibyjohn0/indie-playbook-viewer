@@ -1,42 +1,15 @@
 {
-  "updated_at": "2026-07-16T03:57:31.654721+00:00",
+  "updated_at": "2026-07-17T03:56:49.640179+00:00",
   "source": "District.in (Zomato)",
-  "total_events": 61,
+  "total_events": 49,
   "cities": {
     "mumbai": [
       {
-        "title": "Pyar N' Stuff - Mumbai Show",
-        "venue": "antiSOCIAL, Lower Parel, Mumbai",
-        "date": "Thu, 23 Jul, 7:30 PM",
-        "price": "₹799",
-        "url": "https://www.district.in/events/pyar-n-stuff-mumbai-show-jul23-2026-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      },
-      {
         "title": "MCA Museum & Stadium Tour",
         "venue": "Wankhede Stadium Mumbai, Mumbai",
-        "date": "Thu, 16 Jul onwards, Multiple Dates",
+        "date": "Fri, 17 Jul onwards, Multiple Dates",
         "price": "MCA Museum & Stadium Tour",
         "url": "https://www.district.in/events/mca-museum--stadium-tour-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      },
-      {
-        "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Mumbai",
-        "venue": "Jamshed Bhabha Theatre, Mumbai",
-        "date": "Sat, 25 Jul – Sun, 26 Jul, Multiple slots",
-        "price": "₹1900 onwards",
-        "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-mumbai-20-2026-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      },
-      {
-        "title": "DJ Yogii",
-        "venue": null,
-        "date": null,
-        "price": null,
-        "url": "https://www.district.in/events/dj-yogii/artist",
         "city": "Mumbai",
         "source": "district.in"
       },
@@ -52,15 +25,6 @@
     ],
     "delhi": [
       {
-        "title": "realme Music Fest | Delhi 2026",
-        "venue": "Yashobhoomi, Delhi/NCR",
-        "date": "Sat, 29 Aug, 5:00 PM",
-        "price": "Yashobhoomi, Delhi/NCR",
-        "url": "https://www.district.in/events/realme-music-fest-2026-buy-tickets",
-        "city": "Delhi",
-        "source": "district.in"
-      },
-      {
         "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Delhi",
         "venue": "Kamani Auditorium, Delhi/NCR",
         "date": "Fri, 9 Oct onwards, Multiple Dates",
@@ -70,20 +34,29 @@
         "source": "district.in"
       },
       {
+        "title": "realme Music Fest | Delhi 2026",
+        "venue": "Yashobhoomi, Delhi/NCR",
+        "date": "Sat, 29 Aug, 5:00 PM",
+        "price": "Yashobhoomi, Delhi/NCR",
+        "url": "https://www.district.in/events/realme-music-fest-2026-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
+        "title": "Pyar N' Stuff - 2nd Delhi Show",
+        "venue": "Auro Kitchen Bar, Delhi/NCR",
+        "date": "Sun, 02 Aug, 7:30 PM",
+        "price": "Auro Kitchen Bar, Delhi/NCR",
+        "url": "https://www.district.in/events/pyar-n-stuff-2nd-delhi-show-aug2-2026-buy-tickets",
+        "city": "Delhi",
+        "source": "district.in"
+      },
+      {
         "title": "DJ Yogii",
         "venue": null,
         "date": null,
         "price": null,
         "url": "https://www.district.in/events/dj-yogii/artist",
-        "city": "Delhi",
-        "source": "district.in"
-      },
-      {
-        "title": "Papon Live In Concert | Delhi",
-        "venue": "Yashobhoomi, Delhi/NCR",
-        "date": "Sun, 16 Aug, 7:00 PM",
-        "price": "Yashobhoomi, Delhi/NCR",
-        "url": "https://www.district.in/events/papon-live-in-concert-delhi-2026-buy-tickets",
         "city": "Delhi",
         "source": "district.in"
       }
@@ -108,15 +81,6 @@
         "source": "district.in"
       },
       {
-        "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Bengaluru",
-        "venue": "Prestige Centre for Performing Arts, Bengaluru",
-        "date": "Sat, 12 Sep – Sun, 13 Sep, Multiple slots",
-        "price": "₹4000 onwards",
-        "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-bengaluru-02-2026-buy-tickets",
-        "city": "Bengaluru",
-        "source": "district.in"
-      },
-      {
         "title": "Avial Live at Hamilton Cocktail Bar",
         "venue": "Hamilton | Whitefield, Bangalore, Bangalore",
         "date": "Sat, 18 Jul, 7:00 PM",
@@ -137,20 +101,11 @@
     ],
     "hyderabad": [
       {
-        "title": "Anhad Naad | The Healing India Tour | Hyderabad",
-        "venue": "Venue to be announced, Hyderabad",
-        "date": "Sat, 21 Nov, 7:00 PM",
-        "price": "₹799 onwards",
-        "url": "https://www.district.in/events/anhad-naad-the-healing-india-tour-hyderabad-2026-buy-tickets",
-        "city": "Hyderabad",
-        "source": "district.in"
-      },
-      {
-        "title": "Ramoji Studio Tour",
-        "venue": "Ramoji Film City, Hyderabad",
-        "date": "Thu, 16 Jul – Fri, 31 Jul, 9:00 AM",
-        "price": "Ramoji Studio Tour",
-        "url": "https://www.district.in/events/ramoji-studio-tour-jan23-2025-buy-tickets",
+        "title": "GOOM GUM | Live at Quake",
+        "venue": "Quake | Kondapur, Hyderabad, Hyderabad",
+        "date": "Sun, 19 Jul, 7:00 PM",
+        "price": "₹699 onwards",
+        "url": "https://www.district.in/events/goom-gum-at-quake-jul19-2026-buy-tickets",
         "city": "Hyderabad",
         "source": "district.in"
       },
@@ -160,24 +115,6 @@
         "date": "Sat, 18 Jul, 7:00 PM",
         "price": "₹799 onwards",
         "url": "https://www.district.in/events/dj-chetas-india-tour-20-at-quake-arena-jul18-2026-buy-tickets",
-        "city": "Hyderabad",
-        "source": "district.in"
-      },
-      {
-        "title": "Niladri Kumaar EKKA Tour 2026 | Hyderabad",
-        "venue": "Venue to be announced, Hyderabad",
-        "date": "Sat, 22 Aug, 7:00 PM",
-        "price": "₹499 onwards",
-        "url": "https://www.district.in/events/niladri-kumaar-ekka-tour-2026-hyderabad-aug22-2026-buy-tickets",
-        "city": "Hyderabad",
-        "source": "district.in"
-      },
-      {
-        "title": "Papon Live In Concert | Hyderabad",
-        "venue": "Venue to be announced, Hyderabad",
-        "date": "Sat, 28 Nov, 7:00 PM",
-        "price": "₹999 onwards",
-        "url": "https://www.district.in/events/papon-live-in-concert-hyderabad-2026-buy-tickets",
         "city": "Hyderabad",
         "source": "district.in"
       },
@@ -202,6 +139,15 @@
     ],
     "chennai": [
       {
+        "title": "Feeding India Concert 2026 ft. Shakira",
+        "venue": "To be announced",
+        "date": null,
+        "price": "Coming soon",
+        "url": "https://www.district.in/events/feeding-india-concert-2026-ft-shakira-buy-tickets",
+        "city": "Chennai",
+        "source": "district.in"
+      },
+      {
         "title": "Gorillaz The Mountain Tour 2027 | Bengaluru",
         "venue": "District Arena @ Terraform, Bengaluru",
         "date": "Sat, 23 Jan, 6:00 PM",
@@ -218,27 +164,27 @@
         "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-chennai-2026-buy-tickets",
         "city": "Chennai",
         "source": "district.in"
-      },
-      {
-        "title": "Feeding India Concert 2026 ft. Shakira",
-        "venue": "To be announced",
-        "date": null,
-        "price": "Coming soon",
-        "url": "https://www.district.in/events/feeding-india-concert-2026-ft-shakira-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
-      },
-      {
-        "title": "Madras Rock Collective",
-        "venue": "Bay 146 - The Savera Hotel | The Savera Hotel, RK Salai (Cathedral Road), Chennai",
-        "date": "Fri, 07 Aug, 8:45 PM",
-        "price": "Madras Rock Collective",
-        "url": "https://www.district.in/events/madras-rock-collective-aug7-2026-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
       }
     ],
     "kolkata": [
+      {
+        "title": "Almost Human Live | Kolkata",
+        "venue": "Hashtag, Kolkata",
+        "date": "Fri, 31 Jul, 9:00 PM",
+        "price": "Almost Human Live | Kolkata",
+        "url": "https://www.district.in/events/almost-human-live-kolkata-jul31-2026-buy-tickets",
+        "city": "Kolkata",
+        "source": "district.in"
+      },
+      {
+        "title": "Chandni Bar Meets Bollywood ft. Dj Chetas",
+        "venue": "Hashtag, Kolkata",
+        "date": "Sat, 05 Sep, 9:00 PM",
+        "price": "Hashtag, Kolkata",
+        "url": "https://www.district.in/events/chandni-bar-meets-bollywood-ft-dj-chetas-sep5-2026-buy-tickets",
+        "city": "Kolkata",
+        "source": "district.in"
+      },
       {
         "title": "Pyar N' Stuff - Kolkata Show",
         "venue": "Park Street SOCIAL, Kolkata",
@@ -258,11 +204,20 @@
         "source": "district.in"
       },
       {
-        "title": "Monday Night- Bollywood Retro Night ft. Jateen",
-        "venue": "Wilson's The Pub - The Lalit Great Eastern | The Lalit Great Eastern, Esplanade, Kolkata",
-        "date": "Mon, 20 Jul onwards, Multiple Dates",
-        "price": "₹1000",
-        "url": "https://www.district.in/events/monday-night-bollywood-retro-night-ft-jateen-jun8-2026-buy-tickets",
+        "title": "DJ Koyel",
+        "venue": null,
+        "date": null,
+        "price": null,
+        "url": "https://www.district.in/events/dj-koyel/artist",
+        "city": "Kolkata",
+        "source": "district.in"
+      },
+      {
+        "title": "DJ Chainriser",
+        "venue": null,
+        "date": null,
+        "price": "DJ Chainriser",
+        "url": "https://www.district.in/events/dj-chainriser/artist",
         "city": "Kolkata",
         "source": "district.in"
       },
@@ -272,15 +227,6 @@
         "date": null,
         "price": null,
         "url": "https://www.district.in/events/dj-yogii/artist",
-        "city": "Kolkata",
-        "source": "district.in"
-      },
-      {
-        "title": "DJ Koyel",
-        "venue": null,
-        "date": null,
-        "price": null,
-        "url": "https://www.district.in/events/dj-koyel/artist",
         "city": "Kolkata",
         "source": "district.in"
       },
@@ -296,7 +242,7 @@
       {
         "title": "Wilson’s After Hours Ft. DJ RENNA",
         "venue": "Wilson's The Pub - The Lalit Great Eastern | The Lalit Great Eastern, Esplanade, Kolkata",
-        "date": "Thu, 16 Jul onwards, Multiple Dates",
+        "date": "Fri, 17 Jul onwards, Multiple Dates",
         "price": "₹1000",
         "url": "https://www.district.in/events/wilsons-after-hours-ft-dj-renna-jun3-2026-buy-tickets",
         "city": "Kolkata",
@@ -305,11 +251,11 @@
     ],
     "pune": [
       {
-        "title": "Sonu Nigam - The Revolution India Tour | Pune",
+        "title": "Niladri Kumaar EKKA Tour 2026 | Pune",
         "venue": "Venue to be announced, Pune",
-        "date": "Sat, 31 Oct, 7:00 PM",
-        "price": "₹1499 onwards",
-        "url": "https://www.district.in/events/the-revolution-india-tour-pune-2026-buy-tickets",
+        "date": "Sun, 29 Nov, 7:00 PM",
+        "price": "₹499 onwards",
+        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-pune-buy-tickets",
         "city": "Pune",
         "source": "district.in"
       },
@@ -323,11 +269,11 @@
         "source": "district.in"
       },
       {
-        "title": "Bollywood Symphony by DJ Yogii | Pune",
-        "venue": "Venue to be announced, Pune",
-        "date": "Fri, 07 Aug, 9:00 PM",
-        "price": "₹1499 onwards",
-        "url": "https://www.district.in/events/bollywood-symphony-by-dj-yogii-pune-aug7-2026-buy-tickets",
+        "title": "Madhavas Rock Band",
+        "venue": null,
+        "date": null,
+        "price": "Madhavas Rock Band",
+        "url": "https://www.district.in/events/madhavasrockband/artist",
         "city": "Pune",
         "source": "district.in"
       },
@@ -341,20 +287,20 @@
         "source": "district.in"
       },
       {
-        "title": "Madhavas Rock Band",
-        "venue": null,
-        "date": null,
-        "price": "Madhavas Rock Band",
-        "url": "https://www.district.in/events/madhavasrockband/artist",
+        "title": "Bollywood Symphony by DJ Yogii | Pune",
+        "venue": "Venue to be announced, Pune",
+        "date": "Fri, 07 Aug, 9:00 PM",
+        "price": "₹1499 onwards",
+        "url": "https://www.district.in/events/bollywood-symphony-by-dj-yogii-pune-aug7-2026-buy-tickets",
         "city": "Pune",
         "source": "district.in"
       },
       {
-        "title": "Niladri Kumaar EKKA Tour 2026 | Pune",
+        "title": "Sonu Nigam - The Revolution India Tour | Pune",
         "venue": "Venue to be announced, Pune",
-        "date": "Sun, 29 Nov, 7:00 PM",
-        "price": "₹499 onwards",
-        "url": "https://www.district.in/events/niladri-kumar-ekka-tour-2026-pune-buy-tickets",
+        "date": "Sat, 31 Oct, 7:00 PM",
+        "price": "₹1499 onwards",
+        "url": "https://www.district.in/events/the-revolution-india-tour-pune-2026-buy-tickets",
         "city": "Pune",
         "source": "district.in"
       }
@@ -372,15 +318,6 @@
     ],
     "jaipur": [
       {
-        "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Jaipur",
-        "venue": "BM Birla Auditorium, Jaipur",
-        "date": "Sat, 15 Aug – Sun, 16 Aug, Multiple slots",
-        "price": "₹750 onwards",
-        "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-jaipur-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      },
-      {
         "title": "Chandni Bar Meets Bollywood",
         "venue": "BOSS | Gandhinagar Jaipur, Jaipur, Jaipur",
         "date": "Fri, 17 Jul, 8:00 PM",
@@ -390,11 +327,11 @@
         "source": "district.in"
       },
       {
-        "title": "Vedanta Presents Jaigarh Heritage Festival 2026",
-        "venue": "Jaigarh Fort, Jaipur",
-        "date": "Fri, 18 Dec – Sun, 20 Dec, Multiple slots",
-        "price": "₹250 onwards",
-        "url": "https://www.district.in/events/vedanta-presents-jaigarh-heritage-festival-2026-buy-tickets",
+        "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Jaipur",
+        "venue": "BM Birla Auditorium, Jaipur",
+        "date": "Sat, 15 Aug – Sun, 16 Aug, Multiple slots",
+        "price": "₹750 onwards",
+        "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-jaipur-2026-buy-tickets",
         "city": "Jaipur",
         "source": "district.in"
       },
@@ -404,15 +341,6 @@
         "date": "Sun, 02 Aug, 6:00 PM",
         "price": "₹249",
         "url": "https://www.district.in/events/baithak-the-musical-evening-jaipur-mar29-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      },
-      {
-        "title": "AIR 1 - A Standup Comedy Show by Harshit Mahawar",
-        "venue": "Jaipur Comedy Club, Jaipur",
-        "date": "Sun, 13 Sep, 7:00 PM",
-        "price": "₹399 onwards",
-        "url": "https://www.district.in/events/air-1-a-standup-comedy-show-by-harshit-mahawar-sep13-2026-buy-tickets",
         "city": "Jaipur",
         "source": "district.in"
       },
@@ -433,42 +361,24 @@
         "url": "https://www.district.in/events/dj-yogii/artist",
         "city": "Jaipur",
         "source": "district.in"
-      },
-      {
-        "title": "Saaz and Strings Jamming by SocialSpot Exp",
-        "venue": null,
-        "date": "Sun, 19 Jul onwards, Multiple Dates",
-        "price": "₹299",
-        "url": "https://www.district.in/events/the-social-break-by-socialspot-exp-may31-2026-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
       }
     ],
     "kochi": [
-      {
-        "title": "Kathakali Experience in Kochi | Live Show 5:30–7:00 PM",
-        "venue": "Daily, 5:30 PM onwards",
-        "date": null,
-        "price": "Daily, 5:30 PM onwards",
-        "url": "https://www.district.in/events/kathakali-experience-in-kochi-live-show-530700-pm-mar3-2026-buy-tickets",
-        "city": "Kochi",
-        "source": "district.in"
-      },
-      {
-        "title": "Feeding India Concert 2026 ft. Shakira",
-        "venue": "To be announced",
-        "date": null,
-        "price": "Coming soon",
-        "url": "https://www.district.in/events/feeding-india-concert-2026-ft-shakira-buy-tickets",
-        "city": "Kochi",
-        "source": "district.in"
-      },
       {
         "title": "Brazil Legends - India Tour",
         "venue": "Jawaharlal Nehru International Stadium, Kochi",
         "date": "Sun, 20 Sep, 7:30 PM",
         "price": "Brazil Legends - India Tour",
         "url": "https://www.district.in/events/brazil-legends-india-tour-buy-tickets",
+        "city": "Kochi",
+        "source": "district.in"
+      },
+      {
+        "title": "Kathakali Experience in Kochi | Live Show 5:30–7:00 PM",
+        "venue": "Daily, 5:30 PM onwards",
+        "date": null,
+        "price": "Daily, 5:30 PM onwards",
+        "url": "https://www.district.in/events/kathakali-experience-in-kochi-live-show-530700-pm-mar3-2026-buy-tickets",
         "city": "Kochi",
         "source": "district.in"
       },
@@ -483,15 +393,6 @@
       }
     ],
     "ahmedabad": [
-      {
-        "title": "Papon Live In Concert | Ahmedabad",
-        "venue": "Rajpath club, Ahmedabad",
-        "date": "Sat, 21 Nov, 7:00 PM",
-        "price": "Rajpath club, Ahmedabad",
-        "url": "https://www.district.in/events/papon-live-in-concert-ahmedabad-2026-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      },
       {
         "title": "Pyar N' Stuff - Ahmedabad Show",
         "venue": "Backspin Event Venue, Ahmedabad",
@@ -511,29 +412,20 @@
         "source": "district.in"
       },
       {
+        "title": "Papon Live In Concert | Ahmedabad",
+        "venue": "Rajpath club, Ahmedabad",
+        "date": "Sat, 21 Nov, 7:00 PM",
+        "price": "Rajpath club, Ahmedabad",
+        "url": "https://www.district.in/events/papon-live-in-concert-ahmedabad-2026-buy-tickets",
+        "city": "Ahmedabad",
+        "source": "district.in"
+      },
+      {
         "title": "Mere Krishn | A Live Theatrical Experience of Shree Krishn's Life | Ahmedabad",
         "venue": "AUDA AUDITORIUM Shela, Ahmedabad",
         "date": "Sat, 21 Nov – Sun, 22 Nov, Multiple slots",
         "price": "₹1000 onwards",
         "url": "https://www.district.in/events/mere-krishn-a-live-theatrical-experience-of-shree-krishns-life-ahmedabad-03-2026-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      },
-      {
-        "title": "Bhajans & Beyond | A Live Jamming Experience | Ahmedabad",
-        "venue": "HK Hall, Ahmedabad",
-        "date": "Fri, 17 Jul, 8:00 PM",
-        "price": "₹499 onwards",
-        "url": "https://www.district.in/events/bhajans--beyond--a-live-jamming-experience--ahmedabad-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      },
-      {
-        "title": "The Bollywood Symphony- DJ Yogii",
-        "venue": "Venue to be announced, Ahmedabad",
-        "date": "Sun, 02 Aug, 9:00 PM",
-        "price": "₹1299 onwards",
-        "url": "https://www.district.in/events/the-bollywood-symphony-dj-yogii-aug2-2026-buy-tickets",
         "city": "Ahmedabad",
         "source": "district.in"
       }
@@ -560,7 +452,7 @@
       {
         "title": "Rajasthani Food Festival",
         "venue": "The Café @ JW - JW Marriott | JW Marriott, Chandigarh",
-        "date": "Thu, 16 Jul – Sat, 18 Jul, 7:00 PM",
+        "date": "Fri, 17 Jul – Sat, 18 Jul, 7:00 PM",
         "price": "Rajasthani Food Festival",
         "url": "https://www.district.in/events/rajasthani-food-festival-jul10-2026-buy-tickets",
         "city": "Chandigarh",
