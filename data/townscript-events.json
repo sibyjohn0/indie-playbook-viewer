@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T03:58:17.824195+00:00",
+  "updated_at": "2026-07-18T03:52:04.701257+00:00",
   "source": "Townscript",
-  "total_events": 21,
+  "total_events": 23,
   "cities": {
     "mumbai": [
       {
@@ -106,6 +106,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "DELHI NEON RUN",
+        "venue": "Dwarka",
+        "date": "29 November 2026",
+        "time": "06:00 PM",
+        "price": "INR 699",
+        "url": "https://www.townscript.com/in/delhi-neon-run-223203",
+        "organiser": "NOBLE FOUNDATION TRUST",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Premier Body to Body Massage in Sector-46, HUDA Market, Gurgaon",
         "venue": "Sector 46",
         "date": "19 May 2024",
@@ -130,17 +141,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Bangalore OPEN MIC at gen G",
-        "venue": "Subramanyapura",
-        "date": "18 July 2026",
-        "time": "05:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/bangalore-open-mic-at-gen-g-002211",
-        "organiser": "gen G",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "Grounded in Sound",
         "venue": "Indiranagar",
         "date": "25 July 2026",
@@ -159,6 +159,28 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/malhar-live-a-bollywood-sufi-rock-experience-421022",
         "organiser": "Malhar",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Esraj for the Soul",
+        "venue": "Richmond Town",
+        "date": "22 August 2026",
+        "time": "06:00 PM",
+        "price": "INR 749",
+        "url": "https://www.townscript.com/in/esraj-for-the-soul-232132",
+        "organiser": "Ankit Paul",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "OPEN MIC at gen G August2026",
+        "venue": null,
+        "date": "22 August 2026",
+        "time": "05:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/open-mic-at-gen-g-august2026-023121",
+        "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
