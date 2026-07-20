@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-19T04:19:51.304963+00:00",
+  "updated_at": "2026-07-20T04:34:00.971795+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 20,
   "cities": {
     "mumbai": [
       {
@@ -17,6 +17,17 @@
       }
     ],
     "delhi": [
+      {
+        "title": "ASHANIS LIVE - EP Launch ft. Aditya Dutta, Aham Saxena & Hritik Sanghmitra",
+        "venue": "Greater Kailash",
+        "date": "24 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/ashanis-live-ep-launch-ft-aditya-dutta-aham-saxena-hritik-sanghmitra-443433",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
       {
         "title": "SALT ROCK",
         "venue": "Greater Kailash",
@@ -40,23 +51,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "ASHANIS LIVE - EP Launch ft. Aditya Dutta, Aham Saxena & Hritik Sanghmitra",
-        "venue": "Greater Kailash",
-        "date": "24 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/ashanis-live-ep-launch-ft-aditya-dutta-aham-saxena-hritik-sanghmitra-443433",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Tapi Project",
         "venue": "Greater Kailash",
         "date": "26 July 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-tapi-project-000033",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Cherry Mrong",
+        "venue": "Greater Kailash",
+        "date": "29 July 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/cherry-mrong-221124",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -73,12 +84,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Cherry Mrong",
+        "title": "Divya Belwal",
         "venue": "Greater Kailash",
-        "date": "29 July 2026",
+        "date": "16 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/cherry-mrong-221124",
+        "url": "https://www.townscript.com/in/divya-belwal-342132",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -102,17 +113,6 @@
         "price": "INR 1999",
         "url": "https://www.townscript.com/in/premier-body-to-body-massage-in-sector46-huda-market-gurgaon-430343",
         "organiser": "Soulmale Spa",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Divya Belwal",
-        "venue": "Greater Kailash",
-        "date": "16 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/divya-belwal-342132",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       }
@@ -172,17 +172,6 @@
         "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
-      },
-      {
-        "title": "Jo Reh Gaya.. A musical ode to memories",
-        "venue": null,
-        "date": "19 July 2026",
-        "time": "06:00 PM",
-        "price": "INR 449",
-        "url": "https://www.townscript.com/in/jo-reh-gaya-songs-memories-people-who-never-left-143004",
-        "organiser": "Strings and Echoes",
-        "city": "Bengaluru",
-        "source": "townscript.com"
       }
     ],
     "hyderabad": [
@@ -223,17 +212,6 @@
       }
     ],
     "kolkata": [
-      {
-        "title": "LET'S SING BY DHWANI - WAREHOUSE EDITION",
-        "venue": "Mominpore",
-        "date": "19 July 2026",
-        "time": "11:30 AM",
-        "price": "INR 1499",
-        "url": "https://www.townscript.com/in/lets-sing-by-dhwani-warehouse-edition-023240",
-        "organiser": "Trioka Entertainment Pvt. Ltd.",
-        "city": "Kolkata",
-        "source": "townscript.com"
-      },
       {
         "title": "Janmashtami kirtan & Bhajan Jamming",
         "venue": "Rajarhat",
