@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T04:14:04.738082+00:00",
+  "updated_at": "2026-07-22T04:14:27.638400+00:00",
   "source": "Townscript",
-  "total_events": 23,
+  "total_events": 25,
   "cities": {
     "mumbai": [
       {
@@ -40,6 +40,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "1 August 2026",
+        "time": "04:00 PM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Geography of the Moon",
         "venue": "Greater Kailash",
         "date": "26 July 2026",
@@ -69,17 +80,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/cherry-mrong-221124",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "1 August 2026",
-        "time": "04:00 PM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -117,12 +117,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Mehak V FT. Ashwin, Olive, Joshua, Jude",
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
         "venue": "Greater Kailash",
         "date": "22 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
-        "url": "https://www.townscript.com/in/mehak-v-ft-ashwin-olive-joshua-jude-241200",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -163,17 +163,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Grounded in Sound",
-        "venue": "Indiranagar",
-        "date": "25 July 2026",
-        "time": "02:30 PM",
-        "price": "INR 1199",
-        "url": "https://www.townscript.com/in/grounded-in-sound-242441",
-        "organiser": "rakshith pawar",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "Malhar Live: A Bollywood Sufi Rock Experience",
         "venue": "Koramangala",
         "date": "8 August 2026",
@@ -181,6 +170,17 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/malhar-live-a-bollywood-sufi-rock-experience-421022",
         "organiser": "Malhar",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Grounded in Sound",
+        "venue": "Indiranagar",
+        "date": "25 July 2026",
+        "time": "02:30 PM",
+        "price": "INR 1199",
+        "url": "https://www.townscript.com/in/grounded-in-sound-242441",
+        "organiser": "rakshith pawar",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
@@ -205,6 +205,17 @@
         "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
+      },
+      {
+        "title": "The Lotus Sessions Vol 1",
+        "venue": "Koramangala",
+        "date": "1 August 2026",
+        "time": "04:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/the-lotus-sessions-vol-1-234240",
+        "organiser": "Harish Mohan Kattalath",
+        "city": "Bengaluru",
+        "source": "townscript.com"
       }
     ],
     "hyderabad": [
@@ -222,17 +233,6 @@
     ],
     "chennai": [
       {
-        "title": "Sliver Jubliee 72/18/15T",
-        "venue": "Meenambakkam",
-        "date": "11 September 2026",
-        "time": "01:30 PM",
-        "price": "INR 20",
-        "url": "https://www.townscript.com/in/sliver-jubliee-7218-140234",
-        "organiser": "Nishant Gupta",
-        "city": "Chennai",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Hangover.inc",
         "venue": "Teynampet",
         "date": "31 July 2026",
@@ -240,6 +240,17 @@
         "price": "INR 379",
         "url": "https://www.townscript.com/in/the-hangoverinc-321310",
         "organiser": "The hangover",
+        "city": "Chennai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Sliver Jubliee 72/18/15T",
+        "venue": "Meenambakkam",
+        "date": "11 September 2026",
+        "time": "01:30 PM",
+        "price": "INR 20",
+        "url": "https://www.townscript.com/in/sliver-jubliee-7218-140234",
+        "organiser": "Nishant Gupta",
         "city": "Chennai",
         "source": "townscript.com"
       }
@@ -253,6 +264,17 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
         "organiser": "KIRTAN KOLKATA",
+        "city": "Kolkata",
+        "source": "townscript.com"
+      },
+      {
+        "title": "LET'S SING BY DHWANI - FRIENDSHIP DAY SPECIAL",
+        "venue": "Mominpore",
+        "date": "2 August 2026",
+        "time": "05:30 PM",
+        "price": "INR 1499",
+        "url": "https://www.townscript.com/in/lets-sing-by-dhwani-friendship-day-special-314440",
+        "organiser": "Trioka Entertainment Pvt. Ltd.",
         "city": "Kolkata",
         "source": "townscript.com"
       }
