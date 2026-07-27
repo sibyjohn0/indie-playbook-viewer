@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-25T04:00:18.786658+00:00",
+  "updated_at": "2026-07-27T04:34:04.067265+00:00",
   "source": "Townscript",
-  "total_events": 23,
+  "total_events": 21,
   "cities": {
     "mumbai": [
       {
@@ -18,23 +18,12 @@
     ],
     "delhi": [
       {
-        "title": "SALT ROCK",
+        "title": "Cherry Mrong",
         "venue": "Greater Kailash",
-        "date": "25 July 2026",
-        "time": "08:30 PM",
+        "date": "29 July 2026",
+        "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/salt-rock-201331",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "The Tapi Project",
-        "venue": "Greater Kailash",
-        "date": "26 July 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/the-tapi-project-000033",
+        "url": "https://www.townscript.com/in/cherry-mrong-221124",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -46,17 +35,6 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/ghazaleishq-by-oshin-bhatia-344412",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Cherry Mrong",
-        "venue": "Greater Kailash",
-        "date": "29 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/cherry-mrong-221124",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -215,7 +193,7 @@
         "venue": "Meenambakkam",
         "date": "11 September 2026",
         "time": "01:30 PM",
-        "price": "INR 20",
+        "price": "INR 700",
         "url": "https://www.townscript.com/in/sliver-jubliee-7218-140234",
         "organiser": "Nishant Gupta",
         "city": "Chennai",
