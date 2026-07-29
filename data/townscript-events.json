@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-28T03:57:45.534608+00:00",
+  "updated_at": "2026-07-29T04:02:12.437377+00:00",
   "source": "Townscript",
-  "total_events": 20,
+  "total_events": 22,
   "cities": {
     "mumbai": [
       {
@@ -18,23 +18,23 @@
     ],
     "delhi": [
       {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Cherry Mrong",
         "venue": "Greater Kailash",
         "date": "29 July 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/cherry-mrong-221124",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Ghazal-e-ishq by Oshin Bhatia",
-        "venue": "Greater Kailash",
-        "date": "2 August 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/ghazaleishq-by-oshin-bhatia-344412",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -47,6 +47,17 @@
         "price": "INR 6999",
         "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
         "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Ghazal-e-ishq by Oshin Bhatia",
+        "venue": "Greater Kailash",
+        "date": "2 August 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/ghazaleishq-by-oshin-bhatia-344412",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -73,23 +84,34 @@
         "source": "townscript.com"
       },
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Lateral Move Show Opened by Lemon Street",
         "venue": "Greater Kailash",
         "date": "14 August 2026",
         "time": "09:00 PM",
         "price": "INR 500",
         "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Minor Issue Presents: The King of Pop",
+        "venue": "Greater Kailash",
+        "date": "9 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/minor-issue-presents-the-king-of-pop-300122",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SHREYA ON STAGE",
+        "venue": "Greater Kailash",
+        "date": "12 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
