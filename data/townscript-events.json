@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T04:02:12.437377+00:00",
+  "updated_at": "2026-07-30T03:53:45.255064+00:00",
   "source": "Townscript",
   "total_events": 22,
   "cities": {
@@ -18,39 +18,6 @@
     ],
     "delhi": [
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Cherry Mrong",
-        "venue": "Greater Kailash",
-        "date": "29 July 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/cherry-mrong-221124",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "1 August 2026",
-        "time": "04:00 PM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Ghazal-e-ishq by Oshin Bhatia",
         "venue": "Greater Kailash",
         "date": "2 August 2026",
@@ -62,12 +29,34 @@
         "source": "townscript.com"
       },
       {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "9 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Ahmad Parvez and Band",
         "venue": "Greater Kailash",
         "date": "1 August 2026",
         "time": "10:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/ahmad-parvez-and-band-001143",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -153,10 +142,10 @@
       },
       {
         "title": "Malhar Live: A Bollywood Sufi Rock Experience",
-        "venue": "Koramangala",
+        "venue": "Mahadevapura",
         "date": "8 August 2026",
         "time": "08:30 PM",
-        "price": "INR 2199",
+        "price": "INR 299",
         "url": "https://www.townscript.com/in/malhar-live-a-bollywood-sufi-rock-experience-421022",
         "organiser": "Malhar",
         "city": "Bengaluru",
@@ -194,6 +183,17 @@
         "price": "INR 249",
         "url": "https://www.townscript.com/in/dhwaniverse-sing-along-season-3-320210",
         "organiser": "Dhwaniverse Band",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Friendship day jam session",
+        "venue": "Madhapur",
+        "date": "2 August 2026",
+        "time": "06:00 PM",
+        "price": "INR 249",
+        "url": "https://www.townscript.com/in/friendship-day-jam-session-130221",
+        "organiser": "Manasaara Events",
         "city": "Hyderabad",
         "source": "townscript.com"
       }
