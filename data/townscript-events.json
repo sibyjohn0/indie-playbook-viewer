@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-30T03:53:45.255064+00:00",
+  "updated_at": "2026-07-31T04:19:47.382162+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 24,
   "cities": {
     "mumbai": [
       {
@@ -124,6 +124,39 @@
         "price": "INR 1999",
         "url": "https://www.townscript.com/in/premier-body-to-body-massage-in-sector46-huda-market-gurgaon-430343",
         "organiser": "Soulmale Spa",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "BE RIGHT BACK",
+        "venue": "Greater Kailash",
+        "date": "21 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/be-right-back-312221",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The NASS Collective ",
+        "venue": "Greater Kailash",
+        "date": "26 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Sanjh Musical Baithak X open mic",
+        "venue": "Sainik Farm",
+        "date": "6 August 2026",
+        "time": "08:00 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/sanjh-musical-baithak-x-open-mic-223410",
+        "organiser": "Trifler Events",
         "city": "Delhi",
         "source": "townscript.com"
       }
@@ -249,19 +282,7 @@
       }
     ],
     "goa": [],
-    "jaipur": [
-      {
-        "title": "Bhajan Sandhya with Anuradha Paudwal",
-        "venue": "Mansarovar",
-        "date": "1 August 2026",
-        "time": "07:00 PM",
-        "price": "INR 1999",
-        "url": "https://www.townscript.com/in/bhajan-sandhya-with-anuradha-paudwal-220211",
-        "organiser": "Gupt Vrindavan Dham",
-        "city": "Jaipur",
-        "source": "townscript.com"
-      }
-    ],
+    "jaipur": [],
     "kochi": [],
     "ahmedabad": [],
     "chandigarh": []
