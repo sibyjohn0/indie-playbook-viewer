@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-01T04:19:06.269346+00:00",
+  "updated_at": "2026-08-02T04:21:47.173643+00:00",
   "source": "Townscript",
-  "total_events": 24,
+  "total_events": 22,
   "cities": {
     "mumbai": [
       {
@@ -18,34 +18,23 @@
     ],
     "delhi": [
       {
-        "title": "Ahmad Parvez and Band",
-        "venue": "Greater Kailash",
-        "date": "1 August 2026",
-        "time": "10:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/ahmad-parvez-and-band-001143",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Ghazal-e-ishq by Oshin Bhatia",
-        "venue": "Greater Kailash",
-        "date": "2 August 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/ghazaleishq-by-oshin-bhatia-344412",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
         "venue": "Greater Kailash",
         "date": "22 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SHREYA ON STAGE",
+        "venue": "Greater Kailash",
+        "date": "12 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -95,17 +84,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "The Lateral Move Show Opened by Lemon Street",
-        "venue": "Greater Kailash",
-        "date": "14 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "GREY MATTERS",
         "venue": "Greater Kailash",
         "date": "8 August 2026",
@@ -128,12 +106,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "SHREYA ON STAGE",
+        "title": "The Lateral Move Show Opened by Lemon Street",
         "venue": "Greater Kailash",
-        "date": "12 August 2026",
+        "date": "14 August 2026",
         "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -185,17 +163,6 @@
     ],
     "bengaluru": [
       {
-        "title": "Bengaluru Blues Habba 5th Edition",
-        "venue": "Koramangala",
-        "date": "1 August 2026",
-        "time": "05:30 PM",
-        "price": "INR 899",
-        "url": "https://www.townscript.com/in/bengaluru-blues-habba-5th-edition-134140",
-        "organiser": "The Koramangala Club",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "Malhar Live: A Bollywood Sufi Rock Experience",
         "venue": "Mahadevapura",
         "date": "8 August 2026",
@@ -227,6 +194,17 @@
         "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
+      },
+      {
+        "title": "SANISH NAIR LIVE",
+        "venue": "Indiranagar",
+        "date": "15 August 2026",
+        "time": "06:30 PM",
+        "price": "INR 599",
+        "url": "https://www.townscript.com/in/sanish-nair-live-334232",
+        "organiser": "Soapbox Events",
+        "city": "Bengaluru",
+        "source": "townscript.com"
       }
     ],
     "hyderabad": [
@@ -235,7 +213,7 @@
         "venue": "Madhapur",
         "date": "2 August 2026",
         "time": "06:00 PM",
-        "price": "INR 249",
+        "price": "INR 399",
         "url": "https://www.townscript.com/in/friendship-day-jam-session-130221",
         "organiser": "Manasaara Events",
         "city": "Hyderabad",
