@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-02T04:21:47.173643+00:00",
+  "updated_at": "2026-08-03T04:27:16.551796+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 20,
   "cities": {
     "mumbai": [
       {
@@ -18,17 +18,6 @@
     ],
     "delhi": [
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "SHREYA ON STAGE",
         "venue": "Greater Kailash",
         "date": "12 August 2026",
@@ -40,13 +29,46 @@
         "source": "townscript.com"
       },
       {
-        "title": "Dosti Dhun & Dhamaka ",
-        "venue": "Sector 47",
-        "date": "2 August 2026",
-        "time": "05:00 PM",
-        "price": "INR 320",
-        "url": "https://www.townscript.com/in/dosti-dhun-dhamaka-222224",
-        "organiser": "Trifler Events",
+        "title": "DELHI STRIDERS RUN",
+        "venue": null,
+        "date": "20 September 2026",
+        "time": "06:00 AM",
+        "price": "INR 199",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "GREY MATTERS",
+        "venue": "Greater Kailash",
+        "date": "8 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/grey-matters-101100",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Divya Belwal",
+        "venue": "Greater Kailash",
+        "date": "16 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/divya-belwal-342132",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -80,28 +102,6 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/sanjh-musical-baithak-x-open-mic-223410",
         "organiser": "Trifler Events",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "GREY MATTERS",
-        "venue": "Greater Kailash",
-        "date": "8 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/grey-matters-101100",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Divya Belwal",
-        "venue": "Greater Kailash",
-        "date": "16 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/divya-belwal-342132",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -207,32 +207,9 @@
         "source": "townscript.com"
       }
     ],
-    "hyderabad": [
-      {
-        "title": "Friendship day jam session",
-        "venue": "Madhapur",
-        "date": "2 August 2026",
-        "time": "06:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/friendship-day-jam-session-130221",
-        "organiser": "Manasaara Events",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      }
-    ],
+    "hyderabad": [],
     "chennai": [],
     "kolkata": [
-      {
-        "title": "LET'S SING BY DHWANI - FRIENDSHIP DAY SPECIAL",
-        "venue": "Mominpore",
-        "date": "2 August 2026",
-        "time": "05:30 PM",
-        "price": "INR 1499",
-        "url": "https://www.townscript.com/in/lets-sing-by-dhwani-friendship-day-special-314440",
-        "organiser": "Trioka Entertainment Pvt. Ltd.",
-        "city": "Kolkata",
-        "source": "townscript.com"
-      },
       {
         "title": "Janmashtami kirtan & Bhajan Jamming",
         "venue": "Rajarhat",
