@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T03:56:50.573678+00:00",
+  "updated_at": "2026-08-06T04:08:31.932733+00:00",
   "source": "Townscript",
   "total_events": 20,
   "cities": {
@@ -18,6 +18,17 @@
     ],
     "delhi": [
       {
+        "title": "GREY MATTERS",
+        "venue": "Greater Kailash",
+        "date": "8 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/grey-matters-101100",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Divya Belwal",
         "venue": "Greater Kailash",
         "date": "16 August 2026",
@@ -29,12 +40,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "GREY MATTERS",
+        "title": "The Lateral Move Show Opened by Lemon Street",
         "venue": "Greater Kailash",
-        "date": "8 August 2026",
+        "date": "14 August 2026",
         "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/grey-matters-101100",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -90,17 +101,6 @@
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "The Lateral Move Show Opened by Lemon Street",
-        "venue": "Greater Kailash",
-        "date": "14 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -185,17 +185,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "OPEN MIC at gen G August2026",
-        "venue": null,
-        "date": "22 August 2026",
-        "time": "05:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/open-mic-at-gen-g-august2026-023121",
-        "organiser": "gen G",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "SANISH NAIR LIVE",
         "venue": "Indiranagar",
         "date": "15 August 2026",
@@ -203,6 +192,17 @@
         "price": "INR 599",
         "url": "https://www.townscript.com/in/sanish-nair-live-334232",
         "organiser": "Soapbox Events",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
+        "title": "OPEN MIC at gen G August2026",
+        "venue": null,
+        "date": "22 August 2026",
+        "time": "05:00 PM",
+        "price": "Free",
+        "url": "https://www.townscript.com/in/open-mic-at-gen-g-august2026-023121",
+        "organiser": "gen G",
         "city": "Bengaluru",
         "source": "townscript.com"
       }
