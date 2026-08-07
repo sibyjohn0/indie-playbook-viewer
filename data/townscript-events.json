@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-06T04:08:31.932733+00:00",
+  "updated_at": "2026-08-07T03:46:33.647588+00:00",
   "source": "Townscript",
-  "total_events": 20,
+  "total_events": 23,
   "cities": {
     "mumbai": [
       {
@@ -62,6 +62,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "DELHI STRIDERS RUN",
         "venue": "Knowledge Park V",
         "date": "20 September 2026",
@@ -80,28 +91,6 @@
         "price": "INR 6999",
         "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
         "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sanjh Musical Baithak X open mic",
-        "venue": "Sainik Farm",
-        "date": "6 August 2026",
-        "time": "08:00 PM",
-        "price": "INR 250",
-        "url": "https://www.townscript.com/in/sanjh-musical-baithak-x-open-mic-223410",
-        "organiser": "Trifler Events",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -134,6 +123,28 @@
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
+        "venue": "Greater Kailash",
+        "date": "29 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Throw Some Shapes - Blackbox",
+        "venue": "Greater Kailash",
+        "date": "23 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -174,6 +185,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "SANISH NAIR LIVE",
+        "venue": "Indiranagar",
+        "date": "15 August 2026",
+        "time": "06:30 PM",
+        "price": "INR 599",
+        "url": "https://www.townscript.com/in/sanish-nair-live-334232",
+        "organiser": "Soapbox Events",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      },
+      {
         "title": "Esraj for the Soul",
         "venue": "Richmond Town",
         "date": "22 August 2026",
@@ -185,13 +207,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "SANISH NAIR LIVE",
-        "venue": "Indiranagar",
+        "title": "Azaadi Ki Shaam - Independence day Jam",
+        "venue": null,
         "date": "15 August 2026",
         "time": "06:30 PM",
-        "price": "INR 599",
-        "url": "https://www.townscript.com/in/sanish-nair-live-334232",
-        "organiser": "Soapbox Events",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/azaadi-ki-shaam-independence-day-jam-113442",
+        "organiser": "Aashiana",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
@@ -207,7 +229,19 @@
         "source": "townscript.com"
       }
     ],
-    "hyderabad": [],
+    "hyderabad": [
+      {
+        "title": "Anime & Jazz : A Music Workshop by George Hull",
+        "venue": "Banjara Hills",
+        "date": "29 August 2026",
+        "time": "06:30 AM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/anime-jazz-a-music-workshop-by-george-hull-340323",
+        "organiser": "Pradeep George Hull",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      }
+    ],
     "chennai": [],
     "kolkata": [
       {

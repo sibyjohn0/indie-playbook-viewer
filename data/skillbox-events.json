@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-06T04:07:41.654610+00:00",
+  "updated_at": "2026-08-07T03:45:59.818984+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 278,
+  "total_events": 279,
   "cities": {
     "mumbai": [
       {
@@ -12,6 +12,17 @@
         "price": "INR 449 - 3450",
         "url": "https://www.skillboxes.com/events/college-chronicles-by-veer-1",
         "category": "Live Concert",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Mumbai",
+        "venue": null,
+        "date": "19 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
       },
@@ -49,12 +60,34 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "LITJAM Mumbai: The OG Jam",
+        "venue": null,
+        "date": "23 Aug 2026 - 23 Aug 2026",
+        "time": "05:30 AM",
+        "price": "INR 349",
+        "url": "https://www.skillboxes.com/events/litjam-mumbai-the-og-jam-sbrotvqi",
+        "category": "Music Concerts",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "VENDEX – INDIA TOUR 2026 || Mumbai",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
         "time": "08:00 PM",
         "price": "INR 999 - 1999",
         "url": "https://www.skillboxes.com/events/vendex-india-tour-2026-mumbai-sboqemil",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OTW’s FineBalance",
+        "venue": null,
+        "date": "10 Sep 2026 - 10 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 350",
+        "url": "https://www.skillboxes.com/events/otw-s-finebalance-sbodbcon",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -170,34 +203,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "UK PUNJABI NIGHT",
-        "venue": null,
-        "date": "06 Aug 2026 - 07 Aug 2026",
-        "time": "08:00 AM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/uk-punjabi-night-sbxjouzk",
-        "category": "Dance & Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Pete Tong - One Night Only Mumbai | 27th August  | antiSOCIAL, Mumbai",
         "venue": null,
         "date": "27 August 2026",
         "time": "09:00 PM",
         "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/pete-tong-one-night-only-27th-august-antisocial-mumbai-sbwugnxv",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common ground Ft. Aminjaz + Sixth Ocean",
-        "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "06:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-ft-aminjaz-sixth-ocean-sbweygwg",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -223,20 +234,20 @@
         "category": "Music Concerts",
         "city": "Mumbai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Afrolove Sundowner - Independence Day Edition ( Pool Party)",
-        "venue": null,
-        "date": "15 Aug 2026 - 15 Aug 2026",
-        "time": "06:00 PM",
-        "price": "INR 499 - 699",
-        "url": "https://www.skillboxes.com/events/afrolove-sundowner-independence-day-edition-pool-party-sblpfjtw",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
       }
     ],
     "delhi": [
+      {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | New Delhi",
+        "venue": null,
+        "date": "21 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-new-delhi-sbtvrepy",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Steelworks India Tour || Delhi",
         "venue": null,
@@ -256,6 +267,28 @@
         "price": "INR 899 - 5699",
         "url": "https://www.skillboxes.com/events/south-side-story-2026-red-fm",
         "category": "Music Festivals",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Desi Beats Ft. Swarism",
+        "venue": null,
+        "date": "21 Aug 2026 - 21 Aug 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/desi-beats-ft-swarism-sbuyhrkm",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Shab-e-Siyah: Nowhere Station opening act by Kabootar",
+        "venue": null,
+        "date": "29 August 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/shab-e-siyah-nowhere-station-opening-act-by-kabootar-sbrdvjeb",
+        "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -354,17 +387,6 @@
         "time": "08:00 PM",
         "price": "INR 999 - 1999",
         "url": "https://www.skillboxes.com/events/privilege-presents-cera-khin-delhi-sbfwphsl",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Signal received feat. Di Linh + Wadjet + Bahaar",
-        "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "10:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/signal-received-feat-di-linh-wadjet-bahaar-sbccczma",
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
@@ -537,6 +559,39 @@
     ],
     "bengaluru": [
       {
+        "title": "Learn the Basics of West Coast Swing in 5 Hours",
+        "venue": null,
+        "date": "14 Aug 2026 - 14 Aug 2026",
+        "time": "04:00 PM",
+        "price": "INR 2999 - 7999",
+        "url": "https://www.skillboxes.com/events/learn-the-basics-of-west-coast-swing-in-5-hours-sbvcrlzu",
+        "category": "Dance & Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "CHANDNI BAR 2.0",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "08:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/chandni-bar-2-0-sbuepptp",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NÜRV × SOCIAL FRAT HOUSE",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "07:00 PM",
+        "price": "INR 999 - 2499",
+        "url": "https://www.skillboxes.com/events/nurv-social-frat-house-sbsrfmlv",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "SoMAD X The Humming Tree Weekender",
         "venue": null,
         "date": "08 Aug 2026 - 09 Aug 2026",
@@ -625,12 +680,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "oafBigGigs Ed. 9: Pacifist + Rascals of the First Order + Simplemanradio",
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Bengaluru",
         "venue": null,
-        "date": "06 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/oafbiggigs-ed-9-pacifist-rascals-of-the-first-order-simplemanradio-sbaoeihd",
+        "date": "17 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499 - 2999",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-bengaluru-sbtxwbxp",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -680,6 +735,50 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "No Parking Fridays",
+        "venue": null,
+        "date": "07 Aug 2026 - 07 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbugunbg",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "HOUSE OF PUNJAB FT. TALON X SUBBO AT. YEDA REPUBLIC KORAMANGALA",
+        "venue": null,
+        "date": "09 Aug 2026 - 09 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-of-punjab-ft-talon-x-subbo-at-yeda-republic-koramangala-sbuafveh",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The 9teen Live at Hamilton Cocktail Bar",
+        "venue": null,
+        "date": "22 August 2026",
+        "time": "06:00 PM",
+        "price": "INR 799 - 8999",
+        "url": "https://www.skillboxes.com/events/the-9teen-live-at-hamilton-cocktail-bar-sbrifdtj",
+        "category": "Music Festivals",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The 4 Hour to Jive Challenge",
+        "venue": null,
+        "date": "14 Aug 2026 - 14 Aug 2026",
+        "time": "04:00 PM",
+        "price": "INR 2999 - 7999",
+        "url": "https://www.skillboxes.com/events/the-4-hour-to-jive-challenge-sbpuvalp",
+        "category": "Dance & Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "VENDEX – INDIA TOUR 2026 || Bengaluru",
         "venue": null,
         "date": "21 Nov 2026 - 21 Nov 2026",
@@ -698,72 +797,6 @@
         "price": "INR 349",
         "url": "https://www.skillboxes.com/events/litjam-ishq-wala-jam-a-themed-music-jam-bengaluru-sblcgvyz",
         "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents Paolo Ferrara || Bengaluru",
-        "venue": null,
-        "date": "26 Sep 2026 - 26 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/privilege-presents-paolo-ferrara-bengaluru-sbkktrpt",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Kids Rave at Curious Kids",
-        "venue": null,
-        "date": "15 Aug 2026 - 15 Aug 2026",
-        "time": "03:00 PM",
-        "price": "INR 249 - 499",
-        "url": "https://www.skillboxes.com/events/kids-rave-at-curious-kids-sbjzvfdm",
-        "category": "Music Festivals",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Reel Room",
-        "venue": null,
-        "date": "08 August 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/reel-room-sbjiiaug",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "REDROOM FT. ZOYA & MORE",
-        "venue": null,
-        "date": "07 Aug 2026 - 08 Aug 2026",
-        "time": "07:00 PM",
-        "price": "INR 499 - 1799",
-        "url": "https://www.skillboxes.com/events/redroom-ft-zoya-more-sbgddzpk",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents Cera Khin || Bengaluru",
-        "venue": null,
-        "date": "12 Sep 2026 - 12 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/privilege-presents-cera-khin-bengaluru-sbfyufac",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HOUSE OF PUNJAB FT. DJ AYUSH X TALON AT. YEDA REPUBLIC KORAMANGALA",
-        "venue": null,
-        "date": "16 Aug 2026 - 16 Aug 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/house-of-punjab-ft-dj-ayush-x-talon-at-yeda-republic-koramangala-sbewioep",
-        "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -1113,6 +1146,39 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Learn the Basics of West Coast Swing in 5 Hours",
+        "venue": null,
+        "date": "14 Aug 2026 - 14 Aug 2026",
+        "time": "04:00 PM",
+        "price": "INR 2999 - 7999",
+        "url": "https://www.skillboxes.com/events/learn-the-basics-of-west-coast-swing-in-5-hours-sbvcrlzu",
+        "category": "Dance & Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "CHANDNI BAR 2.0",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "08:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/chandni-bar-2-0-sbuepptp",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NÜRV × SOCIAL FRAT HOUSE",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "07:00 PM",
+        "price": "INR 999 - 2499",
+        "url": "https://www.skillboxes.com/events/nurv-social-frat-house-sbsrfmlv",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "SoMAD X The Humming Tree Weekender",
         "venue": null,
         "date": "08 Aug 2026 - 09 Aug 2026",
@@ -1201,12 +1267,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "oafBigGigs Ed. 9: Pacifist + Rascals of the First Order + Simplemanradio",
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Bengaluru",
         "venue": null,
-        "date": "06 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/oafbiggigs-ed-9-pacifist-rascals-of-the-first-order-simplemanradio-sbaoeihd",
+        "date": "17 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499 - 2999",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-bengaluru-sbtxwbxp",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1256,46 +1322,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "VENDEX – INDIA TOUR 2026 || Bengaluru",
+        "title": "No Parking Fridays",
         "venue": null,
-        "date": "21 Nov 2026 - 21 Nov 2026",
+        "date": "07 Aug 2026 - 07 Aug 2026",
         "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/vendex-india-tour-2026-bengaluru-sbonzpau",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbugunbg",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "LITJAM: Ishq Wala Jam - A Themed Music Jam - Bengaluru",
+        "title": "HOUSE OF PUNJAB FT. TALON X SUBBO AT. YEDA REPUBLIC KORAMANGALA",
         "venue": null,
         "date": "09 Aug 2026 - 09 Aug 2026",
-        "time": "06:00 PM",
-        "price": "INR 349",
-        "url": "https://www.skillboxes.com/events/litjam-ishq-wala-jam-a-themed-music-jam-bengaluru-sblcgvyz",
-        "category": "Music Concerts",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents Paolo Ferrara || Bengaluru",
-        "venue": null,
-        "date": "26 Sep 2026 - 26 Sep 2026",
         "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/privilege-presents-paolo-ferrara-bengaluru-sbkktrpt",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-of-punjab-ft-talon-x-subbo-at-yeda-republic-koramangala-sbuafveh",
         "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Kids Rave at Curious Kids",
-        "venue": null,
-        "date": "15 Aug 2026 - 15 Aug 2026",
-        "time": "03:00 PM",
-        "price": "INR 249 - 499",
-        "url": "https://www.skillboxes.com/events/kids-rave-at-curious-kids-sbjzvfdm",
-        "category": "Music Festivals",
         "city": "Chennai",
         "source": "skillboxes.com"
       }
@@ -1471,7 +1515,7 @@
         "venue": null,
         "date": "14 Aug 2026 - 14 Aug 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
+        "price": "INR 499 - 1399",
         "url": "https://www.skillboxes.com/events/the-bunker-edition-3-sbjorwse",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
@@ -1529,17 +1573,6 @@
         "price": "INR 449 - 3450",
         "url": "https://www.skillboxes.com/events/college-chronicles-by-veer-1",
         "category": "Live Concert",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "UNDERHOUSE Binary Edition OFFICIAL AFTER PARTY",
-        "venue": null,
-        "date": "07 Aug 2026 - 08 Aug 2026",
-        "time": "11:30 PM",
-        "price": "INR 599 - 1999",
-        "url": "https://www.skillboxes.com/events/underhouse-binary-edition-official-after-party-sbnjjaxq",
-        "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
       }
@@ -1700,6 +1733,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Mumbai",
+        "venue": null,
+        "date": "19 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Privilege presents Cassie Raptor | ROAD TO STEELWORKS | Mumbai",
         "venue": null,
         "date": "09 August 2026",
@@ -1733,6 +1777,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "LITJAM Mumbai: The OG Jam",
+        "venue": null,
+        "date": "23 Aug 2026 - 23 Aug 2026",
+        "time": "05:30 AM",
+        "price": "INR 349",
+        "url": "https://www.skillboxes.com/events/litjam-mumbai-the-og-jam-sbrotvqi",
+        "category": "Music Concerts",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "VENDEX – INDIA TOUR 2026 || Mumbai",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
@@ -1740,39 +1795,6 @@
         "price": "INR 999 - 1999",
         "url": "https://www.skillboxes.com/events/vendex-india-tour-2026-mumbai-sboqemil",
         "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Venom Berries And Grand Theft Emo Present : EMO NITE 3 || A tribute to Green Day, My Chemical Romance, , Evanescence, Paramore,  Avenged Sevenfold, Sum 41 & More",
-        "venue": null,
-        "date": "06 Sep 2026 - 06 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 399 - 1499",
-        "url": "https://www.skillboxes.com/events/the-venom-berries-and-grand-theft-emo-present-emo-nite-3-a-tribute-to-green-day-my-chemical-romance-avenged-sevenfold-evanescence-paramore-sum-41-more-sbncujar",
-        "category": "Music Concerts",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Roulette Edition 06: Featuring DJ Ruzan",
-        "venue": null,
-        "date": "08 Aug 2026 - 08 Aug 2026",
-        "time": "10:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/roulette-edition-06-featuring-dj-ruzan-sblvyxpw",
-        "category": "Club Gigs Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Friday Night Live – Edition 42",
-        "venue": null,
-        "date": "07 Aug 2026 - 07 Aug 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/friday-night-live-edition-42-sblabyri",
-        "category": "Cafe Gigs",
         "city": "Pune",
         "source": "skillboxes.com"
       }
@@ -1785,6 +1807,50 @@
         "time": "09:00 PM",
         "price": "INR 1500 - 3000",
         "url": "https://www.skillboxes.com/events/rodolphe-manoukian-live-in-goa-empower-2",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Coast Life Listening Session - Edition 01",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "07:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/coast-life-listening-session-edition-01-sbunjeyf",
+        "category": "Culture and Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mayan Beach Club Presents : The Golden Sundowner",
+        "venue": null,
+        "date": "14 Aug 2026 - 14 Aug 2026",
+        "time": "04:00 PM",
+        "price": "INR 499 - 1999",
+        "url": "https://www.skillboxes.com/events/mayan-beach-club-presents-the-golden-sundowner-sbucksly",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Never Ending Seasons 5.0 — Full Moon Edition",
+        "venue": null,
+        "date": "28 Aug 2026 - 28 Aug 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/never-ending-seasons-5-0-full-moon-edition-sbtnclkj",
+        "category": "Open Air Event",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Monday After Freedom Dancefloor Warriors",
+        "venue": null,
+        "date": "17 Aug 2026 - 17 Aug 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/monday-after-freedom-dancefloor-warriors-sbtkxocs",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -1922,17 +1988,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Classical Music with Tatiana",
-        "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.skillboxes.com/events/classical-music-with-tatiana-sbjgddmp",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Bolly Ignite at Savara ft Dj  Esha",
         "venue": null,
         "date": "07 Aug 2026 - 07 Aug 2026",
@@ -1994,17 +2049,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/enter-the-pandemonium-sbbxtews",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Concert Thursdays || Indian Classical & Folk Fusion, Unplugged Covers",
-        "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.skillboxes.com/events/concert-thursdays-indian-classical-folk-fusion-unplugged-covers-sbqoigdl",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -2074,28 +2118,6 @@
         "category": "Festivals",
         "city": "Goa",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "ParaDisco, Goa",
-        "venue": null,
-        "date": "14 Aug 2026 - 14 Aug 2026",
-        "time": "06:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/paradisco-goa-sbahpqke",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Timeless Independence Weekend at Salud Goa",
-        "venue": null,
-        "date": "14 August - 17 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 2499 - 3999",
-        "url": "https://www.skillboxes.com/events/timeless-independence-weekend-at-salud-goa",
-        "category": "Music Festivals",
-        "city": "Goa",
-        "source": "skillboxes.com"
       }
     ],
     "chandigarh": [
@@ -2107,6 +2129,17 @@
         "price": "INR 999 - 1499",
         "url": "https://www.skillboxes.com/events/rage-in-the-cage-sbeynlmg",
         "category": "Open Air Music Festivals",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "LITJAM Chandigarh: A Live Music Jam Show | Edition 11",
+        "venue": null,
+        "date": "23 Aug 2026 - 23 Aug 2026",
+        "time": "05:30 AM",
+        "price": "INR 349",
+        "url": "https://www.skillboxes.com/events/litjam-chandigarh-a-live-music-jam-show-edition-11-sbsilxhf",
+        "category": "Music Concerts",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2298,12 +2331,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Victory Lap",
+        "title": "Pukaar: The Show by Karan Saru",
         "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 1500 - 14400",
-        "url": "https://www.skillboxes.com/events/the-victory-lap-sbfhhaqw",
+        "date": "17 September 2026",
+        "time": "06:00 PM",
+        "price": "INR 449",
+        "url": "https://www.skillboxes.com/events/pukaar-the-show-by-karan-saru-sbutxwve",
         "category": "Music Concerts",
         "city": "Chandigarh",
         "source": "skillboxes.com"
@@ -2329,17 +2362,6 @@
         "category": "Club Gigs - Music",
         "city": "Chandigarh",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Shab-e-Siyah: Metal Night",
-        "venue": null,
-        "date": "08 Aug 2026 - 08 Aug 2026",
-        "time": "09:00 PM",
-        "price": "INR 250 - 400",
-        "url": "https://www.skillboxes.com/events/shab-e-siyah-metal-night-sbhhkvum",
-        "category": "Club Gigs - Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
       }
     ],
     "ahmedabad": [
@@ -2362,6 +2384,17 @@
         "price": "INR 449 - 3450",
         "url": "https://www.skillboxes.com/events/college-chronicles-by-veer-1",
         "category": "Live Concert",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Mumbai",
+        "venue": null,
+        "date": "19 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2399,12 +2432,34 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "LITJAM Mumbai: The OG Jam",
+        "venue": null,
+        "date": "23 Aug 2026 - 23 Aug 2026",
+        "time": "05:30 AM",
+        "price": "INR 349",
+        "url": "https://www.skillboxes.com/events/litjam-mumbai-the-og-jam-sbrotvqi",
+        "category": "Music Concerts",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "VENDEX – INDIA TOUR 2026 || Mumbai",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
         "time": "08:00 PM",
         "price": "INR 999 - 1999",
         "url": "https://www.skillboxes.com/events/vendex-india-tour-2026-mumbai-sboqemil",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OTW’s FineBalance",
+        "venue": null,
+        "date": "10 Sep 2026 - 10 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 350",
+        "url": "https://www.skillboxes.com/events/otw-s-finebalance-sbodbcon",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2520,17 +2575,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "UK PUNJABI NIGHT",
-        "venue": null,
-        "date": "06 Aug 2026 - 07 Aug 2026",
-        "time": "08:00 AM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/uk-punjabi-night-sbxjouzk",
-        "category": "Dance & Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Pete Tong - One Night Only Mumbai | 27th August  | antiSOCIAL, Mumbai",
         "venue": null,
         "date": "27 August 2026",
@@ -2538,39 +2582,6 @@
         "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/pete-tong-one-night-only-27th-august-antisocial-mumbai-sbwugnxv",
         "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common ground Ft. Aminjaz + Sixth Ocean",
-        "venue": null,
-        "date": "06 Aug 2026 - 06 Aug 2026",
-        "time": "06:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-ft-aminjaz-sixth-ocean-sbweygwg",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "OVERDRIVE || FRANKY-B India Tour || Mumbai",
-        "venue": null,
-        "date": "30 Aug 2026 - 30 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/overdrive-franky-b-india-tour-mumbai-sbvahstc",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Taba Chake | India Tour 2026 | Pre Sale Registration",
-        "venue": null,
-        "date": "To Be Announced",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/taba-chake-india-tour-2026-Pre-Sale-Registration-sbrxiovx",
-        "category": "Music Concerts",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       }
@@ -2599,11 +2610,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "No Filter Ft. Farhan Khan & more TBA",
+        "title": "No Filter Ft. Farhan Khan + Noor & Khan",
         "venue": null,
         "date": "21 Aug 2026 - 21 Aug 2026",
         "time": "12:00 PM",
-        "price": "INR 699 - 1999",
+        "price": "INR 699 - 6000",
         "url": "https://www.skillboxes.com/events/no-filter-pre-festival-edition-sbhfpqkx",
         "category": "Music Event",
         "city": "Jaipur",
@@ -2819,6 +2830,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | New Delhi",
+        "venue": null,
+        "date": "21 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-new-delhi-sbtvrepy",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Steelworks India Tour || Delhi",
         "venue": null,
         "date": "22 August 2026",
@@ -2837,17 +2859,6 @@
         "price": "INR 899 - 5699",
         "url": "https://www.skillboxes.com/events/south-side-story-2026-red-fm",
         "category": "Music Festivals",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "BOOM ROOM PRESENTS Avantika, N1rvaan & More at Baardos Qutub",
-        "venue": null,
-        "date": "09 Aug 2026 - 09 Aug 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/boom-room-presents-avantika-n1rvaan-more-at-baardos-qutub-sbosjjqc",
-        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       }
@@ -2872,6 +2883,39 @@
         "price": "INR 1061 - 3227",
         "url": "https://www.skillboxes.com/events/kalaaverse-26-in-god-s-own-country-sbrfcaqn",
         "category": "Festivals",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Learn the Basics of West Coast Swing in 5 Hours",
+        "venue": null,
+        "date": "14 Aug 2026 - 14 Aug 2026",
+        "time": "04:00 PM",
+        "price": "INR 2999 - 7999",
+        "url": "https://www.skillboxes.com/events/learn-the-basics-of-west-coast-swing-in-5-hours-sbvcrlzu",
+        "category": "Dance & Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "CHANDNI BAR 2.0",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "08:30 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/chandni-bar-2-0-sbuepptp",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NÜRV × SOCIAL FRAT HOUSE",
+        "venue": null,
+        "date": "08 Aug 2026 - 08 Aug 2026",
+        "time": "07:00 PM",
+        "price": "INR 999 - 2499",
+        "url": "https://www.skillboxes.com/events/nurv-social-frat-house-sbsrfmlv",
+        "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
@@ -2964,12 +3008,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "oafBigGigs Ed. 9: Pacifist + Rascals of the First Order + Simplemanradio",
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Bengaluru",
         "venue": null,
-        "date": "06 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/oafbiggigs-ed-9-pacifist-rascals-of-the-first-order-simplemanradio-sbaoeihd",
+        "date": "17 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499 - 2999",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-bengaluru-sbtxwbxp",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -3019,68 +3063,35 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "VENDEX – INDIA TOUR 2026 || Bengaluru",
+        "title": "No Parking Fridays",
         "venue": null,
-        "date": "21 Nov 2026 - 21 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/vendex-india-tour-2026-bengaluru-sbonzpau",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "LITJAM: Ishq Wala Jam - A Themed Music Jam - Bengaluru",
-        "venue": null,
-        "date": "09 Aug 2026 - 09 Aug 2026",
-        "time": "06:00 PM",
-        "price": "INR 349",
-        "url": "https://www.skillboxes.com/events/litjam-ishq-wala-jam-a-themed-music-jam-bengaluru-sblcgvyz",
-        "category": "Music Concerts",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Privilege presents Paolo Ferrara || Bengaluru",
-        "venue": null,
-        "date": "26 Sep 2026 - 26 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/privilege-presents-paolo-ferrara-bengaluru-sbkktrpt",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Kids Rave at Curious Kids",
-        "venue": null,
-        "date": "15 Aug 2026 - 15 Aug 2026",
-        "time": "03:00 PM",
-        "price": "INR 249 - 499",
-        "url": "https://www.skillboxes.com/events/kids-rave-at-curious-kids-sbjzvfdm",
-        "category": "Music Festivals",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Reel Room",
-        "venue": null,
-        "date": "08 August 2026",
+        "date": "07 Aug 2026 - 07 Aug 2026",
         "time": "08:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/reel-room-sbjiiaug",
+        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbugunbg",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "REDROOM FT. ZOYA & MORE",
+        "title": "HOUSE OF PUNJAB FT. TALON X SUBBO AT. YEDA REPUBLIC KORAMANGALA",
         "venue": null,
-        "date": "07 Aug 2026 - 08 Aug 2026",
-        "time": "07:00 PM",
-        "price": "INR 499 - 1799",
-        "url": "https://www.skillboxes.com/events/redroom-ft-zoya-more-sbgddzpk",
+        "date": "09 Aug 2026 - 09 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-of-punjab-ft-talon-x-subbo-at-yeda-republic-koramangala-sbuafveh",
         "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The 9teen Live at Hamilton Cocktail Bar",
+        "venue": null,
+        "date": "22 August 2026",
+        "time": "06:00 PM",
+        "price": "INR 799 - 8999",
+        "url": "https://www.skillboxes.com/events/the-9teen-live-at-hamilton-cocktail-bar-sbrifdtj",
+        "category": "Music Festivals",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
