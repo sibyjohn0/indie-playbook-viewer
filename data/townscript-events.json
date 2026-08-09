@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-08T02:53:20.622160+00:00",
+  "updated_at": "2026-08-09T03:00:59.899230+00:00",
   "source": "Townscript",
-  "total_events": 24,
+  "total_events": 23,
   "cities": {
     "mumbai": [
       {
@@ -18,12 +18,12 @@
     ],
     "delhi": [
       {
-        "title": "GREY MATTERS",
+        "title": "Minor Issue Presents: The King of Pop",
         "venue": "Greater Kailash",
-        "date": "8 August 2026",
+        "date": "9 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/grey-matters-101100",
+        "url": "https://www.townscript.com/in/minor-issue-presents-the-king-of-pop-300122",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -35,17 +35,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/divya-belwal-342132",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Minor Issue Presents: The King of Pop",
-        "venue": "Greater Kailash",
-        "date": "9 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/minor-issue-presents-the-king-of-pop-300122",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -161,6 +150,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Noida After Dark",
+        "venue": null,
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 1599",
+        "url": "https://www.townscript.com/in/noida-after-dark-423401",
+        "organiser": "Krishney Raizada",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "DELHI NEON RUN",
         "venue": "Dwarka",
         "date": "29 November 2026",
@@ -184,17 +184,6 @@
       }
     ],
     "bengaluru": [
-      {
-        "title": "Malhar Live: A Bollywood Sufi Rock Experience",
-        "venue": "Mahadevapura",
-        "date": "8 August 2026",
-        "time": "08:30 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/malhar-live-a-bollywood-sufi-rock-experience-421022",
-        "organiser": "Malhar",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
       {
         "title": "SANISH NAIR LIVE",
         "venue": "Indiranagar",
@@ -245,7 +234,7 @@
         "title": "Anime & Jazz : A Music Workshop by George Hull",
         "venue": "Banjara Hills",
         "date": "29 August 2026",
-        "time": "06:30 AM",
+        "time": "06:30 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/anime-jazz-a-music-workshop-by-george-hull-340323",
         "organiser": "Pradeep George Hull",
