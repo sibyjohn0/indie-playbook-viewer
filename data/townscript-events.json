@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-08-09T03:00:59.899230+00:00",
+  "updated_at": "2026-08-10T03:09:53.741604+00:00",
   "source": "Townscript",
   "total_events": 23,
   "cities": {
     "mumbai": [
+      {
+        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
+        "venue": "Bandra West",
+        "date": "12 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
+        "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
       {
         "title": "SWARABHISHEKH 2026",
         "venue": "Prabhadevi",
@@ -18,12 +29,12 @@
     ],
     "delhi": [
       {
-        "title": "Minor Issue Presents: The King of Pop",
+        "title": "SHREYA ON STAGE",
         "venue": "Greater Kailash",
-        "date": "9 August 2026",
+        "date": "12 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/minor-issue-presents-the-king-of-pop-300122",
+        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -46,17 +57,6 @@
         "time": "09:00 PM",
         "price": "INR 500",
         "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "SHREYA ON STAGE",
-        "venue": "Greater Kailash",
-        "date": "12 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -146,17 +146,6 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/awake-after-midnight-304344",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Noida After Dark",
-        "venue": null,
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 1599",
-        "url": "https://www.townscript.com/in/noida-after-dark-423401",
-        "organiser": "Krishney Raizada",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -257,6 +246,17 @@
       }
     ],
     "pune": [
+      {
+        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
+        "venue": "Bandra West",
+        "date": "12 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
+        "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
       {
         "title": "SWARABHISHEKH 2026",
         "venue": "Prabhadevi",
