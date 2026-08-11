@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-10T03:09:53.741604+00:00",
+  "updated_at": "2026-08-11T03:03:21.446122+00:00",
   "source": "Townscript",
-  "total_events": 23,
+  "total_events": 22,
   "cities": {
     "mumbai": [
       {
@@ -29,23 +29,23 @@
     ],
     "delhi": [
       {
-        "title": "SHREYA ON STAGE",
-        "venue": "Greater Kailash",
-        "date": "12 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Divya Belwal",
         "venue": "Greater Kailash",
         "date": "16 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/divya-belwal-342132",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SHREYA ON STAGE",
+        "venue": "Greater Kailash",
+        "date": "12 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -95,9 +95,31 @@
         "source": "townscript.com"
       },
       {
+        "title": "Awake After Midnight",
+        "venue": "Greater Kailash",
+        "date": "12 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The NASS Collective ",
+        "venue": "Greater Kailash",
+        "date": "26 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Prarambh-Foundational Music Vocal Program, IICS",
         "venue": "Lajpat Nagar",
-        "date": "9 August 2026",
+        "date": "16 August 2026",
         "time": "11:00 AM",
         "price": "INR 6999",
         "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
@@ -117,34 +139,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "The NASS Collective ",
-        "venue": "Greater Kailash",
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-nass-collective-241001",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Throw Some Shapes - Blackbox",
         "venue": "Greater Kailash",
         "date": "23 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -192,17 +192,6 @@
         "price": "INR 749",
         "url": "https://www.townscript.com/in/esraj-for-the-soul-232132",
         "organiser": "Ankit Paul",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Azaadi Ki Shaam - Independence day Jam",
-        "venue": null,
-        "date": "15 August 2026",
-        "time": "06:30 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/azaadi-ki-shaam-independence-day-jam-113442",
-        "organiser": "Aashiana",
         "city": "Bengaluru",
         "source": "townscript.com"
       },
