@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T03:03:21.446122+00:00",
+  "updated_at": "2026-08-12T03:21:20.400396+00:00",
   "source": "Townscript",
   "total_events": 22,
   "cities": {
@@ -29,23 +29,23 @@
     ],
     "delhi": [
       {
-        "title": "Divya Belwal",
-        "venue": "Greater Kailash",
-        "date": "16 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/divya-belwal-342132",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "SHREYA ON STAGE",
         "venue": "Greater Kailash",
         "date": "12 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/shreya-on-stage-003104",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Divya Belwal",
+        "venue": "Greater Kailash",
+        "date": "16 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/divya-belwal-342132",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -62,13 +62,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "DELHI STRIDERS RUN",
-        "venue": "Knowledge Park V",
-        "date": "20 September 2026",
-        "time": "06:00 AM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
+        "title": "Awake After Midnight",
+        "venue": "Greater Kailash",
+        "date": "12 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -84,34 +84,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
+        "title": "Throw Some Shapes - Blackbox",
         "venue": "Greater Kailash",
-        "date": "29 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "The NASS Collective ",
-        "venue": "Greater Kailash",
-        "date": "26 August 2026",
+        "date": "23 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -128,6 +106,28 @@
         "source": "townscript.com"
       },
       {
+        "title": "DELHI STRIDERS RUN",
+        "venue": "Knowledge Park V",
+        "date": "20 September 2026",
+        "time": "06:00 AM",
+        "price": "INR 199",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
+        "venue": "Greater Kailash",
+        "date": "29 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "BE RIGHT BACK",
         "venue": "Greater Kailash",
         "date": "21 August 2026",
@@ -139,12 +139,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Throw Some Shapes - Blackbox",
+        "title": "The NASS Collective ",
         "venue": "Greater Kailash",
-        "date": "23 August 2026",
+        "date": "26 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
+        "url": "https://www.townscript.com/in/the-nass-collective-241001",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
