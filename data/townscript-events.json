@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-12T03:21:20.400396+00:00",
+  "updated_at": "2026-08-13T03:24:58.722211+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 26,
   "cities": {
     "mumbai": [
       {
@@ -12,6 +12,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
         "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Janmashtami Maha-Kirtan  ",
+        "venue": "Wagholi",
+        "date": "30 August 2026",
+        "time": "12:00 AM",
+        "price": "INR 400",
+        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
+        "organiser": "Sachin Sangam",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -28,17 +39,6 @@
       }
     ],
     "delhi": [
-      {
-        "title": "SHREYA ON STAGE",
-        "venue": "Greater Kailash",
-        "date": "12 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/shreya-on-stage-003104",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
       {
         "title": "Divya Belwal",
         "venue": "Greater Kailash",
@@ -62,17 +62,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
         "venue": "Greater Kailash",
         "date": "22 August 2026",
@@ -84,13 +73,24 @@
         "source": "townscript.com"
       },
       {
-        "title": "Throw Some Shapes - Blackbox",
+        "title": "Awake After Midnight",
         "venue": "Greater Kailash",
-        "date": "23 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
+        "date": "12 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "NOIDA STRIDERS RUN",
+        "venue": "Sector 62",
+        "date": "20 September 2026",
+        "time": "06:00 AM",
+        "price": "INR 199",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -106,23 +106,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "DELHI STRIDERS RUN",
-        "venue": "Knowledge Park V",
-        "date": "20 September 2026",
-        "time": "06:00 AM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
         "venue": "Greater Kailash",
         "date": "29 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Throw Some Shapes - Blackbox",
+        "venue": "Greater Kailash",
+        "date": "23 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -145,6 +145,39 @@
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The show must go on  with Zidd",
+        "venue": "Greater Kailash",
+        "date": "16 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Homecoming' by Delhivision",
+        "venue": "Greater Kailash",
+        "date": "28 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/homecoming-by-delhivision-341130",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Safar",
+        "venue": "Greater Kailash",
+        "date": "30 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/safar-321104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -243,6 +276,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
         "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Janmashtami Maha-Kirtan  ",
+        "venue": "Wagholi",
+        "date": "30 August 2026",
+        "time": "12:00 AM",
+        "price": "INR 400",
+        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
+        "organiser": "Sachin Sangam",
         "city": "Pune",
         "source": "townscript.com"
       },
