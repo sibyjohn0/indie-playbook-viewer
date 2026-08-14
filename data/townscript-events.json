@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-13T03:24:58.722211+00:00",
+  "updated_at": "2026-08-14T03:22:54.026243+00:00",
   "source": "Townscript",
-  "total_events": 26,
+  "total_events": 27,
   "cities": {
     "mumbai": [
       {
@@ -40,12 +40,12 @@
     ],
     "delhi": [
       {
-        "title": "Divya Belwal",
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
         "venue": "Greater Kailash",
-        "date": "16 August 2026",
+        "date": "22 August 2026",
         "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/divya-belwal-342132",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -62,12 +62,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "title": "Divya Belwal",
         "venue": "Greater Kailash",
-        "date": "22 August 2026",
+        "date": "16 August 2026",
         "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/divya-belwal-342132",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -84,11 +84,22 @@
         "source": "townscript.com"
       },
       {
+        "title": "Throw Some Shapes - Blackbox",
+        "venue": "Greater Kailash",
+        "date": "23 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "20 September 2026",
         "time": "06:00 AM",
-        "price": "INR 199",
+        "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
         "city": "Delhi",
@@ -112,17 +123,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Throw Some Shapes - Blackbox",
-        "venue": "Greater Kailash",
-        "date": "23 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -161,23 +161,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Homecoming' by Delhivision",
-        "venue": "Greater Kailash",
-        "date": "28 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/homecoming-by-delhivision-341130",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Safar",
         "venue": "Greater Kailash",
         "date": "30 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/safar-321104",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Homecoming' by Delhivision",
+        "venue": "Greater Kailash",
+        "date": "28 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/homecoming-by-delhivision-341130",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -263,6 +263,17 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
         "organiser": "KIRTAN KOLKATA",
+        "city": "Kolkata",
+        "source": "townscript.com"
+      },
+      {
+        "title": "MANTRA MEDITATION",
+        "venue": "Ballygunge",
+        "date": "21 August 2026",
+        "time": "07:30 PM",
+        "price": "INR 575",
+        "url": "https://www.townscript.com/in/mantra-meditation-234131",
+        "organiser": "rasaraja nimai das",
         "city": "Kolkata",
         "source": "townscript.com"
       }
