@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-08-14T03:22:54.026243+00:00",
+  "updated_at": "2026-08-15T02:12:38.366086+00:00",
   "source": "Townscript",
-  "total_events": 27,
+  "total_events": 26,
   "cities": {
     "mumbai": [
-      {
-        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
-        "venue": "Bandra West",
-        "date": "12 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
-        "organiser": "RADHA MAGIC TELEFILMS",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "Janmashtami Maha-Kirtan  ",
         "venue": "Wagholi",
@@ -23,6 +12,17 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
+        "venue": "Bandra West",
+        "date": "12 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
+        "organiser": "RADHA MAGIC TELEFILMS",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -40,34 +40,23 @@
     ],
     "delhi": [
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "The Lateral Move Show Opened by Lemon Street",
-        "venue": "Greater Kailash",
-        "date": "14 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/the-lateral-move-show-opened-by-lemon-street-433310",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Divya Belwal",
         "venue": "Greater Kailash",
         "date": "16 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/divya-belwal-342132",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -84,17 +73,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Throw Some Shapes - Blackbox",
-        "venue": "Greater Kailash",
-        "date": "23 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "20 September 2026",
@@ -106,13 +84,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "title": "Throw Some Shapes - Blackbox",
+        "venue": "Greater Kailash",
+        "date": "23 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -124,6 +102,17 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -161,23 +150,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Safar",
-        "venue": "Greater Kailash",
-        "date": "30 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/safar-321104",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Homecoming' by Delhivision",
         "venue": "Greater Kailash",
         "date": "28 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/homecoming-by-delhivision-341130",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Safar",
+        "venue": "Greater Kailash",
+        "date": "30 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/safar-321104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -267,11 +256,11 @@
         "source": "townscript.com"
       },
       {
-        "title": "MANTRA MEDITATION",
+        "title": "MANTRA LOUNGE",
         "venue": "Ballygunge",
         "date": "21 August 2026",
         "time": "07:30 PM",
-        "price": "INR 575",
+        "price": "INR 545",
         "url": "https://www.townscript.com/in/mantra-meditation-234131",
         "organiser": "rasaraja nimai das",
         "city": "Kolkata",
@@ -280,17 +269,6 @@
     ],
     "pune": [
       {
-        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
-        "venue": "Bandra West",
-        "date": "12 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
-        "organiser": "RADHA MAGIC TELEFILMS",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "Janmashtami Maha-Kirtan  ",
         "venue": "Wagholi",
         "date": "30 August 2026",
@@ -298,6 +276,17 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
+        "venue": "Bandra West",
+        "date": "12 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
+        "organiser": "RADHA MAGIC TELEFILMS",
         "city": "Pune",
         "source": "townscript.com"
       },
