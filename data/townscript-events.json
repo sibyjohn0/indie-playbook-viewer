@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-08-15T02:12:38.366086+00:00",
+  "updated_at": "2026-08-16T02:19:56.397839+00:00",
   "source": "Townscript",
-  "total_events": 26,
+  "total_events": 25,
   "cities": {
     "mumbai": [
-      {
-        "title": "Janmashtami Maha-Kirtan  ",
-        "venue": "Wagholi",
-        "date": "30 August 2026",
-        "time": "12:00 AM",
-        "price": "INR 400",
-        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
-        "organiser": "Sachin Sangam",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
@@ -23,6 +12,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
         "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Janmashtami Maha-Kirtan  ",
+        "venue": "Wagholi",
+        "date": "30 August 2026",
+        "time": "12:00 AM",
+        "price": "INR 400",
+        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
+        "organiser": "Sachin Sangam",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -40,6 +40,17 @@
     ],
     "delhi": [
       {
+        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "venue": "Greater Kailash",
+        "date": "22 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Divya Belwal",
         "venue": "Greater Kailash",
         "date": "16 August 2026",
@@ -51,12 +62,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
+        "title": "Throw Some Shapes - Blackbox",
         "venue": "Greater Kailash",
-        "date": "22 August 2026",
+        "date": "23 August 2026",
         "time": "09:00 PM",
         "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
+        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -80,17 +91,6 @@
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Throw Some Shapes - Blackbox",
-        "venue": "Greater Kailash",
-        "date": "23 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -196,17 +196,6 @@
     ],
     "bengaluru": [
       {
-        "title": "SANISH NAIR LIVE",
-        "venue": "Indiranagar",
-        "date": "15 August 2026",
-        "time": "06:30 PM",
-        "price": "INR 599",
-        "url": "https://www.townscript.com/in/sanish-nair-live-334232",
-        "organiser": "Soapbox Events",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
         "title": "Esraj for the Soul",
         "venue": "Richmond Town",
         "date": "22 August 2026",
@@ -269,17 +258,6 @@
     ],
     "pune": [
       {
-        "title": "Janmashtami Maha-Kirtan  ",
-        "venue": "Wagholi",
-        "date": "30 August 2026",
-        "time": "12:00 AM",
-        "price": "INR 400",
-        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
-        "organiser": "Sachin Sangam",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
         "date": "12 September 2026",
@@ -287,6 +265,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
         "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Janmashtami Maha-Kirtan  ",
+        "venue": "Wagholi",
+        "date": "30 August 2026",
+        "time": "12:00 AM",
+        "price": "INR 400",
+        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
+        "organiser": "Sachin Sangam",
         "city": "Pune",
         "source": "townscript.com"
       },
