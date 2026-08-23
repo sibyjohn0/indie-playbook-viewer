@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T02:17:00.476308+00:00",
+  "updated_at": "2026-08-23T02:25:47.406190+00:00",
   "source": "Townscript",
-  "total_events": 30,
+  "total_events": 27,
   "cities": {
     "mumbai": [
       {
@@ -12,17 +12,6 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/the-jamming-circle-jamming-night-332020",
         "organiser": "Saikat Giri",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
-        "title": "RETRO AFTER DARK- LIVE & UNPLUGGED",
-        "venue": "Aundh",
-        "date": "22 August 2026",
-        "time": "08:30 PM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/retro-after-dark-live-unplugged-214310",
-        "organiser": "Wynkk",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -62,17 +51,6 @@
     ],
     "delhi": [
       {
-        "title": "Mehak V ft. Ashwin, Olive, Ascanius, Jude",
-        "venue": "Greater Kailash",
-        "date": "22 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/Mehak-V-ft-Ashwin-Olive-Ascanius-Jude241200",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Throw Some Shapes - Blackbox",
         "venue": "Greater Kailash",
         "date": "23 August 2026",
@@ -90,6 +68,28 @@
         "time": "08:00 PM",
         "price": "INR 299",
         "url": "https://www.townscript.com/in/awake-after-midnight-304344",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The NASS Collective ",
+        "venue": "Greater Kailash",
+        "date": "26 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
+        "venue": "Greater Kailash",
+        "date": "29 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -128,28 +128,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
-        "venue": "Greater Kailash",
-        "date": "29 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Hard and Heavy by Anarchy and D2O",
-        "venue": "Greater Kailash",
-        "date": "11 October 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Prarambh-Foundational Music Vocal Program, IICS",
         "venue": "Lajpat Nagar",
         "date": "16 August 2026",
@@ -161,12 +139,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "The NASS Collective ",
+        "title": "Hard and Heavy by Anarchy and D2O",
         "venue": "Greater Kailash",
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-nass-collective-241001",
+        "date": "11 October 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -227,30 +205,7 @@
         "source": "townscript.com"
       }
     ],
-    "bengaluru": [
-      {
-        "title": "Esraj for the Soul",
-        "venue": "Richmond Town",
-        "date": "22 August 2026",
-        "time": "06:00 PM",
-        "price": "INR 749",
-        "url": "https://www.townscript.com/in/esraj-for-the-soul-232132",
-        "organiser": "Ankit Paul",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      },
-      {
-        "title": "OPEN MIC at gen G August2026",
-        "venue": null,
-        "date": "22 August 2026",
-        "time": "05:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/open-mic-at-gen-g-august2026-023121",
-        "organiser": "gen G",
-        "city": "Bengaluru",
-        "source": "townscript.com"
-      }
-    ],
+    "bengaluru": [],
     "hyderabad": [
       {
         "title": "Anime & Jazz : A Music Workshop by George Hull",
@@ -324,17 +279,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "RETRO AFTER DARK- LIVE & UNPLUGGED",
-        "venue": "Aundh",
-        "date": "22 August 2026",
-        "time": "08:30 PM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/retro-after-dark-live-unplugged-214310",
-        "organiser": "Wynkk",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "Janmashtami Maha-Kirtan  ",
         "venue": "Wagholi",
         "date": "30 August 2026",
@@ -342,6 +286,28 @@
         "price": "INR 400",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
+        "venue": "Bandra West",
+        "date": "12 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
+        "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SWARABHISHEKH 2026",
+        "venue": "Prabhadevi",
+        "date": "12 December 2026",
+        "time": "05:30 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/swarabhishekh-100421",
+        "organiser": "Aces Hospitality",
         "city": "Pune",
         "source": "townscript.com"
       }
