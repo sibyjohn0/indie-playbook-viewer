@@ -1,26 +1,15 @@
 {
-  "updated_at": "2026-08-23T02:25:47.406190+00:00",
+  "updated_at": "2026-08-24T02:24:04.381531+00:00",
   "source": "Townscript",
-  "total_events": 27,
+  "total_events": 24,
   "cities": {
     "mumbai": [
-      {
-        "title": "The Jamming Circle - Jamming Night",
-        "venue": "Baner",
-        "date": "23 August 2026",
-        "time": "04:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/the-jamming-circle-jamming-night-332020",
-        "organiser": "Saikat Giri",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "Janmashtami Maha-Kirtan  ",
         "venue": "Wagholi",
         "date": "30 August 2026",
         "time": "12:00 AM",
-        "price": "INR 400",
+        "price": "INR 300",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
         "city": "Mumbai",
@@ -51,23 +40,12 @@
     ],
     "delhi": [
       {
-        "title": "Throw Some Shapes - Blackbox",
+        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
         "venue": "Greater Kailash",
-        "date": "23 August 2026",
+        "date": "29 August 2026",
         "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/throw-some-shapes-blackbox-341210",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -84,12 +62,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
+        "title": "Awake After Midnight",
         "venue": "Greater Kailash",
-        "date": "29 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
+        "date": "12 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -183,6 +161,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Soul Surge",
+        "venue": "Greater Kailash",
+        "date": "26 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/soul-surge-430002",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "DELHI NEON RUN",
         "venue": "Dwarka",
         "date": "29 November 2026",
@@ -244,17 +233,6 @@
     "chennai": [],
     "kolkata": [
       {
-        "title": "LET'S SING BY DHWANI - WELCOMING LORD KRISHNA - JANMASHTAMI SPECIAL",
-        "venue": "Mominpore",
-        "date": "6 September 2026",
-        "time": "05:30 PM",
-        "price": "INR 1499",
-        "url": "https://www.townscript.com/in/lets-sing-by-dhwani-welcoming-lord-krishna-230222",
-        "organiser": "Trioka Entertainment Pvt. Ltd.",
-        "city": "Kolkata",
-        "source": "townscript.com"
-      },
-      {
         "title": "Janmashtami kirtan & Bhajan Jamming",
         "venue": "Rajarhat",
         "date": "4 September 2026",
@@ -268,22 +246,11 @@
     ],
     "pune": [
       {
-        "title": "The Jamming Circle - Jamming Night",
-        "venue": "Baner",
-        "date": "23 August 2026",
-        "time": "04:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/the-jamming-circle-jamming-night-332020",
-        "organiser": "Saikat Giri",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
         "title": "Janmashtami Maha-Kirtan  ",
         "venue": "Wagholi",
         "date": "30 August 2026",
         "time": "12:00 AM",
-        "price": "INR 400",
+        "price": "INR 300",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
         "city": "Pune",
