@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T02:24:04.381531+00:00",
+  "updated_at": "2026-08-25T02:19:39.339376+00:00",
   "source": "Townscript",
   "total_events": 24,
   "cities": {
@@ -9,7 +9,7 @@
         "venue": "Wagholi",
         "date": "30 August 2026",
         "time": "12:00 AM",
-        "price": "INR 300",
+        "price": "INR 263",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
         "city": "Mumbai",
@@ -73,6 +73,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "NOIDA STRIDERS RUN",
+        "venue": "Sector 62",
+        "date": "20 September 2026",
+        "time": "06:00 AM",
+        "price": "INR 349",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Homecoming' by Delhivision",
         "venue": "Greater Kailash",
         "date": "28 August 2026",
@@ -91,17 +102,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/safar-321104",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "NOIDA STRIDERS RUN",
-        "venue": "Sector 62",
-        "date": "20 September 2026",
-        "time": "06:00 AM",
-        "price": "INR 349",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -250,7 +250,7 @@
         "venue": "Wagholi",
         "date": "30 August 2026",
         "time": "12:00 AM",
-        "price": "INR 300",
+        "price": "INR 263",
         "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
         "organiser": "Sachin Sangam",
         "city": "Pune",
