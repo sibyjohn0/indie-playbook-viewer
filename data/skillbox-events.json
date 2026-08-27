@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T02:25:39.438366+00:00",
+  "updated_at": "2026-08-27T10:53:39.534063+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 270,
+  "total_events": 272,
   "cities": {
     "mumbai": [
       {
@@ -18,21 +18,10 @@
       {
         "title": "MHR & FRIENDS || MUMBAI",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/mhr-friends-mumbai-sbmmfkmq",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Shots Fired | Mumbai",
-        "venue": null,
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/shots-fired-mumbai-sbjjggpl",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -104,6 +93,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "The Venom Berries x Afterlife x Midnight Gravity present : Cross City Chaos",
+        "venue": null,
+        "date": "27 Sep 2026 - 27 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/the-venom-berries-x-afterlife-x-midnight-gravity-present-cross-city-chaos-sbmxisxy",
+        "category": "Music Concerts",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Friday Night Live – Edition 45",
         "venue": null,
         "date": "28 Aug 2026 - 28 Aug 2026",
@@ -143,28 +143,6 @@
         "time": "08:00 PM",
         "price": "INR 999 - 4999",
         "url": "https://www.skillboxes.com/events/schranz-showcase-mumbai-sbytsfmc",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "THE INNER ROOM",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/the-inner-room-sbxxvgno",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rose",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "10:30 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/rose-sbvxhtlw",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -240,9 +218,20 @@
         "venue": null,
         "date": "27 Aug 2026 - 27 Aug 2026",
         "time": "08:00 PM",
-        "price": "INR 399 - 699",
+        "price": "INR 399 - 999",
         "url": "https://www.skillboxes.com/events/rumble-on-sbdjwqsa",
         "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mangala Gauri Celebration at Rule 34",
+        "venue": null,
+        "date": "01 Sep 2026 - 01 Sep 2026",
+        "time": "03:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/mangala-gauri-celebration-at-rule-34-sbbcultj",
+        "category": "Social Gathering/ Game",
         "city": "Mumbai",
         "source": "skillboxes.com"
       }
@@ -297,7 +286,7 @@
         "venue": null,
         "date": "06 September 2026",
         "time": "07:00 PM",
-        "price": "INR 250",
+        "price": "INR 250 - 499",
         "url": "https://www.skillboxes.com/events/live-at-siyah-sbjujpat",
         "category": "Club Gigs - Music",
         "city": "Delhi",
@@ -504,6 +493,28 @@
     ],
     "bengaluru": [
       {
+        "title": "ALMOST HUMAN",
+        "venue": null,
+        "date": "29 Aug 2026 - 30 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/almost-human-sbluxccl",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SoMAD x Cavore Presents Un•Deux Live",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/somad-x-cavore-presents-un-deux-live-sbkwvfwg",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA] | CODE RED",
         "venue": null,
         "date": "30 Aug 2026 - 31 Aug 2026",
@@ -530,16 +541,16 @@
         "venue": null,
         "date": "12 Sep 2026 - 12 Sep 2026",
         "time": "05:00 PM",
-        "price": "INR 249",
+        "price": "INR 249 - 1099",
         "url": "https://www.skillboxes.com/events/the-devoid-experience-12-september-2026-bangalore-sbeidixg",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       },
       {
-        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa",
+        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa #IndiranagarSOCIAL",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "06:00 PM",
         "price": "INR 499 - 1299",
         "url": "https://www.skillboxes.com/events/unit-909-x-mob-mind-presents-lokier-frozen-fader-priaa-on-19th-sep-at-indiranagar-social-bangalore-sbrylqqd",
@@ -702,6 +713,39 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Rage Room with Lestrange",
+        "venue": null,
+        "date": "25 Oct 2026 - 25 Oct 2026",
+        "time": "06:00 PM",
+        "price": "INR 399 - 999",
+        "url": "https://www.skillboxes.com/events/rage-room-with-lestrange-sbnbsnng",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Marta Pereira da Costa",
+        "venue": null,
+        "date": "25 September - 26 September 2026",
+        "time": "09:30 PM",
+        "price": "INR 1179 - 2359",
+        "url": "https://www.skillboxes.com/events/marta-pereira-da-costa-the-feminine-soul-of-the-portuguese-guitar-sblbfalo",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "JackfruitDanceParty x Read the Room weekender - 5th & 6th Sept #IndiranagarSOCIAL",
+        "venue": null,
+        "date": "05 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 999 - 1499",
+        "url": "https://www.skillboxes.com/events/jackfruitdanceparty-x-read-the-room-weekender-5th-6th-sept-indiranagarsocial-sbkqgnzh",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "CentiGrade Club Nights ft. Pablo Say / 29th Aug / Mirage",
         "venue": null,
         "date": "29 August - 30 August 2026",
@@ -713,57 +757,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Tribute to Queen ft. KAPOW (from Delhi)",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "09:00 AM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/tribute-to-queen-ft-kapow-from-delhi-sbgccebz",
-        "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA]",
+        "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA] | ENCORE",
         "venue": null,
         "date": "30 Aug 2026 - 31 Aug 2026",
         "time": "04:00 AM",
-        "price": "INR 699",
-        "url": "https://www.skillboxes.com/events/heatwaves-ft-merzzy-hitmaker-behind-walhala-sbezqngm",
+        "price": "INR 1599",
+        "url": "https://www.skillboxes.com/events/heatwaves-ft-merzzy-hitmaker-behind-walhala-encore-sbjsertc",
         "category": "Open Air Music Festivals",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SCREECH - DJ SPRINTER, HELLKITTY, HUNNIT D, DWIJ & DOUBLE S",
-        "venue": null,
-        "date": "11 Sep 2026 - 12 Sep 2026",
-        "time": "07:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/screech-dj-sprinter-hellkitty-hunnit-d-dwij-double-s-sbemndmo",
-        "category": "Club Gigs Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "No Parking Fridays - Chris Brown Night",
-        "venue": null,
-        "date": "28 August - 29 August 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbduzzdi",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "oafBigGigs 10 presents Long Distances + Lo! Peninsula+ Packers and Movers",
-        "venue": null,
-        "date": "26 Sep 2026 - 26 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/oafbiggigs-10-presents-long-distances-lo-peninsula-packers-and-movers-sbdhwpjk",
-        "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -891,17 +891,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "JAMMING TRULY - 11th EDITION",
-        "venue": null,
-        "date": "26 August 2026",
-        "time": "06:30 PM",
-        "price": "INR 499 - 999",
-        "url": "https://www.skillboxes.com/events/jamming-truly-11th-edition-sbpyvdcv",
-        "category": "Music Concerts",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Classical Conclave Aarti Ankalikar",
         "venue": null,
         "date": "21 October 2026",
@@ -920,6 +909,28 @@
         "price": "Free",
         "url": "https://www.skillboxes.com/events/classical-conclave-sawani-shende",
         "category": "Culture and Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "ALMOST HUMAN",
+        "venue": null,
+        "date": "29 Aug 2026 - 30 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/almost-human-sbluxccl",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SoMAD x Cavore Presents Un•Deux Live",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/somad-x-cavore-presents-un-deux-live-sbkwvfwg",
+        "category": "Club Gigs - Music",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       },
@@ -950,16 +961,16 @@
         "venue": null,
         "date": "12 Sep 2026 - 12 Sep 2026",
         "time": "05:00 PM",
-        "price": "INR 249",
+        "price": "INR 249 - 1099",
         "url": "https://www.skillboxes.com/events/the-devoid-experience-12-september-2026-bangalore-sbeidixg",
         "category": "Club Gigs - Music",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       },
       {
-        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa",
+        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa #IndiranagarSOCIAL",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "06:00 PM",
         "price": "INR 499 - 1299",
         "url": "https://www.skillboxes.com/events/unit-909-x-mob-mind-presents-lokier-frozen-fader-priaa-on-19th-sep-at-indiranagar-social-bangalore-sbrylqqd",
@@ -1036,6 +1047,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "ALMOST HUMAN",
+        "venue": null,
+        "date": "29 Aug 2026 - 30 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/almost-human-sbluxccl",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SoMAD x Cavore Presents Un•Deux Live",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/somad-x-cavore-presents-un-deux-live-sbkwvfwg",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA] | CODE RED",
         "venue": null,
         "date": "30 Aug 2026 - 31 Aug 2026",
@@ -1062,16 +1095,16 @@
         "venue": null,
         "date": "12 Sep 2026 - 12 Sep 2026",
         "time": "05:00 PM",
-        "price": "INR 249",
+        "price": "INR 249 - 1099",
         "url": "https://www.skillboxes.com/events/the-devoid-experience-12-september-2026-bangalore-sbeidixg",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa",
+        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa #IndiranagarSOCIAL",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "06:00 PM",
         "price": "INR 499 - 1299",
         "url": "https://www.skillboxes.com/events/unit-909-x-mob-mind-presents-lokier-frozen-fader-priaa-on-19th-sep-at-indiranagar-social-bangalore-sbrylqqd",
@@ -1234,6 +1267,39 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Rage Room with Lestrange",
+        "venue": null,
+        "date": "25 Oct 2026 - 25 Oct 2026",
+        "time": "06:00 PM",
+        "price": "INR 399 - 999",
+        "url": "https://www.skillboxes.com/events/rage-room-with-lestrange-sbnbsnng",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Marta Pereira da Costa",
+        "venue": null,
+        "date": "25 September - 26 September 2026",
+        "time": "09:30 PM",
+        "price": "INR 1179 - 2359",
+        "url": "https://www.skillboxes.com/events/marta-pereira-da-costa-the-feminine-soul-of-the-portuguese-guitar-sblbfalo",
+        "category": "Music Concerts",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "JackfruitDanceParty x Read the Room weekender - 5th & 6th Sept #IndiranagarSOCIAL",
+        "venue": null,
+        "date": "05 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 999 - 1499",
+        "url": "https://www.skillboxes.com/events/jackfruitdanceparty-x-read-the-room-weekender-5th-6th-sept-indiranagarsocial-sbkqgnzh",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "CentiGrade Club Nights ft. Pablo Say / 29th Aug / Mirage",
         "venue": null,
         "date": "29 August - 30 August 2026",
@@ -1241,39 +1307,6 @@
         "price": "Free",
         "url": "https://www.skillboxes.com/events/centigrade-club-nights-ft-pablo-say-29th-aug-mirage-sbkhmyur",
         "category": "Music Festivals",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tribute to Queen ft. KAPOW (from Delhi)",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "09:00 AM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/tribute-to-queen-ft-kapow-from-delhi-sbgccebz",
-        "category": "Music Concerts",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA]",
-        "venue": null,
-        "date": "30 Aug 2026 - 31 Aug 2026",
-        "time": "04:00 AM",
-        "price": "INR 699",
-        "url": "https://www.skillboxes.com/events/heatwaves-ft-merzzy-hitmaker-behind-walhala-sbezqngm",
-        "category": "Open Air Music Festivals",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SCREECH - DJ SPRINTER, HELLKITTY, HUNNIT D, DWIJ & DOUBLE S",
-        "venue": null,
-        "date": "11 Sep 2026 - 12 Sep 2026",
-        "time": "07:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/screech-dj-sprinter-hellkitty-hunnit-d-dwij-double-s-sbemndmo",
-        "category": "Club Gigs Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       }
@@ -1295,7 +1328,7 @@
         "venue": null,
         "date": "11 September 2026",
         "time": "08:00 PM",
-        "price": "INR 996",
+        "price": "INR 799 - 1499",
         "url": "https://www.skillboxes.com/events/mandragora-live-sbajhgbn",
         "category": "Music Concerts",
         "city": "Kolkata",
@@ -1502,7 +1535,7 @@
       {
         "title": "MHR & FRIENDS || MUMBAI",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/mhr-friends-mumbai-sbmmfkmq",
@@ -1533,17 +1566,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Shots Fired | Mumbai",
-        "venue": null,
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/shots-fired-mumbai-sbjjggpl",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Shots Fired | Gurugram",
         "venue": null,
         "date": "28 August 2026",
@@ -1551,6 +1573,17 @@
         "price": "Free",
         "url": "https://www.skillboxes.com/events/shots-fired-gurugram-sbhtrgaa",
         "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Sunny Side Up presents Boogiiefeilds",
+        "venue": null,
+        "date": "30 August 2026",
+        "time": "08:00 AM",
+        "price": "INR 699 - 1799",
+        "url": "https://www.skillboxes.com/events/sunny-side-up-presents-boogiiefeilds-sbcnzrtm",
+        "category": "Open Air Music Festivals",
         "city": "Kolkata",
         "source": "skillboxes.com"
       }
@@ -1605,7 +1638,7 @@
         "venue": null,
         "date": "02 Sep 2026 - 02 Sep 2026",
         "time": "09:00 PM",
-        "price": "INR 299",
+        "price": "INR 299 - 399",
         "url": "https://www.skillboxes.com/events/subtle-elixir-sbchkzwn",
         "category": "Club Gigs - Music",
         "city": "Pune",
@@ -1669,21 +1702,10 @@
       {
         "title": "MHR & FRIENDS || MUMBAI",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/mhr-friends-mumbai-sbmmfkmq",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Shots Fired | Mumbai",
-        "venue": null,
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/shots-fired-mumbai-sbjjggpl",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1755,6 +1777,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "The Venom Berries x Afterlife x Midnight Gravity present : Cross City Chaos",
+        "venue": null,
+        "date": "27 Sep 2026 - 27 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/the-venom-berries-x-afterlife-x-midnight-gravity-present-cross-city-chaos-sbmxisxy",
+        "category": "Music Concerts",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Friday Night Live – Edition 45",
         "venue": null,
         "date": "28 Aug 2026 - 28 Aug 2026",
@@ -1812,6 +1845,39 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "All Yellow",
+        "venue": null,
+        "date": "03 Sep 2026 - 03 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/all-yellow-sbngcico",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "After Dark",
+        "venue": null,
+        "date": "29 Aug 2026 - 29 Aug 2026",
+        "time": "11:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/after-dark-sbmopdti",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THURSDAY PROTOCOL AT DYNAMO, GOA",
+        "venue": null,
+        "date": "27 Aug 2026 - 28 Aug 2026",
+        "time": "09:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/thursday-protocol-at-dynamo-goa-sbjpzull",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Technarchy: August Edition ft. Akhlad Ahmed",
         "venue": null,
         "date": "30 Aug 2026 - 30 Aug 2026",
@@ -1862,17 +1928,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/chor-bizarre-calm-chor-coldsnap-life-enjoyers-club-shashwat-lights-sbcfkynx",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "CHAPORA DANCE RITUALS 50.0",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/chapora-dance-rituals-50-0-sbvooehg",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -1970,7 +2025,7 @@
         "venue": null,
         "date": "02 Sep 2026 - 02 Sep 2026",
         "time": "09:00 PM",
-        "price": "INR 299",
+        "price": "INR 299 - 399",
         "url": "https://www.skillboxes.com/events/subtle-elixir-sbchkzwn",
         "category": "Club Gigs - Music",
         "city": "Goa",
@@ -2019,28 +2074,6 @@
         "category": "Music Concerts",
         "city": "Goa",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "KHALID LIVE IN MUMBAI",
-        "venue": null,
-        "date": "17 December 2026",
-        "time": "06:00 PM",
-        "price": "INR 2549 - 6999",
-        "url": "https://www.skillboxes.com/events/khalid-live-in-mumbai-sbnvftfc",
-        "category": "Music Concerts",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "MHR & FRIENDS || MUMBAI",
-        "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/mhr-friends-mumbai-sbmmfkmq",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
       }
     ],
     "chandigarh": [
@@ -2056,6 +2089,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "GTA 5 Gold Medal Tips for The Long Stretch | U4GM",
+        "venue": null,
+        "date": "27 August - 03 September 2026",
+        "time": "04:03 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/gta-5-gold-medal-tips-for-the-long-stretch-u4gm-sbmznqfp",
+        "category": "Music Concerts",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "KOMO HOUSE Presents FLIPSYD",
         "venue": null,
         "date": "29 Aug 2026 - 29 Aug 2026",
@@ -2063,6 +2107,17 @@
         "price": "INR 4000",
         "url": "https://www.skillboxes.com/events/komo-house-presents-flipsyd-sbjlpzwd",
         "category": "Music Concerts",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Bangr",
+        "venue": null,
+        "date": "26 August 2027",
+        "time": "02:00 AM",
+        "price": "INR 1299",
+        "url": "https://www.skillboxes.com/events/bangr-sblmdmxv",
+        "category": "Open Air Music Festivals",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2219,28 +2274,6 @@
         "category": "Social Gathering/ Game",
         "city": "Chandigarh",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Dikkat Yatra - Hades | Delhi",
-        "venue": null,
-        "date": "29 Aug 2026 - 29 Aug 2026",
-        "time": "05:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/dikkat-yatra-hades-delhi-sbxiidmy",
-        "category": "Culture and Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Pukaar: The Show by Karan Saru",
-        "venue": null,
-        "date": "17 September 2026",
-        "time": "06:00 PM",
-        "price": "INR 349 - 1599",
-        "url": "https://www.skillboxes.com/events/pukaar-the-show-by-karan-saru-sbutxwve",
-        "category": "Music Concerts",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
       }
     ],
     "ahmedabad": [
@@ -2258,21 +2291,10 @@
       {
         "title": "MHR & FRIENDS || MUMBAI",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/mhr-friends-mumbai-sbmmfkmq",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Shots Fired | Mumbai",
-        "venue": null,
-        "date": "26 August 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/shots-fired-mumbai-sbjjggpl",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2344,6 +2366,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "The Venom Berries x Afterlife x Midnight Gravity present : Cross City Chaos",
+        "venue": null,
+        "date": "27 Sep 2026 - 27 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/the-venom-berries-x-afterlife-x-midnight-gravity-present-cross-city-chaos-sbmxisxy",
+        "category": "Music Concerts",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Friday Night Live – Edition 45",
         "venue": null,
         "date": "28 Aug 2026 - 28 Aug 2026",
@@ -2383,28 +2416,6 @@
         "time": "08:00 PM",
         "price": "INR 999 - 4999",
         "url": "https://www.skillboxes.com/events/schranz-showcase-mumbai-sbytsfmc",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "THE INNER ROOM",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/the-inner-room-sbxxvgno",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rose",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "10:30 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/rose-sbvxhtlw",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2480,9 +2491,20 @@
         "venue": null,
         "date": "27 Aug 2026 - 27 Aug 2026",
         "time": "08:00 PM",
-        "price": "INR 399 - 699",
+        "price": "INR 399 - 999",
         "url": "https://www.skillboxes.com/events/rumble-on-sbdjwqsa",
         "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mangala Gauri Celebration at Rule 34",
+        "venue": null,
+        "date": "01 Sep 2026 - 01 Sep 2026",
+        "time": "03:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/mangala-gauri-celebration-at-rule-34-sbbcultj",
+        "category": "Social Gathering/ Game",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       }
@@ -2517,17 +2539,6 @@
         "time": "05:00 PM",
         "price": "INR 1500 - 2999",
         "url": "https://www.skillboxes.com/events/monsoon-boutique-music-festival-sbwaomgy",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Void x Matrix x Omani",
-        "venue": null,
-        "date": "26 Aug 2026 - 26 Aug 2026",
-        "time": "08:00 PM",
-        "price": "INR 1999",
-        "url": "https://www.skillboxes.com/events/void-x-matrix-x-omani-sbzhsouk",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2606,6 +2617,17 @@
         "price": "INR 2999 - 3799",
         "url": "https://www.skillboxes.com/events/chet-faker-live-in-delhi-ncr-sbegvldz",
         "category": "Music Concerts",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Room XO Presents Jasmin Blust & Suark",
+        "venue": null,
+        "date": "05 Sep 2026 - 06 Sep 2026",
+        "time": "10:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/room-xo-presents-jasmin-blust-suark-sblqnhnd",
+        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2702,30 +2724,8 @@
         "venue": null,
         "date": "06 September 2026",
         "time": "07:00 PM",
-        "price": "INR 250",
+        "price": "INR 250 - 499",
         "url": "https://www.skillboxes.com/events/live-at-siyah-sbjujpat",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SOCIAL PRESENTS DJ AANVI & More | Nehru place SOCIAL",
-        "venue": null,
-        "date": "28 Aug 2026 - 28 Aug 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/social-presents-dj-aanvi-more-nehru-place-social-sbfmtxak",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Almost human at Baardos Qutub",
-        "venue": null,
-        "date": "30 Aug 2026 - 31 Aug 2026",
-        "time": "11:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/almost-human-at-baardos-qutub-sbetbvjn",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2751,6 +2751,28 @@
         "price": "INR 750 - 7500",
         "url": "https://www.skillboxes.com/events/sid-sriram-live-sbrznmdo",
         "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "ALMOST HUMAN",
+        "venue": null,
+        "date": "29 Aug 2026 - 30 Aug 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/almost-human-sbluxccl",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SoMAD x Cavore Presents Un•Deux Live",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/somad-x-cavore-presents-un-deux-live-sbkwvfwg",
+        "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
@@ -2781,16 +2803,16 @@
         "venue": null,
         "date": "12 Sep 2026 - 12 Sep 2026",
         "time": "05:00 PM",
-        "price": "INR 249",
+        "price": "INR 249 - 1099",
         "url": "https://www.skillboxes.com/events/the-devoid-experience-12-september-2026-bangalore-sbeidixg",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa",
+        "title": "Unit 909 X Mob Mind Presents Lokier, Frozen Fader & Priaa #IndiranagarSOCIAL",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "06:00 PM",
         "price": "INR 499 - 1299",
         "url": "https://www.skillboxes.com/events/unit-909-x-mob-mind-presents-lokier-frozen-fader-priaa-on-19th-sep-at-indiranagar-social-bangalore-sbrylqqd",
@@ -2953,6 +2975,39 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Rage Room with Lestrange",
+        "venue": null,
+        "date": "25 Oct 2026 - 25 Oct 2026",
+        "time": "06:00 PM",
+        "price": "INR 399 - 999",
+        "url": "https://www.skillboxes.com/events/rage-room-with-lestrange-sbnbsnng",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Marta Pereira da Costa",
+        "venue": null,
+        "date": "25 September - 26 September 2026",
+        "time": "09:30 PM",
+        "price": "INR 1179 - 2359",
+        "url": "https://www.skillboxes.com/events/marta-pereira-da-costa-the-feminine-soul-of-the-portuguese-guitar-sblbfalo",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "JackfruitDanceParty x Read the Room weekender - 5th & 6th Sept #IndiranagarSOCIAL",
+        "venue": null,
+        "date": "05 Sep 2026 - 06 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 999 - 1499",
+        "url": "https://www.skillboxes.com/events/jackfruitdanceparty-x-read-the-room-weekender-5th-6th-sept-indiranagarsocial-sbkqgnzh",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "CentiGrade Club Nights ft. Pablo Say / 29th Aug / Mirage",
         "venue": null,
         "date": "29 August - 30 August 2026",
@@ -2960,39 +3015,6 @@
         "price": "Free",
         "url": "https://www.skillboxes.com/events/centigrade-club-nights-ft-pablo-say-29th-aug-mirage-sbkhmyur",
         "category": "Music Festivals",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tribute to Queen ft. KAPOW (from Delhi)",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "09:00 AM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/tribute-to-queen-ft-kapow-from-delhi-sbgccebz",
-        "category": "Music Concerts",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HEATWAVES ft. MERZZY [HITMAKER BEHIND WALHALA]",
-        "venue": null,
-        "date": "30 Aug 2026 - 31 Aug 2026",
-        "time": "04:00 AM",
-        "price": "INR 699",
-        "url": "https://www.skillboxes.com/events/heatwaves-ft-merzzy-hitmaker-behind-walhala-sbezqngm",
-        "category": "Open Air Music Festivals",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SCREECH - DJ SPRINTER, HELLKITTY, HUNNIT D, DWIJ & DOUBLE S",
-        "venue": null,
-        "date": "11 Sep 2026 - 12 Sep 2026",
-        "time": "07:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/screech-dj-sprinter-hellkitty-hunnit-d-dwij-double-s-sbemndmo",
-        "category": "Club Gigs Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
