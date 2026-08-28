@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T10:55:02.066001+00:00",
+  "updated_at": "2026-08-28T12:30:51.646273+00:00",
   "source": "Townscript",
   "total_events": 24,
   "cities": {
@@ -62,23 +62,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Safar",
         "venue": "Greater Kailash",
         "date": "30 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/safar-321104",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Awake After Midnight",
+        "venue": "Greater Kailash",
+        "date": "12 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -106,17 +106,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Hard and Heavy by Anarchy and D2O",
-        "venue": "Greater Kailash",
-        "date": "11 October 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": " FEST OF JOY & HARMONY",
         "venue": "Sector 47",
         "date": "30 August 2026",
@@ -124,6 +113,17 @@
         "price": "Free",
         "url": "https://www.townscript.com/in/-fest-of-joy-harmony-310212",
         "organiser": "Shubham Kumar",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Hard and Heavy by Anarchy and D2O",
+        "venue": "Greater Kailash",
+        "date": "11 October 2026",
+        "time": "08:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
