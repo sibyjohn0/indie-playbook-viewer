@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T12:30:51.646273+00:00",
+  "updated_at": "2026-08-29T07:39:43.704629+00:00",
   "source": "Townscript",
-  "total_events": 24,
+  "total_events": 23,
   "cities": {
     "mumbai": [
       {
@@ -40,34 +40,12 @@
     ],
     "delhi": [
       {
-        "title": "Homecoming' by Delhivision",
-        "venue": "Greater Kailash",
-        "date": "28 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/homecoming-by-delhivision-341130",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Riot Run / A Multi Show Run by Slaves of Rock & Rattlesnakes",
         "venue": "Greater Kailash",
         "date": "29 August 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/the-riot-run-a-multi-show-run-by-slaves-of-rock-rattlesnakes-433304",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Safar",
-        "venue": "Greater Kailash",
-        "date": "30 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/safar-321104",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -84,6 +62,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Safar",
+        "venue": "Greater Kailash",
+        "date": "30 August 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/safar-321104",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "20 September 2026",
@@ -91,17 +80,6 @@
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -128,13 +106,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "The show must go on  with Zidd",
-        "venue": "Greater Kailash",
-        "date": "16 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
-        "organiser": "Depot48",
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -167,6 +145,17 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/soul-surge-430002",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The show must go on  with Zidd",
+        "venue": "Greater Kailash",
+        "date": "16 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
