@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-08-30T06:13:39.693795+00:00",
+  "updated_at": "2026-08-31T06:37:01.279022+00:00",
   "source": "Townscript",
-  "total_events": 27,
+  "total_events": 24,
   "cities": {
     "mumbai": [
-      {
-        "title": "Janmashtami Maha-Kirtan  ",
-        "venue": "Wagholi",
-        "date": "30 August 2026",
-        "time": "12:00 AM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
-        "organiser": "Sachin Sangam",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
@@ -73,28 +62,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Safar",
-        "venue": "Greater Kailash",
-        "date": "30 August 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/safar-321104",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": " FEST OF JOY & HARMONY",
-        "venue": "Sector 47",
-        "date": "30 August 2026",
-        "time": "02:00 PM",
-        "price": "Free",
-        "url": "https://www.townscript.com/in/-fest-of-joy-harmony-310212",
-        "organiser": "Shubham Kumar",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Hard and Heavy by Anarchy and D2O",
         "venue": "Greater Kailash",
         "date": "11 October 2026",
@@ -113,6 +80,17 @@
         "price": "INR 6999",
         "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
         "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Sound Alive presents Dhruv Sarker",
+        "venue": "Greater Kailash",
+        "date": "9 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/sound-alive-presents-dhruv-sarker-322110",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -150,34 +128,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "The show must go on  with Zidd",
-        "venue": "Greater Kailash",
-        "date": "16 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Sinko",
         "venue": "Greater Kailash",
         "date": "11 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sinko-023023",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
-        "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -200,6 +156,28 @@
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/manish-vaid-project-444113",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The show must go on  with Zidd",
+        "venue": "Greater Kailash",
+        "date": "16 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -267,17 +245,6 @@
       }
     ],
     "pune": [
-      {
-        "title": "Janmashtami Maha-Kirtan  ",
-        "venue": "Wagholi",
-        "date": "30 August 2026",
-        "time": "12:00 AM",
-        "price": "INR 199",
-        "url": "https://www.townscript.com/in/janmashtami-mahakirtan-232131",
-        "organiser": "Sachin Sangam",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
