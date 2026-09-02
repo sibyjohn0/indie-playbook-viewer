@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T06:02:15.407676+00:00",
+  "updated_at": "2026-09-02T05:24:42.669748+00:00",
   "source": "Townscript",
-  "total_events": 24,
+  "total_events": 26,
   "cities": {
     "mumbai": [
       {
@@ -16,17 +16,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
-        "venue": "Balewadi",
-        "date": "20 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/wild-hours-kombucha-coffee-house-beats-sunday-am-edition-014404",
-        "organiser": "chinmay halyalkar",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
-      {
         "title": "SWARABHISHEKH 2026",
         "venue": "Prabhadevi",
         "date": "12 December 2026",
@@ -34,6 +23,17 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/swarabhishekh-100421",
         "organiser": "Aces Hospitality",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Scam sangeet",
+        "venue": "Santacruz (West)",
+        "date": "5 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/scam-sangeet-132202",
+        "organiser": "Saddi galli",
         "city": "Mumbai",
         "source": "townscript.com"
       }
@@ -219,6 +219,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "The Colour of Sound: A Music & Art Workshop",
+        "venue": "Banjara Hills",
+        "date": "26 September 2026",
+        "time": "06:30 PM",
+        "price": "INR 699",
+        "url": "https://www.townscript.com/in/the-colour-of-sound-a-music-art-workshop-110424",
+        "organiser": "Pradeep George Hull",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      },
+      {
         "title": "Piano Master class by Andreas Konig",
         "venue": "Banjara Hills",
         "date": "12 September 2026",
@@ -275,6 +286,17 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/swarabhishekh-100421",
         "organiser": "Aces Hospitality",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Scam sangeet",
+        "venue": "Santacruz (West)",
+        "date": "5 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/scam-sangeet-132202",
+        "organiser": "Saddi galli",
         "city": "Pune",
         "source": "townscript.com"
       }
