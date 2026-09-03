@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-09-02T05:24:42.669748+00:00",
+  "updated_at": "2026-09-03T05:28:32.068738+00:00",
   "source": "Townscript",
   "total_events": 26,
   "cities": {
     "mumbai": [
+      {
+        "title": "Scam sangeet",
+        "venue": "Santacruz (West)",
+        "date": "5 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/scam-sangeet-132202",
+        "organiser": "Saddi galli",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
@@ -25,17 +36,6 @@
         "organiser": "Aces Hospitality",
         "city": "Mumbai",
         "source": "townscript.com"
-      },
-      {
-        "title": "Scam sangeet",
-        "venue": "Santacruz (West)",
-        "date": "5 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/scam-sangeet-132202",
-        "organiser": "Saddi galli",
-        "city": "Mumbai",
-        "source": "townscript.com"
       }
     ],
     "delhi": [
@@ -53,11 +53,33 @@
       {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
-        "date": "20 September 2026",
+        "date": "6 December 2026",
         "time": "06:00 AM",
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Soul Surge",
+        "venue": "Greater Kailash",
+        "date": "26 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/soul-surge-430002",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -73,13 +95,24 @@
         "source": "townscript.com"
       },
       {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "title": "Manish Vaid Project",
+        "venue": "Greater Kailash",
+        "date": "4 October 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/manish-vaid-project-444113",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Sinko",
+        "venue": "Greater Kailash",
+        "date": "11 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/sinko-023023",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -128,28 +161,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Soul Surge",
-        "venue": "Greater Kailash",
-        "date": "26 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/soul-surge-430002",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sinko",
-        "venue": "Greater Kailash",
-        "date": "11 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/sinko-023023",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
         "venue": "Greater Kailash",
         "date": "20 September 2026",
@@ -167,17 +178,6 @@
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Manish Vaid Project",
-        "venue": "Greater Kailash",
-        "date": "4 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/manish-vaid-project-444113",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -248,7 +248,7 @@
         "venue": "Rajarhat",
         "date": "4 September 2026",
         "time": "08:30 PM",
-        "price": "INR 400",
+        "price": "INR 799",
         "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
         "organiser": "KIRTAN KOLKATA",
         "city": "Kolkata",
@@ -256,6 +256,17 @@
       }
     ],
     "pune": [
+      {
+        "title": "Scam sangeet",
+        "venue": "Santacruz (West)",
+        "date": "5 September 2026",
+        "time": "07:00 PM",
+        "price": "INR 500",
+        "url": "https://www.townscript.com/in/scam-sangeet-132202",
+        "organiser": "Saddi galli",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
@@ -286,17 +297,6 @@
         "price": "INR 250",
         "url": "https://www.townscript.com/in/swarabhishekh-100421",
         "organiser": "Aces Hospitality",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Scam sangeet",
-        "venue": "Santacruz (West)",
-        "date": "5 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/scam-sangeet-132202",
-        "organiser": "Saddi galli",
         "city": "Pune",
         "source": "townscript.com"
       }
