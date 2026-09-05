@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T05:24:49.684247+00:00",
+  "updated_at": "2026-09-05T05:14:09.182418+00:00",
   "source": "Townscript",
   "total_events": 26,
   "cities": {
@@ -62,6 +62,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Sinko",
+        "venue": "Greater Kailash",
+        "date": "11 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/sinko-023023",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "6 December 2026",
@@ -69,17 +80,6 @@
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -106,23 +106,23 @@
         "source": "townscript.com"
       },
       {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Nirmohi - A Contemporary Thumri Ensemble",
         "venue": "Greater Kailash",
         "date": "13 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/nirmohi-a-contemporary-thumri-ensemble-242221",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sinko",
-        "venue": "Greater Kailash",
-        "date": "11 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/sinko-023023",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -230,6 +230,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "MADHURAM ",
+        "venue": null,
+        "date": "12 September 2026",
+        "time": "06:00 PM",
+        "price": "INR 149",
+        "url": "https://www.townscript.com/in/madhuram-441230",
+        "organiser": "Thrilok Kondaparthi",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      },
+      {
         "title": "Piano Master class by Andreas Konig",
         "venue": "Banjara Hills",
         "date": "12 September 2026",
@@ -242,19 +253,7 @@
       }
     ],
     "chennai": [],
-    "kolkata": [
-      {
-        "title": "Janmashtami kirtan & Bhajan Jamming",
-        "venue": "Rajarhat",
-        "date": "4 September 2026",
-        "time": "08:30 PM",
-        "price": "INR 799",
-        "url": "https://www.townscript.com/in/janmashtami-kirtan-bhajan-jamming-144304",
-        "organiser": "KIRTAN KOLKATA",
-        "city": "Kolkata",
-        "source": "townscript.com"
-      }
-    ],
+    "kolkata": [],
     "pune": [
       {
         "title": "Scam sangeet",
