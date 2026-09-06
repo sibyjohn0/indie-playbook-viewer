@@ -1,20 +1,9 @@
 {
-  "updated_at": "2026-09-05T05:14:09.182418+00:00",
+  "updated_at": "2026-09-06T05:28:26.683676+00:00",
   "source": "Townscript",
-  "total_events": 26,
+  "total_events": 25,
   "cities": {
     "mumbai": [
-      {
-        "title": "Scam sangeet",
-        "venue": "Santacruz (West)",
-        "date": "5 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/scam-sangeet-132202",
-        "organiser": "Saddi galli",
-        "city": "Mumbai",
-        "source": "townscript.com"
-      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",
@@ -23,6 +12,17 @@
         "price": "INR 500",
         "url": "https://www.townscript.com/in/anhad-presents-ek-shaam-bhakti-ke-naam-320330",
         "organiser": "RADHA MAGIC TELEFILMS",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
+        "venue": "Balewadi",
+        "date": "20 September 2026",
+        "time": "10:00 AM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/wild-hours-kombucha-coffee-house-beats-sunday-am-edition-014404",
+        "organiser": "chinmay halyalkar",
         "city": "Mumbai",
         "source": "townscript.com"
       },
@@ -69,17 +69,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sinko-023023",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "NOIDA STRIDERS RUN",
-        "venue": "Sector 62",
-        "date": "6 December 2026",
-        "time": "06:00 AM",
-        "price": "INR 349",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -135,6 +124,17 @@
         "price": "INR 299",
         "url": "https://www.townscript.com/in/sound-alive-presents-dhruv-sarker-322110",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "NOIDA STRIDERS RUN",
+        "venue": "Sector 62",
+        "date": "6 December 2026",
+        "time": "06:00 AM",
+        "price": "INR 349",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -208,17 +208,6 @@
     "bengaluru": [],
     "hyderabad": [
       {
-        "title": "Dhwaniverse Bhajan Jamming - A Musical Evening of Devotion",
-        "venue": "Uppal",
-        "date": "5 September 2026",
-        "time": "06:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/dhwaniverse-bhajan-jamming-a-musical-evening-of-devotion-400030",
-        "organiser": "Dhwaniverse Band",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Colour of Sound: A Music & Art Workshop",
         "venue": "Banjara Hills",
         "date": "26 September 2026",
@@ -226,6 +215,17 @@
         "price": "INR 699",
         "url": "https://www.townscript.com/in/the-colour-of-sound-a-music-art-workshop-110424",
         "organiser": "Pradeep George Hull",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      },
+      {
+        "title": "An Accoustic Night with The Horizons",
+        "venue": "Gachibowli",
+        "date": "6 September 2026",
+        "time": "07:30 PM",
+        "price": "INR 200",
+        "url": "https://www.townscript.com/in/an-accoustic-night-with-the-horizons-124300",
+        "organiser": "The Horizons",
         "city": "Hyderabad",
         "source": "townscript.com"
       },
@@ -255,17 +255,6 @@
     "chennai": [],
     "kolkata": [],
     "pune": [
-      {
-        "title": "Scam sangeet",
-        "venue": "Santacruz (West)",
-        "date": "5 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 500",
-        "url": "https://www.townscript.com/in/scam-sangeet-132202",
-        "organiser": "Saddi galli",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
       {
         "title": "ANHAD Presents - Ek Shaam Bhakti Ke Naam",
         "venue": "Bandra West",

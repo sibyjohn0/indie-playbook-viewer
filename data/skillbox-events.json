@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T05:13:25.829345+00:00",
+  "updated_at": "2026-09-06T05:27:46.789013+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 243,
+  "total_events": 238,
   "cities": {
     "mumbai": [
       {
@@ -67,6 +67,17 @@
         "price": "INR 2499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
         "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rooftopia Sundowner",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "04:20 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/rooftopia-sundowner-sblvbybm",
+        "category": "Music Festivals",
         "city": "Mumbai",
         "source": "skillboxes.com"
       },
@@ -181,17 +192,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Ustaad who was a Rockstar",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "05:30 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/the-ustaad-who-was-a-rockstar-sbwvolrc",
-        "category": "Culture and Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "INNERSPACE",
         "venue": null,
         "date": "06 September 2026",
@@ -260,6 +260,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Union - The After's Ritual",
+        "venue": null,
+        "date": "07 Sep 2026 - 07 Sep 2026",
+        "time": "05:00 AM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/union-the-after-s-ritual-sblbjwkp",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "The Loft Takeover at Auro",
         "venue": null,
         "date": "12 Sep 2026 - 13 Sep 2026",
@@ -304,11 +315,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "D-DION × DJ GANESH | 19th Sept, Saturday",
+        "title": "DJ GANESH at D-DION",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "09:00 PM",
-        "price": "INR 1499 - 5599",
+        "price": "INR 1500 - 5600",
         "url": "https://www.skillboxes.com/events/d-dion-dj-ganesh-19th-sept-saturday-sbexqlxw",
         "category": "Club Gigs - Music",
         "city": "Delhi",
@@ -344,28 +355,6 @@
         "price": "INR 499 - 999",
         "url": "https://www.skillboxes.com/events/dance-4-all-sbasfrfe",
         "category": "Open Air Event",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Houdini + more at Baardos Qutub",
-        "venue": null,
-        "date": "05 Sep 2026 - 06 Sep 2026",
-        "time": "11:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/houdini-more-at-baardos-qutub-sbzevnxk",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "#1 Bollytech artist in India TrapperX",
-        "venue": null,
-        "date": "05 Sep 2026 - 06 Sep 2026",
-        "time": "09:00 PM",
-        "price": "INR 3000 - 6000",
-        "url": "https://www.skillboxes.com/events/1-bollytech-artist-in-india-trapperx-sbsyxgda",
-        "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -425,17 +414,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Agla Kaun Feat. - Saahel, Natkhat and kk7act.",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "07:30 PM",
-        "price": "INR 499 - 1999",
-        "url": "https://www.skillboxes.com/events/saahel-live-in-delhi-sbcsoihv",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Desi Nights Ft. Roohayat",
         "venue": null,
         "date": "11 Sep 2026 - 11 Sep 2026",
@@ -458,17 +436,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "YourSideTV presents “NPC”",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 350 - 499",
-        "url": "https://www.skillboxes.com/events/yoursidetv-presents-npc-sbxkrwtq",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "FUSSIE NIGHTS",
         "venue": null,
         "date": "19 October 2026",
@@ -476,6 +443,28 @@
         "price": "INR 150",
         "url": "https://www.skillboxes.com/events/fussie-nights-sbspyuzj",
         "category": "Dance & Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Habibi Please",
+        "venue": null,
+        "date": "11 Sep 2026 - 11 Sep 2026",
+        "time": "09:30 PM",
+        "price": "INR 999 - 3999",
+        "url": "https://www.skillboxes.com/events/habibi-please-sbalhhkd",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "'Dard Se Sukoon Tak' - by Himshweta ( A Musical Poetry Show)",
+        "venue": null,
+        "date": "12 Sep 2026",
+        "time": "04:30 PM",
+        "price": "INR 150 - 450",
+        "url": "https://www.skillboxes.com/events/dard-se-sukoon-tak-by-himshweta-a-musical-poetry-show-sbxowvjx",
+        "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       }
@@ -495,7 +484,7 @@
       {
         "title": "Rhythm Shaw Live Nothing To Lose India Tour 2026 || Bangalore",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-bangalore-sbhprdiu",
@@ -510,17 +499,6 @@
         "time": "09:00 PM",
         "price": "INR 300 - 499",
         "url": "https://www.skillboxes.com/events/space-session-presents-donn-bhat-sbbdedrl",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tori Levett",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tori-levett-sbzhalfb",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -647,17 +625,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Apocalyptic Grid 2.0",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "03:30 PM",
-        "price": "INR 599",
-        "url": "https://www.skillboxes.com/events/apocalyptic-grid-2-0-sbltfmlc",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "DGTL Bengaluru 2026",
         "venue": null,
         "date": "13 November - 14 November 2026",
@@ -678,20 +645,42 @@
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "KHALID LIVE IN BENGALURU",
+        "venue": null,
+        "date": "15 December 2026",
+        "time": "06:00 PM",
+        "price": "INR 2549 - 6999",
+        "url": "https://www.skillboxes.com/events/khalid-live-in-bengaluru-sbntavxl",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "MHR & FRIENDS || BENGALURU",
+        "venue": null,
+        "date": "20 September 2026",
+        "time": "08:00 PM",
+        "price": "INR 499 - 699",
+        "url": "https://www.skillboxes.com/events/mhr-friends-bengaluru-sbmkanez",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "DOMi & JD Beck WHO ASKED? TOUR | Bengaluru",
+        "venue": null,
+        "date": "17 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 2499 - 3499",
+        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-bengaluru-sbtxwbxp",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
       }
     ],
     "hyderabad": [
-      {
-        "title": "THE EMRAAN ERA ft. Emraan Hashmi & DJ Ganesh",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "07:00 PM",
-        "price": "INR 629 - 35999",
-        "url": "https://www.skillboxes.com/events/the-emraan-era-ft-emraan-hashmi-dj-ganesh-sbchpvvo",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
       {
         "title": "Rhythm Shaw Live Nothing To Lose India Tour 2026 || Hyderabad",
         "venue": null,
@@ -711,17 +700,6 @@
         "price": "INR 993",
         "url": "https://www.skillboxes.com/events/tom-enzy-live-at-garage-sbedykgz",
         "category": "Music Concerts",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tribute to Queen Ft, Lusty Angels",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 249",
-        "url": "https://www.skillboxes.com/events/tribute-to-queen-ft-lusty-angels-sbvmocyq",
-        "category": "Club Gigs - Music",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       },
@@ -774,7 +752,7 @@
         "venue": null,
         "date": "11 Sep 2026 - 11 Sep 2026",
         "time": "08:00 PM",
-        "price": "INR 499 - 549",
+        "price": "INR 499 - 599",
         "url": "https://www.skillboxes.com/events/aggressive-tendencies-v44-0-sbdolhgj",
         "category": "Club Gigs - Music",
         "city": "Hyderabad",
@@ -838,7 +816,7 @@
       {
         "title": "Rhythm Shaw Live Nothing To Lose India Tour 2026 || Bangalore",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-bangalore-sbhprdiu",
@@ -858,12 +836,23 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Tori Levett",
+        "title": "The Big Bad Bash ft. Runt & Hoirong",
         "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tori-levett-sbzhalfb",
+        "date": "18 Sep 2026 - 18 Sep 2026",
+        "time": "06:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/the-big-bad-bash-ft-runt-hoirong-sbzcqqpt",
+        "category": "Club Gigs - Music",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Blackstratblues at Hamilton Cocktail Bar",
+        "venue": null,
+        "date": "09 Oct 2026 - 09 Oct 2026",
+        "time": "06:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/blackstratblues-at-hamilton-cocktail-bar-sbygtrrf",
         "category": "Club Gigs - Music",
         "city": "Hyderabad",
         "source": "skillboxes.com"
@@ -928,7 +917,7 @@
       {
         "title": "Rhythm Shaw Live Nothing To Lose India Tour 2026 || Bangalore",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-bangalore-sbhprdiu",
@@ -943,17 +932,6 @@
         "time": "09:00 PM",
         "price": "INR 300 - 499",
         "url": "https://www.skillboxes.com/events/space-session-presents-donn-bhat-sbbdedrl",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tori Levett",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tori-levett-sbzhalfb",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1032,6 +1010,28 @@
         "price": "INR 999 - 2299",
         "url": "https://www.skillboxes.com/events/yatra-with-aanchal-sborcsdq",
         "category": "Live Music Event",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Aarzu India Tour Bengaluru",
+        "venue": null,
+        "date": "12 Sep 2026 - 12 Sep 2026",
+        "time": "09:00 PM",
+        "price": "INR 999",
+        "url": "https://www.skillboxes.com/events/aarzu-india-tour-bengaluru-sbmziugo",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mandragora Live In Bangalore",
+        "venue": null,
+        "date": "12 Sep 2026 - 12 Sep 2026",
+        "time": "07:00 PM",
+        "price": "INR 1499 - 4999",
+        "url": "https://www.skillboxes.com/events/mandragora-live-in-bangalore-sbhncodb",
+        "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       }
@@ -1214,17 +1214,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Istorea by the Sea presents Tony Kakkar",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 1000 - 150000",
-        "url": "https://www.skillboxes.com/events/istorea-by-the-sea-presents-tony-kakkar-sbuuwcqj",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "AFRO YOKI India Tour || Pune",
         "venue": null,
         "date": "06 Sep 2026 - 06 Sep 2026",
@@ -1337,6 +1326,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "High Big Gigs feat. Shanka Tribe & Quistek",
+        "venue": null,
+        "date": "11 Sep 2026 - 11 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/high-big-gigs-feat-shanka-tribe-quistek-sbkjwsbj",
+        "category": "Live Music Event",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Tribute to 3 kings by The Kemosabes",
         "venue": null,
         "date": "11 Sep 2026 - 11 Sep 2026",
@@ -1354,17 +1354,6 @@
         "time": "08:00 PM",
         "price": "INR 399",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-pune-sbhyksnk",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Eric Clapton Tribute",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 375",
-        "url": "https://www.skillboxes.com/events/eric-clapton-tribute-sbtsphtx",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1454,6 +1443,17 @@
         "price": "INR 2499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
         "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rooftopia Sundowner",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "04:20 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/rooftopia-sundowner-sblvbybm",
+        "category": "Music Festivals",
         "city": "Pune",
         "source": "skillboxes.com"
       },
@@ -1544,42 +1544,9 @@
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Levitate x Bonobo Present Toy Tonics Mumbai FT. Gee Lane, Arpy Brown and friends",
-        "venue": null,
-        "date": "11 Sep 2026 - 11 Sep 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/toy-tonics-mumbai-ft-arpy-brown-gee-lane-sbblxswb",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "MELANCHOLIA",
-        "venue": null,
-        "date": "20 Sep 2026 - 20 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/melancholia-sbyaezug",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
       }
     ],
     "goa": [
-      {
-        "title": "Istorea by the Sea presents Tony Kakkar",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "07:00 PM",
-        "price": "INR 1000 - 150000",
-        "url": "https://www.skillboxes.com/events/istorea-by-the-sea-presents-tony-kakkar-sbuuwcqj",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
       {
         "title": "Royal Enfield Motoverse 2026",
         "venue": null,
@@ -1588,6 +1555,50 @@
         "price": "INR 2599 - 23990",
         "url": "https://www.skillboxes.com/events/royal-enfield-motoverse-2026-sbfwfpuj",
         "category": "The Greatest Celebration of Motorcycling Culture on Earth",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SORTED SOUNDS — September Edition",
+        "venue": null,
+        "date": "11 Sep 2026 - 11 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/sorted-sounds-september-edition-sbkuvenq",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "CHAPORA DANCE RITUALS 52.0",
+        "venue": null,
+        "date": "09 Sep 2026 - 09 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/chapora-dance-rituals-52-0-sbkqljyi",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "TUES-TECH 47.0",
+        "venue": null,
+        "date": "08 Sep 2026 - 08 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/tues-tech-47-0-sbkogmqr",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Full Spectrum 110",
+        "venue": null,
+        "date": "11 Sep 2026 - 11 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/full-spectrum-110-sbkmbpja",
+        "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1625,17 +1636,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SHFT, PROG RESCUE",
-        "venue": null,
-        "date": "04 Sep 2026 - 05 Sep 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/shft-prog-rescue-sbzjfims",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Kashmira & Zane",
         "venue": null,
         "date": "24 Sep 2026 - 24 Sep 2026",
@@ -1643,28 +1643,6 @@
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/kashmira-zane-sbypngvv",
         "category": "Cafe Gigs",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Crystal Clear Sounds 10.0",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/crystal-clear-sounds-10-0-sbvxmpkx",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rocket Raja Live",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 300",
-        "url": "https://www.skillboxes.com/events/saltamontes-present-rocket-raja-sbsffemd",
-        "category": "Music Event",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1702,6 +1680,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "High Big Gigs feat. Shanka Tribe & Quistek",
+        "venue": null,
+        "date": "11 Sep 2026 - 11 Sep 2026",
+        "time": "08:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/high-big-gigs-feat-shanka-tribe-quistek-sbkjwsbj",
+        "category": "Live Music Event",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Tribute to 3 kings by The Kemosabes",
         "venue": null,
         "date": "11 Sep 2026 - 11 Sep 2026",
@@ -1719,17 +1708,6 @@
         "time": "08:00 PM",
         "price": "INR 399",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-pune-sbhyksnk",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Eric Clapton Tribute",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "INR 375",
-        "url": "https://www.skillboxes.com/events/eric-clapton-tribute-sbtsphtx",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -1810,31 +1788,9 @@
         "category": "Music Concerts",
         "city": "Goa",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "DOMi & JD Beck WHO ASKED? TOUR | Mumbai",
-        "venue": null,
-        "date": "19 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 2499",
-        "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
       }
     ],
     "chandigarh": [
-      {
-        "title": "RAGE IN THE CAGE",
-        "venue": null,
-        "date": "05 September 2026",
-        "time": "10:00 PM",
-        "price": "INR 999 - 50000",
-        "url": "https://www.skillboxes.com/events/rage-in-the-cage-sbeynlmg",
-        "category": "Music Event",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
       {
         "title": "Bangr",
         "venue": null,
@@ -1979,6 +1935,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Face2Face India Presents Chandigarh Showcase",
+        "venue": null,
+        "date": "25 September 2026",
+        "time": "10:00 PM",
+        "price": "INR 999 - 1999",
+        "url": "https://www.skillboxes.com/events/face2face-india-presents-chandigarh-showcase-sblftqzx",
+        "category": "Club Gigs - Music",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Lacquer Society (Warehouse mix X Auro)",
         "venue": null,
         "date": "19 Sep 2026 - 19 Sep 2026",
@@ -1997,17 +1964,6 @@
         "price": "INR 95",
         "url": "https://www.skillboxes.com/events/alt-baithak-rave-sbzryxri",
         "category": "Select Underground Experience",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "EVERYTHING CHATPATE",
-        "venue": null,
-        "date": "05 September - 06 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 2999",
-        "url": "https://www.skillboxes.com/events/everything-chatpate-sbcoensn",
-        "category": "Club Gigs - Music",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2098,6 +2054,17 @@
         "price": "INR 2499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
         "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rooftopia Sundowner",
+        "venue": null,
+        "date": "06 Sep 2026 - 06 Sep 2026",
+        "time": "04:20 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/rooftopia-sundowner-sblvbybm",
+        "category": "Music Festivals",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2208,17 +2175,6 @@
         "price": "INR 399",
         "url": "https://www.skillboxes.com/events/melancholia-sbyaezug",
         "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Ustaad who was a Rockstar",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "05:30 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/the-ustaad-who-was-a-rockstar-sbwvolrc",
-        "category": "Culture and Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2346,6 +2302,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Room XO Presents: HILLTOP NIGHT",
+        "venue": null,
+        "date": "25 Sep 2026 - 26 Sep 2026",
+        "time": "10:00 PM",
+        "price": "INR 1200 - 5000",
+        "url": "https://www.skillboxes.com/events/room-xo-presents-hilltop-night-sblqsdme",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Blastoyz",
         "venue": null,
         "date": "18 Sep 2026 - 19 Sep 2026",
@@ -2390,17 +2357,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "MONKEY SPACE , FOLIC STATE & MORE live in Delhi",
-        "venue": null,
-        "date": "05 Sep 2026 - 06 Sep 2026",
-        "time": "11:30 PM",
-        "price": "INR 599 - 1999",
-        "url": "https://www.skillboxes.com/events/monkey-space-folic-state-more-live-in-delhi-sbytxbld",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "CERA KHIN [LIVE IN DELHI]",
         "venue": null,
         "date": "11 September - 12 September 2026",
@@ -2412,23 +2368,23 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Room XO Presents Jasmin Blust & Suark",
-        "venue": null,
-        "date": "05 Sep 2026 - 06 Sep 2026",
-        "time": "10:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/room-xo-presents-jasmin-blust-suark-sblqnhnd",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "DOMi & JD Beck WHO ASKED? TOUR | New Delhi",
         "venue": null,
         "date": "21 November 2026",
         "time": "08:00 PM",
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-new-delhi-sbtvrepy",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Union - The After's Ritual",
+        "venue": null,
+        "date": "07 Sep 2026 - 07 Sep 2026",
+        "time": "05:00 AM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/union-the-after-s-ritual-sblbjwkp",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2478,11 +2434,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "D-DION × DJ GANESH | 19th Sept, Saturday",
+        "title": "DJ GANESH at D-DION",
         "venue": null,
-        "date": "19 Sep 2026 - 19 Sep 2026",
+        "date": "19 September 2026",
         "time": "09:00 PM",
-        "price": "INR 1499 - 5599",
+        "price": "INR 1500 - 5600",
         "url": "https://www.skillboxes.com/events/d-dion-dj-ganesh-19th-sept-saturday-sbexqlxw",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
@@ -2495,17 +2451,6 @@
         "time": "10:00 PM",
         "price": "INR 999",
         "url": "https://www.skillboxes.com/events/sunday-serenade-featuring-faketattoos-sbdoqdfk",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Chica Presents : 4IND EP 002 ft. Sickflip, Kampai & Kalbaisakhi",
-        "venue": null,
-        "date": "12 Sep 2026 - 13 Sep 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/chica-presents-4ind-ep-002-ft-sickflip-kampai-kalbaisakhi-sbcdkxfh",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2539,7 +2484,7 @@
         "venue": null,
         "date": "12 September 2026",
         "time": "06:00 PM",
-        "price": "INR 750 - 8000",
+        "price": "INR 750 - 12000",
         "url": "https://www.skillboxes.com/events/sid-sriram-live-sbrznmdo",
         "category": "Music Concerts",
         "city": "Kochi",
@@ -2559,7 +2504,7 @@
       {
         "title": "Rhythm Shaw Live Nothing To Lose India Tour 2026 || Bangalore",
         "venue": null,
-        "date": "24 Sep 2026 - 24 Sep 2026",
+        "date": "24 September 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/rhythm-shaw-live-nothing-to-lose-india-tour-2026-bangalore-sbhprdiu",
@@ -2574,17 +2519,6 @@
         "time": "09:00 PM",
         "price": "INR 300 - 499",
         "url": "https://www.skillboxes.com/events/space-session-presents-donn-bhat-sbbdedrl",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Tori Levett",
-        "venue": null,
-        "date": "05 Sep 2026 - 05 Sep 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tori-levett-sbzhalfb",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -2696,6 +2630,17 @@
         "price": "INR 799 - 1199",
         "url": "https://www.skillboxes.com/events/job-kurian-live-sbvhuqlg",
         "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SUKOON WALI QAWWALI : LIVE CONCERT EXPERIENCE",
+        "venue": null,
+        "date": "12 Sep 2026 - 12 Sep 2026",
+        "time": "06:00 PM",
+        "price": "INR 499 - 24999",
+        "url": "https://www.skillboxes.com/events/sukoon-wali-qawwali-live-concert-experience-sblzueib",
+        "category": "Open Air Event",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
