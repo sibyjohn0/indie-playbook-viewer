@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T05:28:26.683676+00:00",
+  "updated_at": "2026-09-07T05:38:50.173807+00:00",
   "source": "Townscript",
-  "total_events": 25,
+  "total_events": 24,
   "cities": {
     "mumbai": [
       {
@@ -46,6 +46,17 @@
         "time": "08:00 PM",
         "price": "INR 299",
         "url": "https://www.townscript.com/in/awake-after-midnight-304344",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Sound Alive presents Dhruv Sarker",
+        "venue": "Greater Kailash",
+        "date": "9 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/sound-alive-presents-dhruv-sarker-322110",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -106,23 +117,23 @@
         "source": "townscript.com"
       },
       {
+        "title": "The show must go on  with Zidd",
+        "venue": "Greater Kailash",
+        "date": "16 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Nirmohi - A Contemporary Thumri Ensemble",
         "venue": "Greater Kailash",
         "date": "13 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/nirmohi-a-contemporary-thumri-ensemble-242221",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sound Alive presents Dhruv Sarker",
-        "venue": "Greater Kailash",
-        "date": "9 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/sound-alive-presents-dhruv-sarker-322110",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -135,17 +146,6 @@
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
         "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "The show must go on  with Zidd",
-        "venue": "Greater Kailash",
-        "date": "16 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/the-show-must-go-on-with-zidd-444321",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -215,17 +215,6 @@
         "price": "INR 699",
         "url": "https://www.townscript.com/in/the-colour-of-sound-a-music-art-workshop-110424",
         "organiser": "Pradeep George Hull",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      },
-      {
-        "title": "An Accoustic Night with The Horizons",
-        "venue": "Gachibowli",
-        "date": "6 September 2026",
-        "time": "07:30 PM",
-        "price": "INR 200",
-        "url": "https://www.townscript.com/in/an-accoustic-night-with-the-horizons-124300",
-        "organiser": "The Horizons",
         "city": "Hyderabad",
         "source": "townscript.com"
       },
