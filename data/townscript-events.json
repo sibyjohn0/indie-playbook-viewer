@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-09T05:43:26.823329+00:00",
+  "updated_at": "2026-09-10T05:33:47.721707+00:00",
   "source": "Townscript",
-  "total_events": 24,
+  "total_events": 23,
   "cities": {
     "mumbai": [
       {
@@ -35,17 +35,6 @@
         "time": "08:00 PM",
         "price": "INR 299",
         "url": "https://www.townscript.com/in/awake-after-midnight-304344",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sound Alive presents Dhruv Sarker",
-        "venue": "Greater Kailash",
-        "date": "9 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/sound-alive-presents-dhruv-sarker-322110",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -128,6 +117,28 @@
         "source": "townscript.com"
       },
       {
+        "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
+        "venue": "Sector 55",
+        "date": "19 September 2026",
+        "time": "10:00 AM",
+        "price": "INR 1800",
+        "url": "https://www.townscript.com/in/dswoj-034302",
+        "organiser": "Samanvaya Living",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Tanupriya Somesh",
+        "venue": "Greater Kailash",
+        "date": "14 October 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "6 December 2026",
@@ -139,12 +150,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Tanupriya Somesh",
+        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
         "venue": "Greater Kailash",
-        "date": "14 October 2026",
+        "date": "23 September 2026",
         "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -168,28 +179,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
-        "venue": "Greater Kailash",
-        "date": "23 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
-        "venue": "Sector 55",
-        "date": "19 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 1800",
-        "url": "https://www.townscript.com/in/dswoj-034302",
-        "organiser": "Samanvaya Living",
         "city": "Delhi",
         "source": "townscript.com"
       },
