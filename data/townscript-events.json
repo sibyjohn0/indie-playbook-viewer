@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-10T05:33:47.721707+00:00",
+  "updated_at": "2026-09-11T05:35:56.087713+00:00",
   "source": "Townscript",
-  "total_events": 23,
+  "total_events": 27,
   "cities": {
     "mumbai": [
       {
@@ -84,17 +84,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Nirmohi - A Contemporary Thumri Ensemble",
-        "venue": "Greater Kailash",
-        "date": "13 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/nirmohi-a-contemporary-thumri-ensemble-242221",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Prarambh-Foundational Music Vocal Program, IICS",
         "venue": "Lajpat Nagar",
         "date": "16 August 2026",
@@ -117,23 +106,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
-        "venue": "Sector 55",
-        "date": "19 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 1800",
-        "url": "https://www.townscript.com/in/dswoj-034302",
-        "organiser": "Samanvaya Living",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Tanupriya Somesh",
+        "title": "Siya Shukla",
         "venue": "Greater Kailash",
-        "date": "14 October 2026",
-        "time": "09:00 PM",
+        "date": "13 September 2026",
+        "time": "08:30 PM",
         "price": "INR 399",
-        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
+        "url": "https://www.townscript.com/in/siya-shukla-041443",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -150,17 +128,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
-        "venue": "Greater Kailash",
-        "date": "23 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
         "venue": "Greater Kailash",
         "date": "20 September 2026",
@@ -172,12 +139,67 @@
         "source": "townscript.com"
       },
       {
+        "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
+        "venue": "Sector 55",
+        "date": "19 September 2026",
+        "time": "10:00 AM",
+        "price": "INR 1800",
+        "url": "https://www.townscript.com/in/dswoj-034302",
+        "organiser": "Samanvaya Living",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
+        "time": "03:30 PM",
+        "price": "INR 999",
+        "url": "https://www.townscript.com/in/the-citizens-alliance-presents-sahir-ek-ehsaas-314242",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Sound of the himalayas - Rahul Netra Negi Collective",
         "venue": "Greater Kailash",
         "date": "27 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
+        "venue": "Greater Kailash",
+        "date": "23 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Tanupriya Somesh",
+        "venue": "Greater Kailash",
+        "date": "14 October 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Rauhan Malik",
+        "venue": "Greater Kailash",
+        "date": "25 September 2026",
+        "time": "07:30 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/rauhan-malik-143040",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -205,7 +227,19 @@
         "source": "townscript.com"
       }
     ],
-    "bengaluru": [],
+    "bengaluru": [
+      {
+        "title": "Master class with Isheeta Chakrvarty",
+        "venue": "Bellandur village",
+        "date": "26 September 2026",
+        "time": "10:00 AM",
+        "price": "INR 2500",
+        "url": "https://www.townscript.com/in/master-class-with-isheeta-chakrvarty-241034",
+        "organiser": "Anagha Karvir",
+        "city": "Bengaluru",
+        "source": "townscript.com"
+      }
+    ],
     "hyderabad": [
       {
         "title": "The Colour of Sound: A Music & Art Workshop",
@@ -241,7 +275,19 @@
         "source": "townscript.com"
       }
     ],
-    "chennai": [],
+    "chennai": [
+      {
+        "title": "SRM Lit Fest 4.0",
+        "venue": null,
+        "date": "18 September 2026",
+        "time": "02:00 AM",
+        "price": "INR 20",
+        "url": "https://www.townscript.com/in/srm-lit-fest-40-043220",
+        "organiser": "Sahitya 2026 - SRM Lit Fest 3.0",
+        "city": "Chennai",
+        "source": "townscript.com"
+      }
+    ],
     "kolkata": [],
     "pune": [
       {
