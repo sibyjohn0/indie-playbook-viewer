@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T05:35:56.087713+00:00",
+  "updated_at": "2026-09-12T05:31:03.724208+00:00",
   "source": "Townscript",
-  "total_events": 27,
+  "total_events": 21,
   "cities": {
     "mumbai": [
       {
@@ -40,12 +40,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Sinko",
+        "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
         "venue": "Greater Kailash",
-        "date": "11 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/sinko-023023",
+        "date": "20 September 2026",
+        "time": "03:30 PM",
+        "price": "INR 999",
+        "url": "https://www.townscript.com/in/the-citizens-alliance-presents-sahir-ek-ehsaas-314242",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -62,12 +62,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Soul Surge",
+        "title": "Siya Shukla",
         "venue": "Greater Kailash",
-        "date": "26 September 2026",
+        "date": "13 September 2026",
+        "time": "08:30 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/siya-shukla-041443",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/soul-surge-430002",
+        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -84,13 +95,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "title": "Soul Surge",
+        "venue": "Greater Kailash",
+        "date": "26 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/soul-surge-430002",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -106,35 +117,24 @@
         "source": "townscript.com"
       },
       {
-        "title": "Siya Shukla",
+        "title": "Rauhan Malik",
         "venue": "Greater Kailash",
-        "date": "13 September 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/siya-shukla-041443",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "NOIDA STRIDERS RUN",
-        "venue": "Sector 62",
-        "date": "6 December 2026",
-        "time": "06:00 AM",
-        "price": "INR 349",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
-        "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "09:00 PM",
+        "date": "25 September 2026",
+        "time": "07:30 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
+        "url": "https://www.townscript.com/in/rauhan-malik-143040",
         "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -150,12 +150,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
+        "title": "NOIDA STRIDERS RUN",
+        "venue": "Sector 62",
+        "date": "6 December 2026",
+        "time": "06:00 AM",
+        "price": "INR 349",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
         "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "03:30 PM",
-        "price": "INR 999",
-        "url": "https://www.townscript.com/in/the-citizens-alliance-presents-sahir-ek-ehsaas-314242",
+        "date": "23 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -172,34 +183,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
-        "venue": "Greater Kailash",
-        "date": "23 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Tanupriya Somesh",
         "venue": "Greater Kailash",
         "date": "14 October 2026",
         "time": "09:00 PM",
         "price": "INR 399",
         "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Rauhan Malik",
-        "venue": "Greater Kailash",
-        "date": "25 September 2026",
-        "time": "07:30 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/rauhan-malik-143040",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -240,41 +229,7 @@
         "source": "townscript.com"
       }
     ],
-    "hyderabad": [
-      {
-        "title": "The Colour of Sound: A Music & Art Workshop",
-        "venue": "Banjara Hills",
-        "date": "26 September 2026",
-        "time": "06:30 PM",
-        "price": "INR 699",
-        "url": "https://www.townscript.com/in/the-colour-of-sound-a-music-art-workshop-110424",
-        "organiser": "Pradeep George Hull",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      },
-      {
-        "title": "MADHURAM ",
-        "venue": null,
-        "date": "12 September 2026",
-        "time": "06:00 PM",
-        "price": "INR 149",
-        "url": "https://www.townscript.com/in/madhuram-441230",
-        "organiser": "Thrilok Kondaparthi",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Piano Master class by Andreas Konig",
-        "venue": "Banjara Hills",
-        "date": "12 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 999",
-        "url": "https://www.townscript.com/in/piano-master-class-by-andreas-konig-314044",
-        "organiser": "Alliance Francaise of Hyderabad",
-        "city": "Hyderabad",
-        "source": "townscript.com"
-      }
-    ],
+    "hyderabad": [],
     "chennai": [
       {
         "title": "SRM Lit Fest 4.0",
@@ -289,30 +244,7 @@
       }
     ],
     "kolkata": [],
-    "pune": [
-      {
-        "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
-        "venue": "Balewadi",
-        "date": "20 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/wild-hours-kombucha-coffee-house-beats-sunday-am-edition-014404",
-        "organiser": "chinmay halyalkar",
-        "city": "Pune",
-        "source": "townscript.com"
-      },
-      {
-        "title": "SWARABHISHEKH 2026",
-        "venue": "Prabhadevi",
-        "date": "12 December 2026",
-        "time": "05:30 PM",
-        "price": "INR 250",
-        "url": "https://www.townscript.com/in/swarabhishekh-100421",
-        "organiser": "Aces Hospitality",
-        "city": "Pune",
-        "source": "townscript.com"
-      }
-    ],
+    "pune": [],
     "goa": [],
     "jaipur": [],
     "kochi": [],
