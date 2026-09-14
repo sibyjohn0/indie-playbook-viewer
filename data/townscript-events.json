@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-12T05:31:03.724208+00:00",
+  "updated_at": "2026-09-14T05:43:11.707862+00:00",
   "source": "Townscript",
-  "total_events": 21,
+  "total_events": 22,
   "cities": {
     "mumbai": [
       {
@@ -29,17 +29,6 @@
     ],
     "delhi": [
       {
-        "title": "Awake After Midnight",
-        "venue": "Greater Kailash",
-        "date": "12 September 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/awake-after-midnight-304344",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
         "venue": "Greater Kailash",
         "date": "20 September 2026",
@@ -57,17 +46,6 @@
         "time": "09:00 PM",
         "price": "INR 349",
         "url": "https://www.townscript.com/in/aasra-224021",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Siya Shukla",
-        "venue": "Greater Kailash",
-        "date": "13 September 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/siya-shukla-041443",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -117,6 +95,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "Tanupriya Somesh",
+        "venue": "Greater Kailash",
+        "date": "14 October 2026",
+        "time": "09:00 PM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Rauhan Malik",
         "venue": "Greater Kailash",
         "date": "25 September 2026",
@@ -135,6 +124,17 @@
         "price": "INR 6999",
         "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
         "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
+        "venue": "Greater Kailash",
+        "date": "23 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
+        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -161,34 +161,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
-        "venue": "Greater Kailash",
-        "date": "23 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Sound of the himalayas - Rahul Netra Negi Collective",
         "venue": "Greater Kailash",
         "date": "27 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Tanupriya Somesh",
-        "venue": "Greater Kailash",
-        "date": "14 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -229,7 +207,19 @@
         "source": "townscript.com"
       }
     ],
-    "hyderabad": [],
+    "hyderabad": [
+      {
+        "title": "The Colour of Sound: A Music & Art Workshop",
+        "venue": "Banjara Hills",
+        "date": "26 September 2026",
+        "time": "06:30 PM",
+        "price": "INR 699",
+        "url": "https://www.townscript.com/in/the-colour-of-sound-a-music-art-workshop-110424",
+        "organiser": "Pradeep George Hull",
+        "city": "Hyderabad",
+        "source": "townscript.com"
+      }
+    ],
     "chennai": [
       {
         "title": "SRM Lit Fest 4.0",
@@ -244,7 +234,30 @@
       }
     ],
     "kolkata": [],
-    "pune": [],
+    "pune": [
+      {
+        "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
+        "venue": "Balewadi",
+        "date": "20 September 2026",
+        "time": "10:00 AM",
+        "price": "INR 399",
+        "url": "https://www.townscript.com/in/wild-hours-kombucha-coffee-house-beats-sunday-am-edition-014404",
+        "organiser": "chinmay halyalkar",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
+        "title": "SWARABHISHEKH 2026",
+        "venue": "Prabhadevi",
+        "date": "12 December 2026",
+        "time": "05:30 PM",
+        "price": "INR 250",
+        "url": "https://www.townscript.com/in/swarabhishekh-100421",
+        "organiser": "Aces Hospitality",
+        "city": "Pune",
+        "source": "townscript.com"
+      }
+    ],
     "goa": [],
     "jaipur": [],
     "kochi": [],
