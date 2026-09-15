@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T05:43:11.707862+00:00",
+  "updated_at": "2026-09-15T05:44:24.071620+00:00",
   "source": "Townscript",
   "total_events": 22,
   "cities": {
@@ -46,6 +46,17 @@
         "time": "09:00 PM",
         "price": "INR 349",
         "url": "https://www.townscript.com/in/aasra-224021",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
+        "venue": "Greater Kailash",
+        "date": "23 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -117,6 +128,17 @@
         "source": "townscript.com"
       },
       {
+        "title": "NOIDA STRIDERS RUN",
+        "venue": "Sector 62",
+        "date": "6 December 2026",
+        "time": "06:00 AM",
+        "price": "INR 349",
+        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
+        "organiser": "Delhi Runners",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
         "title": "Prarambh-Foundational Music Vocal Program, IICS",
         "venue": "Lajpat Nagar",
         "date": "16 August 2026",
@@ -128,17 +150,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
-        "venue": "Greater Kailash",
-        "date": "23 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
         "venue": "Sector 55",
         "date": "19 September 2026",
@@ -146,17 +157,6 @@
         "price": "INR 1800",
         "url": "https://www.townscript.com/in/dswoj-034302",
         "organiser": "Samanvaya Living",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "NOIDA STRIDERS RUN",
-        "venue": "Sector 62",
-        "date": "6 December 2026",
-        "time": "06:00 AM",
-        "price": "INR 349",
-        "url": "https://www.townscript.com/in/delhi-striders-run-310303",
-        "organiser": "Delhi Runners",
         "city": "Delhi",
         "source": "townscript.com"
       },
