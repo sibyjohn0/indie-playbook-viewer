@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T05:44:24.071620+00:00",
+  "updated_at": "2026-09-16T05:37:49.370873+00:00",
   "source": "Townscript",
-  "total_events": 22,
+  "total_events": 21,
   "cities": {
     "mumbai": [
       {
@@ -29,23 +29,23 @@
     ],
     "delhi": [
       {
-        "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
-        "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "03:30 PM",
-        "price": "INR 999",
-        "url": "https://www.townscript.com/in/the-citizens-alliance-presents-sahir-ek-ehsaas-314242",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "AASRA",
         "venue": "Greater Kailash",
         "date": "18 September 2026",
         "time": "09:00 PM",
         "price": "INR 349",
         "url": "https://www.townscript.com/in/aasra-224021",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
+        "time": "03:30 PM",
+        "price": "INR 999",
+        "url": "https://www.townscript.com/in/the-citizens-alliance-presents-sahir-ek-ehsaas-314242",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -62,12 +62,12 @@
         "source": "townscript.com"
       },
       {
-        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
+        "title": "Rauhan Malik",
         "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "09:00 PM",
+        "date": "25 September 2026",
+        "time": "07:30 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
+        "url": "https://www.townscript.com/in/rauhan-malik-143040",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -79,6 +79,28 @@
         "time": "08:00 PM",
         "price": "INR 299",
         "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Prarambh-Foundational Music Vocal Program, IICS",
+        "venue": "Lajpat Nagar",
+        "date": "16 August 2026",
+        "time": "11:00 AM",
+        "price": "INR 6999",
+        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
+        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -117,17 +139,6 @@
         "source": "townscript.com"
       },
       {
-        "title": "Rauhan Malik",
-        "venue": "Greater Kailash",
-        "date": "25 September 2026",
-        "time": "07:30 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/rauhan-malik-143040",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
         "date": "6 December 2026",
@@ -139,24 +150,13 @@
         "source": "townscript.com"
       },
       {
-        "title": "Prarambh-Foundational Music Vocal Program, IICS",
-        "venue": "Lajpat Nagar",
-        "date": "16 August 2026",
-        "time": "11:00 AM",
-        "price": "INR 6999",
-        "url": "https://www.townscript.com/in/prarambhfoundational-music-vocal-program-iics-323423",
-        "organiser": "MEDIA & ENTERTAINMENT SKILLS COUNCIL",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Aagaman (आगमन) - A Morning of Movement, Mindfulness & Music",
-        "venue": "Sector 55",
-        "date": "19 September 2026",
-        "time": "10:00 AM",
-        "price": "INR 1800",
-        "url": "https://www.townscript.com/in/dswoj-034302",
-        "organiser": "Samanvaya Living",
+        "title": "DELHI NEON RUN",
+        "venue": "Dwarka",
+        "date": "29 November 2026",
+        "time": "06:00 PM",
+        "price": "INR 699",
+        "url": "https://www.townscript.com/in/delhi-neon-run-223203",
+        "organiser": "NOBLE FOUNDATION TRUST",
         "city": "Delhi",
         "source": "townscript.com"
       },
@@ -168,17 +168,6 @@
         "price": "INR 499",
         "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
         "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "DELHI NEON RUN",
-        "venue": "Dwarka",
-        "date": "29 November 2026",
-        "time": "06:00 PM",
-        "price": "INR 699",
-        "url": "https://www.townscript.com/in/delhi-neon-run-223203",
-        "organiser": "NOBLE FOUNDATION TRUST",
         "city": "Delhi",
         "source": "townscript.com"
       },
