@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T05:37:49.370873+00:00",
+  "updated_at": "2026-09-17T05:44:47.906210+00:00",
   "source": "Townscript",
-  "total_events": 21,
+  "total_events": 14,
   "cities": {
     "mumbai": [
       {
@@ -29,17 +29,6 @@
     ],
     "delhi": [
       {
-        "title": "AASRA",
-        "venue": "Greater Kailash",
-        "date": "18 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 349",
-        "url": "https://www.townscript.com/in/aasra-224021",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "The Citizens Alliance presents Sahir - Ek Ehsaas",
         "venue": "Greater Kailash",
         "date": "20 September 2026",
@@ -51,34 +40,23 @@
         "source": "townscript.com"
       },
       {
-        "title": "Gaurav ft. Pranay Verma and Parijat Kirti",
+        "title": "AASRA",
         "venue": "Greater Kailash",
-        "date": "23 September 2026",
+        "date": "18 September 2026",
+        "time": "09:00 PM",
+        "price": "INR 349",
+        "url": "https://www.townscript.com/in/aasra-224021",
+        "organiser": "Depot48",
+        "city": "Delhi",
+        "source": "townscript.com"
+      },
+      {
+        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
+        "venue": "Greater Kailash",
+        "date": "20 September 2026",
         "time": "09:00 PM",
         "price": "INR 499",
-        "url": "https://www.townscript.com/in/gaurav-ft-pranay-verma-and-parijat-kirti-312302",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Rauhan Malik",
-        "venue": "Greater Kailash",
-        "date": "25 September 2026",
-        "time": "07:30 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/rauhan-malik-143040",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Hard and Heavy by Anarchy and D2O",
-        "venue": "Greater Kailash",
-        "date": "11 October 2026",
-        "time": "08:00 PM",
-        "price": "INR 299",
-        "url": "https://www.townscript.com/in/hard-and-heavy-by-anarchy-and-d2o-333244",
+        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
         "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
@@ -95,53 +73,9 @@
         "source": "townscript.com"
       },
       {
-        "title": "Featherheads Haokui: Live In New Delhi Ft. Jack Of Spade'z",
-        "venue": "Greater Kailash",
-        "date": "20 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/featherheads-haokui-live-in-new-delhi-ft-jack-of-spadez-202423",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Soul Surge",
-        "venue": "Greater Kailash",
-        "date": "26 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/soul-surge-430002",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Manish Vaid Project",
-        "venue": "Greater Kailash",
-        "date": "4 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/manish-vaid-project-444113",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Tanupriya Somesh",
-        "venue": "Greater Kailash",
-        "date": "14 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 399",
-        "url": "https://www.townscript.com/in/tanupriya-somesh-220101",
-        "organiser": "Depot48",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
         "title": "NOIDA STRIDERS RUN",
         "venue": "Sector 62",
-        "date": "6 December 2026",
+        "date": "29 September 2026",
         "time": "06:00 AM",
         "price": "INR 349",
         "url": "https://www.townscript.com/in/delhi-striders-run-310303",
@@ -157,17 +91,6 @@
         "price": "INR 699",
         "url": "https://www.townscript.com/in/delhi-neon-run-223203",
         "organiser": "NOBLE FOUNDATION TRUST",
-        "city": "Delhi",
-        "source": "townscript.com"
-      },
-      {
-        "title": "Sound of the himalayas - Rahul Netra Negi Collective",
-        "venue": "Greater Kailash",
-        "date": "27 September 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.townscript.com/in/sound-of-the-himalayas-rahul-netra-negi-collective-421014",
-        "organiser": "Depot48",
         "city": "Delhi",
         "source": "townscript.com"
       },
