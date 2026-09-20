@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-09-19T05:27:50.826456+00:00",
+  "updated_at": "2026-09-20T05:40:38.427545+00:00",
   "source": "Townscript",
-  "total_events": 12,
+  "total_events": 15,
   "cities": {
     "mumbai": [
+      {
+        "title": "Lata Mangeshkar Memorial Singing Competition 2026",
+        "venue": null,
+        "date": "20 September 2026",
+        "time": "04:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/lata-mangeshkar-memorial-singing-competition-2026-pune",
+        "organiser": "India Talent Foundation",
+        "city": "Mumbai",
+        "source": "townscript.com"
+      },
       {
         "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
         "venue": "Balewadi",
@@ -125,6 +136,17 @@
     "kolkata": [],
     "pune": [
       {
+        "title": "Lata Mangeshkar Memorial Singing Competition 2026",
+        "venue": null,
+        "date": "20 September 2026",
+        "time": "04:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/lata-mangeshkar-memorial-singing-competition-2026-pune",
+        "organiser": "India Talent Foundation",
+        "city": "Pune",
+        "source": "townscript.com"
+      },
+      {
         "title": "Wild Hours: Kombucha, Coffee & House Beats (Sunday A.M. Edition)",
         "venue": "Balewadi",
         "date": "20 September 2026",
@@ -149,7 +171,19 @@
     ],
     "goa": [],
     "jaipur": [],
-    "kochi": [],
+    "kochi": [
+      {
+        "title": "Lata Mangeshkar Memorial Singing Competition 2026",
+        "venue": null,
+        "date": "20 September 2026",
+        "time": "04:00 PM",
+        "price": "INR 299",
+        "url": "https://www.townscript.com/in/lata-mangeshkar-singing-competition-2026-coimbatore",
+        "organiser": "India Talent Foundation",
+        "city": "Kochi",
+        "source": "townscript.com"
+      }
+    ],
     "ahmedabad": [],
     "chandigarh": []
   }
