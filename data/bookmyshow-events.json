@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T06:51:31.999059+00:00",
+  "updated_at": "2026-10-02T06:39:07.365675+00:00",
   "source": "BookMyShow",
   "total_events": 17,
   "cities": {
@@ -11,78 +11,85 @@
     "kolkata": [],
     "pune": [],
     "goa": [],
-    "jaipur": [],
-    "kochi": [],
-    "ahmedabad": [],
-    "chandigarh": [
+    "jaipur": [
       {
-        "title": "The Hargun Kaur Musical",
-        "venue": "CP67 Mall: Mohali",
+        "title": "Lakhwinder Wadali India Tour - Jaipur",
+        "venue": "Pacific Mall, Mansarovar: Jaipur",
         "date": null,
         "time": null,
-        "price": "₹ 799 onwards",
-        "url": "https://in.bookmyshow.com/events/the-hargun-kaur-musical/ET00516878",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "ANYMA presents AEDEN - Mumbai",
-        "venue": "Mahalaxmi Race Course: Mumbai",
-        "date": null,
-        "time": null,
-        "price": "₹ 4250 onwards",
-        "url": "https://in.bookmyshow.com/events/anyma-presents-aeden-mumbai/ET00480995",
-        "city": "Chandigarh",
+        "price": "₹ 499 onwards",
+        "url": "https://in.bookmyshow.com/events/lakhwinder-wadali-india-tour-jaipur/ET00514211",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
         "title": "Cassettes and CDs Nostalgia By Avinash Gupta",
-        "venue": "CP67 Mall: Mohali",
+        "venue": "Knighthouse: Jaipur",
+        "date": null,
+        "time": null,
+        "price": "₹ 1499 onwards",
+        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Bangr Arena - Jaipur",
+        "venue": "Zee Studios: Jaipur",
         "date": null,
         "time": null,
         "price": "₹ 999 onwards",
-        "url": "https://in.bookmyshow.com/events/cassettes-and-cds-nostalgia-by-avinash-gupta/ET00428417",
-        "city": "Chandigarh",
+        "url": "https://in.bookmyshow.com/events/bangr-arena-jaipur/ET00510586",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Foo Fighters India Tour 2027 - Bengaluru",
-        "venue": "Bengaluru LIVE, Bengaluru",
+        "title": "Baithak - A Musical Jamming Evening",
+        "venue": "Selvas Kitchen: Jaipur",
         "date": null,
         "time": null,
-        "price": "₹ 4000 onwards",
-        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-bengaluru/ET00502948",
-        "city": "Chandigarh",
+        "price": "₹ 249 onwards",
+        "url": "https://in.bookmyshow.com/events/baithak-the-musical-evening-jaipur/ET00492290",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Lollapalooza India 2027 - RuPay Amplified Access",
-        "venue": "Mahalaxmi Race Course: Mumbai",
+        "title": "Dj Night With Midnight",
+        "venue": "Jaipur Jantar Hostel: Jaipur",
         "date": null,
         "time": null,
-        "price": "₹ 24999",
-        "url": "https://in.bookmyshow.com/events/lollapalooza-india-2027-rupay-amplified-access/ET00514942",
-        "city": "Chandigarh",
+        "price": "₹ 299",
+        "url": "https://in.bookmyshow.com/events/dj-night-with-midnight/ET00517680",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Sunburn Festival 2026",
-        "venue": "Mahalaxmi Race Course: Mumbai",
+        "title": "Dandiya Night Season 2",
+        "venue": "Jai Club: Jaipur",
         "date": null,
         "time": null,
-        "price": "₹ 2500 onwards",
-        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
-        "city": "Chandigarh",
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/dandiya-night-season-2/ET00519558",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Guns N' Roses: India 2026 - Guwahati",
-        "venue": "Khanapara Veterinary Ground : Guwahati",
+        "title": "Saaz N Strings Jamming By SocialSpot Exp",
+        "venue": "12notez Music Studio and Jam Room: Jaipur",
         "date": null,
         "time": null,
-        "price": "₹ 5000 onwards",
-        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
-        "city": "Chandigarh",
+        "price": "₹ 249",
+        "url": "https://in.bookmyshow.com/events/saaz-n-strings-jamming-by-socialspot-exp/ET00491117",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Javed Akhtar & Shabana Azmi: Poetry & Conversation",
+        "venue": "InterContinental - Tonk Road: Jaipur",
+        "date": null,
+        "time": null,
+        "price": "₹ 2000 onwards",
+        "url": "https://in.bookmyshow.com/events/javed-akhtar-shabana-azmi-poetry-conversation/ET00517827",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
@@ -92,77 +99,7 @@
         "time": null,
         "price": "₹ 4499 onwards",
         "url": "https://in.bookmyshow.com/events/lollapalooza-india-2027/ET00513740",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Keinemusik presents Adam Port - Delhi",
-        "venue": "NSIC Exhibition Ground, Okhla",
-        "date": null,
-        "time": null,
-        "price": "₹ 2500 onwards",
-        "url": "https://in.bookmyshow.com/events/keinemusik-presents-adam-port-delhi/ET00506266",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Lakhwinder Wadali India Tour - Chandigarh",
-        "venue": "Omaxe International Trade Tower: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/lakhwinder-wadali-india-tour-chandigarh/ET00514011",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "BANGR FESTIVAL",
-        "venue": "Venue To Be Announced: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 750 onwards",
-        "url": "https://in.bookmyshow.com/events/bangr-festival/ET00510587",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Foo Fighters India Tour 2027 - Mumbai",
-        "venue": "Mahalaxmi Race Course: Mumbai",
-        "date": null,
-        "time": null,
-        "price": "₹ 4000 onwards",
-        "url": "https://in.bookmyshow.com/events/foo-fighters-india-tour-2027-mumbai/ET00502947",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Sunburn Arena ft. DJ Snake",
-        "venue": "NICE Grounds: Bengaluru",
-        "date": null,
-        "time": null,
-        "price": "₹ 1500 onwards",
-        "url": "https://in.bookmyshow.com/events/sunburn-arena-ft-dj-snake/ET00514999",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Rangan Di Ustat feat. Manpreet Singh",
-        "venue": "Tagore Theatre: Chandigarh",
-        "date": null,
-        "time": null,
-        "price": "₹ 399 onwards",
-        "url": "https://in.bookmyshow.com/events/rangan-di-ustat-feat-manpreet-singh/ET00504601",
-        "city": "Chandigarh",
-        "source": "bookmyshow.com"
-      },
-      {
-        "title": "Nykaaland India's Biggest Beauty Festival In Delhi",
-        "venue": "NSIC Exhibition Ground, Okhla",
-        "date": null,
-        "time": null,
-        "price": "₹ 1299 onwards",
-        "url": "https://in.bookmyshow.com/events/nykaaland-india-s-biggest-beauty-festival/ET00515765",
-        "city": "Chandigarh",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
@@ -172,19 +109,82 @@
         "time": null,
         "price": "₹ 4000 onwards",
         "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-bengaluru/ET00501962",
-        "city": "Chandigarh",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       },
       {
-        "title": "Lakhwinder Wadali India Tour",
-        "venue": "Multiple Venues",
+        "title": "ANYMA presents AEDEN - Mumbai",
+        "venue": "Mahalaxmi Race Course: Mumbai",
         "date": null,
         "time": null,
-        "price": "₹ 499 onwards",
-        "url": "https://in.bookmyshow.com/events/lakhwinder-wadali-india-tour/ET00514018",
-        "city": "Chandigarh",
+        "price": "₹ 4250 onwards",
+        "url": "https://in.bookmyshow.com/events/anyma-presents-aeden-mumbai/ET00480995",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Guns N' Roses: India 2026 - Guwahati",
+        "venue": "Khanapara Veterinary Ground : Guwahati",
+        "date": null,
+        "time": null,
+        "price": "₹ 5000 onwards",
+        "url": "https://in.bookmyshow.com/events/guns-n-roses-india-2026-guwahati/ET00501963",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sunburn Festival 2026",
+        "venue": "Mahalaxmi Race Course: Mumbai",
+        "date": null,
+        "time": null,
+        "price": "₹ 2500 onwards",
+        "url": "https://in.bookmyshow.com/events/sunburn-festival-2026/ET00498558",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sunburn Arena ft. DJ Snake",
+        "venue": "NICE Grounds: Bengaluru",
+        "date": null,
+        "time": null,
+        "price": "₹ 1500 onwards",
+        "url": "https://in.bookmyshow.com/events/sunburn-arena-ft-dj-snake/ET00514999",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Anime Multiverse : Cosplay Edition Season 2",
+        "venue": "Venue To Be Announced: Jaipur",
+        "date": null,
+        "time": null,
+        "price": "₹ 399 onwards",
+        "url": "https://in.bookmyshow.com/events/anime-multiverse-anime-cosplay/ET00445738",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Sufiyana - A Sufi Night By Safarnama",
+        "venue": "BC - Bottles and Chimney: Jaipur",
+        "date": null,
+        "time": null,
+        "price": "₹ 299 onwards",
+        "url": "https://in.bookmyshow.com/events/sufiyana-a-sufi-night-by-safarnama/ET00514652",
+        "city": "Jaipur",
+        "source": "bookmyshow.com"
+      },
+      {
+        "title": "Bollywood Takeover Jamming By SocialSpot Exp",
+        "venue": "J Startup House: Jaipur",
+        "date": null,
+        "time": null,
+        "price": "₹ 199 onwards",
+        "url": "https://in.bookmyshow.com/events/bollywood-takeover/ET00510428",
+        "city": "Jaipur",
         "source": "bookmyshow.com"
       }
-    ]
+    ],
+    "kochi": [],
+    "ahmedabad": [],
+    "chandigarh": []
   }
 }
