@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T07:20:31.985163+00:00",
+  "updated_at": "2026-10-14T05:46:05.678636+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 236,
+  "total_events": 227,
   "cities": {
     "mumbai": [
       {
@@ -77,6 +77,39 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 3499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "House Rules ft. Nairoo",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-rules-ft-nairoo-sbbkmfko",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "MIDWEEK HOPSHOP",
+        "venue": null,
+        "date": "14 Oct 2026 - 14 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/midweek-hopshop-sbbihicx",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday Night Live – Edition 49",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-49-sbamkjej",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -223,39 +256,6 @@
         "category": "Music Concerts",
         "city": "Mumbai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Dark Circle Factory | Live Electronic Dance Funk",
-        "venue": null,
-        "date": "29 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/dark-circle-factory-live-electronic-dance-funk-sbuxujue",
-        "category": "Music Concerts",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Music and the City",
-        "venue": null,
-        "date": "25 Oct 2026 - 25 Oct 2026",
-        "time": "10:00 AM",
-        "price": "INR 300",
-        "url": "https://www.skillboxes.com/events/music-and-the-city-sbrfmyvk",
-        "category": "Music Concerts",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #30 | Think Twice | Cruz | Zoish",
-        "venue": null,
-        "date": "22 Oct 2026 - 22 Oct 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-30-think-twice-cruz-zoish-sbilxufk",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
       }
     ],
     "delhi": [
@@ -264,7 +264,7 @@
         "venue": null,
         "date": "31 October - 01 November 2026",
         "time": "02:00 PM",
-        "price": "INR 599 - 10499",
+        "price": "INR 599 - 13999",
         "url": "https://www.skillboxes.com/events/horrorcon-india-sbufizpt",
         "category": "Festivals",
         "city": "Delhi",
@@ -497,7 +497,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 13500",
+        "price": "INR 2500 - 16997",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Bengaluru",
@@ -526,6 +526,50 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "SoMAD LinkUp x Social Present SGAMO + APCN & Friends",
+        "venue": null,
+        "date": "24 Oct 2026 - 24 Oct 2026",
+        "time": "08:00 PM",
+        "price": "INR 299 - 799",
+        "url": "https://www.skillboxes.com/events/somad-linkup-x-social-present-sgamo-apcn-friends-sbdkzsmg",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rouge",
+        "venue": null,
+        "date": "28 November 2026",
+        "time": "09:30 PM",
+        "price": "INR 1999",
+        "url": "https://www.skillboxes.com/events/rouge-sbdiuvep",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rouge",
+        "venue": null,
+        "date": "27 November 2026",
+        "time": "09:30 PM",
+        "price": "INR 1999",
+        "url": "https://www.skillboxes.com/events/rouge-sbdgpxwy",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "No Parking Fridays",
+        "venue": null,
+        "date": "16 October 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbdelaph",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "CALLUSH -BENGALURU",
         "venue": null,
         "date": "25 Oct 2026 - 26 Oct 2026",
@@ -546,72 +590,6 @@
         "category": "Open Air Music Festivals",
         "city": "Bengaluru",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Redroom Ft. BAHAAR",
-        "venue": null,
-        "date": "16 Oct 2026 - 17 Oct 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-bahaar-sbxhghzn",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "IMAGINARIUM: THE DOMINION featuring MUDRARAKSHAS",
-        "venue": null,
-        "date": "28 Nov 2026 - 28 Nov 2026",
-        "time": "07:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/imaginarium-the-dominion-featuring-mudrarakshas-sbxfbkrw",
-        "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HURBY LA LEGENDE Live in Concert!",
-        "venue": null,
-        "date": "01 Nov 2026 - 01 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/hurby-la-legende-live-in-concert-sbwwhvng",
-        "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SONIC RITUALS",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "07:00 PM",
-        "price": "INR 899",
-        "url": "https://www.skillboxes.com/events/sonic-rituals-sbvyfzhb",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Nocturne",
-        "venue": null,
-        "date": "06 November 2026",
-        "time": "06:00 PM",
-        "price": "INR 399 - 499",
-        "url": "https://www.skillboxes.com/events/nocturne-sbrhwscc",
-        "category": "Music Concerts",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "LITJAM: The Sufi Jam - Bengaluru",
-        "venue": null,
-        "date": "25 October 2026",
-        "time": "06:00 PM",
-        "price": "INR 349",
-        "url": "https://www.skillboxes.com/events/litjam-the-sufi-jam-bengaluru-sbpnxwxj",
-        "category": "Music Festivals",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
       }
     ],
     "hyderabad": [
@@ -623,6 +601,28 @@
         "price": "INR 1099 - 3499",
         "url": "https://www.skillboxes.com/events/hyderabad-comic-con-sbuhxovm",
         "category": "Pop Culture & Entertainment",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rouge",
+        "venue": null,
+        "date": "05 December 2026",
+        "time": "08:00 PM",
+        "price": "INR 1179 - 2359",
+        "url": "https://www.skillboxes.com/events/rouge-sbbraxhn",
+        "category": "Music Concerts",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rouge",
+        "venue": null,
+        "date": "04 December 2026",
+        "time": "08:00 PM",
+        "price": "INR 1179 - 2359",
+        "url": "https://www.skillboxes.com/events/rouge-sbbovzzw",
+        "category": "Music Concerts",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       },
@@ -812,17 +812,6 @@
         "category": "Halloween 2026",
         "city": "Hyderabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Last Minute India on Tour | Bangalore",
-        "venue": null,
-        "date": "TBA",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/last-minute-india-on-tour-bangalore-sbfrsfmv",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
       }
     ],
     "chennai": [
@@ -831,7 +820,7 @@
         "venue": null,
         "date": "17 Oct 2026 - 17 Oct 2026",
         "time": "07:00 PM",
-        "price": "INR 499 - 799",
+        "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/swayam-live-in-chennai-sbzusiwc",
         "category": "Music Concerts",
         "city": "Chennai",
@@ -963,7 +952,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 13500",
+        "price": "INR 2500 - 16997",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Chennai",
@@ -992,57 +981,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "CALLUSH -BENGALURU",
+        "title": "SoMAD LinkUp x Social Present SGAMO + APCN & Friends",
         "venue": null,
-        "date": "25 Oct 2026 - 26 Oct 2026",
-        "time": "06:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/callush-bengaluru-sbafvrhk",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Indie Fest - COHOP",
-        "venue": null,
-        "date": "25 Oct 2026 - 25 Oct 2026",
-        "time": "03:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/indie-fest-cohop-sbzjysiw",
-        "category": "Open Air Music Festivals",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Redroom Ft. BAHAAR",
-        "venue": null,
-        "date": "16 Oct 2026 - 17 Oct 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-bahaar-sbxhghzn",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "IMAGINARIUM: THE DOMINION featuring MUDRARAKSHAS",
-        "venue": null,
-        "date": "28 Nov 2026 - 28 Nov 2026",
-        "time": "07:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/imaginarium-the-dominion-featuring-mudrarakshas-sbxfbkrw",
-        "category": "Music Concerts",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HURBY LA LEGENDE Live in Concert!",
-        "venue": null,
-        "date": "01 Nov 2026 - 01 Nov 2026",
+        "date": "24 Oct 2026 - 24 Oct 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/hurby-la-legende-live-in-concert-sbwwhvng",
-        "category": "Music Concerts",
+        "price": "INR 299 - 799",
+        "url": "https://www.skillboxes.com/events/somad-linkup-x-social-present-sgamo-apcn-friends-sbdkzsmg",
+        "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       }
@@ -1056,6 +1001,39 @@
         "price": "INR 2499 - 500000",
         "url": "https://www.skillboxes.com/events/curated-waves-sbdxjska",
         "category": "Music Festivals",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SOCIAL PRESENTS DURGA PUJA SPECIAL Ft DJ RIK | Parkstreet SOCIAL",
+        "venue": null,
+        "date": "21 Oct 2026 - 21 Oct 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/social-presents-durga-puja-special-ft-dj-rik-parkstreet-social-sbbgckvg",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SOCIAL PRESENTS DURGA PUJA SPECIAL Ft NEIL | Parkstreet SOCIAL",
+        "venue": null,
+        "date": "18 Oct 2026 - 18 Oct 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/social-presents-durga-puja-special-ft-neil-parkstreet-social-sbbbsqfy",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SOCIAL PRESENTS DURGA PUJA SPECIAL Ft RAJ ROY  | Parkstreet SOCIAL",
+        "venue": null,
+        "date": "20 Oct 2026 - 20 Oct 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/social-presents-durga-puja-special-ft-raj-roy-parkstreet-social-sbaznsyh",
+        "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
       },
@@ -1130,7 +1108,7 @@
         "venue": null,
         "date": "16 Oct 2026 - 17 Oct 2026",
         "time": "06:00 PM",
-        "price": "INR 1000 - 5000",
+        "price": "INR 1000 - 7000",
         "url": "https://www.skillboxes.com/events/exit-protocol-the-festival-sbltbwsw",
         "category": "Music Festivals",
         "city": "Kolkata",
@@ -1190,50 +1168,6 @@
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Classical Conclave Aarti Ankalikar",
-        "venue": null,
-        "date": "21 October 2026",
-        "time": "07:30 AM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/classical-conclave-aarti-ankalikar",
-        "category": "Culture and Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Classical Conclave Sawani Shende",
-        "venue": null,
-        "date": "22 October 2026",
-        "time": "07:30 AM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/classical-conclave-sawani-shende",
-        "category": "Culture and Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HorrorCon India - India’s Biggest Halloween Party and Festival",
-        "venue": null,
-        "date": "31 October - 01 November 2026",
-        "time": "02:00 PM",
-        "price": "INR 599 - 10499",
-        "url": "https://www.skillboxes.com/events/horrorcon-india-sbufizpt",
-        "category": "Festivals",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "New World Order 26 ft. CKraft, Bhayanak Maut, Tarqeeb",
-        "venue": null,
-        "date": "22 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 799",
-        "url": "https://www.skillboxes.com/events/new-world-order-26-ft-ckraft-bhayanak-maut-tarqeeb-sbtifjet",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
       }
     ],
     "pune": [
@@ -1245,6 +1179,17 @@
         "price": "INR 999 - 2499",
         "url": "https://www.skillboxes.com/events/sajanka-india-tour-2026-pune-sbdmqbwu",
         "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Harry Styles Tribute by The Decembers",
+        "venue": null,
+        "date": "01 Nov 2026 - 01 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/the-harry-styles-tribute-by-the-decembers-sbaxivqq",
+        "category": "Music Concerts",
         "city": "Pune",
         "source": "skillboxes.com"
       },
@@ -1469,45 +1414,45 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "House Rules ft. Nairoo",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-rules-ft-nairoo-sbbkmfko",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "MIDWEEK HOPSHOP",
+        "venue": null,
+        "date": "14 Oct 2026 - 14 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/midweek-hopshop-sbbihicx",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday Night Live – Edition 49",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-49-sbamkjej",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Fiyah Fridays (Pre Halloween)",
         "venue": null,
         "date": "30 Oct 2026 - 30 Oct 2026",
         "time": "09:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/fiyah-fridays-pre-halloween-sbyqgqrz",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TOWN BAILE (DIA DE LOS MUERTOS) | HALLOWEEN | RAASTA BOMBAY | 30TH OCTOBER",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/town-baile-dia-de-los-muertos-halloween-raasta-bombay-30th-october-sbyjryva",
-        "category": "Music Concerts",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Haloween Special Yara Live in Mumbai",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "05:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/haloween-special-yara-live-in-mumbai-sbyfiefs",
-        "category": "Open Air Music Festivals",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rap-A-Razzi",
-        "venue": null,
-        "date": "26 Oct 2026 - 26 Oct 2026",
-        "time": "05:00 PM",
-        "price": "INR 299",
-        "url": "https://www.skillboxes.com/events/rap-a-razzi-sbvaedaw",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1587,17 +1532,6 @@
         "time": "08:00 PM",
         "price": "INR 1000",
         "url": "https://www.skillboxes.com/events/harmonic-decibels-14-0-sbvixsfm",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TUES-TECH 52",
-        "venue": null,
-        "date": "13 Oct 2026 - 13 Oct 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/tues-tech-52-sbvgsuxv",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -1702,6 +1636,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "The Harry Styles Tribute by The Decembers",
+        "venue": null,
+        "date": "01 Nov 2026 - 01 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 300",
+        "url": "https://www.skillboxes.com/events/the-harry-styles-tribute-by-the-decembers-sbaxivqq",
+        "category": "Music Concerts",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Psychedelic Rock by Space & Co.",
         "venue": null,
         "date": "16 Oct 2026 - 16 Oct 2026",
@@ -1753,28 +1698,6 @@
         "price": "INR 375",
         "url": "https://www.skillboxes.com/events/mltr-by-abji-the-groovers-sbpezlts",
         "category": "Cafe Gigs",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Daira | Azaad Sangeet by Siddharth Pandit",
-        "venue": null,
-        "date": "18 Oct 2026 - 18 Oct 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/daira-azaad-sangeet-by-siddharth-pandit-sbiazhtd",
-        "category": "Live Event",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "THE GUNS N ROSES EXPERIENCE by NIGHTRAIN",
-        "venue": null,
-        "date": "25 Oct 2026 - 26 Oct 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/the-guns-n-roses-experience-by-nightrain-sbgpubta",
-        "category": "Live Music Event",
         "city": "Goa",
         "source": "skillboxes.com"
       }
@@ -1963,7 +1886,7 @@
         "venue": null,
         "date": "23 Oct 2026 - 23 Oct 2026",
         "time": "07:00 PM",
-        "price": "INR 499 - 799",
+        "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/swayam-live-in-ahmedabad-sbzzcdlk",
         "category": "Music Concerts",
         "city": "Ahmedabad",
@@ -2053,6 +1976,39 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 3499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "House Rules ft. Nairoo",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/house-rules-ft-nairoo-sbbkmfko",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "MIDWEEK HOPSHOP",
+        "venue": null,
+        "date": "14 Oct 2026 - 14 Oct 2026",
+        "time": "10:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/midweek-hopshop-sbbihicx",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday Night Live – Edition 49",
+        "venue": null,
+        "date": "16 Oct 2026 - 16 Oct 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-49-sbamkjej",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2188,28 +2144,6 @@
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "SWAYAM - LIVE IN MUMBAI",
-        "venue": null,
-        "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "06:30 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/swayam-live-in-mumbai-sbbtayqd",
-        "category": "Music Concerts",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Dark Circle Factory | Live Electronic Dance Funk",
-        "venue": null,
-        "date": "29 October 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/dark-circle-factory-live-electronic-dance-funk-sbuxujue",
-        "category": "Music Concerts",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
       }
     ],
     "jaipur": [
@@ -2221,6 +2155,17 @@
         "price": "INR 1000 - 20000",
         "url": "https://www.skillboxes.com/events/cloud-temple-boutique-music-festival-sbwbwkaf",
         "category": "Music Festivals",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Underhouse presents Baki",
+        "venue": null,
+        "date": "18 Oct 2026 - 18 Oct 2026",
+        "time": "08:00 PM",
+        "price": "INR 700 - 3000",
+        "url": "https://www.skillboxes.com/events/underhouse-presents-baki-sbcrhqvj",
+        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2251,7 +2196,7 @@
         "venue": null,
         "date": "30 Oct 2026 - 30 Oct 2026",
         "time": "06:30 PM",
-        "price": "INR 499",
+        "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/swayam-live-in-jaipur-sbahvsqa",
         "category": "Music Concerts",
         "city": "Jaipur",
@@ -2265,6 +2210,17 @@
         "price": "Free",
         "url": "https://www.skillboxes.com/events/shots-fired-jaipur-sbzbahff",
         "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Moneypie Festival 2026 Featuring Arpit Bala & More",
+        "venue": null,
+        "date": "31 Oct 2026 - 01 Nov 2026",
+        "time": "01:00 PM",
+        "price": "INR 999 - 19999",
+        "url": "https://www.skillboxes.com/events/moneypie-2026-sbvgnyyu",
+        "category": "Music Festivals",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2287,6 +2243,17 @@
         "price": "INR 2549 - 6999",
         "url": "https://www.skillboxes.com/events/khalid-live-in-delhi-ncr-sbnorbid",
         "category": "Music Concerts",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday at Kai Ft. Wadjet, Def & more",
+        "venue": null,
+        "date": "16 Oct 2026 - 17 Oct 2026",
+        "time": "11:30 PM",
+        "price": "INR 499 - 1499",
+        "url": "https://www.skillboxes.com/events/friday-at-kai-ft-wadjet-def-more-sbctmoda",
+        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2350,7 +2317,7 @@
         "venue": null,
         "date": "31 October - 01 November 2026",
         "time": "02:00 PM",
-        "price": "INR 599 - 10499",
+        "price": "INR 599 - 13999",
         "url": "https://www.skillboxes.com/events/horrorcon-india-sbufizpt",
         "category": "Festivals",
         "city": "Jaipur",
@@ -2374,39 +2341,6 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-new-delhi-sbtvrepy",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Alliance Française de Delhi x Social presents MAYA KAMATY",
-        "venue": null,
-        "date": "23 Oct 2026 - 23 Oct 2026",
-        "time": "06:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/social-x-alliance-francaise-presents-maya-kamaty-saket-social-sbukvvzh",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Boho Bazaar Christmas Market 2026",
-        "venue": null,
-        "date": "19 Dec 2026 - 20 Dec 2026",
-        "time": "12:00 PM",
-        "price": "INR 399 - 1599",
-        "url": "https://www.skillboxes.com/events/boho-bazaar-christmas-market-2026-sbszqpze",
-        "category": "Festivals",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Fataaka: A Diwali Party That Doesn't Behave Like One",
-        "venue": null,
-        "date": "06 Nov 2026 - 06 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/fataaka-a-diwali-party-that-doesn-t-behave-like-one-sbqwyfpv",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2528,7 +2462,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 13500",
+        "price": "INR 2500 - 16997",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Kochi",
@@ -2557,68 +2491,35 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "CALLUSH -BENGALURU",
+        "title": "SoMAD LinkUp x Social Present SGAMO + APCN & Friends",
         "venue": null,
-        "date": "25 Oct 2026 - 26 Oct 2026",
-        "time": "06:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/callush-bengaluru-sbafvrhk",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Indie Fest - COHOP",
-        "venue": null,
-        "date": "25 Oct 2026 - 25 Oct 2026",
-        "time": "03:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/indie-fest-cohop-sbzjysiw",
-        "category": "Open Air Music Festivals",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Redroom Ft. BAHAAR",
-        "venue": null,
-        "date": "16 Oct 2026 - 17 Oct 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-bahaar-sbxhghzn",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "IMAGINARIUM: THE DOMINION featuring MUDRARAKSHAS",
-        "venue": null,
-        "date": "28 Nov 2026 - 28 Nov 2026",
-        "time": "07:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/imaginarium-the-dominion-featuring-mudrarakshas-sbxfbkrw",
-        "category": "Music Concerts",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "HURBY LA LEGENDE Live in Concert!",
-        "venue": null,
-        "date": "01 Nov 2026 - 01 Nov 2026",
+        "date": "24 Oct 2026 - 24 Oct 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/hurby-la-legende-live-in-concert-sbwwhvng",
+        "price": "INR 299 - 799",
+        "url": "https://www.skillboxes.com/events/somad-linkup-x-social-present-sgamo-apcn-friends-sbdkzsmg",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Rouge",
+        "venue": null,
+        "date": "28 November 2026",
+        "time": "09:30 PM",
+        "price": "INR 1999",
+        "url": "https://www.skillboxes.com/events/rouge-sbdiuvep",
         "category": "Music Concerts",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "SONIC RITUALS",
+        "title": "Rouge",
         "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "07:00 PM",
-        "price": "INR 899",
-        "url": "https://www.skillboxes.com/events/sonic-rituals-sbvyfzhb",
-        "category": "Club Gigs - Music",
+        "date": "27 November 2026",
+        "time": "09:30 PM",
+        "price": "INR 1999",
+        "url": "https://www.skillboxes.com/events/rouge-sbdgpxwy",
+        "category": "Music Concerts",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
