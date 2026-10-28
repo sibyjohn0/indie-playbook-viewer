@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T05:59:10.619958+00:00",
+  "updated_at": "2026-10-28T06:34:07.270610+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 245,
+  "total_events": 246,
   "cities": {
     "mumbai": [
       {
@@ -55,6 +55,28 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 3499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday Night Live – Edition 51",
+        "venue": null,
+        "date": "20 Nov 2026 - 20 Nov 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-51-sbpqmmdc",
+        "category": "Cafe Gigs",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OFFSTAGE LIVE Season 2",
+        "venue": null,
+        "date": "24 Nov 2026 - 24 Nov 2026",
+        "time": "05:30 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/offstage-live-season-2-sbpjxugd",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -122,6 +144,17 @@
         "price": "INR 799 - 1999",
         "url": "https://www.skillboxes.com/events/phil-berg-at-antisocial-mumbai-sbbrftgo",
         "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "RAS: A Mehfil Exploring The Journey Of Emotions Through Classical Music.",
+        "venue": null,
+        "date": "21 Nov 2026 - 21 Nov 2026",
+        "time": "05:00 PM",
+        "price": "INR 1200 - 1400",
+        "url": "https://www.skillboxes.com/events/ras-a-mehfil-exploring-the-journey-of-emotions-through-classical-music-sbabqsrd",
+        "category": "Music Concerts",
         "city": "Mumbai",
         "source": "skillboxes.com"
       },
@@ -245,39 +278,6 @@
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "TOWN BAILE (DIA DE LOS MUERTOS) | HALLOWEEN | RAASTA BOMBAY | 30TH OCTOBER",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/town-baile-dia-de-los-muertos-halloween-raasta-bombay-30th-october-sbyjryva",
-        "category": "Music Concerts",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Haloween Special Yara Live in Mumbai",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "05:00 PM",
-        "price": "INR 999 - 1499",
-        "url": "https://www.skillboxes.com/events/haloween-special-yara-live-in-mumbai-sbyfiefs",
-        "category": "Open Air Music Festivals",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Vamp and Amp Halloween Live Music Night",
-        "venue": null,
-        "date": "29 Oct 2026 - 29 Oct 2026",
-        "time": "08:30 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/vamp-and-amp-halloween-live-music-night-sbugmbjz",
-        "category": "Music Festivals",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
       }
     ],
     "delhi": [
@@ -310,6 +310,50 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-new-delhi-sbtvrepy",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST DOOR - UNION RITUAL || 1st November 2026",
+        "venue": null,
+        "date": "01 Nov 2026 - 01 Nov 2026",
+        "time": "05:00 AM",
+        "price": "INR 1499 - 2999",
+        "url": "https://www.skillboxes.com/events/the-last-door-union-ritual-1st-november-2026-sbpfnzqv",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST DOOR - UNION RITUAL || 2nd November 2026",
+        "venue": null,
+        "date": "02 Nov 2026 - 02 Nov 2026",
+        "time": "05:00 AM",
+        "price": "INR 1499 - 2999",
+        "url": "https://www.skillboxes.com/events/the-last-door-union-ritual-2nd-november-2026-sbpdjcje",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST DOOR - UNION RITUAL || 31st October 2026",
+        "venue": null,
+        "date": "31 Oct 2026 - 31 Oct 2026",
+        "time": "05:00 AM",
+        "price": "INR 1499 - 2999",
+        "url": "https://www.skillboxes.com/events/the-last-door-union-ritual-31st-october-2026-sbpbefbn",
+        "category": "Club Gigs - Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THE LAST DOOR - UNION RITUAL || 30th October 2026",
+        "venue": null,
+        "date": "30 Oct 2026 - 30 Oct 2026",
+        "time": "05:00 AM",
+        "price": "INR 1499 - 2999",
+        "url": "https://www.skillboxes.com/events/the-last-door-union-ritual-30th-october-2026-sbowukmf",
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
@@ -475,28 +519,6 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/fataaka-a-diwali-party-that-doesn-t-behave-like-one-sbqwyfpv",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Gauley Bhai LIVE '26 || Delhi",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 699",
-        "url": "https://www.skillboxes.com/events/gauley-bhai-live-26-delhi-sblkrzmi",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Danza in the city vol. 121",
-        "venue": null,
-        "date": "20 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 100000",
-        "url": "https://www.skillboxes.com/events/danza-in-the-city-vol-121-sbeciawl",
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
@@ -713,13 +735,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "DJ Zia Tuesday Tea Spilled at HOD",
+        "title": "Redroom Halloween Bash ft. Anna Breathe",
         "venue": null,
-        "date": "27 Oct 2026 - 28 Oct 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/dj-zia-tuesday-tea-spilled-at-hod-sbkegfzp",
+        "date": "30 Oct 2026 - 31 Oct 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/redroom-halloween-bash-ft-anna-breathe-sbpohovl",
         "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Ruko Zara 2.O - An Intimate Studio Baithak",
+        "venue": null,
+        "date": "22 Nov 2026 - 22 Nov 2026",
+        "time": "06:30 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/ruko-zara-2-o-an-intimate-studio-baithak-sbpmcrnu",
+        "category": "Music Concerts",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -776,28 +809,6 @@
         "time": "04:00 PM",
         "price": "INR 500",
         "url": "https://www.skillboxes.com/events/sunset-spirits-halloween-edition-sbzqsgew",
-        "category": "Music Concerts",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Aditya Prakash Ensemble",
-        "venue": null,
-        "date": "21 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 1179 - 2359",
-        "url": "https://www.skillboxes.com/events/aditya-prakash-ensemble-sbwyroty",
-        "category": "Music Concerts",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Aditya Prakash Ensemble",
-        "venue": null,
-        "date": "20 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 2359",
-        "url": "https://www.skillboxes.com/events/aditya-prakash-ensemble-sbwuhueq",
         "category": "Music Concerts",
         "city": "Hyderabad",
         "source": "skillboxes.com"
@@ -1188,6 +1199,17 @@
         "category": "Live Music Event",
         "city": "Chennai",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "SikTh - Live in Bengaluru",
+        "venue": null,
+        "date": "03 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 1999 - 8199",
+        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
       }
     ],
     "kolkata": [
@@ -1275,6 +1297,17 @@
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-guwahati-sbgqdtrc",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "YATRA EDITION 4 - CAMACHO NE INDIA DEBUT",
+        "venue": null,
+        "date": "27 Nov 2026 - 27 Nov 2026",
+        "time": "10:00 PM",
+        "price": "INR 1199 - 1999",
+        "url": "https://www.skillboxes.com/events/yatra-edition-4-camacho-ne-india-debut-sbpzgbhs",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
@@ -1374,17 +1407,6 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-goa-sbgunogk",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rainburn: Adrift in India Tour || Chennai",
-        "venue": null,
-        "date": "04 December 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-chennai-sbgsiqyt",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
@@ -1557,6 +1579,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Friday Night Live – Edition 51",
+        "venue": null,
+        "date": "20 Nov 2026 - 20 Nov 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-51-sbpqmmdc",
+        "category": "Cafe Gigs",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OFFSTAGE LIVE Season 2",
+        "venue": null,
+        "date": "24 Nov 2026 - 24 Nov 2026",
+        "time": "05:30 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/offstage-live-season-2-sbpjxugd",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Belmarose’s Haunted Cabaret ft. Tsutey",
         "venue": null,
         "date": "31 Oct 2026 - 31 Oct 2026",
@@ -1618,28 +1662,6 @@
         "time": "08:00 PM",
         "price": "INR 799 - 1999",
         "url": "https://www.skillboxes.com/events/phil-berg-at-antisocial-mumbai-sbbrftgo",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "whysoKai - Mumbai Takeover",
-        "venue": null,
-        "date": "17 Nov 2026 - 17 Nov 2026",
-        "time": "07:30 PM",
-        "price": "INR 499 - 1999",
-        "url": "https://www.skillboxes.com/events/whysokai-mumbai-takeover-sbyqlmra",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Nightvibe presents Shallou (Hybrid Live Set) || Mumbai",
-        "venue": null,
-        "date": "26 Nov 2026 - 26 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/nightvibe-presents-shallou-hybrid-live-set-mumbai-sbybdfpl",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1757,17 +1779,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "TUES-TECH 54.0",
-        "venue": null,
-        "date": "27 Oct 2026 - 27 Oct 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/tues-tech-54-0-sbwhekks",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "LOONEY BLASTEROONIE 11.0",
         "venue": null,
         "date": "30 Oct 2026 - 30 Oct 2026",
@@ -1838,7 +1849,7 @@
         "venue": null,
         "date": "31 Oct 2026 - 31 Oct 2026",
         "time": "10:00 PM",
-        "price": "INR 699 - 899",
+        "price": "INR 699 - 2999",
         "url": "https://www.skillboxes.com/events/freak-opera-x-qrave-halloween-edition-sbxpvbfc",
         "category": "Club Gigs - Music",
         "city": "Goa",
@@ -1860,7 +1871,7 @@
       {
         "title": "GRAHAN by BUTTERSCOTCH",
         "venue": null,
-        "date": "29 Oct 2026 - 29 Oct 2026",
+        "date": "19 Nov 2026 - 19 Nov 2026",
         "time": "09:00 PM",
         "price": "INR 599 - 20000",
         "url": "https://www.skillboxes.com/events/grahan-sbpsmnls",
@@ -2043,20 +2054,20 @@
         "category": "Festivals",
         "city": "Chandigarh",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Delhi Comic Con",
-        "venue": null,
-        "date": "05 Dec 2026 - 06 Dec 2026",
-        "time": "11:00 AM",
-        "price": "INR 1199 - 3499",
-        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
-        "category": "Pop Culture & Entertainment",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
       }
     ],
     "ahmedabad": [
+      {
+        "title": "Indore Comic Con 2026",
+        "venue": null,
+        "date": "19 Dec 2026 - 20 Dec 2026",
+        "time": "11:00 AM",
+        "price": "INR 2999",
+        "url": "https://www.skillboxes.com/events/indore-comic-con-2026-sbnfampd",
+        "category": "Pop Culture & Entertainment",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Rainburn: Adrift in India Tour || Mumbai",
         "venue": null,
@@ -2108,6 +2119,28 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 3499",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Friday Night Live – Edition 51",
+        "venue": null,
+        "date": "20 Nov 2026 - 20 Nov 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/friday-night-live-edition-51-sbpqmmdc",
+        "category": "Cafe Gigs",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OFFSTAGE LIVE Season 2",
+        "venue": null,
+        "date": "24 Nov 2026 - 24 Nov 2026",
+        "time": "05:30 PM",
+        "price": "INR 1000",
+        "url": "https://www.skillboxes.com/events/offstage-live-season-2-sbpjxugd",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
@@ -2175,6 +2208,17 @@
         "price": "INR 799 - 1999",
         "url": "https://www.skillboxes.com/events/phil-berg-at-antisocial-mumbai-sbbrftgo",
         "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "RAS: A Mehfil Exploring The Journey Of Emotions Through Classical Music.",
+        "venue": null,
+        "date": "21 Nov 2026 - 21 Nov 2026",
+        "time": "05:00 PM",
+        "price": "INR 1200 - 1400",
+        "url": "https://www.skillboxes.com/events/ras-a-mehfil-exploring-the-journey-of-emotions-through-classical-music-sbabqsrd",
+        "category": "Music Concerts",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2276,50 +2320,6 @@
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Farak Live In Mumbai",
-        "venue": null,
-        "date": "15 Nov 2026 - 15 Nov 2026",
-        "time": "04:00 PM",
-        "price": "INR 499 - 699",
-        "url": "https://www.skillboxes.com/events/farak-live-sbltqkpz",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Fiyah Fridays (Pre Halloween)",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/fiyah-fridays-pre-halloween-sbyqgqrz",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TOWN BAILE (DIA DE LOS MUERTOS) | HALLOWEEN | RAASTA BOMBAY | 30TH OCTOBER",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/town-baile-dia-de-los-muertos-halloween-raasta-bombay-30th-october-sbyjryva",
-        "category": "Music Concerts",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Haloween Special Yara Live in Mumbai",
-        "venue": null,
-        "date": "30 Oct 2026 - 30 Oct 2026",
-        "time": "05:00 PM",
-        "price": "INR 999 - 1499",
-        "url": "https://www.skillboxes.com/events/haloween-special-yara-live-in-mumbai-sbyfiefs",
-        "category": "Open Air Music Festivals",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
       }
     ],
     "jaipur": [
@@ -2403,11 +2403,11 @@
       {
         "title": "Halloween House Party",
         "venue": null,
-        "date": "31 Oct 2026 - 31 Oct 2026",
-        "time": "08:00 AM",
-        "price": "INR 1800",
+        "date": "31 October - 01 November 2026",
+        "time": "09:00 PM",
+        "price": "INR 2 - 499",
         "url": "https://www.skillboxes.com/events/halloween-house-party-sbmgyqiy",
-        "category": "Social Gathering/ Game",
+        "category": "Halloween 2026",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2718,6 +2718,17 @@
         "price": "INR 499 - 1699",
         "url": "https://www.skillboxes.com/events/fastrack-presents-after-hours-sbxlqcov",
         "category": "Live Music Event",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "SikTh - Live in Bengaluru",
+        "venue": null,
+        "date": "03 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 1999 - 8199",
+        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
+        "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       }
