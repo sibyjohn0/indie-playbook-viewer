@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-03T07:31:08.636217+00:00",
+  "updated_at": "2026-11-04T07:12:22.132585+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 261,
+  "total_events": 254,
   "cities": {
     "mumbai": [
       {
@@ -55,6 +55,28 @@
         "time": "08:00 PM",
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/domi-jd-beck-who-asked-tour-mumbai-sbucfwmx",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Mehfil-E-Sitar Live at Rule34 Mumbai",
+        "venue": null,
+        "date": "26 Nov 2026 - 26 Nov 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/mehfil-e-sitar-live-at-rule34-mumbai-sbfzahfy",
+        "category": "Live Music Event",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Fish56Octagon | 4th Dec",
+        "venue": null,
+        "date": "04 Dec 2026 - 04 Dec 2026",
+        "time": "09:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/fish56octagon-4th-dec-sbfqgsbi",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
         "source": "skillboxes.com"
@@ -130,7 +152,7 @@
         "venue": null,
         "date": "11 Nov 2026 - 11 Nov 2026",
         "time": "08:00 PM",
-        "price": "INR 999 - 1999",
+        "price": "INR 999",
         "url": "https://www.skillboxes.com/events/vaibhav-pani-live-at-anti-social-sbrklhhv",
         "category": "Club Gigs - Music",
         "city": "Mumbai",
@@ -234,64 +256,9 @@
         "category": "Music Concerts",
         "city": "Mumbai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #34 | A: EM | Sour Kandy",
-        "venue": null,
-        "date": "19 Nov 2026 - 19 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-34-aem-sour-kandy-sbquyehf",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #33 | Zequenx B2B Sinhwave | Nouchalix (Live) | Paudha",
-        "venue": null,
-        "date": "12 Nov 2026 - 12 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-33-zequenx-sinhwave-nouchalix-paudha-sbqstgzo",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #32 | Beatfrenzy B2B Feel | Arjun",
-        "venue": null,
-        "date": "05 Nov 2026 - 05 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-32-beatfrenzy-b2b-feelz-arjun-sbqqojrx",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "CAGED",
-        "venue": null,
-        "date": "20 Nov 2026 - 20 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 799 - 4999",
-        "url": "https://www.skillboxes.com/events/caged-sbqmepcp",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
       }
     ],
     "delhi": [
-      {
-        "title": "Delhi Comic Con",
-        "venue": null,
-        "date": "05 Dec 2026 - 06 Dec 2026",
-        "time": "11:00 AM",
-        "price": "INR 1199 - 3499",
-        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
-        "category": "Pop Culture & Entertainment",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
       {
         "title": "DOMi & JD Beck WHO ASKED? TOUR | New Delhi",
         "venue": null,
@@ -304,13 +271,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Attendees to Expect Test Schedule",
+        "title": "Delhi Comic Con",
         "venue": null,
-        "date": "02 Nov 2026 - 04 Nov 2026",
-        "time": "06:55 AM",
-        "price": "INR 1999",
-        "url": "https://www.skillboxes.com/events/attendees-to-expect-test-schedule-sbbtpmng",
-        "category": "Open Air Music Festivals",
+        "date": "05 Dec 2026 - 06 Dec 2026",
+        "time": "11:00 AM",
+        "price": "INR 1199 - 3499",
+        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
+        "category": "Pop Culture & Entertainment",
+        "city": "Delhi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "aswekeepsearching Live || Delhi",
+        "venue": null,
+        "date": "29 Nov 2026 - 29 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-delhi-sbfhncws",
+        "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -352,7 +330,7 @@
         "venue": null,
         "date": "20 Nov 2026 - 20 Nov 2026",
         "time": "09:00 PM",
-        "price": "INR 799",
+        "price": "INR 799 - 999",
         "url": "https://www.skillboxes.com/events/nightvibe-open-air-with-shallou-hybrid-live-set-at-dirty-good-sbydicxc",
         "category": "Open Air Event",
         "city": "Delhi",
@@ -511,6 +489,17 @@
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "STAGE72 KIDS EDITION — SEASON -1 | CHILDREN'S DAY SPECIAL",
+        "venue": null,
+        "date": "14 Nov 2026 - 14 Nov 2026",
+        "time": "02:00 PM",
+        "price": "INR 399",
+        "url": "https://www.skillboxes.com/events/stage72-kids-edition-season-1-children-s-day-special-sbkibmru",
+        "category": "Culture and Music",
+        "city": "Delhi",
+        "source": "skillboxes.com"
       }
     ],
     "bengaluru": [
@@ -614,17 +603,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SikTh - Live in Bengaluru",
-        "venue": null,
-        "date": "03 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 1849 - 6067",
-        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "KHALID LIVE IN BENGALURU",
         "venue": null,
         "date": "15 December 2026",
@@ -640,7 +618,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 17942",
+        "price": "INR 944 - 17942",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Bengaluru",
@@ -669,90 +647,90 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "LITJAM Bengaluru - The Sufi Jam",
+        "title": "LITJAM Kannada - A Kannada Live Jamming Show - Bengaluru",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 449 - 1329",
-        "url": "https://www.skillboxes.com/events/litjam-bengaluru-the-sufi-jam-sbdcpvfs",
-        "category": "Live Music Event",
+        "time": "05:30 PM",
+        "price": "INR 349 - 999",
+        "url": "https://www.skillboxes.com/events/litjam-kannada-a-kannada-live-jamming-show-bengaluru-sbfslpiz",
+        "category": "Music Festivals",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       },
       {
-        "title": "Adam Port Official Pre Party / 7th Nov / Pangeo",
+        "title": "aswekeepsearching Live || Bangalore",
         "venue": null,
-        "date": "07 Nov 2026 - 07 Nov 2026",
+        "date": "28 Nov 2026 - 28 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-bangalore-sbffifpb",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Velvet X Venom | Crazyy Monk, Amy live at HOD CLUB",
+        "venue": null,
+        "date": "18 Nov 2026 - 19 Nov 2026",
         "time": "08:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/adam-port-official-pre-party-7th-nov-pangeo-sbclcqwm",
-        "category": "Music Festivals",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Redroom Ft. Claudia & More",
-        "venue": null,
-        "date": "06 Nov 2026 - 07 Nov 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-claudia-more-sbbpfrxy",
+        "url": "https://www.skillboxes.com/events/velvet-x-venom-crazyy-monk-amy-live-at-hod-club-sbeytnsc",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       },
       {
-        "title": "Rangmanch Qawwali Night",
+        "title": "Tuesday Has a Pulse | ZIA, MELVIN live at HOD CLUB",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
+        "date": "17 Nov 2026 - 18 Nov 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/rangmanch-qawwali-night-sbakpduu",
-        "category": "Concert",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SLAUGHTERFEST 2026",
-        "venue": null,
-        "date": "05 December 2026",
-        "time": "05:00 PM",
-        "price": "INR 399 - 1099",
-        "url": "https://www.skillboxes.com/events/slaughterfest-2026-sbysvfxs",
-        "category": "Music Festivals",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TEELING DUBLIN NIGHTS: Pocket IV",
-        "venue": null,
-        "date": "18 Nov 2026 - 18 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/teeling-dublin-nights-pocket-iv-sbydmywd",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/tuesday-has-a-pulse-zia-melvin-live-at-hod-club-sbewoqkl",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       },
       {
-        "title": "One Night at bFLAT: Chasing The Blues",
+        "title": "Red Night | Christin & Tom live at HOD CLUB",
         "venue": null,
-        "date": "27 Nov 2026 - 27 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 600 - 10000",
-        "url": "https://www.skillboxes.com/events/one-night-at-bflat-chasing-the-blues-sbwumqdr",
+        "date": "16 Nov 2026 - 17 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/red-night-christin-tom-live-at-hod-club-sbeujtcu",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       },
       {
-        "title": "The Fab Four – Beatlemania at Sunburn Union",
+        "title": "Wood, Fire & Bass | Digvijay live at HOD CLUB",
         "venue": null,
-        "date": "12 Nov 2026 - 12 Nov 2026",
-        "time": "07:30 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/the-fab-four-beatlemania-at-sunburn-union-sbueqwak",
-        "category": "Live Music Event",
+        "date": "15 Nov 2026 - 16 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/wood-fire-bass-digvijay-live-at-hod-club-sbesevvd",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "OG Dance | SHEZ plays live at HOD CLUB",
+        "venue": null,
+        "date": "14 Nov 2026 - 15 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/og-dance-shez-plays-live-at-hod-club-sbepzynm",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Anniversary Week | 21 DJS LIVE at HOD CLUB",
+        "venue": null,
+        "date": "13 Nov 2026 - 14 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/anniversary-week-21-djs-live-at-hod-club-sbenvbfv",
+        "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -979,17 +957,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SikTh - Live in Bengaluru",
-        "venue": null,
-        "date": "03 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 1849 - 6067",
-        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
-        "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "KHALID LIVE IN BENGALURU",
         "venue": null,
         "date": "15 December 2026",
@@ -1005,7 +972,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 17942",
+        "price": "INR 944 - 17942",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Hyderabad",
@@ -1168,17 +1135,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SikTh - Live in Bengaluru",
-        "venue": null,
-        "date": "03 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 1849 - 6067",
-        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
-        "category": "Club Gigs - Music",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "KHALID LIVE IN BENGALURU",
         "venue": null,
         "date": "15 December 2026",
@@ -1194,7 +1150,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 17942",
+        "price": "INR 944 - 17942",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Chennai",
@@ -1223,67 +1179,56 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "LITJAM Bengaluru - The Sufi Jam",
+        "title": "LITJAM Kannada - A Kannada Live Jamming Show - Bengaluru",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 449 - 1329",
-        "url": "https://www.skillboxes.com/events/litjam-bengaluru-the-sufi-jam-sbdcpvfs",
-        "category": "Live Music Event",
-        "city": "Chennai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Adam Port Official Pre Party / 7th Nov / Pangeo",
-        "venue": null,
-        "date": "07 Nov 2026 - 07 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/adam-port-official-pre-party-7th-nov-pangeo-sbclcqwm",
+        "time": "05:30 PM",
+        "price": "INR 349 - 999",
+        "url": "https://www.skillboxes.com/events/litjam-kannada-a-kannada-live-jamming-show-bengaluru-sbfslpiz",
         "category": "Music Festivals",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "Redroom Ft. Claudia & More",
+        "title": "aswekeepsearching Live || Bangalore",
         "venue": null,
-        "date": "06 Nov 2026 - 07 Nov 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-claudia-more-sbbpfrxy",
+        "date": "28 Nov 2026 - 28 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-bangalore-sbffifpb",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "Rangmanch Qawwali Night",
+        "title": "Velvet X Venom | Crazyy Monk, Amy live at HOD CLUB",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
+        "date": "18 Nov 2026 - 19 Nov 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/rangmanch-qawwali-night-sbakpduu",
-        "category": "Concert",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/velvet-x-venom-crazyy-monk-amy-live-at-hod-club-sbeytnsc",
+        "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "SLAUGHTERFEST 2026",
+        "title": "Tuesday Has a Pulse | ZIA, MELVIN live at HOD CLUB",
         "venue": null,
-        "date": "05 December 2026",
-        "time": "05:00 PM",
-        "price": "INR 399 - 1099",
-        "url": "https://www.skillboxes.com/events/slaughterfest-2026-sbysvfxs",
-        "category": "Music Festivals",
+        "date": "17 Nov 2026 - 18 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/tuesday-has-a-pulse-zia-melvin-live-at-hod-club-sbewoqkl",
+        "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "TEELING DUBLIN NIGHTS: Pocket IV",
+        "title": "Red Night | Christin & Tom live at HOD CLUB",
         "venue": null,
-        "date": "18 Nov 2026 - 18 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/teeling-dublin-nights-pocket-iv-sbydmywd",
+        "date": "16 Nov 2026 - 17 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/red-night-christin-tom-live-at-hod-club-sbeujtcu",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1357,12 +1302,34 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "aswekeepsearching Live || Shillong",
+        "venue": null,
+        "date": "18 December 2026",
+        "time": "08:00 PM",
+        "price": "INR 750",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-delhi-copy-sbfjsaej",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Rainburn: Adrift in India Tour || Guwahati",
         "venue": null,
         "date": "28 Nov 2026 - 28 Nov 2026",
         "time": "08:00 PM",
         "price": "Free",
         "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-guwahati-sbgqdtrc",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "aswekeepsearching Live || Guwahati",
+        "venue": null,
+        "date": "20 Dec 2026 - 20 Dec 2026",
+        "time": "08:00 PM",
+        "price": "INR 750",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-guwahati-sbflwxma",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
@@ -1394,7 +1361,7 @@
         "venue": null,
         "date": "14 Nov 2026 - 14 Nov 2026",
         "time": "08:30 PM",
-        "price": "INR 99 - 169",
+        "price": "INR 99 - 799",
         "url": "https://www.skillboxes.com/events/the-rock-revival-mrityunjay-live-at-cafe-hendrix-sbsxqoqo",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
@@ -1438,7 +1405,7 @@
         "venue": null,
         "date": "04 Nov 2026 - 04 Nov 2026",
         "time": "04:00 PM",
-        "price": "INR 499 - 29999",
+        "price": "INR 799 - 1999",
         "url": "https://www.skillboxes.com/events/celebrate-the-festival-of-lights-in-royal-style-jashn-e-diwali-tricity-s-biggest-diwali-event-bringing-you-a-night-of-dazzling-lights-festive-vibes-music-and-unforgettable-memories-join-us-on-4th-november-from-4-pm-onwards-at-posano-by-tahti-sector-5-panc",
         "category": "Club Gigs - Music",
         "city": "Kolkata",
@@ -1531,6 +1498,17 @@
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
+      },
+      {
+        "title": "Damru live at Waves- Sonic Diwali",
+        "venue": null,
+        "date": "06 November 2026",
+        "time": "08:00 PM",
+        "price": "INR 799 - 2000",
+        "url": "https://www.skillboxes.com/events/damru-live-at-antisocial-sonic-diwali-sbzavlge",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
       }
     ],
     "pune": [
@@ -1541,6 +1519,17 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-pune-sbgltzbu",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "aswekeepsearching Live || Pune",
+        "venue": null,
+        "date": "26 Nov 2026 - 26 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-sbfddihk",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1689,6 +1678,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Mehfil-E-Sitar Live at Rule34 Mumbai",
+        "venue": null,
+        "date": "26 Nov 2026 - 26 Nov 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/mehfil-e-sitar-live-at-rule34-mumbai-sbfzahfy",
+        "category": "Live Music Event",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Fish56Octagon | 4th Dec",
+        "venue": null,
+        "date": "04 Dec 2026 - 04 Dec 2026",
+        "time": "09:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/fish56octagon-4th-dec-sbfqgsbi",
+        "category": "Club Gigs - Music",
+        "city": "Pune",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Roulette Edition 13 ft. Sky Society",
         "venue": null,
         "date": "07 Nov 2026 - 07 Nov 2026",
@@ -1753,61 +1764,6 @@
         "category": "Culture and Music",
         "city": "Pune",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Vaibhav Pani Live At Anti Social",
-        "venue": null,
-        "date": "11 Nov 2026 - 11 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/vaibhav-pani-live-at-anti-social-sbrklhhv",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Friday Night Live – Edition 51",
-        "venue": null,
-        "date": "20 Nov 2026 - 20 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/friday-night-live-edition-51-sbpqmmdc",
-        "category": "Cafe Gigs",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "OFFSTAGE LIVE Season 2",
-        "venue": null,
-        "date": "24 Nov 2026 - 24 Nov 2026",
-        "time": "05:30 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/offstage-live-season-2-sbpjxugd",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Harmeeet’s Song Launch + Birthday Show",
-        "venue": null,
-        "date": "04 Nov 2026 - 04 Nov 2026",
-        "time": "07:00 PM",
-        "price": "INR 1000 - 3500",
-        "url": "https://www.skillboxes.com/events/harmeeet-s-song-launch-birthday-show-sbkiqaox",
-        "category": "Club Gigs - Music",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Nu Metal Party and The Adventures of Dr. Hex",
-        "venue": null,
-        "date": "10 Dec 2026 - 10 Dec 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 2245",
-        "url": "https://www.skillboxes.com/events/nu-metal-party-and-the-adventures-of-dr-hex-sbjoxyya",
-        "category": "Cafe Gigs",
-        "city": "Pune",
-        "source": "skillboxes.com"
       }
     ],
     "goa": [
@@ -1827,7 +1783,7 @@
         "venue": null,
         "date": "14 November - 15 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 17942",
+        "price": "INR 944 - 17942",
         "url": "https://www.skillboxes.com/events/dgtl-mumbai-2026-sbpjwnzi",
         "category": "Music Festivals",
         "city": "Goa",
@@ -1841,6 +1797,28 @@
         "price": "INR 2599 - 28990",
         "url": "https://www.skillboxes.com/events/royal-enfield-motoverse-2026-sbfwfpuj",
         "category": "Motoverse 2026",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "PSYVERSE — THE LAUNCH OF ELSEWHERE!",
+        "venue": null,
+        "date": "06 Nov 2026 - 06 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 1100 - 2000",
+        "url": "https://www.skillboxes.com/events/psyverse-the-launch-of-elsewhere-sbghtwko",
+        "category": "Club Gigs - Music",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "IMPRINT 2.0 at SALUD, Vagator",
+        "venue": null,
+        "date": "05 Nov 2026 - 05 Nov 2026",
+        "time": "09:00 PM",
+        "price": "INR 800",
+        "url": "https://www.skillboxes.com/events/imprint-2-0-at-salud-vagator-sbgbfenp",
+        "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1895,17 +1873,6 @@
         "time": "09:00 PM",
         "price": "INR 1000",
         "url": "https://www.skillboxes.com/events/reignite-diwali-edition-sbzmnhop",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TUES-TECH 55.0",
-        "venue": null,
-        "date": "03 Nov 2026 - 04 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/tues-tech-55-0-sbzkikgy",
         "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
@@ -1997,17 +1964,6 @@
         "category": "Music Concerts",
         "city": "Goa",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Vanaghotra || The Decade Ritual",
-        "venue": null,
-        "date": "31 December - 01 January 2027",
-        "time": "03:00 PM",
-        "price": "INR 3500",
-        "url": "https://www.skillboxes.com/events/vanaghotra-the-decade-ritual",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
       }
     ],
     "chandigarh": [
@@ -2016,7 +1972,7 @@
         "venue": null,
         "date": "04 Nov 2026 - 04 Nov 2026",
         "time": "04:00 PM",
-        "price": "INR 499 - 29999",
+        "price": "INR 799 - 1999",
         "url": "https://www.skillboxes.com/events/celebrate-the-festival-of-lights-in-royal-style-jashn-e-diwali-tricity-s-biggest-diwali-event-bringing-you-a-night-of-dazzling-lights-festive-vibes-music-and-unforgettable-memories-join-us-on-4th-november-from-4-pm-onwards-at-posano-by-tahti-sector-5-panc",
         "category": "Club Gigs - Music",
         "city": "Chandigarh",
@@ -2078,6 +2034,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Sufiana Sham- Wednesday Special",
+        "venue": null,
+        "date": "04 Nov 2026 - 04 Nov 2026",
+        "time": "09:00 AM",
+        "price": "INR 299",
+        "url": "https://www.skillboxes.com/events/sufiana-sham-wednesday-special-sbhophvj",
+        "category": "Music Festivals",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "NIGHT OF THE DEAD",
         "venue": null,
         "date": "07 Nov 2026 - 07 Nov 2026",
@@ -2104,20 +2071,9 @@
         "venue": null,
         "date": "27 Nov 2026 - 27 Nov 2026",
         "time": "04:00 PM",
-        "price": "INR 799 - 30000",
+        "price": "INR 999 - 30000",
         "url": "https://www.skillboxes.com/events/olympe-india-x-sidejou-invites-sbnnehpv",
         "category": "Music Festivals",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Delhi Comic Con",
-        "venue": null,
-        "date": "05 Dec 2026 - 06 Dec 2026",
-        "time": "11:00 AM",
-        "price": "INR 1199 - 3499",
-        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
-        "category": "Pop Culture & Entertainment",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2133,13 +2089,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Attendees to Expect Test Schedule",
+        "title": "Delhi Comic Con",
         "venue": null,
-        "date": "02 Nov 2026 - 04 Nov 2026",
-        "time": "06:55 AM",
-        "price": "INR 1999",
-        "url": "https://www.skillboxes.com/events/attendees-to-expect-test-schedule-sbbtpmng",
-        "category": "Open Air Music Festivals",
+        "date": "05 Dec 2026 - 06 Dec 2026",
+        "time": "11:00 AM",
+        "price": "INR 1199 - 3499",
+        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
+        "category": "Pop Culture & Entertainment",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "aswekeepsearching Live || Delhi",
+        "venue": null,
+        "date": "29 Nov 2026 - 29 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-delhi-sbfhncws",
+        "category": "Club Gigs - Music",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2234,6 +2201,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Mehfil-E-Sitar Live at Rule34 Mumbai",
+        "venue": null,
+        "date": "26 Nov 2026 - 26 Nov 2026",
+        "time": "08:30 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/mehfil-e-sitar-live-at-rule34-mumbai-sbfzahfy",
+        "category": "Live Music Event",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Fish56Octagon | 4th Dec",
+        "venue": null,
+        "date": "04 Dec 2026 - 04 Dec 2026",
+        "time": "09:00 PM",
+        "price": "INR 799",
+        "url": "https://www.skillboxes.com/events/fish56octagon-4th-dec-sbfqgsbi",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Roulette Edition 13 ft. Sky Society",
         "venue": null,
         "date": "07 Nov 2026 - 07 Nov 2026",
@@ -2304,7 +2293,7 @@
         "venue": null,
         "date": "11 Nov 2026 - 11 Nov 2026",
         "time": "08:00 PM",
-        "price": "INR 999 - 1999",
+        "price": "INR 999",
         "url": "https://www.skillboxes.com/events/vaibhav-pani-live-at-anti-social-sbrklhhv",
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
@@ -2386,50 +2375,6 @@
         "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Nightvibe presents Shallou (Hybrid Live Set) || Mumbai",
-        "venue": null,
-        "date": "26 Nov 2026 - 26 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 999 - 1999",
-        "url": "https://www.skillboxes.com/events/nightvibe-presents-shallou-hybrid-live-set-mumbai-sbybdfpl",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "The Harry Styles Tribute by The Decembers",
-        "venue": null,
-        "date": "22 Nov 2026 - 22 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 299 - 499",
-        "url": "https://www.skillboxes.com/events/the-harry-styles-tribute-by-the-decembers-sbwcupvk",
-        "category": "Music Concerts",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #34 | A: EM | Sour Kandy",
-        "venue": null,
-        "date": "19 Nov 2026 - 19 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-34-aem-sour-kandy-sbquyehf",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Common Ground #33 | Zequenx B2B Sinhwave | Nouchalix (Live) | Paudha",
-        "venue": null,
-        "date": "12 Nov 2026 - 12 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/common-ground-33-zequenx-sinhwave-nouchalix-paudha-sbqstgzo",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
       }
     ],
     "jaipur": [
@@ -2500,6 +2445,28 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Strcture Showcase featuring Phil Berg - Gurugram",
+        "venue": null,
+        "date": "14 Nov 2026 - 15 Nov 2026",
+        "time": "10:00 PM",
+        "price": "INR 499 - 1180",
+        "url": "https://www.skillboxes.com/events/strcture-showcase-featuring-phil-berg-gurugram-sbgqnlpe",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NXT UP at Bira Taproom, Cyberhub",
+        "venue": null,
+        "date": "14 Nov 2026 - 14 Nov 2026",
+        "time": "07:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/nxt-up-at-bira-taproom-cyberhub-sbdnohrz",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Room XO presents Senses ft. Colyn",
         "venue": null,
         "date": "13 Nov 2026 - 14 Nov 2026",
@@ -2548,7 +2515,7 @@
         "venue": null,
         "date": "06 Feb 2027 - 07 Feb 2027",
         "time": "05:00 AM",
-        "price": "INR 1000",
+        "price": "INR 1000 - 1500",
         "url": "https://www.skillboxes.com/events/radiant-outpost-festival-sbfjnefi",
         "category": "Music Festivals",
         "city": "Jaipur",
@@ -2577,17 +2544,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Delhi Comic Con",
-        "venue": null,
-        "date": "05 Dec 2026 - 06 Dec 2026",
-        "time": "11:00 AM",
-        "price": "INR 1199 - 3499",
-        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
-        "category": "Pop Culture & Entertainment",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "DOMi & JD Beck WHO ASKED? TOUR | New Delhi",
         "venue": null,
         "date": "21 November 2026",
@@ -2599,13 +2555,24 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Attendees to Expect Test Schedule",
+        "title": "Delhi Comic Con",
         "venue": null,
-        "date": "02 Nov 2026 - 04 Nov 2026",
-        "time": "06:55 AM",
-        "price": "INR 1999",
-        "url": "https://www.skillboxes.com/events/attendees-to-expect-test-schedule-sbbtpmng",
-        "category": "Open Air Music Festivals",
+        "date": "05 Dec 2026 - 06 Dec 2026",
+        "time": "11:00 AM",
+        "price": "INR 1199 - 3499",
+        "url": "https://www.skillboxes.com/events/delhi-comic-con-sbmxnowz",
+        "category": "Pop Culture & Entertainment",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "aswekeepsearching Live || Delhi",
+        "venue": null,
+        "date": "29 Nov 2026 - 29 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-delhi-sbfhncws",
+        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2630,31 +2597,20 @@
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Remembering Jimi Hendrix Ft. Sunfrost",
-        "venue": null,
-        "date": "27 Nov 2026 - 27 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 250 - 450",
-        "url": "https://www.skillboxes.com/events/remembering-jimi-hendrix-ft-sunfrost-sbzdowky",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Nightvibe Open Air with Shallou (Hybrid Live Set) at Dirty Good",
-        "venue": null,
-        "date": "20 Nov 2026 - 20 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/nightvibe-open-air-with-shallou-hybrid-live-set-at-dirty-good-sbydicxc",
-        "category": "Open Air Event",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
       }
     ],
     "kochi": [
+      {
+        "title": "SWAYAM | LIVE IN KOCHI - DIWALI SPECIAL (SECOND SHOW)",
+        "venue": null,
+        "date": "07 Nov 2026 - 07 Nov 2026",
+        "time": "06:00 PM",
+        "price": "INR 999 - 1499",
+        "url": "https://www.skillboxes.com/events/swayam-live-in-kochi-diwali-special-second-show-sbfwvjyh",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Kochi Comic Con 2027",
         "venue": null,
@@ -2777,17 +2733,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "SikTh - Live in Bengaluru",
-        "venue": null,
-        "date": "03 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 1849 - 6067",
-        "url": "https://www.skillboxes.com/events/sikth-live-in-bengaluru-sbcjzpcg",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "KHALID LIVE IN BENGALURU",
         "venue": null,
         "date": "15 December 2026",
@@ -2803,7 +2748,7 @@
         "venue": null,
         "date": "13 November - 14 November 2026",
         "time": "02:00 PM",
-        "price": "INR 2500 - 17942",
+        "price": "INR 944 - 17942",
         "url": "https://www.skillboxes.com/events/dgtl-bengaluru-2026-sbphrqrr",
         "category": "Music Festivals",
         "city": "Kochi",
@@ -2832,67 +2777,45 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "LITJAM Bengaluru - The Sufi Jam",
+        "title": "LITJAM Kannada - A Kannada Live Jamming Show - Bengaluru",
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 449 - 1329",
-        "url": "https://www.skillboxes.com/events/litjam-bengaluru-the-sufi-jam-sbdcpvfs",
-        "category": "Live Music Event",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Adam Port Official Pre Party / 7th Nov / Pangeo",
-        "venue": null,
-        "date": "07 Nov 2026 - 07 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/adam-port-official-pre-party-7th-nov-pangeo-sbclcqwm",
+        "time": "05:30 PM",
+        "price": "INR 349 - 999",
+        "url": "https://www.skillboxes.com/events/litjam-kannada-a-kannada-live-jamming-show-bengaluru-sbfslpiz",
         "category": "Music Festivals",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "Redroom Ft. Claudia & More",
+        "title": "aswekeepsearching Live || Bangalore",
         "venue": null,
-        "date": "06 Nov 2026 - 07 Nov 2026",
-        "time": "08:30 PM",
-        "price": "INR 399",
-        "url": "https://www.skillboxes.com/events/redroom-ft-claudia-more-sbbpfrxy",
+        "date": "28 Nov 2026 - 28 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 750 - 999",
+        "url": "https://www.skillboxes.com/events/aswekeepsearching-live-bangalore-sbffifpb",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "Rangmanch Qawwali Night",
+        "title": "Velvet X Venom | Crazyy Monk, Amy live at HOD CLUB",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
+        "date": "18 Nov 2026 - 19 Nov 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/rangmanch-qawwali-night-sbakpduu",
-        "category": "Concert",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/velvet-x-venom-crazyy-monk-amy-live-at-hod-club-sbeytnsc",
+        "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "SLAUGHTERFEST 2026",
+        "title": "Tuesday Has a Pulse | ZIA, MELVIN live at HOD CLUB",
         "venue": null,
-        "date": "05 December 2026",
-        "time": "05:00 PM",
-        "price": "INR 399 - 1099",
-        "url": "https://www.skillboxes.com/events/slaughterfest-2026-sbysvfxs",
-        "category": "Music Festivals",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TEELING DUBLIN NIGHTS: Pocket IV",
-        "venue": null,
-        "date": "18 Nov 2026 - 18 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/teeling-dublin-nights-pocket-iv-sbydmywd",
+        "date": "17 Nov 2026 - 18 Nov 2026",
+        "time": "08:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/tuesday-has-a-pulse-zia-melvin-live-at-hod-club-sbewoqkl",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
