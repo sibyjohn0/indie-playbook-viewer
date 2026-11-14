@@ -1,9 +1,20 @@
 {
-  "updated_at": "2026-11-13T07:35:37.511737+00:00",
+  "updated_at": "2026-11-14T07:20:26.054139+00:00",
   "source": "SkillBox (skillboxes.com)",
-  "total_events": 265,
+  "total_events": 256,
   "cities": {
     "mumbai": [
+      {
+        "title": "Yanamaste | antiSOCIAL Mumbai",
+        "venue": null,
+        "date": "13 Dec 2026 - 13 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 1999 - 4299",
+        "url": "https://www.skillboxes.com/events/yanamaste-antisocial-mumbai-sbhgaopu",
+        "category": "Club Gigs - Music",
+        "city": "Mumbai",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Rainburn: Adrift in India Tour || Mumbai",
         "venue": null,
@@ -201,28 +212,6 @@
         "category": "Music Festivals",
         "city": "Mumbai",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Victor Ruiz at antiSocial Mumbai",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 1000 - 4000",
-        "url": "https://www.skillboxes.com/events/victor-ruiz-at-antisocial-mumbai-sbykbqtc",
-        "category": "Club Gigs - Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Bombay Baithak X The Living Room presents Threads & Ragas",
-        "venue": null,
-        "date": "19 Nov 2026 - 19 Nov 2026",
-        "time": "06:00 AM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/bombay-baithak-x-the-living-room-presents-threads-ragas-sbrmqepm",
-        "category": "Culture and Music",
-        "city": "Mumbai",
-        "source": "skillboxes.com"
       }
     ],
     "delhi": [
@@ -348,17 +337,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "One More Dance - Adam Port Afters",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "10:00 PM",
-        "price": "INR 899",
-        "url": "https://www.skillboxes.com/events/one-more-dance-adam-port-afters-sbsyagoq",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Children’s Day Out at Cafe Casa Dunes",
         "venue": null,
         "date": "14 Nov 2026 - 14 Nov 2026",
@@ -366,17 +344,6 @@
         "price": "INR 999",
         "url": "https://www.skillboxes.com/events/children-s-day-out-at-cafe-casa-dunes-sbqdurwb",
         "category": "Cafe Gigs",
-        "city": "Delhi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Back To Bassics",
-        "venue": null,
-        "date": "20 Nov 2026 - 21 Nov 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/back-to-bassics-sbnhkfvv",
-        "category": "Club Gigs Music",
         "city": "Delhi",
         "source": "skillboxes.com"
       },
@@ -478,20 +445,20 @@
         "category": "Club Gigs - Music",
         "city": "Delhi",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Jawani 4eva - Delhi",
-        "venue": null,
-        "date": "21 Nov 2026 - 21 Nov 2026",
-        "time": "09:30 PM",
-        "price": "INR 300 - 1099",
-        "url": "https://www.skillboxes.com/events/jawani-4eva-delhi-sblkwvlj",
-        "category": "Club Gigs - Music",
-        "city": "Delhi",
-        "source": "skillboxes.com"
       }
     ],
     "bengaluru": [
+      {
+        "title": "BEYOND POST - BANGALORE",
+        "venue": null,
+        "date": "12 Dec 2026 - 12 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 399 - 599",
+        "url": "https://www.skillboxes.com/events/beyond-post-bangalore-sbfbdgyu",
+        "category": "Music Concerts",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Rangmanch Qawwali Night",
         "venue": null,
@@ -570,11 +537,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Time Machine - A Musical Evening",
+        "title": "The Time Machine - A Concert in Aid of Bethany Special School",
         "venue": null,
         "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "06:30 PM",
-        "price": "INR 899 - 3400",
+        "time": "07:00 PM",
+        "price": "INR 899 - 999",
         "url": "https://www.skillboxes.com/events/the-time-machine-a-musical-evening-sbhmaspq",
         "category": "Music Concerts",
         "city": "Bengaluru",
@@ -598,6 +565,17 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/last-minute-india-on-tour-bangalore-sbfrsfmv",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NRG INDIA || RESTRICTED",
+        "venue": null,
+        "date": "13 December 2026",
+        "time": "07:00 PM",
+        "price": "INR 1499 - 1999",
+        "url": "https://www.skillboxes.com/events/restricted-sbvlrdkg",
         "category": "Club Gigs - Music",
         "city": "Bengaluru",
         "source": "skillboxes.com"
@@ -658,6 +636,61 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "DND Presents: CROSS/OVER Ft. Nikhil Chinapa",
+        "venue": null,
+        "date": "21 Nov 2026 - 22 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 99 - 499",
+        "url": "https://www.skillboxes.com/events/dnd-presents-cross-over-ft-nikhil-chinapa-sbhouduk",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Verse and Worse Karaoke with Aashish Paul || 29th December 2026",
+        "venue": null,
+        "date": "29 Dec 2026 - 29 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-29th-december-2026-sbhdvrid",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Verse and Worse Karaoke with Aashish Paul || 22nd December 2026",
+        "venue": null,
+        "date": "22 Dec 2026 - 22 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-22nd-december-2026-sbhbquam",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Verse and Worse Karaoke with Aashish Paul || 15th December 2026",
+        "venue": null,
+        "date": "15 Dec 2026 - 15 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-15th-december-2026-sbgxgzle",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Verse and Worse Karaoke with Aashish Paul || 1st December 2026",
+        "venue": null,
+        "date": "01 Dec 2026 - 01 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-1st-december-2026-sbgvccdn",
+        "category": "Club Gigs - Music",
+        "city": "Bengaluru",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Mehfil Feat. Veet Raag, Roy George & Jaisen",
         "venue": null,
         "date": "21 Nov 2026 - 21 Nov 2026",
@@ -665,61 +698,6 @@
         "price": "INR 999",
         "url": "https://www.skillboxes.com/events/mehfil-feat-veet-raag-roy-george-jaisen-sbbvzfty",
         "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Guns N' Roses - Listening Session",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "06:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/guns-n-roses-listening-session-sbbtuimh",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "No Parking Fridays",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbbrpleq",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Schranz Showcase || Bangalore",
-        "venue": null,
-        "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 2999",
-        "url": "https://www.skillboxes.com/events/schranz-showcase-bangalore-sbblathr",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "THE HUMMING TREE X SOMAD LAB PRESENTS STIMMING & GNDHI LIVE",
-        "venue": null,
-        "date": "22 Nov 2026 - 23 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/the-humming-tree-x-somad-lab-presents-stimming-gndhi-live-sbarirqu",
-        "category": "Club Gigs - Music",
-        "city": "Bengaluru",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Amritha Thankachy Live!",
-        "venue": null,
-        "date": "05 December 2026",
-        "time": "09:30 PM",
-        "price": "INR 2359",
-        "url": "https://www.skillboxes.com/events/amritha-thankachy-live-sbxfpyoz",
-        "category": "Music Concerts",
         "city": "Bengaluru",
         "source": "skillboxes.com"
       }
@@ -781,24 +759,13 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Mohammed Rafi & Kishore Kumar : A Musical Tribute Ft. Ayaan & Tushara",
+        "title": "Mohammed Rafi & Kishore Kumar : An Evening of Timeless Melodies Ft. Ayaan & Tushara",
         "venue": null,
         "date": "29 Nov 2026 - 29 Nov 2026",
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/mohammed-rafi-a-musical-tribute-ayaan-tushara-sbqxmtmy",
         "category": "Club Gigs - Music",
-        "city": "Hyderabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "ELWAVE 2.0 live at kingdome",
-        "venue": null,
-        "date": "13 November 2026",
-        "time": "07:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/elwave-2-0-live-at-kingdome-sbpomkum",
-        "category": "Music Concerts",
         "city": "Hyderabad",
         "source": "skillboxes.com"
       },
@@ -891,6 +858,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "BEYOND POST - BANGALORE",
+        "venue": null,
+        "date": "12 Dec 2026 - 12 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 399 - 599",
+        "url": "https://www.skillboxes.com/events/beyond-post-bangalore-sbfbdgyu",
+        "category": "Music Concerts",
+        "city": "Hyderabad",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Rangmanch Qawwali Night",
         "venue": null,
         "date": "27 Nov 2026 - 27 Nov 2026",
@@ -968,11 +946,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Time Machine - A Musical Evening",
+        "title": "The Time Machine - A Concert in Aid of Bethany Special School",
         "venue": null,
         "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "06:30 PM",
-        "price": "INR 899 - 3400",
+        "time": "07:00 PM",
+        "price": "INR 899 - 999",
         "url": "https://www.skillboxes.com/events/the-time-machine-a-musical-evening-sbhmaspq",
         "category": "Music Concerts",
         "city": "Hyderabad",
@@ -1014,6 +992,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "BEYOND POST - BANGALORE",
+        "venue": null,
+        "date": "12 Dec 2026 - 12 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 399 - 599",
+        "url": "https://www.skillboxes.com/events/beyond-post-bangalore-sbfbdgyu",
+        "category": "Music Concerts",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Rangmanch Qawwali Night",
         "venue": null,
         "date": "27 Nov 2026 - 27 Nov 2026",
@@ -1091,11 +1080,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Time Machine - A Musical Evening",
+        "title": "The Time Machine - A Concert in Aid of Bethany Special School",
         "venue": null,
         "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "06:30 PM",
-        "price": "INR 899 - 3400",
+        "time": "07:00 PM",
+        "price": "INR 899 - 999",
         "url": "https://www.skillboxes.com/events/the-time-machine-a-musical-evening-sbhmaspq",
         "category": "Music Concerts",
         "city": "Chennai",
@@ -1119,6 +1108,17 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/last-minute-india-on-tour-bangalore-sbfrsfmv",
+        "category": "Club Gigs - Music",
+        "city": "Chennai",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NRG INDIA || RESTRICTED",
+        "venue": null,
+        "date": "13 December 2026",
+        "time": "07:00 PM",
+        "price": "INR 1499 - 1999",
+        "url": "https://www.skillboxes.com/events/restricted-sbvlrdkg",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1179,56 +1179,56 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Mehfil Feat. Veet Raag, Roy George & Jaisen",
+        "title": "DND Presents: CROSS/OVER Ft. Nikhil Chinapa",
         "venue": null,
-        "date": "21 Nov 2026 - 21 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/mehfil-feat-veet-raag-roy-george-jaisen-sbbvzfty",
+        "date": "21 Nov 2026 - 22 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 99 - 499",
+        "url": "https://www.skillboxes.com/events/dnd-presents-cross-over-ft-nikhil-chinapa-sbhouduk",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "Guns N' Roses - Listening Session",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 29th December 2026",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "06:00 PM",
+        "date": "29 Dec 2026 - 29 Dec 2026",
+        "time": "09:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/guns-n-roses-listening-session-sbbtuimh",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-29th-december-2026-sbhdvrid",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "No Parking Fridays",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 22nd December 2026",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
+        "date": "22 Dec 2026 - 22 Dec 2026",
+        "time": "09:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbbrpleq",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-22nd-december-2026-sbhbquam",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "Schranz Showcase || Bangalore",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 15th December 2026",
         "venue": null,
-        "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 2999",
-        "url": "https://www.skillboxes.com/events/schranz-showcase-bangalore-sbblathr",
+        "date": "15 Dec 2026 - 15 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-15th-december-2026-sbgxgzle",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
       },
       {
-        "title": "THE HUMMING TREE X SOMAD LAB PRESENTS STIMMING & GNDHI LIVE",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 1st December 2026",
         "venue": null,
-        "date": "22 Nov 2026 - 23 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/the-humming-tree-x-somad-lab-presents-stimming-gndhi-live-sbarirqu",
+        "date": "01 Dec 2026 - 01 Dec 2026",
+        "time": "09:00 PM",
+        "price": "Free",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-1st-december-2026-sbgvccdn",
         "category": "Club Gigs - Music",
         "city": "Chennai",
         "source": "skillboxes.com"
@@ -1306,7 +1306,7 @@
         "venue": null,
         "date": "22 Nov 2026 - 22 Nov 2026",
         "time": "06:00 PM",
-        "price": "INR 499 - 2499",
+        "price": "INR 499 - 3999",
         "url": "https://www.skillboxes.com/events/swayam-live-in-kolkata-sbbdsroo",
         "category": "Music Concerts",
         "city": "Kolkata",
@@ -1390,17 +1390,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Transitions Edition 2 Presents Slick Showcase Featuring U4RIA & AVVIISHA",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/transitions-edition-2-presents-slick-showcase-featuring-u4ria-avviisha-sbxhpzxp",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "YATRA EDITION 4 - CAMACHO NE INDIA DEBUT",
         "venue": null,
         "date": "27 Nov 2026 - 27 Nov 2026",
@@ -1430,6 +1419,39 @@
         "price": "INR 100",
         "url": "https://www.skillboxes.com/events/rock-in-shilpgram-sbncqtil",
         "category": "Open Air Event",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Yanamaste | antiSOCIAL Mumbai",
+        "venue": null,
+        "date": "13 Dec 2026 - 13 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 1999 - 4299",
+        "url": "https://www.skillboxes.com/events/yanamaste-antisocial-mumbai-sbhgaopu",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "THOMAS KLAPS & More at KAI ROOM, GURGAON",
+        "venue": null,
+        "date": "28 Nov 2026 - 29 Nov 2026",
+        "time": "11:30 PM",
+        "price": "INR 799 - 1999",
+        "url": "https://www.skillboxes.com/events/thomas-klaps-more-at-kai-room-gurgaon-sbxjzteh",
+        "category": "Club Gigs - Music",
+        "city": "Kolkata",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NRG INDIA || RESTRICTED",
+        "venue": null,
+        "date": "13 December 2026",
+        "time": "07:00 PM",
+        "price": "INR 1499 - 1999",
+        "url": "https://www.skillboxes.com/events/restricted-sbvlrdkg",
+        "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
       },
@@ -1476,39 +1498,6 @@
         "category": "Club Gigs - Music",
         "city": "Kolkata",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Rainburn: Adrift in India Tour || Chennai",
-        "venue": null,
-        "date": "04 December 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-chennai-sbgsiqyt",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rainburn: Adrift in India Tour || Pune",
-        "venue": null,
-        "date": "22 November 2026",
-        "time": "08:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-pune-sbgltzbu",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Rainburn: Adrift in India Tour || Mumbai",
-        "venue": null,
-        "date": "18 Nov 2026 - 18 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 499 - 699",
-        "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-mumbai-sbghkemm",
-        "category": "Club Gigs - Music",
-        "city": "Kolkata",
-        "source": "skillboxes.com"
       }
     ],
     "pune": [
@@ -1517,7 +1506,7 @@
         "venue": null,
         "date": "22 November 2026",
         "time": "08:00 PM",
-        "price": "INR 499",
+        "price": "INR 499 - 699",
         "url": "https://www.skillboxes.com/events/thirty-seven-adrift-in-india-pune-sbgltzbu",
         "category": "Club Gigs - Music",
         "city": "Pune",
@@ -1579,17 +1568,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Bryan Adams Tribute by Livewire",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 375",
-        "url": "https://www.skillboxes.com/events/bryan-adams-tribute-by-livewire-sbttsjod",
-        "category": "Cafe Gigs",
-        "city": "Pune",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Dire Straits Tribute by Unkle Whisky Collective",
         "venue": null,
         "date": "20 Nov 2026 - 20 Nov 2026",
@@ -1645,12 +1623,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "MIxtape presents The Gundaraaj Tour || Pune",
+        "title": "Yanamaste | antiSOCIAL Mumbai",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 600",
-        "url": "https://www.skillboxes.com/events/mixtape-pune-sbxrqgor",
+        "date": "13 Dec 2026 - 13 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 1999 - 4299",
+        "url": "https://www.skillboxes.com/events/yanamaste-antisocial-mumbai-sbhgaopu",
         "category": "Club Gigs - Music",
         "city": "Pune",
         "source": "skillboxes.com"
@@ -1805,9 +1783,31 @@
         "venue": null,
         "date": "27, 28, 29 Nov",
         "time": "12:00 PM",
-        "price": "INR 2599 - 28990",
+        "price": "INR 999 - 28990",
         "url": "https://www.skillboxes.com/events/royal-enfield-motoverse-2026-sbfwfpuj",
         "category": "Motoverse 2026",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "HEYA FESTIVAL GOA",
+        "venue": null,
+        "date": "25 Dec 2026 - 27 Dec 2026",
+        "time": "08:00 PM",
+        "price": "INR 699 - 12999",
+        "url": "https://www.skillboxes.com/events/heya-festival-goa-sbhqzbcb",
+        "category": "Open Air Event",
+        "city": "Goa",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "QRAVE",
+        "venue": null,
+        "date": "21 Nov 2026 - 21 Nov 2026",
+        "time": "09:00 PM",
+        "price": "INR 499",
+        "url": "https://www.skillboxes.com/events/qrave-sbeqeumn",
+        "category": "Club Gigs - Music",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1867,17 +1867,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "PANDORA × DIGITAL DIALOGUE",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 2000",
-        "url": "https://www.skillboxes.com/events/pandora-digital-dialogue-sbpswfju",
-        "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Harmonic Decibels 15.0",
         "venue": null,
         "date": "14 Nov 2026 - 15 Nov 2026",
@@ -1885,17 +1874,6 @@
         "price": "INR 1000",
         "url": "https://www.skillboxes.com/events/harmonic-decibels-15-0-sboqkooh",
         "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Never Ending Season 9.0",
-        "venue": null,
-        "date": "13 Nov 2026 - 14 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 1000",
-        "url": "https://www.skillboxes.com/events/never-ending-season-9-0-sbomatyz",
-        "category": "Open Air Event",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -1929,17 +1907,6 @@
         "price": "INR 999 - 4999",
         "url": "https://www.skillboxes.com/events/victor-ruiz-sbtndrre",
         "category": "Club Gigs - Music",
-        "city": "Goa",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Human needs Human",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "02:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/human-needs-human-sbsvqnhy",
-        "category": "Select Underground Experience",
         "city": "Goa",
         "source": "skillboxes.com"
       },
@@ -2001,6 +1968,17 @@
     ],
     "chandigarh": [
       {
+        "title": "LITJAM Tricity: A Live Music Jam Show",
+        "venue": null,
+        "date": "29 Nov 2026 - 29 Nov 2026",
+        "time": "06:00 PM",
+        "price": "INR 349",
+        "url": "https://www.skillboxes.com/events/litjam-tricity-a-live-music-jam-show-sbhiflxl",
+        "category": "Music Festivals",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "SOCIAL Presents HIMANI SINGH  | Sector 7SOCIAL",
         "venue": null,
         "date": "20 Nov 2026 - 20 Nov 2026",
@@ -2018,17 +1996,6 @@
         "time": "12:00 PM",
         "price": "INR 499 - 1999",
         "url": "https://www.skillboxes.com/events/blackout-sbvjmgcp",
-        "category": "Club Gigs - Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "SOCIAL Presents DJ CHESTHA  | Sector 7SOCIAL",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/social-presents-dj-chestha-sector-7social-sbtrsifn",
         "category": "Club Gigs - Music",
         "city": "Chandigarh",
         "source": "skillboxes.com"
@@ -2067,6 +2034,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "Cocktails & Curls",
+        "venue": null,
+        "date": "29 November 2026",
+        "time": "05:00 PM",
+        "price": "INR 399 - 899",
+        "url": "https://www.skillboxes.com/events/cocktails-curls-sbhmpgmt",
+        "category": "Open Air Event",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "AAYNA +More",
         "venue": null,
         "date": "21 Nov 2026 - 21 Nov 2026",
@@ -2096,6 +2074,17 @@
         "price": "INR 2499 - 2999",
         "url": "https://www.skillboxes.com/events/jeremy-zucker-live-in-delhi-ncr-debut-india-tour-2026-sbkgldhg",
         "category": "Open Air Concert",
+        "city": "Chandigarh",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "The Silent Show // Aerocity Canvas @ Utsav Gallery",
+        "venue": null,
+        "date": "21 Nov 2026 - 21 Nov 2026",
+        "time": "07:00 PM",
+        "price": "INR 250",
+        "url": "https://www.skillboxes.com/events/the-silent-show-aerocity-canvas-utsav-gallery-sbgkdprg",
+        "category": "Music Concerts",
         "city": "Chandigarh",
         "source": "skillboxes.com"
       },
@@ -2164,53 +2153,20 @@
         "category": "Pop Culture & Entertainment",
         "city": "Chandigarh",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Original Sin",
-        "venue": null,
-        "date": "26 Nov 2026 - 26 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/original-sin-sbbivwaa",
-        "category": "Club Gigs - Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Miles & Melody – The Gym Collective × Cafe Casa Dunes",
-        "venue": null,
-        "date": "15 Nov 2026 - 15 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/miles-melody-the-gym-collective-cafe-casa-dunes-sbzrbycy",
-        "category": "Club Gigs - Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Back To Bassics | Dancing Earth Entertainment",
-        "venue": null,
-        "date": "20 Nov 2026 - 21 Nov 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/back-to-bassics-dancing-earth-entertainment-sbxdlbhi",
-        "category": "Club Gigs Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Back To Bassics | Under Circuit India",
-        "venue": null,
-        "date": "20 Nov 2026 - 21 Nov 2026",
-        "time": "09:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/back-to-bassics-under-circuit-india-sbwzbgsa",
-        "category": "Club Gigs Music",
-        "city": "Chandigarh",
-        "source": "skillboxes.com"
       }
     ],
     "ahmedabad": [
+      {
+        "title": "Shots Fired feat. Vichaar || Indore",
+        "venue": null,
+        "date": "18 Dec 2026 - 18 Dec 2026",
+        "time": "08:00 PM",
+        "price": "INR 499 - 2500",
+        "url": "https://www.skillboxes.com/events/shots-fired-indore-sbybmxnn",
+        "category": "Club Gigs - Music",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
       {
         "title": "Indore Comic Con 2026",
         "venue": null,
@@ -2219,6 +2175,17 @@
         "price": "INR 499 - 3499",
         "url": "https://www.skillboxes.com/events/indore-comic-con-2026-sbnfampd",
         "category": "Pop Culture & Entertainment",
+        "city": "Ahmedabad",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "Yanamaste | antiSOCIAL Mumbai",
+        "venue": null,
+        "date": "13 Dec 2026 - 13 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 1999 - 4299",
+        "url": "https://www.skillboxes.com/events/yanamaste-antisocial-mumbai-sbhgaopu",
+        "category": "Club Gigs - Music",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
       },
@@ -2386,53 +2353,20 @@
         "category": "Festivals",
         "city": "Ahmedabad",
         "source": "skillboxes.com"
-      },
-      {
-        "title": "Mehfil-E-Sitar Live at Rule34 Mumbai",
-        "venue": null,
-        "date": "26 Nov 2026 - 26 Nov 2026",
-        "time": "08:30 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/mehfil-e-sitar-live-at-rule34-mumbai-sbfzahfy",
-        "category": "Live Music Event",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Fish56Octagon | 4th Dec",
-        "venue": null,
-        "date": "04 Dec 2026 - 04 Dec 2026",
-        "time": "09:00 PM",
-        "price": "INR 799",
-        "url": "https://www.skillboxes.com/events/fish56octagon-4th-dec-sbfqgsbi",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "TuneCore Showcase 2026",
-        "venue": null,
-        "date": "25 November 2026",
-        "time": "08:00 PM",
-        "price": "Free",
-        "url": "https://www.skillboxes.com/events/tunecore-showcase-2026-sbbgmcti",
-        "category": "Music Festivals",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Victor Ruiz at antiSocial Mumbai",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 1000 - 4000",
-        "url": "https://www.skillboxes.com/events/victor-ruiz-at-antisocial-mumbai-sbykbqtc",
-        "category": "Club Gigs - Music",
-        "city": "Ahmedabad",
-        "source": "skillboxes.com"
       }
     ],
     "jaipur": [
+      {
+        "title": "Camacho || Jaipur",
+        "venue": null,
+        "date": "20 Nov 2026 - 20 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 1200 - 10000",
+        "url": "https://www.skillboxes.com/events/camacho-jaipur-sbfzfdez",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
       {
         "title": "GLITCHROOM",
         "venue": null,
@@ -2452,17 +2386,6 @@
         "price": "INR 149",
         "url": "https://www.skillboxes.com/events/revive-the-indie-sbscdhqc",
         "category": "Music Festivals",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Coco Bevan at Romeo Lane Jaipur",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 4000",
-        "url": "https://www.skillboxes.com/events/coco-bevan-at-romeo-lane-jaipur-sbamubcl",
-        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2489,6 +2412,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "THOMAS KLAPS & More at KAI ROOM, GURGAON",
+        "venue": null,
+        "date": "28 Nov 2026 - 29 Nov 2026",
+        "time": "11:30 PM",
+        "price": "INR 799 - 1999",
+        "url": "https://www.skillboxes.com/events/thomas-klaps-more-at-kai-room-gurgaon-sbxjzteh",
+        "category": "Club Gigs - Music",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "KHALID LIVE IN DELHI NCR",
         "venue": null,
         "date": "13 December 2026",
@@ -2496,6 +2430,17 @@
         "price": "INR 2549 - 6999",
         "url": "https://www.skillboxes.com/events/khalid-live-in-delhi-ncr-sbnorbid",
         "category": "Music Concerts",
+        "city": "Jaipur",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "BAKI ALL NIGHT LONG",
+        "venue": null,
+        "date": "21 Nov 2026 - 22 Nov 2026",
+        "time": "11:30 PM",
+        "price": "INR 499 - 1999",
+        "url": "https://www.skillboxes.com/events/baki-all-night-long-sbgsxevw",
+        "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2544,17 +2489,6 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "PER SE & KAI ROOM presents  HOUDINI, NAKE & RABAB",
-        "venue": null,
-        "date": "13 Nov 2026 - 14 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499 - 2499",
-        "url": "https://www.skillboxes.com/events/per-se-kai-room-presents-houdini-nake-rabab-sbqvhwfh",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "TECHNOTAKEOVERINDIA PRESENTS OMAKS",
         "venue": null,
         "date": "14 Nov 2026 - 15 Nov 2026",
@@ -2573,17 +2507,6 @@
         "price": "INR 499 - 2499",
         "url": "https://www.skillboxes.com/events/per-se-kai-room-presents-hello-vera-sbmaoula",
         "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Anmol Salh LIVE at KOCA 🎤",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 499",
-        "url": "https://www.skillboxes.com/events/anmol-salkh-live-at-koca-sbkkztvp",
-        "category": "Music Concerts",
         "city": "Jaipur",
         "source": "skillboxes.com"
       },
@@ -2610,34 +2533,12 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Room XO presents Senses ft. Colyn",
-        "venue": null,
-        "date": "13 Nov 2026 - 14 Nov 2026",
-        "time": "10:00 PM",
-        "price": "INR 999 - 1299",
-        "url": "https://www.skillboxes.com/events/room-xo-presents-senses-ft-colyn-sbaoyykc",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
         "title": "Room XO Presents Danza Drome",
         "venue": null,
         "date": "14 Nov 2026 - 15 Nov 2026",
         "time": "10:00 PM",
         "price": "INR 1299 - 4499",
         "url": "https://www.skillboxes.com/events/room-xo-presents-danza-drome-sbaikgnd",
-        "category": "Club Gigs - Music",
-        "city": "Jaipur",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "UFO x DRIPP OFF X UPSTATE GROOVE",
-        "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "09:00 PM",
-        "price": "INR 1000 - 1500",
-        "url": "https://www.skillboxes.com/events/ufo-x-dripp-off-x-upstate-groove-sbgjtxte",
         "category": "Club Gigs - Music",
         "city": "Jaipur",
         "source": "skillboxes.com"
@@ -2722,6 +2623,17 @@
         "source": "skillboxes.com"
       },
       {
+        "title": "BEYOND POST - BANGALORE",
+        "venue": null,
+        "date": "12 Dec 2026 - 12 Dec 2026",
+        "time": "07:00 PM",
+        "price": "INR 399 - 599",
+        "url": "https://www.skillboxes.com/events/beyond-post-bangalore-sbfbdgyu",
+        "category": "Music Concerts",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
         "title": "Rangmanch Qawwali Night",
         "venue": null,
         "date": "27 Nov 2026 - 27 Nov 2026",
@@ -2799,11 +2711,11 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "The Time Machine - A Musical Evening",
+        "title": "The Time Machine - A Concert in Aid of Bethany Special School",
         "venue": null,
         "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "06:30 PM",
-        "price": "INR 899 - 3400",
+        "time": "07:00 PM",
+        "price": "INR 899 - 999",
         "url": "https://www.skillboxes.com/events/the-time-machine-a-musical-evening-sbhmaspq",
         "category": "Music Concerts",
         "city": "Kochi",
@@ -2827,6 +2739,17 @@
         "time": "08:00 PM",
         "price": "INR 499",
         "url": "https://www.skillboxes.com/events/last-minute-india-on-tour-bangalore-sbfrsfmv",
+        "category": "Club Gigs - Music",
+        "city": "Kochi",
+        "source": "skillboxes.com"
+      },
+      {
+        "title": "NRG INDIA || RESTRICTED",
+        "venue": null,
+        "date": "13 December 2026",
+        "time": "07:00 PM",
+        "price": "INR 1499 - 1999",
+        "url": "https://www.skillboxes.com/events/restricted-sbvlrdkg",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
@@ -2887,56 +2810,34 @@
         "source": "skillboxes.com"
       },
       {
-        "title": "Mehfil Feat. Veet Raag, Roy George & Jaisen",
+        "title": "DND Presents: CROSS/OVER Ft. Nikhil Chinapa",
         "venue": null,
-        "date": "21 Nov 2026 - 21 Nov 2026",
-        "time": "06:00 PM",
-        "price": "INR 999",
-        "url": "https://www.skillboxes.com/events/mehfil-feat-veet-raag-roy-george-jaisen-sbbvzfty",
+        "date": "21 Nov 2026 - 22 Nov 2026",
+        "time": "08:00 PM",
+        "price": "INR 99 - 499",
+        "url": "https://www.skillboxes.com/events/dnd-presents-cross-over-ft-nikhil-chinapa-sbhouduk",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "Guns N' Roses - Listening Session",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 29th December 2026",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "06:00 PM",
+        "date": "29 Dec 2026 - 29 Dec 2026",
+        "time": "09:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/guns-n-roses-listening-session-sbbtuimh",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-29th-december-2026-sbhdvrid",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
       },
       {
-        "title": "No Parking Fridays",
+        "title": "Verse and Worse Karaoke with Aashish Paul || 22nd December 2026",
         "venue": null,
-        "date": "13 Nov 2026 - 13 Nov 2026",
-        "time": "08:00 PM",
+        "date": "22 Dec 2026 - 22 Dec 2026",
+        "time": "09:00 PM",
         "price": "Free",
-        "url": "https://www.skillboxes.com/events/no-parking-fridays-sbbrpleq",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "Schranz Showcase || Bangalore",
-        "venue": null,
-        "date": "05 Dec 2026 - 05 Dec 2026",
-        "time": "08:00 PM",
-        "price": "INR 999 - 2999",
-        "url": "https://www.skillboxes.com/events/schranz-showcase-bangalore-sbblathr",
-        "category": "Club Gigs - Music",
-        "city": "Kochi",
-        "source": "skillboxes.com"
-      },
-      {
-        "title": "THE HUMMING TREE X SOMAD LAB PRESENTS STIMMING & GNDHI LIVE",
-        "venue": null,
-        "date": "22 Nov 2026 - 23 Nov 2026",
-        "time": "08:00 PM",
-        "price": "INR 299 - 999",
-        "url": "https://www.skillboxes.com/events/the-humming-tree-x-somad-lab-presents-stimming-gndhi-live-sbarirqu",
+        "url": "https://www.skillboxes.com/events/verse-and-worse-karaoke-with-aashish-paul-22nd-december-2026-sbhbquam",
         "category": "Club Gigs - Music",
         "city": "Kochi",
         "source": "skillboxes.com"
