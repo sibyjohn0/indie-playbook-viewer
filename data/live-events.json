@@ -1,139 +1,19 @@
 {
-  "updated_at": "2026-11-19T08:20:45.552747+00:00",
+  "updated_at": "2026-11-20T08:00:51.394124+00:00",
   "source": "District.in (Zomato)",
-  "total_events": 12,
+  "total_events": 0,
   "cities": {
-    "mumbai": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Mumbai",
-        "source": "district.in"
-      }
-    ],
-    "delhi": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Delhi",
-        "source": "district.in"
-      }
-    ],
-    "bengaluru": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Bengaluru",
-        "source": "district.in"
-      }
-    ],
-    "hyderabad": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Hyderabad",
-        "source": "district.in"
-      }
-    ],
-    "chennai": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Chennai",
-        "source": "district.in"
-      }
-    ],
-    "kolkata": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Kolkata",
-        "source": "district.in"
-      }
-    ],
-    "pune": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Pune",
-        "source": "district.in"
-      }
-    ],
-    "goa": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Goa",
-        "source": "district.in"
-      }
-    ],
-    "jaipur": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Jaipur",
-        "source": "district.in"
-      }
-    ],
-    "kochi": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Kochi",
-        "source": "district.in"
-      }
-    ],
-    "ahmedabad": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Ahmedabad",
-        "source": "district.in"
-      }
-    ],
-    "chandigarh": [
-      {
-        "title": "UNIFYD Music Festival",
-        "venue": "Etihad Live, Abu Dhabi",
-        "date": "Sat, 20 Mar, 5:00 PM",
-        "price": "UNIFYD Music Festival",
-        "url": "https://www.district.in/events/unifyd-music-festival-buy-tickets",
-        "city": "Chandigarh",
-        "source": "district.in"
-      }
-    ]
+    "mumbai": [],
+    "delhi": [],
+    "bengaluru": [],
+    "hyderabad": [],
+    "chennai": [],
+    "kolkata": [],
+    "pune": [],
+    "goa": [],
+    "jaipur": [],
+    "kochi": [],
+    "ahmedabad": [],
+    "chandigarh": []
   }
 }
